@@ -1,34 +1,32 @@
 dnl If not 1, append datestamp to the version number
-m4_define(empathy_released, 0)
+m4_define(tpaw_released, 0)
 
-m4_define([empathy_major_version], [3])
-m4_define([empathy_minor_version], [9])
-m4_define([empathy_micro_version], [4])
-m4_define([empathy_nano_version], [0])
+m4_define([tpaw_major_version], [0])
+m4_define([tpaw_minor_version], [0])
+m4_define([tpaw_micro_version], [0])
+m4_define([tpaw_nano_version], [0])
 
 dnl Display the nano_version only if it's not '0'
-m4_define([empathy_base_version],
-          [empathy_major_version.empathy_minor_version.empathy_micro_version])
-m4_define([empathy_full_version],
-          [m4_if(empathy_nano_version, 0, [empathy_base_version],
-              [empathy_base_version].[empathy_nano_version])])
+m4_define([tpaw_base_version],
+          [tpaw_major_version.tpaw_minor_version.tpaw_micro_version])
+m4_define([tpaw_full_version],
+          [m4_if(tpaw_nano_version, 0, [tpaw_base_version],
+              [tpaw_base_version].[tpaw_nano_version])])
 
-m4_define(empathy_maybe_datestamp,
-          m4_esyscmd([if test x]empathy_released[ != x1; then date +.%Y%m%d | tr -d '\n\r'; fi]))
+m4_define(tpaw_maybe_datestamp,
+          m4_esyscmd([if test x]tpaw_released[ != x1; then date +.%Y%m%d | tr -d '\n\r'; fi]))
 
-m4_define(empathy_version, empathy_full_version[]empathy_maybe_datestamp)
+m4_define(tpaw_version, tpaw_full_version[]tpaw_maybe_datestamp)
 
 
-AC_INIT([Empathy],
-        [empathy_version],
-        [http://bugzilla.gnome.org/browse.cgi?product=empathy],
-        [empathy],
-        [https://live.gnome.org/Empathy])
+AC_INIT([telepathy-account-widgets],
+        [tpaw_version],
+        [http://bugzilla.gnome.org/browse.cgi?product=empathy])
 
 AC_PREREQ([2.64])
 AC_COPYRIGHT([
   Copyright (C) 2003-2007 Imendio AB
-  Copyright (C) 2007-2010 Collabora Ltd.
+  Copyright (C) 2007-2013 Collabora Ltd.
 ])
 
 # Minimal version required
@@ -81,10 +79,10 @@ LIBSIGNON_REQUIRED=1.1
 MC_PLUGINS_REQUIRED=5.13.1
 
 # Use --enable-maintainer-mode to disable deprecated symbols,
-# disable single include and enable GSEAL. If this is not a released empathy,
+# disable single include and enable GSEAL. If this is not a released tp-account-widgets,
 # maintainer mode is forced
 # FIXME: don't disable deprecated symbols until bgo #636654 has been fixed
-#ifelse(empathy_released, 1, [], [enable_maintainer_mode="yes"])
+#ifelse(tpaw_released, 1, [], [enable_maintainer_mode="yes"])
 #GNOME_MAINTAINER_MODE_DEFINES
 
 # egg-list-box
@@ -156,7 +154,7 @@ AS_COMPILER_FLAG(-Wno-unused-parameter,
         wno_unused_parameter=yes,
         wno_unused_parameter=no)
 
-ifelse(empathy_released, 1, [],
+ifelse(tpaw_released, 1, [],
     [
         if test x$werror = xyes; then
             ERROR_CFLAGS="$ERROR_CFLAGS -Werror"
@@ -296,7 +294,7 @@ fi
 # -----------------------------------------------------------
 IT_PROG_INTLTOOL([0.50.0])
 
-GETTEXT_PACKAGE=empathy
+GETTEXT_PACKAGE=tpaw
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[Gettext package name])
 
