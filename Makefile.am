@@ -1,24 +1,4 @@
-MY_SUBDIRS = tools extensions po data libempathy libempathy-gtk src help tests
-TPAW_SUBDIRS = tp-account-widgets
-NST_SUBDIRS = nautilus-sendto-plugin
-GOA_SUBDIRS = goa-mc-plugin
-UOA_SUBDIRS = ubuntu-online-accounts
-
-DIST_SUBDIRS = $(TPAW_SUBDIRS) $(MY_SUBDIRS) $(NST_SUBDIRS) $(GOA_SUBDIRS) $(UOA_SUBDIRS)
-
-SUBDIRS = $(TPAW_SUBDIRS) $(MY_SUBDIRS)
-
-if HAVE_NST
-SUBDIRS += $(NST_SUBDIRS)
-endif
-
-if HAVE_GOA
-SUBDIRS += $(GOA_SUBDIRS)
-endif
-
-if HAVE_UOA
-SUBDIRS += $(UOA_SUBDIRS)
-endif
+SUBDIRS = tools extensions po data tp-account-widgets
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
@@ -28,11 +8,8 @@ DISTCHECK_CONFIGURE_FLAGS =		\
 
 EXTRA_DIST = 			\
         CONTRIBUTORS \
-        COPYING-DOCS \
         COPYING.LGPL \
-        COPYING.SHARE-ALIKE \
         ChangeLog \
-        ChangeLog.old \
         README \
         autogen.sh \
         $(NULL)
@@ -64,4 +41,3 @@ ChangeLog:
 	fi
 
 .PHONY: ChangeLog
-

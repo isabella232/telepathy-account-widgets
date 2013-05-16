@@ -630,29 +630,9 @@ AC_SUBST([ENABLE_CODING_STYLE_CHECKS])
 AC_CONFIG_FILES([
    Makefile
    data/Makefile
-   data/empathy.desktop.in
    data/icons/Makefile
-   data/themes/Makefile
-   extensions/Makefile
    po/Makefile.in
    tp-account-widgets/Makefile
-   libempathy/Makefile
-   libempathy-gtk/Makefile
-   src/Makefile
-   nautilus-sendto-plugin/Makefile
-   goa-mc-plugin/Makefile
-   ubuntu-online-accounts/Makefile
-   ubuntu-online-accounts/mc-plugin/Makefile
-   ubuntu-online-accounts/cc-plugins/Makefile
-   ubuntu-online-accounts/cc-plugins/account-plugins/Makefile
-   ubuntu-online-accounts/cc-plugins/providers/Makefile
-   ubuntu-online-accounts/cc-plugins/services/Makefile
-   ubuntu-online-accounts/cc-plugins/app-plugin/Makefile
-   help/Makefile
-   tests/Makefile
-   tests/interactive/Makefile
-   tests/xml/Makefile
-   tests/certificates/Makefile
    tools/Makefile
 ])
 AC_OUTPUT
