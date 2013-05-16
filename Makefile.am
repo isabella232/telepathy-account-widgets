@@ -1,4 +1,4 @@
-SUBDIRS = tools extensions po data tp-account-widgets
+SUBDIRS = tools po data tp-account-widgets
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
