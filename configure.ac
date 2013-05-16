@@ -31,10 +31,7 @@ AC_COPYRIGHT([
 
 # Minimal version required
 
-# Hardp deps
-FOLKS_REQUIRED=0.9.0
-GNUTLS_REQUIRED=2.8.5
-
+# Hard deps
 GLIB_REQUIRED=2.33.3
 AC_DEFINE(GLIB_VERSION_MIN_REQUIRED, GLIB_VERSION_2_30, [Ignore post 2.30 deprecations])
 AC_DEFINE(GLIB_VERSION_MAX_ALLOWED, GLIB_VERSION_2_34, [Prevent post 2.34 APIs])
@@ -43,40 +40,13 @@ GTK_REQUIRED=3.5.1
 AC_DEFINE(GDK_VERSION_MIN_REQUIRED, GDK_VERSION_3_4, [Ignore post 3.4 deprecations])
 AC_DEFINE(GDK_VERSION_MAX_ALLOWED, GDK_VERSION_3_4, [Prevent post 3.4 APIs])
 
-CLUTTER_REQUIRED=1.10.0
-AC_DEFINE(CLUTTER_VERSION_MIN_REQUIRED, CLUTTER_VERSION_1_8, [Ignore post 1.8 deprecations])
-AC_DEFINE(CLUTTER_VERSION_MAX_ALLOWED, CLUTTER_VERSION_1_10, [Prevent post 1.10 APIs])
-
-CLUTTER_GTK_REQUIRED=1.1.2
-
 TELEPATHY_GLIB_REQUIRED=0.19.9
 AC_DEFINE(TP_VERSION_MIN_REQUIRED, TP_VERSION_0_20, [Ignore post 0.20 deprecations])
 AC_DEFINE(TP_VERSION_MAX_ALLOWED, TP_VERSION_0_20, [Prevent post 0.20 APIs])
 AC_DEFINE(TP_SEAL_ENABLE, 1, [Prevent to use sealed variables])
 AC_DEFINE(TP_DISABLE_SINGLE_INCLUDE, 1, [Disable single include header])
 
-GSTREAMER_REQUIRED=0.10.32
-TP_FS_REQUIRED=0.6.0
 LIBSECRET_REQUIRED=0.5
-GCR_REQUIRED=2.91.4
-LIBCANBERRA_GTK_REQUIRED=0.25
-LIBNOTIFY_REQUIRED=0.7.0
-TELEPATHY_LOGGER=0.8.0
-WEBKIT_REQUIRED=1.9.1
-GOA_REQUIRED=3.5.1
-
-# Optional deps
-ENCHANT_REQUIRED=1.2.0
-GEOCLUE_REQUIRED=0.12
-GEOCODE_GLIB_REQUIRED=0.99.1
-ISO_CODES_REQUIRED=0.35
-NAUTILUS_SENDTO_REQUIRED=2.90.0
-NETWORK_MANAGER_REQUIRED=0.7.0
-CHAMPLAIN_REQUIRED=0.12.1
-CHEESE_GTK_REQUIRED=3.4.0
-LIBACCOUNTS_REQUIRED=1.4
-LIBSIGNON_REQUIRED=1.1
-MC_PLUGINS_REQUIRED=5.13.1
 
 # Use --enable-maintainer-mode to disable deprecated symbols,
 # disable single include and enable GSEAL. If this is not a released tp-account-widgets,
@@ -108,19 +78,12 @@ AC_PATH_XTRA
 LT_PREREQ([2.2])
 LT_INIT
 
-AC_PATH_PROG(DBUS_BINDING_TOOL, dbus-binding-tool)
 GLIB_GSETTINGS
 
 GLIB_COMPILE_RESOURCES=`$PKG_CONFIG gio-2.0 --variable=glib_compile_resources`
 AC_SUBST(GLIB_COMPILE_RESOURCES)
 GLIB_GENMARSHAL=`$PKG_CONFIG glib-2.0 --variable=glib_genmarshal`
 AC_SUBST(GLIB_GENMARSHAL)
-
-AC_CHECK_PROGS([XSLTPROC], [xsltproc])
-if test -z "$XSLTPROC"; then
-  AC_MSG_ERROR([xsltproc (from libxslt) is required])
-fi
-AM_PATH_PYTHON([2.3])
 
 TPAW_ARG_VALGRIND
 
@@ -179,88 +142,18 @@ AC_SUBST(LDFLAGS)
 # Pkg-Config dependency checks
 # -----------------------------------------------------------
 
-AC_CHECK_LIBM
-AC_SUBST(LIBM)
-
 PKG_CHECK_MODULES(EMPATHY,
 [
    dbus-glib-1
-   folks >= $FOLKS_REQUIRED
-   folks-telepathy >= $FOLKS_REQUIRED
    glib-2.0 >= $GLIB_REQUIRED
    gio-2.0 >= $GLIB_REQUIRED
-   gio-unix-2.0 >= $GLIB_REQUIRED
    libsecret-1 >= $LIBSECRET_REQUIRED
-   gnutls >= $GNUTLS_REQUIRED
-   gmodule-export-2.0
    gobject-2.0
-   gsettings-desktop-schemas
    libxml-2.0
    telepathy-glib >= $TELEPATHY_GLIB_REQUIRED
-   telepathy-logger-0.2 >= $TELEPATHY_LOGGER
    x11
    gtk+-3.0 >= $GTK_REQUIRED
-   libcanberra-gtk3 >= $LIBCANBERRA_GTK_REQUIRED
-   libnotify >= $LIBNOTIFY_REQUIRED
-   gcr-3 >= $GCR_REQUIRED
-   libpulse
-   libpulse-mainloop-glib
-   webkitgtk-3.0 >= $WEBKIT_REQUIRED
-   libsoup-2.4
-   gee-0.8
 ])
-
-# -----------------------------------------------------------
-# GStreamer
-# -----------------------------------------------------------
-AC_ARG_ENABLE(gst-1.0,
-              AS_HELP_STRING([--enable-gst-1.0=@<:@no/yes/auto@:>@],
-                             [build with GStreamer 1.0]),
-                             enable_gst1=$enableval,
-                             enable_gst1=auto)
-
-# Try to use GStreamer 1.0 if available
-have_gst1="no"
-if test "x$enable_gst1" != "xno"; then
-  PKG_CHECK_MODULES(EMPATHY_CALL,
-  [
-     farstream-0.2
-     telepathy-farstream >= $TP_FS_REQUIRED
-     clutter-1.0 >= $CLUTTER_REQUIRED
-     clutter-gtk-1.0 >= $CLUTTER_GTK_REQUIRED
-     clutter-gst-2.0
-     gstreamer-1.0
-     gstreamer-audio-1.0
-     gstreamer-video-1.0
-     cogl-1.0
-  ], have_gst1="yes", have_gst1="no")
-
-  if test "x$have_gst1" = "xyes"; then
-    AC_DEFINE(HAVE_GST1, 1, [Build with GStreamer 1.0])
-  fi
-fi
-
-if test "x$enable_gst1" = "xyes" -a "x$have_gst1" != "xyes"; then
-   AC_MSG_ERROR([Could not find GStreamer 1.0 dependencies:
-
-$EMPATHY_CALL_PKG_ERRORS])
-fi
-
-if test "x$have_gst1" != "xyes"; then
-  PKG_CHECK_MODULES(EMPATHY_CALL,
-  [
-     farstream-0.1
-     telepathy-farstream >= $TP_FS_REQUIRED
-     clutter-1.0 >= $CLUTTER_REQUIRED
-     clutter-gtk-1.0 >= $CLUTTER_GTK_REQUIRED
-     clutter-gst-1.0 >= 1.5.2
-     gstreamer-0.10 >= $GSTREAMER_REQUIRED
-     gstreamer-interfaces-0.10
-  ])
-fi
-
-AC_DEFINE(EMPATHY_GOA_PROVIDER, "org.gnome.OnlineAccounts",
-   [Name of provider for accounts imported from GOA])
 
 AC_DEFINE(EMPATHY_UOA_PROVIDER,
     "im.telepathy.Account.Storage.UOA",
@@ -316,195 +209,8 @@ fi
 AM_CONDITIONAL(HAVE_UDEV, test "x$have_gudev" = "xyes")
 
 # -----------------------------------------------------------
-# spellchecking checks: enchant and iso-codes
+# Cheese (optional dependency for avatar selection)
 # -----------------------------------------------------------
-AC_ARG_ENABLE(spell,
-              AS_HELP_STRING([--enable-spell=@<:@no/yes/auto@:>@],
-                             [Enable spell checking]), ,
-                             enable_spell=auto)
-
-if test "x$enable_spell" != "xno"; then
-   PKG_CHECK_MODULES(ENCHANT,
-   [
-      enchant >= $ENCHANT_REQUIRED,
-      iso-codes >= $ISO_CODES_REQUIRED
-   ], have_enchant="yes", have_enchant="no")
-
-   if test "x$have_enchant" = "xyes"; then
-      AC_MSG_CHECKING([whether iso-codes has iso-639 and iso-3166 domains])
-      if $PKG_CONFIG --variable=domains iso-codes | grep 639 > /dev/null && \
-         $PKG_CONFIG --variable=domains iso-codes | grep 3166 > /dev/null ; then
-            AC_DEFINE_UNQUOTED(ISO_CODES_PREFIX, ["`$PKG_CONFIG --variable=prefix iso-codes`"], [ISO codes prefix])
-            AC_DEFINE(HAVE_ENCHANT, [], [Define if you have libenchant])
-            result=yes
-      else
-            result=no
-            have_enchant="no"
-      fi
-      AC_MSG_RESULT([$result])
-   fi
-else
-   have_enchant=no
-fi
-
-if test "x$enable_spell" = "xyes" -a "x$have_enchant" != "xyes"; then
-   AC_MSG_ERROR([Could not find spell-checking dependencies:
-
-$ENCHANT_PKG_ERRORS])
-fi
-
-AM_CONDITIONAL(HAVE_ENCHANT, test "x$have_enchant" = "xyes")
-
-# -----------------------------------------------------------
-# Map view checks: libchamplain
-# -----------------------------------------------------------
-AC_ARG_ENABLE(map,
-              AS_HELP_STRING([--enable-map=@<:@no/yes/auto@:>@],
-                             [Enable map view]), ,
-                             enable_map=auto)
-
-if test "x$enable_map" != "xno"; then
-
-   PKG_CHECK_MODULES(LIBCHAMPLAIN,
-    [
-       clutter-gtk-1.0
-       champlain-gtk-0.12
-       champlain-0.12 >= $CHAMPLAIN_REQUIRED
-    ], have_libchamplain="yes", have_libchamplain="no")
-
-   if test "x$have_libchamplain" = "xyes"; then
-      AC_DEFINE(HAVE_LIBCHAMPLAIN, 1, [Define if you have libchamplain])
-   fi
-else
-   have_libchamplain=no
-fi
-
-if test "x$enable_map" = "xyes" -a "x$have_libchamplain" != "xyes"; then
-   AC_MSG_ERROR([Could not find map view dependencies:
-
-$LIBCHAMPLAIN_PKG_ERRORS])
-fi
-
-AM_CONDITIONAL(HAVE_LIBCHAMPLAIN, test "x$have_libchamplain" = "xyes")
-
-# -----------------------------------------------------------
-# location checks: geoclue
-# -----------------------------------------------------------
-AC_ARG_ENABLE(location,
-              AS_HELP_STRING([--enable-location=@<:@no/yes/auto@:>@],
-                             [Enable location awareness]), ,
-                             enable_location=auto)
-
-if test "x$enable_location" != "xno"; then
-   PKG_CHECK_MODULES(GEOCLUE,
-   [
-      geoclue >= $GEOCLUE_REQUIRED
-   ], have_geoclue="yes", have_geoclue="no")
-
-   if test "x$have_geoclue" = "xyes"; then
-      AC_DEFINE(HAVE_GEOCLUE, 1, [Define if you have geoclue])
-   fi
-else
-   have_geoclue="no"
-fi
-
-if test "x$enable_location" = "xyes" -a "x$have_geoclue" != "xyes"; then
-   AC_MSG_ERROR([Could not find location dependencies:
-
-$GEOCLUE_PKG_ERRORS])
-fi
-
-AM_CONDITIONAL(HAVE_GEOCLUE, test "x$have_geoclue" = "xyes")
-AC_SUBST(GEOCLUE_CFLAGS)
-AC_SUBST(GEOCLUE_LIBS)
-
-# -----------------------------------------------------------
-# location checks: geocode-glib
-# -----------------------------------------------------------
-AC_ARG_ENABLE(geocode,
-              AS_HELP_STRING([--enable-geocode=@<:@no/yes/auto@:>@],
-                             [Enable geocode support]), ,
-                             enable_geocode=auto)
-
-if test "x$enable_geocode" != "xno"; then
-   PKG_CHECK_MODULES(GEOCODE,
-   [
-      geocode-glib-1.0 >= $GEOCODE_GLIB_REQUIRED
-   ], have_geocode="yes", have_geocode="no")
-
-   if test "x$have_geocode" = "xyes"; then
-      AC_DEFINE(HAVE_GEOCODE, 1, [Define if you have geocode])
-   fi
-else
-   have_geocode="no"
-fi
-
-if test "x$enable_geocode" = "xyes" -a "x$have_geocode" != "xyes"; then
-   AC_MSG_ERROR([Could not find geocode dependencies:
-
-$GEOCODE_PKG_ERRORS])
-fi
-
-AM_CONDITIONAL(HAVE_GEOCODE, test "x$have_geocode" = "xyes")
-AC_SUBST(GEOCODE_CFLAGS)
-AC_SUBST(GEOCODE_LIBS)
-
-# -----------------------------------------------------------
-# nautilus-sendto
-# -----------------------------------------------------------
-AC_ARG_ENABLE(nautilus-sendto,
-              AS_HELP_STRING([--enable-nautilus-sendto=@<:@no/yes/auto@:>@],
-                             [build nautilus-sendto plugin]), ,
-                             enable_nautilus_sendto=auto)
-
-if test "x$enable_nautilus_sendto" != "xno"; then
-   PKG_CHECK_MODULES(NST,
-    [
-       nautilus-sendto >= $NAUTILUS_SENDTO_REQUIRED
-    ], have_nst="yes", have_nst="no")
-else
-   have_nst=no
-fi
-
-if test "x$enable_nautilus_sendto" = "xyes" -a "x$have_nst" != "xyes"; then
-   AC_MSG_ERROR([Could not find nautilus-sendto dependencies:
-
-$NST_PKG_ERRORS])
-fi
-
-AM_CONDITIONAL(HAVE_NST, test "x$have_nst" = "xyes")
-
-# -----------------------------------------------------------
-# goa-mc-plugin
-# -----------------------------------------------------------
-AC_ARG_ENABLE(goa,
-              AS_HELP_STRING([--enable-goa=@<:@no/yes/auto@:>@],
-                             [build GOA MC plugin]), ,
-                             enable_goa=auto)
-
-if test "x$enable_goa" != "xno"; then
-   PKG_CHECK_MODULES(GOA,
-    [
-       mission-control-plugins
-       goa-1.0 >= $GOA_REQUIRED
-    ], have_goa="yes", have_goa="no")
-else
-   have_goa=no
-fi
-
-if test "x$enable_goa" = "xyes" -a "x$have_goa" != "xyes"; then
-   AC_MSG_ERROR([Could not find GOA dependencies:
-
-$GOA_PKG_ERRORS])
-fi
-
-if test "x$have_goa" = "xyes"; then
-   AC_DEFINE(HAVE_GOA, 1, [Define to 1 to enable GNOME Online Accounts])
-fi
-
-AM_CONDITIONAL(HAVE_GOA, test "x$have_goa" = "xyes")
-
-# Optional dependency for avatar selection
 AC_ARG_WITH([cheese],
             AS_HELP_STRING([--with-cheese],
                            [enable cheese webcam support]),,
@@ -601,10 +307,6 @@ if test "x$have_uoa" = "xyes" -o "x$have_goa" = "xyes"; then
    AC_SUBST(MISSION_CONTROL_PLUGINS_DIR)
 fi
 
-
-# Help documentation
-YELP_HELP_INIT
-
 # -----------------------------------------------------------
 # Coding style checks
 # -----------------------------------------------------------
@@ -635,18 +337,9 @@ Configure summary:
 	Linker Flags................:  ${LDFLAGS}
 	Prefix......................:  ${prefix}
 	Coding style checks.........:  ${ENABLE_CODING_STYLE_CHECKS}
-	Use GStreamer 1.0...........:  ${have_gst1}
 
     Features:
-	Spell checking (enchant)....:  ${have_enchant}
-	Display maps (libchamplain).:  ${have_libchamplain}
-	Location awareness (Geoclue):  ${have_geoclue}
-	Geocode support (Geocode)...:  ${have_geocode}
 	Cheese webcam support ......:  ${have_cheese}
 	Camera monitoring...........:  ${have_gudev}
-
-    Extras:
-	Nautilus-sendto plugin......:  ${have_nst}
-	GOA MC plugin...............:  ${have_goa}
 	Ubuntu Online plugins.......:  ${have_uoa}
 "
