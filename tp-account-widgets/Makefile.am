@@ -4,7 +4,7 @@ AM_CPPFLAGS =                                           \
 	-DPKGDATADIR=\""$(pkgdatadir)"\"		\
 	-DG_LOG_DOMAIN=\"empathy\"			\
 	-DGCR_API_SUBJECT_TO_CHANGE			\
-	$(EMPATHY_CFLAGS)				\
+	$(TPAW_CFLAGS)					\
 	$(UDEV_CFLAGS)					\
 	$(CHEESE_CFLAGS)				\
 	$(WARN_CFLAGS)					\

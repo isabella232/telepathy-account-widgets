@@ -128,7 +128,7 @@ AC_SUBST(LDFLAGS)
 # Pkg-Config dependency checks
 # -----------------------------------------------------------
 
-PKG_CHECK_MODULES(EMPATHY,
+PKG_CHECK_MODULES(TPAW,
 [
    dbus-glib-1
    glib-2.0 >= $GLIB_REQUIRED
