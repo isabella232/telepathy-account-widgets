@@ -86,14 +86,7 @@ nocheck_sources = \
 	totem-subtitle-encoding.h		\
 	$(NULL)
 
-pkglib_LTLIBRARIES = libtp-account-widgets.la
-
-# libtp-account-widgets's API is not stable and will never be, so use -release to make the
-# SONAME of the plugin library change with every Empathy release.
-libtp_account_widgets_la_LDFLAGS = \
-   -no-undefined \
-   -release $(VERSION) \
-   $(NULL)
+noinst_LTLIBRARIES = libtp-account-widgets.la
 
 libtp_account_widgets_la_SOURCES =			\
 	$(libtp_account_widgets_sources)		\
