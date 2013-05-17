@@ -1,26 +1,5 @@
-dnl If not 1, append datestamp to the version number
-m4_define(tpaw_released, 0)
-
-m4_define([tpaw_major_version], [0])
-m4_define([tpaw_minor_version], [0])
-m4_define([tpaw_micro_version], [0])
-m4_define([tpaw_nano_version], [0])
-
-dnl Display the nano_version only if it's not '0'
-m4_define([tpaw_base_version],
-          [tpaw_major_version.tpaw_minor_version.tpaw_micro_version])
-m4_define([tpaw_full_version],
-          [m4_if(tpaw_nano_version, 0, [tpaw_base_version],
-              [tpaw_base_version].[tpaw_nano_version])])
-
-m4_define(tpaw_maybe_datestamp,
-          m4_esyscmd([if test x]tpaw_released[ != x1; then date +.%Y%m%d | tr -d '\n\r'; fi]))
-
-m4_define(tpaw_version, tpaw_full_version[]tpaw_maybe_datestamp)
-
-
 AC_INIT([telepathy-account-widgets],
-        [tpaw_version],
+        [0.1], dnl Version doesn't really make sense for a submodule
         [http://bugzilla.gnome.org/browse.cgi?product=empathy])
 
 AC_PREREQ([2.64])
