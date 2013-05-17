@@ -40,7 +40,7 @@ enum {
 };
 
 enum {
-	RESPONSE_RESET = 0
+    RESPONSE_RESET = 0
 };
 
 struct _TpawIrcNetworkChooserDialogPriv {
