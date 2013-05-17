@@ -1,8 +1,8 @@
-dnl configure-time options for Empathy
+dnl configure-time options for telepathy-account-widgets
 
-dnl EMPATHY_ARG_VALGRIND
+dnl TPAW_ARG_VALGRIND
 
-AC_DEFUN([EMPATHY_ARG_VALGRIND],
+AC_DEFUN([TPAW_ARG_VALGRIND],
 [
   dnl valgrind inclusion
   AC_ARG_ENABLE(valgrind,
@@ -15,5 +15,5 @@ AC_DEFUN([EMPATHY_ARG_VALGRIND],
     ],
     [enable=no])
 
-  EMPATHY_VALGRIND($enable, [2.1])
+  TPAW_VALGRIND($enable, [2.1])
 ])

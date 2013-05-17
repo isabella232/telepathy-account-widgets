@@ -122,7 +122,7 @@ if test -z "$XSLTPROC"; then
 fi
 AM_PATH_PYTHON([2.3])
 
-EMPATHY_ARG_VALGRIND
+TPAW_ARG_VALGRIND
 
 
 # -----------------------------------------------------------

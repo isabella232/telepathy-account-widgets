@@ -1,6 +1,6 @@
 dnl Detect Valgrind location and flags
 
-AC_DEFUN([EMPATHY_VALGRIND],
+AC_DEFUN([TPAW_VALGRIND],
 [
   enable=$1
   if test -n "$2"; then
