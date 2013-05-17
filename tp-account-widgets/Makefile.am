@@ -2,7 +2,7 @@ AM_CPPFLAGS =                                           \
 	$(ERROR_CFLAGS)					\
 	-DDATADIR=\""$(datadir)"\"              	\
 	-DPKGDATADIR=\""$(pkgdatadir)"\"		\
-	-DG_LOG_DOMAIN=\"empathy\"			\
+	-DG_LOG_DOMAIN=\"tp-account-widgets\"		\
 	-DGCR_API_SUBJECT_TO_CHANGE			\
 	$(TPAW_CFLAGS)					\
 	$(UDEV_CFLAGS)					\
