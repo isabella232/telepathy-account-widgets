@@ -16,7 +16,6 @@ Makefile
 *.loT
 .semanticache
 
-ChangeLog
 stamp-h1
 xmldocs.make
 aclocal.m4
