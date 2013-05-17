@@ -1,12 +1,8 @@
 abs_top_builddir = @abs_top_builddir@
 
-noinst_SCRIPTS = telepathy-glib-env empathy-env
+noinst_SCRIPTS = telepathy-glib-env
 
 telepathy-glib-env: telepathy-glib-env.in Makefile
-	sed -e 's![@]abs_top_builddir[@]!$(abs_top_builddir)!' $< > $@
-	chmod +x $@
-
-empathy-env: empathy-env.in Makefile
 	sed -e 's![@]abs_top_builddir[@]!$(abs_top_builddir)!' $< > $@
 	chmod +x $@
 
@@ -37,7 +33,6 @@ EXTRA_DIST = \
     telepathy.am \
     telepathy-glib.supp \
     telepathy-glib-env.in \
-    empathy-env.in \
     test-wrapper.sh \
     with-session-bus.sh \
     xincludator.py
