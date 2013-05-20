@@ -18,4 +18,14 @@ which gnome-autogen.sh || {
     exit 1
 }
 
+for arg in $*; do
+    case $arg in
+        --no-configure)
+            export NOCONFIGURE=1
+            ;;
+        *)
+            ;;
+    esac
+done
+
 USE_GNOME2_MACROS=1 USE_COMMON_DOC_BUILD=yes . gnome-autogen.sh
