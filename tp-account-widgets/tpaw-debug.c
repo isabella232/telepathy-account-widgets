@@ -55,7 +55,7 @@ tpaw_debug_flag_is_set (TpawDebugFlags flag)
   return (flag & flags) != 0;
 }
 
-GHashTable *flag_to_keys = NULL;
+static GHashTable *flag_to_keys = NULL;
 
 static const gchar *
 debug_flag_to_key (TpawDebugFlags flag)
