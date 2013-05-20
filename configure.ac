@@ -307,6 +307,7 @@ AC_SUBST([ENABLE_CODING_STYLE_CHECKS])
 
 AC_CONFIG_FILES([
    Makefile
+   telepathy-account-widgets-uninstalled.pc
    data/Makefile
    data/icons/Makefile
    po/Makefile.in

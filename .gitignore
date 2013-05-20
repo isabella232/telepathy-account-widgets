@@ -43,3 +43,5 @@ tags
 TAGS
 ABOUT-NLS
 config.rpath
+
+telepathy-account-widgets-uninstalled.pc
