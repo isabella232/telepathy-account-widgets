@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy TRUNK\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2012-08-22 14:16+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -267,78 +267,6 @@ msgstr "Mật khẩu AIM của bạn là gì?"
 msgid "Remember Password"
 msgstr "Nhớ mật khẩu"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "Tài khoản"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Mật khẩu"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Máy phục vụ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Cổng"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, c-format
-msgid "%s"
-msgstr "%s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "Tên người dùng:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr "Á_p dụng"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "Đăng _nhập"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "Tài khoản này đã có trên máy chủ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "Tạo tài khoản mới trên máy chủ"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%1$s trên %2$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "Tài khoản %s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "Tài khoản mới"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -419,6 +347,10 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "Biệt hiệu"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Mật khẩu"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -618,6 +550,11 @@ msgstr "Tự động phát hiện máy chủ STUN"
 msgid "Discover Binding"
 msgstr "Phát hiện gắn kết"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Máy phục vụ"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Tuỳ chọn Keep-Alive (giữ kết nối)"
@@ -645,6 +582,11 @@ msgstr "Định tuyến lỏng lẻo"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Bỏ qua lỗi TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Cổng"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -689,39 +631,6 @@ msgstr "Yahoo! ID của bạn là gì?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "Mật khẩu Yahoo! của bạn là gì?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "Không thể chuyển đổi ảnh"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "Không có định dạng ảnh được hỗ trợ nào trên hệ thống này"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-msgid "Couldn't save picture to file"
-msgstr "Không thể lưu ảnh vào tập tin"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "Chọn ảnh riêng"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr "Chụp hình..."
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "Không có ảnh"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "Ảnh"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "Mọi tập tin"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
@@ -906,19 +815,3 @@ msgstr "Bí danh"
 #: ../tp-account-widgets/tpaw-user-info.c:474
 msgid "<b>Personal Details</b>"
 msgstr "<b>Chi tiết cá nhân</b>"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "Người chung quanh"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "Yahoo! Nhật Bản"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr "Google Talk"
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook Chat"

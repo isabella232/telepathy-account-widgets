@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2011-12-23 13:48+0200\n"
 "Last-Translator: Andiswa Mvanyashe <andiswamva@webmail.co.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -271,78 +271,6 @@ msgstr "Lithini agama lokuthela ku-AIM?"
 msgid "Remember Password"
 msgstr "Khumbula igama lokuthela"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "I-akhawunti"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Igama lokuthela"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Iseva"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Izibuko"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, fuzzy, c-format
-msgid "%s"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "Igama lomsebenzisi:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr "_Faka isicelo"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "_Loga ngaphakathi"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "Le akhawunti sele ikhona kwiseva"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "Dala i-akhawunti entsha kwiseva"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%1$s ku %2$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "i-Akhawunti ka-%s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "Akhawunti entsha"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -428,6 +356,10 @@ msgstr ""
 #, fuzzy
 msgid "Nickname"
 msgstr "Igama lesiteketiso:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Igama lokuthela"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 #, fuzzy
@@ -641,6 +573,11 @@ msgstr "Fumana iseva ye-STUN ngokwayo"
 msgid "Discover Binding"
 msgstr "Fumanisa ngokubopha"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Iseva"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Gcina ukhetho oluphilayo"
@@ -671,6 +608,11 @@ msgstr "Lahla i-routing"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Suzinaka iimpazamo zeTLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Izibuko"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 #, fuzzy
@@ -716,39 +658,6 @@ msgstr "Ithini i-ID ka-Yahoo! Yakho?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "Lithini agama lokuthela ku-Yahoo?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "Ayikwazanga ukujika umyalezo"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "Akukho namnye umfanekiso oxhaswayo yinkqubo oyisebenzisayo"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-msgid "Couldn't save picture to file"
-msgstr "Ayikwazanga ukugcina umfanekiso kwifayile"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "Khetha umyalezo wakho we-Avatar"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr "Thatha umfanekiso..."
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "Akukho mfanekiso"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "Imifanekiso"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "Zonke iifayili"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 #, fuzzy
@@ -945,19 +854,3 @@ msgstr "Igama elisisiqhulo:"
 #, fuzzy
 msgid "<b>Personal Details</b>"
 msgstr "Iinkcukacha zobuxhakaxhaka"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "Abantu abakufutshane"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "U-Yahoo! Japan"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr "U-Google Talk"
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "U-Facebook Chat"

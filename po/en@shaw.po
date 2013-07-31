@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metacity\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2010-05-12 18:35 -0400\n"
 "Last-Translator: Thomas Thurman <tthurman@gnome.org>\n"
 "Language-Team: Shavian <ubuntu-l10n-en-shaw@launchpad.net>\n"
@@ -271,82 +271,6 @@ msgstr "𐑢𐑪𐑑 𐑦𐑟 𐑿𐑼 ·𐑱𐑥 𐑐𐑭𐑕𐑢𐑼𐑛?"
 msgid "Remember Password"
 msgstr "𐑐𐑭𐑕𐑢𐑼𐑛:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "𐑩𐑒𐑬𐑯𐑑"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-#, fuzzy
-msgid "Password"
-msgstr "𐑐𐑭𐑕𐑢𐑼𐑛:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "𐑕𐑻𐑝𐑼"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "𐑐𐑹𐑑"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, fuzzy, c-format
-msgid "%s"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-#, fuzzy
-msgid "Username:"
-msgstr "𐑿𐑟𐑼𐑯𐑱𐑥:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "L_og 𐑦𐑯"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-#, fuzzy
-msgid "This account already exists on the server"
-msgstr "𐑞𐑦𐑕 𐑩𐑒𐑬𐑯𐑑 𐑷𐑤𐑮𐑧𐑛𐑦 𐑧𐑒𐑟𐑦𐑕𐑑𐑕 𐑪𐑯 𐑞 𐑕𐑻𐑝𐑼"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-#, fuzzy
-msgid "Create a new account on the server"
-msgstr "𐑒𐑮𐑦𐑱𐑑 𐑩 𐑯𐑿 𐑩𐑒𐑬𐑯𐑑 𐑪𐑯 𐑞 𐑕𐑻𐑝𐑼"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%1$s 𐑪𐑯 %2$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "%s 𐑩𐑒𐑬𐑯𐑑"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "𐑯𐑿 𐑩𐑒𐑬𐑯𐑑"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -438,6 +362,11 @@ msgstr ""
 #, fuzzy
 msgid "Nickname"
 msgstr "𐑯𐑦𐑒𐑯𐑱𐑥:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+#, fuzzy
+msgid "Password"
+msgstr "𐑐𐑭𐑕𐑢𐑼𐑛:"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 #, fuzzy
@@ -674,6 +603,11 @@ msgstr "𐑛𐑦𐑕𐑒𐑳𐑝𐑼 𐑞 𐑕𐑑𐑩𐑯 𐑕𐑻𐑝𐑼 𐑷
 msgid "Discover Binding"
 msgstr "𐑛𐑦𐑕𐑒𐑳𐑝𐑼 𐑚𐑲𐑯𐑛𐑦𐑙"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "𐑕𐑻𐑝𐑼"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 #, fuzzy
 msgid "Keep-Alive Options"
@@ -707,6 +641,11 @@ msgstr "𐑤𐑵𐑕 𐑮𐑵𐑑𐑦𐑙"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "𐑐𐑹𐑑"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -754,42 +693,6 @@ msgstr "𐑢𐑪𐑑 𐑦𐑟 𐑿𐑼 ·𐑘𐑭𐑣𐑵! ID?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "𐑢𐑪𐑑 𐑦𐑟 𐑿𐑼 ·𐑘𐑭𐑣𐑵! 𐑐𐑭𐑕𐑢𐑼𐑛?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-#, fuzzy
-msgid "Couldn't convert image"
-msgstr "𐑒𐑫𐑛𐑯𐑑 𐑒𐑩𐑯𐑝𐑻𐑑 𐑦𐑥𐑦𐑡"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-#, fuzzy
-msgid "None of the accepted image formats are supported on your system"
-msgstr "𐑯𐑳𐑯 𐑝 𐑞 𐑨𐑒𐑕𐑧𐑐𐑑𐑩𐑛 𐑦𐑥𐑦𐑡 𐑓𐑹𐑥𐑨𐑑𐑕 𐑸 𐑕𐑩𐑐𐑹𐑑𐑩𐑛 𐑪𐑯 𐑿𐑼 𐑕𐑦𐑕𐑑𐑩𐑥"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-#, fuzzy
-msgid "Couldn't save picture to file"
-msgstr "𐑒𐑫𐑛𐑯𐑑 𐑒𐑩𐑯𐑝𐑻𐑑 𐑦𐑥𐑦𐑡"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "𐑕𐑩𐑤𐑧𐑒𐑑 𐑿𐑼 𐑨𐑝𐑩𐑑𐑸 𐑦𐑥𐑦𐑡"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "𐑯𐑴 𐑦𐑥𐑦𐑡"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "𐑦𐑥𐑦𐑡𐑩𐑟"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "𐑷𐑤 𐑓𐑲𐑤𐑟"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 #, fuzzy
@@ -997,20 +900,3 @@ msgstr "𐑱𐑤𐑰𐑩𐑕:"
 #, fuzzy
 msgid "<b>Personal Details</b>"
 msgstr "𐑑𐑧𐑒𐑯𐑦𐑒𐑩𐑤 𐑛𐑰𐑑𐑱𐑤𐑟"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "𐑐𐑰𐑐𐑩𐑤 𐑯𐑦𐑮𐑚𐑲"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "·𐑘𐑭𐑣𐑵! ·𐑡𐑩𐑐𐑨𐑯"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-#, fuzzy
-msgid "Facebook Chat"
-msgstr "Facebook 𐑗𐑨𐑑"

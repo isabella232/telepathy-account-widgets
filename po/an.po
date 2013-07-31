@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2013-02-14 20:19+0100\n"
 "Last-Translator: Daniel Martinez <entaltoaragon@gmail.com>\n"
 "Language-Team: Aragonés <softaragones@googlegroups.com>\n"
@@ -266,78 +266,6 @@ msgstr "¿Cuala ye la tuya clau d'AIM?"
 msgid "Remember Password"
 msgstr "Remerar clau de paso"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "Cuenta"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Clau de paso"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Servidor"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Puerto"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, c-format
-msgid "%s"
-msgstr "%s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "Nome d'usuario:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr "A_plicar"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "Encetar _sesion"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "Ista cuenta ya existe en o servidor"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "Creyar una nueva cuenta en o servidor"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%1$s en %2$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "Cuenta de %s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "Cuenta nueva"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -418,6 +346,10 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "Embotada:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Clau de paso"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -617,6 +549,11 @@ msgstr "Descubrir o servidor STUN automaticament"
 msgid "Discover Binding"
 msgstr "Descubrir vinculación"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Servidor"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Opcions de «keepalive»"
@@ -644,6 +581,11 @@ msgstr "Enrutau impreciso"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Ignorar errors TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Puerto"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -688,39 +630,6 @@ msgstr "¿Cualo ye o tuyo ID de Yahoo!?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "¿Cuala ye la tuya clau de Yahoo!?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "No s'ha puesto convertir a imachen"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "O suyo sistema no suporta garra d'os formatos d'imachen acceptaus"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-msgid "Couldn't save picture to file"
-msgstr "No s'ha puesto alzar a imachen a un archivo"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "Trigar a tuya imachen d'Avatar"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr "Prener una imachen…"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "Sin imachen"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "Imachens"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "Totz os archivos"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
@@ -911,19 +820,3 @@ msgstr "Embotada"
 #: ../tp-account-widgets/tpaw-user-info.c:474
 msgid "<b>Personal Details</b>"
 msgstr "<b>Detalles personals</b>"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "Chent amán"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "Yahoo! Chapón"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr "Google Talk"
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Chat de Facebook"

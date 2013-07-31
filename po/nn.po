@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2012-04-20 16:09+0000\n"
 "Last-Translator: Martine Rørstad Sand <Unknown>\n"
 "Language-Team: Norsk (nynorsk) <i18n-nn@lister.ping.uio.no>\n"
@@ -269,78 +269,6 @@ msgstr "Kva er ditt AIM-passord?"
 msgid "Remember Password"
 msgstr "Hugs passord"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "Konto"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Passord"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Tenar"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Port"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, fuzzy, c-format
-msgid "%s"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "Brukarnamn:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr "_Bruk"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "L_ogg inn"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "Kontoen finst alt på tenaren"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "Lag ny konto på tenaren"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%1$s på %2$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "%s-konto"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "Ny konto"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -424,6 +352,10 @@ msgstr ""
 #, fuzzy
 msgid "Nickname"
 msgstr "Kallenamn:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Passord"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 #, fuzzy
@@ -635,6 +567,11 @@ msgstr "Oppdag STUN-tenar automatisk"
 msgid "Discover Binding"
 msgstr "Oppdag binding"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Tenar"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Alternativ for halding i live"
@@ -665,6 +602,11 @@ msgstr "Laus ruting"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Oversjå TLS-feil"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 #, fuzzy
@@ -710,39 +652,6 @@ msgstr "Kva er din ID på Yahoo!?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "Kva er ditt passord på Yahoo!?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "Klarte ikkje konvertera bilete"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "Ingen av dei godkjente biletformata er støtta på systemet ditt"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-msgid "Couldn't save picture to file"
-msgstr "Klarte ikkje lagra biletet til fil"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "Vel profilbilete"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr "Ta eit bilete …"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "Inkje bilete"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "Bilete"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "Alle filer"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
@@ -936,19 +845,3 @@ msgstr "Alias:"
 #, fuzzy
 msgid "<b>Personal Details</b>"
 msgstr "Personleg informasjon"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "Personar i nærleiken"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "Yahoo! Japan"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr "Google Talk"
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook-prat"

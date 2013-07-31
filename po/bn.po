@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2010-03-28 10:27+0600\n"
 "Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -276,81 +276,6 @@ msgstr "আপনার AIM পাসওয়ার্ড কি?"
 msgid "Remember Password"
 msgstr "পাসওয়ার্ড:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "অ্যাকাউন্ট"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-#, fuzzy
-msgid "Password"
-msgstr "পাসওয়ার্ড:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "সার্ভার"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "পোর্ট"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, fuzzy, c-format
-msgid "%s"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "ব্যবহারকারীর নাম:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr ""
-
-# Translated by sadia
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "লগ ইন (_o)"
-
-# Translated by sadia
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "এই অ্যাকাউন্টটি ইতিমধ্যেই সার্ভারে বিদ্যমান"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "সার্ভারে একটি নতুন অ্যাকাউন্ট তৈরি করা হবে"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%2$s এ %1$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "%s অ্যাকাউন্ট"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "নতুন অ্যাকাউন্ট"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -436,6 +361,11 @@ msgstr ""
 #, fuzzy
 msgid "Nickname"
 msgstr "ডাকনাম:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+#, fuzzy
+msgid "Password"
+msgstr "পাসওয়ার্ড:"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 #, fuzzy
@@ -661,6 +591,11 @@ msgstr "স্বয়ংক্রিয়ভাবে STUN সার্ভার �
 msgid "Discover Binding"
 msgstr "বাইন্ডিং অনুসন্ধান করা হবে"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "সার্ভার"
+
 # Translated by sadia
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
@@ -697,6 +632,11 @@ msgstr "শিথিল রাউটিং"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "পোর্ট"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -743,40 +683,6 @@ msgstr "আপনার Yahoo! ID কি?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "আপনার Yahoo! পাসওয়ার্ড কি?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "ছবি রূপান্তর করা যায়নি"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "গৃহীত ছবির ফরম্যাটগুলোর একটিও আপনার সিস্টেম দ্বারা সমর্থিত নয়"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-#, fuzzy
-msgid "Couldn't save picture to file"
-msgstr "ছবি রূপান্তর করা যায়নি"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "আপনার অবতারের ছবি নির্বাচন করুন"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "কোনো ছবি নয়"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "ছবি"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "সব ফাইল"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 #, fuzzy
@@ -986,19 +892,3 @@ msgstr "উপনাম:"
 #, fuzzy
 msgid "<b>Personal Details</b>"
 msgstr "প্রযুক্তিগত বিবরণ"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "নিকটবর্তী ব্যক্তিরা"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "Yahoo! জাপান"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook আড্ডা"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy.master.kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 14:30+0100\n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
 "PO-Revision-Date: 2013-03-25 23:02+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
@@ -266,78 +266,6 @@ msgstr "ನಿಮ್ಮ AIM ಗುಪ್ತಪದವೇನು?"
 msgid "Remember Password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ನೆನಪಿಟ್ಟುಕೊ"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
-msgid "Account"
-msgstr "ಖಾತೆ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:674
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "ಗುಪ್ತಪದ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:675
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "ಪೂರೈಕೆಗಣಕ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:676
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "ಸಂಪರ್ಕಸ್ಥಾನ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:760
-#, c-format
-msgid "%s"
-msgstr "%s"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:815
-#, c-format
-msgid "%s:"
-msgstr "%s:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1427
-msgid "Username:"
-msgstr "ಬಳಕೆದಾರಹೆಸರು:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1752
-msgid "A_pply"
-msgstr "ಅನ್ವಯಿಸು (_p)"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1781
-msgid "L_og in"
-msgstr "ಪ್ರವೇಶಿಸು (_o)"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1851
-msgid "This account already exists on the server"
-msgstr "ಈ ಖಾತೆಯು ಈಗಾಗಲೆ ಪೂರೈಕೆಗಣಕದಲ್ಲಿ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1855
-msgid "Create a new account on the server"
-msgstr "ಪೂರೈಕೆಗಣಕದಲ್ಲಿ ಒಂದು ಹೊಸ ಖಾತೆಯನ್ನು ರಚಿಸಿ"
-
-#. To translators: The first parameter is the login id and the
-#. * second one is the network. The resulting string will be something
-#. * like: "MyUserName on freenode".
-#. * You should reverse the order of these arguments if the
-#. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2294
-#, c-format
-msgid "%1$s on %2$s"
-msgstr "%2$s ನಲ್ಲಿ %1$s"
-
-#. To translators: The parameter is the protocol name. The resulting
-#. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2320
-#, c-format
-msgid "%s Account"
-msgstr "%s ಖಾತೆ"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:2324
-msgid "New account"
-msgstr "ಹೊಸ ಖಾತೆ"
-
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -418,6 +346,10 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "ಅಡ್ಡಹೆಸರು"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "ಗುಪ್ತಪದ"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -617,6 +549,11 @@ msgstr "ಸ್ವಯಂಚಾಲಿತವಾಗಿ STUN ಪೂರೈಕೆಗಣ
 msgid "Discover Binding"
 msgstr "ಬೈಂಡಿಂಗ್ ಅನ್ನು ಪತ್ತೆ ಮಾಡು"
 
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "ಪೂರೈಕೆಗಣಕ"
+
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "ಜೀವಂತವಾಗಿರಿಸುವ ಆಯ್ಕೆಗಳು"
@@ -644,6 +581,11 @@ msgstr "ಸಡಿಲ ರೌಟಿಂಗ್"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "TLS ದೋಷಗಳನ್ನು ಕಡೆಗಣಿಸು"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "ಸಂಪರ್ಕಸ್ಥಾನ"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -688,39 +630,6 @@ msgstr "ನಿಮ್ಮ Yahoo! ID ಏನು?"
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
 msgstr "ನಿಮ್ಮ Yahoo! ಗುಪ್ತಪದವೇನು?"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
-msgid "Couldn't convert image"
-msgstr "ಚಿತ್ರವನ್ನು ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-msgid "None of the accepted image formats are supported on your system"
-msgstr "ಅಂಗೀಕರಿಸಲಾದ ಯಾವುದೆ ಚಿತ್ರ ವಿನ್ಯಾಸಗಳನ್ನಯ ನಿಮ್ಮ ಗಣಕವು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
-msgid "Couldn't save picture to file"
-msgstr "ಚಿತ್ರವನ್ನು ಕಡತಕ್ಕೆ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
-msgid "Select Your Avatar Image"
-msgstr "ನಿಮ್ಮ ಅವತಾರ ಚಿತ್ರವನ್ನು ಆರಿಸಿ"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
-msgid "Take a picture..."
-msgstr "ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊ..."
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
-msgid "No Image"
-msgstr "ಯಾವುದೆ ಚಿತ್ರವಿಲ್ಲ"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
-msgid "Images"
-msgstr "ಚಿತ್ರಗಳು"
-
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
-msgid "All Files"
-msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
@@ -911,19 +820,3 @@ msgstr "ಆಲಿಯಾಸ್"
 #: ../tp-account-widgets/tpaw-user-info.c:474
 msgid "<b>Personal Details</b>"
 msgstr "<b>ವೈಯಕ್ತಿಕ ವಿವರಗಳು</b>"
-
-#: ../tp-account-widgets/tpaw-utils.c:115
-msgid "People Nearby"
-msgstr "ಹತ್ತಿರದ ಜನರು"
-
-#: ../tp-account-widgets/tpaw-utils.c:120
-msgid "Yahoo! Japan"
-msgstr "Yahoo! Japan ಅನ್ನು ಬಳಸು"
-
-#: ../tp-account-widgets/tpaw-utils.c:156
-msgid "Google Talk"
-msgstr "Google Talk"
-
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook ಹರಟೆ"
