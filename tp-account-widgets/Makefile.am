@@ -118,7 +118,7 @@ account_widgets_dtd_files =		\
 	tpaw-irc-networks.dtd		\
 	$(NULL)
 
-ircnetworksdir = $(datadir)/empathy
+ircnetworksdir = $(datadir)/telepathy-account-widgets
 ircnetworks_DATA =		\
 	irc-networks.xml
 
