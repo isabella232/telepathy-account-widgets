@@ -21,11 +21,12 @@
 #include "tpaw-user-info.h"
 
 #include <glib/gi18n-lib.h>
-#include <tp-account-widgets/tpaw-avatar-chooser.h>
-#include <tp-account-widgets/tpaw-calendar-button.h>
-#include <tp-account-widgets/tpaw-contactinfo-utils.h>
-#include <tp-account-widgets/tpaw-time.h>
-#include <tp-account-widgets/tpaw-utils.h>
+
+#include "tpaw-avatar-chooser.h"
+#include "tpaw-calendar-button.h"
+#include "tpaw-contactinfo-utils.h"
+#include "tpaw-time.h"
+#include "tpaw-utils.h"
 
 #define DEBUG_FLAG TPAW_DEBUG_CONTACT
 #include "tpaw-debug.h"

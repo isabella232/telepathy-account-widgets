@@ -21,7 +21,7 @@
 #include "config.h"
 #include "tpaw-camera-monitor.h"
 
-#include <tp-account-widgets/cheese-camera-device-monitor.h>
+#include "cheese-camera-device-monitor.h"
 
 #define DEBUG_FLAG TPAW_DEBUG_OTHER
 #include "tpaw-debug.h"

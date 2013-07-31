@@ -25,8 +25,9 @@
 
 #include <stdlib.h>
 #include <glib/gi18n-lib.h>
-#include <tp-account-widgets/tpaw-time.h>
-#include <tp-account-widgets/tpaw-string-parser.h>
+
+#include "tpaw-time.h"
+#include "tpaw-string-parser.h"
 
 static gchar *
 linkify_first_value (GStrv values)

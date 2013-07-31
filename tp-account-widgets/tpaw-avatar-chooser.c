@@ -24,11 +24,12 @@
 #include "tpaw-avatar-chooser.h"
 
 #include <glib/gi18n-lib.h>
-#include <tp-account-widgets/tpaw-camera-monitor.h>
-#include <tp-account-widgets/tpaw-gsettings.h>
-#include <tp-account-widgets/tpaw-images.h>
-#include <tp-account-widgets/tpaw-pixbuf-utils.h>
-#include <tp-account-widgets/tpaw-utils.h>
+
+#include "tpaw-camera-monitor.h"
+#include "tpaw-gsettings.h"
+#include "tpaw-images.h"
+#include "tpaw-pixbuf-utils.h"
+#include "tpaw-utils.h"
 
 #ifdef HAVE_CHEESE
 #include <cheese-avatar-chooser.h>

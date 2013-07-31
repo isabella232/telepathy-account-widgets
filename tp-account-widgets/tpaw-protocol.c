@@ -26,8 +26,9 @@
 #include "tpaw-protocol.h"
 
 #include <glib/gi18n-lib.h>
-#include <tp-account-widgets/tpaw-connection-managers.h>
-#include <tp-account-widgets/tpaw-utils.h>
+
+#include "tpaw-connection-managers.h"
+#include "tpaw-utils.h"
 
 struct _TpawProtocolPriv
 {

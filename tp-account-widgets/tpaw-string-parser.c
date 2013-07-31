@@ -22,7 +22,8 @@
 #include "tpaw-string-parser.h"
 
 #include <string.h>
-#include <tp-account-widgets/tpaw-utils.h>
+
+#include "tpaw-utils.h"
 
 #define SCHEMES           "([a-zA-Z\\+]+)"
 #define INVALID_CHARS     "\\s\"<>"

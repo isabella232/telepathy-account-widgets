@@ -25,7 +25,7 @@
 #ifndef __TPAW_PROTOCOL_H__
 #define __TPAW_PROTOCOL_H__
 
-#include <tp-account-widgets/tpaw-account-settings.h>
+#include "tpaw-account-settings.h"
 
 G_BEGIN_DECLS
 
