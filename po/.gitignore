@@ -4,7 +4,7 @@
 Makefile.in.in
 POTFILES
 stamp-it
-empathy.pot
+tpaw.pot
 Makevars.template
 Rules-quot
 boldquot.sed
