@@ -27,58 +27,67 @@ G_BEGIN_DECLS
 
 typedef struct _TpawStringParser TpawStringParser;
 
-typedef void (*TpawStringReplace) (const gchar *text,
-				   gssize len,
-				   gpointer match_data,
-				   gpointer user_data);
-typedef void (*TpawStringMatch) (const gchar *text,
-				 gssize len,
-				 TpawStringReplace replace_func,
-				 TpawStringParser *sub_parsers,
-				 gpointer user_data);
+typedef void (*TpawStringReplace) (
+    const gchar *text,
+    gssize len,
+    gpointer match_data,
+    gpointer user_data);
+typedef void (*TpawStringMatch) (
+    const gchar *text,
+    gssize len,
+    TpawStringReplace replace_func,
+    TpawStringParser *sub_parsers,
+    gpointer user_data);
 
-struct _TpawStringParser {
-	TpawStringMatch match_func;
-	TpawStringReplace replace_func;
+struct _TpawStringParser
+{
+  TpawStringMatch match_func;
+  TpawStringReplace replace_func;
 };
 
 void
-tpaw_string_parser_substr (const gchar *text,
-			   gssize len,
-			   TpawStringParser *parsers,
-			   gpointer user_data);
+tpaw_string_parser_substr (
+    const gchar *text,
+    gssize len,
+    TpawStringParser *parsers,
+    gpointer user_data);
 
 void
-tpaw_string_match_link (const gchar *text,
-			gssize len,
-			TpawStringReplace replace_func,
-			TpawStringParser *sub_parsers,
-			gpointer user_data);
+tpaw_string_match_link (
+    const gchar *text,
+    gssize len,
+    TpawStringReplace replace_func,
+    TpawStringParser *sub_parsers,
+    gpointer user_data);
 
 void
-tpaw_string_match_all (const gchar *text,
-		       gssize len,
-		       TpawStringReplace replace_func,
-		       TpawStringParser *sub_parsers,
-		       gpointer user_data);
+tpaw_string_match_all (
+    const gchar *text,
+    gssize len,
+    TpawStringReplace replace_func,
+    TpawStringParser *sub_parsers,
+    gpointer user_data);
 
 /* Replace functions assume user_data is a GString */
 void
-tpaw_string_replace_link (const gchar *text,
-			  gssize len,
-			  gpointer match_data,
-			  gpointer user_data);
+tpaw_string_replace_link (
+    const gchar *text,
+    gssize len,
+    gpointer match_data,
+    gpointer user_data);
 
 void
-tpaw_string_replace_escaped (const gchar *text,
-			     gssize len,
-			     gpointer match_data,
-			     gpointer user_data);
+tpaw_string_replace_escaped (
+    const gchar *text,
+    gssize len,
+    gpointer match_data,
+    gpointer user_data);
 
 /* Returns a new string with <a> html tag around links, and escape the rest.
  * To be used with gtk_label_set_markup() for example */
 gchar *
-tpaw_add_link_markup (const gchar *text);
+tpaw_add_link_markup (
+    const gchar *text);
 
 G_END_DECLS
 
