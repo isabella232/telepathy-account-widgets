@@ -26,7 +26,7 @@
 G_BEGIN_DECLS
 
 /* FIXME: Move this after the split of tp-account-widgets. */
-#define TPAW_PREFS_SCHEMA "org.gnome.Empathy"
+#define TPAW_PREFS_SCHEMA "org.gnome.telepathy-account-widgets"
 
 #define TPAW_PREFS_UI_SCHEMA TPAW_PREFS_SCHEMA ".ui"
 #define TPAW_PREFS_UI_AVATAR_DIRECTORY          "avatar-directory"

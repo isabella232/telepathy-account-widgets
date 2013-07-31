@@ -1,6 +1,6 @@
 SUBDIRS = icons
 
-gsettings_SCHEMAS = org.gnome.Empathy.gschema.xml
+gsettings_SCHEMAS = org.gnome.telepathy-account-widgets.gschema.xml
 @GSETTINGS_RULES@
 
 # We need to compile schemas at make time
