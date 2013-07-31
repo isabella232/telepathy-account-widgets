@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-18 14:30+0300\n"
+"POT-Creation-Date: 2013-07-31 14:30+0100\n"
 "PO-Revision-Date: 2010-07-25 16:29+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,921 +19,447 @@ msgstr ""
 "X-Poedit-Language: Kazakh\n"
 "X-Poedit-Country: KAZAKHSTAN\n"
 
-#: ../data/empathy.desktop.in.in.h:1
-msgid "Chat on Google Talk, Facebook, MSN, and many other chat services"
-msgstr ""
-
-#: ../data/empathy.desktop.in.in.h:2
-msgid "Empathy"
-msgstr ""
-
-#: ../data/empathy.desktop.in.in.h:3
-msgid "Empathy Internet Messaging"
-msgstr ""
-
-#: ../data/empathy.desktop.in.in.h:4
-msgid "IM Client"
-msgstr "Жедел хабарласу қолданбасы"
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:1
-msgid "Always open a separate chat window for new chats."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:2
-msgid ""
-"Character to add after nickname when using nick completion (tab) in group "
-"chat."
-msgstr ""
-"Топтық чатта ник аттарын автотолықтыру (tab пернесі) қолдану кезінде ник "
-"атының артына қосылатын таңба."
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:3
-msgid "Chat window theme"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:4
-msgid ""
-"Comma-separated list of spell checker languages to use (e.g. \"en, fr, nl\")."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:5
-msgid "Compact contact list"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:6
-msgid "Connection managers should be used"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:7
-msgid "Contact list sort criterion"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:8
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:9
-msgid "Disable popup notifications when away"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:10
-msgid "Disable sounds when away"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:11
-msgid "Display incoming events in the status area"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:12
-msgid ""
-"Display incoming events in the status area. If false present them right away "
-"to the user."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:13
-msgid "Empathy can publish the user's location"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:14
-msgid "Empathy can use the GPS to guess the location"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:15
-msgid "Empathy can use the cellular network to guess the location"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:16
-msgid "Empathy can use the network to guess the location"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:17
-msgid "Empathy default download folder"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:18
-msgid "Empathy has asked about importing accounts"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:19
-msgid "Empathy has migrated butterfly logs"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:20
-msgid "Empathy should auto-away when idle"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:21
-msgid "Empathy should auto-connect on startup"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:22
-msgid "Empathy should reduce the location's accuracy"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:23
-msgid "Empathy should use the avatar of the contact as the chat window icon"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:24
-msgid "Enable WebKit Developer Tools"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:25
-msgid "Enable popup notifications for new messages"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:26
-msgid "Enable spell checker"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:27
-msgid "Hide main window"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:28
-msgid "Hide the main window."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:29
-msgid "Nick completed character"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:30
-msgid "Open new chats in separate windows"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:31
-msgid "Path of the Adium theme to use"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:32
-msgid "Path of the Adium theme to use if the theme used for chat is Adium."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:33
-msgid "Play a sound for incoming messages"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:34
-msgid "Play a sound for new conversations"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:35
-msgid "Play a sound for outgoing messages"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:36
-msgid "Play a sound when a contact logs in"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:37
-msgid "Play a sound when a contact logs out"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:38
-msgid "Play a sound when we log in"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:39
-msgid "Play a sound when we log out"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:40
-msgid "Pop up notifications if the chat isn't focused"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:41
-msgid "Pop up notifications when a contact logs in"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:42
-msgid "Pop up notifications when a contact logs out"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:43
-msgid "Show avatars"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:44
-msgid "Show contact list in rooms"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:45
-msgid "Show hint about closing the main window"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:46
-msgid "Show offline contacts"
-msgstr "Желіде еместерді көрсету"
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:47
-msgid "Show protocols"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:48
-msgid "Spell checking languages"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:49
-msgid "The default folder to save file transfers in."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:50
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
 msgid "The last directory that an avatar image was chosen from."
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:51
-msgid "The position for the chat window side pane"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:52
-msgid "The stored position (in pixels) of the chat window side pane."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:53
-msgid "The theme that is used to display the conversation in chat windows."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:54
-msgid "Use graphical smileys"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:55
-msgid "Use notification sounds"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:56
-msgid "Use theme for chat rooms"
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:57
-msgid "Whether Empathy can publish the user's location to their contacts."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:58
-msgid "Whether Empathy can use the GPS to guess the location."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:59
-msgid "Whether Empathy can use the cellular network to guess the location."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:60
-msgid "Whether Empathy can use the network to guess the location."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:61
-msgid "Whether Empathy has asked about importing accounts from other programs."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:62
-msgid "Whether Empathy has migrated butterfly logs."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:63
-msgid "Whether Empathy should automatically log into your accounts on startup."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:64
-msgid "Whether Empathy should go into away mode automatically if user is idle."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:65
-msgid ""
-"Whether Empathy should reduce the location's accuracy for privacy reasons."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:66
-msgid ""
-"Whether Empathy should use the avatar of the contact as the chat window icon."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:67
-msgid ""
-"Whether WebKit developer tools, such as the Web Inspector, should be enabled."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:68
-msgid ""
-"Whether connectivity managers should be used to automatically disconnect/"
-"reconnect."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:69
-msgid ""
-"Whether to check words typed against the languages you want to check with."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:70
-msgid "Whether to convert smileys into graphical images in conversations."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:71
-msgid "Whether to play a sound to notify of contacts logging into the network."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:72
-msgid ""
-"Whether to play a sound to notify of contacts logging out of the network."
-msgstr ""
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
+msgstr "Ағымдағы локаль"
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:73
-msgid "Whether to play a sound to notify of events."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:74
-msgid "Whether to play a sound to notify of incoming messages."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:75
-msgid "Whether to play a sound to notify of new conversations."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:76
-msgid "Whether to play a sound to notify of outgoing messages."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:77
-msgid "Whether to play a sound when logging into a network."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:78
-msgid "Whether to play a sound when logging out of a network."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:79
-msgid "Whether to play sound notifications when away or busy."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:80
-msgid "Whether to show a popup notification when a contact goes offline."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:81
-msgid "Whether to show a popup notification when a contact goes online."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:82
-msgid ""
-"Whether to show a popup notification when receiving a new message even if "
-"the chat is already opened, but not focused."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:83
-msgid "Whether to show a popup notification when receiving a new message."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:84
-msgid ""
-"Whether to show avatars for contacts in the contact list and chat windows."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:85
-msgid "Whether to show contacts that are offline in the contact list."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:86
-msgid "Whether to show popup notifications when away or busy."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:87
-msgid "Whether to show protocols for contacts in the contact list."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:88
-msgid "Whether to show the contact list in chat rooms."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:89
-msgid "Whether to show the contact list in compact mode."
-msgstr ""
-
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:90
-msgid ""
-"Whether to show the message dialog about closing the main window with the "
-"'x' button in the title bar."
-msgstr ""
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
+msgstr "Хорватиялық"
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:91
-msgid "Whether to use the theme for chat rooms."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
 msgstr ""
 
-#: ../data/org.gnome.Empathy.gschema.xml.in.h:92
-msgid ""
-"Which criterion to use when sorting the contact list. Default is to sort by "
-"the contact's name with the value \"name\". A value of \"state\" will sort "
-"the contact list by state."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
 msgstr ""
 
-#: ../data/empathy-accounts.desktop.in.in.h:1
-msgid "Manage Messaging and VoIP accounts"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
 msgstr ""
 
-#. Tweak the dialog
-#: ../data/empathy-accounts.desktop.in.in.h:2
-#: ../src/empathy-accounts-dialog.c:2092
-msgid "Messaging and VoIP Accounts"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
 msgstr ""
 
-#: ../libempathy/empathy-ft-handler.c:851
-msgid "The hash of the received file and the sent one do not match"
-msgstr ""
-
-#: ../libempathy/empathy-ft-handler.c:1111
-msgid "File transfer not supported by remote contact"
-msgstr ""
-
-#: ../libempathy/empathy-ft-handler.c:1169
-msgid "The selected file is not a regular file"
-msgstr ""
-
-#: ../libempathy/empathy-ft-handler.c:1178
-msgid "The selected file is empty"
-msgstr ""
-
-#: ../libempathy/empathy-tp-file.c:283
-msgid "Socket type not supported"
-msgstr ""
-
-#: ../libempathy/empathy-tp-file.c:402
-msgid "No reason was specified"
-msgstr ""
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
+msgstr "Грек"
 
-#: ../libempathy/empathy-tp-file.c:405
-msgid "The change in state was requested"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
 msgstr ""
 
-#: ../libempathy/empathy-tp-file.c:408
-msgid "You canceled the file transfer"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
 msgstr ""
 
-#: ../libempathy/empathy-tp-file.c:411
-msgid "The other participant canceled the file transfer"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
 msgstr ""
 
-#: ../libempathy/empathy-tp-file.c:414
-msgid "Error while trying to transfer the file"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
 msgstr ""
 
-#: ../libempathy/empathy-tp-file.c:417
-msgid "The other participant is unable to transfer the file"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
 msgstr ""
 
-#: ../libempathy/empathy-tp-file.c:420 ../libempathy/empathy-utils.c:320
-msgid "Unknown reason"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:242
-msgid "Available"
-msgstr "Бар"
-
-#: ../libempathy/empathy-utils.c:244
-msgid "Busy"
-msgstr "Бос емес"
-
-#: ../libempathy/empathy-utils.c:247
-msgid "Away"
-msgstr "Кетіп қалған"
-
-#: ../libempathy/empathy-utils.c:249
-msgid "Invisible"
-msgstr "Жасырын"
-
-#: ../libempathy/empathy-utils.c:251
-msgid "Offline"
-msgstr "Желіде емес"
-
-#: ../libempathy/empathy-utils.c:253 ../src/empathy-call-window.c:1883
-#: ../src/empathy-call-window.c:1884 ../src/empathy-call-window.c:1885
-#: ../src/empathy-call-window.c:1886 ../src/empathy-call-window.ui.h:18
-msgid "Unknown"
-msgstr "Белгісіз"
-
-#: ../libempathy/empathy-utils.c:292
-msgid "No reason specified"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:294 ../libempathy/empathy-utils.c:350
-msgid "Status is set to offline"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:296 ../libempathy/empathy-utils.c:330
-msgid "Network error"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:298 ../libempathy/empathy-utils.c:332
-msgid "Authentication failed"
-msgstr "Аутентификация сәтсіз"
-
-#: ../libempathy/empathy-utils.c:300 ../libempathy/empathy-utils.c:334
-msgid "Encryption error"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
+msgid "Persian"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:302
-msgid "Name in use"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:304 ../libempathy/empathy-utils.c:336
-msgid "Certificate not provided"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:306 ../libempathy/empathy-utils.c:338
-msgid "Certificate untrusted"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
 msgstr ""
-
-#: ../libempathy/empathy-utils.c:308 ../libempathy/empathy-utils.c:340
-msgid "Certificate expired"
-msgstr "Сертификат мерзімі біткен"
 
-#: ../libempathy/empathy-utils.c:310 ../libempathy/empathy-utils.c:342
-msgid "Certificate not activated"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:312 ../libempathy/empathy-utils.c:344
-msgid "Certificate hostname mismatch"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:314 ../libempathy/empathy-utils.c:346
-msgid "Certificate fingerprint mismatch"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:316 ../libempathy/empathy-utils.c:348
-msgid "Certificate self-signed"
-msgstr "Өздігінен қолтаңбасы бар сертификат"
-
-#: ../libempathy/empathy-utils.c:318
-msgid "Certificate error"
-msgstr "Сертификат қатесі"
-
-#: ../libempathy/empathy-utils.c:352
-msgid "Encryption is not available"
-msgstr ""
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr "Вьетнам"
 
-#: ../libempathy/empathy-utils.c:354
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 #, fuzzy
-msgid "Certificate is invalid"
-msgstr "Өздігінен қолтаңбасы бар сертификат"
+msgid "Pass_word"
+msgstr "Па_роль:"
 
-#: ../libempathy/empathy-utils.c:356
-msgid "Connection has been refused"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:358
-msgid "Connection can't be established"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:360
-msgid "Connection has been lost"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:362
-msgid "This resource is already connected to the server"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:364
-msgid ""
-"Connection has been replaced by a new connection using the same resource"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:367
-msgid "The account already exists on the server"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:369
-msgid "Server is currently too busy to handle the connection"
-msgstr ""
-
-#: ../libempathy/empathy-utils.c:371
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
 #, fuzzy
-msgid "Certificate has been revoked"
-msgstr "Сертификат мерзімі біткен"
+msgid "Screen _Name"
+msgstr "Аты бойы_нша сұрыптау"
 
-#: ../libempathy/empathy-utils.c:373
-msgid ""
-"Certificate uses an insecure cipher algorithm or is cryptographically weak"
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+msgid "<b>Example:</b> MyScreenName"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:376
-msgid ""
-"The length of the server certificate, or the depth of the server certificate "
-"chain exceed the limits imposed by the crypto library"
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:529
-msgid "People Nearby"
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
+#, fuzzy
+msgid "_Port"
+msgstr "_Порт:"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+#, fuzzy
+msgid "_Server"
+msgstr "_Сервер:"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr "Кеңейтілген"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:534
-msgid "Yahoo! Japan"
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
 msgstr ""
 
-#: ../libempathy/empathy-utils.c:535
-msgid "Facebook Chat"
-msgstr ""
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
+#, fuzzy
+msgid "Remember Password"
+msgstr "Пароль:"
 
-#: ../libempathy/empathy-time.c:137
-#, c-format
-msgid "%d second ago"
-msgid_plural "%d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#, fuzzy
+msgid "Account"
+msgstr "Тіркелгі"
 
-#: ../libempathy/empathy-time.c:142
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+#, fuzzy
+msgid "Password"
+msgstr "Пароль:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+#, fuzzy
+msgid "Server"
+msgstr "Сервері"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:676
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+#, fuzzy
+msgid "Port"
+msgstr "Порты"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:760
 #, fuzzy, c-format
-msgid "%d minute ago"
-msgid_plural "%d minutes ago"
-msgstr[0] "шамамен бір минут бұрын"
-msgstr[1] ""
+msgid "%s"
+msgstr "%"
 
-#: ../libempathy/empathy-time.c:147
-#, fuzzy, c-format
-msgid "%d hour ago"
-msgid_plural "%d hours ago"
-msgstr[0] "шамамен бір сағат бұрын"
-msgstr[1] ""
-
-#: ../libempathy/empathy-time.c:152
-#, fuzzy, c-format
-msgid "%d day ago"
-msgid_plural "%d days ago"
-msgstr[0] "%d күн бұрын"
-msgstr[1] ""
-
-#: ../libempathy/empathy-time.c:157
-#, c-format
-msgid "%d week ago"
-msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../libempathy/empathy-time.c:162
-#, fuzzy, c-format
-msgid "%d month ago"
-msgid_plural "%d months ago"
-msgstr[0] "шамамен бір ай бұрын"
-msgstr[1] ""
-
-#: ../libempathy/empathy-time.c:167
-msgid "in the future"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-chooser.c:463
-msgid "All"
-msgstr "Барлығы"
-
-#: ../libempathy-gtk/empathy-account-widget.c:549
-#: ../libempathy-gtk/empathy-account-widget.c:606
+#: ../tp-account-widgets/tpaw-account-widget.c:815
 #, c-format
 msgid "%s:"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget.c:1137
+#: ../tp-account-widgets/tpaw-account-widget.c:1427
 msgid "Username:"
 msgstr "Пайдаланушы аты:"
 
-#: ../libempathy-gtk/empathy-account-widget.c:1480
+#: ../tp-account-widgets/tpaw-account-widget.c:1752
+msgid "A_pply"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1781
 msgid "L_og in"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget.c:1548
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:2
-#: ../libempathy-gtk/empathy-contact-selector-dialog.ui.h:1
-#: ../src/empathy-chatrooms-window.ui.h:1
-#: ../src/empathy-new-chatroom-dialog.ui.h:1
-msgid "Account:"
-msgstr "Тіркелгі:"
-
-#: ../libempathy-gtk/empathy-account-widget.c:1559
-msgid "Enabled"
-msgstr "Қосулы"
-
-#: ../libempathy-gtk/empathy-account-widget.c:1624
+#: ../tp-account-widgets/tpaw-account-widget.c:1851
 msgid "This account already exists on the server"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget.c:1627
+#: ../tp-account-widgets/tpaw-account-widget.c:1855
 msgid "Create a new account on the server"
 msgstr ""
 
 #. To translators: The first parameter is the login id and the
-#. * second one is the server. The resulting string will be something
-#. * like: "MyUserName on chat.freenode.net".
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../libempathy-gtk/empathy-account-widget.c:1996
+#: ../tp-account-widgets/tpaw-account-widget.c:2294
 #, fuzzy, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s, қайда: %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../libempathy-gtk/empathy-account-widget.c:2022
+#: ../tp-account-widgets/tpaw-account-widget.c:2320
 #, fuzzy, c-format
 msgid "%s Account"
 msgstr "Тіркелгі"
 
-#: ../libempathy-gtk/empathy-account-widget.c:2026
+#: ../tp-account-widgets/tpaw-account-widget.c:2324
 msgid "New account"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:1
-msgid "<b>Example:</b> MyScreenName"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:2
-#: ../libempathy-gtk/empathy-account-widget-generic.ui.h:1
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:2
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:2
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:3
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:2
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:1
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:2
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:2
-msgid "Advanced"
-msgstr "Кеңейтілген"
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:3
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:4
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:4
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:6
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:4
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:12
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 #, fuzzy
-msgid "Pass_word:"
-msgstr "Па_роль:"
+msgid "Login I_D"
+msgstr "тіркелу:"
 
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:4
-msgid "Screen _Name:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:5
-msgid "What is your AIM password?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:6
-msgid "What is your AIM screen name?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:7
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:7
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:8
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:24
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:7
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:10
-#, fuzzy
-msgid "_Port:"
-msgstr "_Порт:"
-
-#: ../libempathy-gtk/empathy-account-widget-aim.ui.h:8
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:8
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:9
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:25
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:8
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:12
-#: ../src/empathy-new-chatroom-dialog.ui.h:9
-#, fuzzy
-msgid "_Server:"
-msgstr "_Сервер:"
-
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:1
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
 msgid "<b>Example:</b> username"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:3
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:4
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:3
-#, fuzzy
-msgid "Login I_D:"
-msgstr "тіркелу:"
-
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+msgid "ICQ _UIN"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
 msgid "<b>Example:</b> 123456789"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:3
-msgid "ICQ _UIN:"
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-icq.ui.h:7
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:8
-msgid "_Character set:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-irc.c:246
-msgid "New Network"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.c:183
-#: ../libempathy-gtk/empathy-account-widget-sip.c:216
-#, fuzzy
-msgid "Auto"
-msgstr "Автоматты басқару"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.c:186
-msgid "UDP"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.c:189
-msgid "TCP"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.c:192
-#, fuzzy
-msgid "TLS"
-msgstr "TLS"
-
-#. translators: this string is very specific to SIP's internal; maybe
-#. * best to keep the English version.
-#: ../libempathy-gtk/empathy-account-widget-sip.c:221
-#, fuzzy
-msgid "Register"
-msgstr "Тіркелу"
-
-#. translators: this string is very specific to SIP's internal; maybe
-#. * best to keep the English version.
-#: ../libempathy-gtk/empathy-account-widget-sip.c:226
-#, fuzzy
-msgid "Options"
-msgstr "Баптаулары"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.c:229
-msgid "None"
-msgstr "Ешнәрсе"
-
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:1
-msgid "Character set:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
 #, fuzzy
 msgid "Network"
 msgstr "Желі"
 
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+msgid "Character set"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
 #, fuzzy
-msgid "Network:"
-msgstr "Желі"
+msgid "Remove"
+msgstr "Ө_шіру"
 
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:4
-msgid "Nickname:"
-msgstr "Ник:"
-
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:5
-msgid "Password:"
-msgstr "Пароль:"
-
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:6
-msgid "Quit message:"
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:7
-msgid "Real name:"
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-irc.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
 msgid "Servers"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:1
-msgid "<b>Example:</b> user@gmail.com"
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+msgid ""
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:2
-msgid "<b>Example:</b> user@jabber.org"
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+#, fuzzy
+msgid "Nickname"
+msgstr "Ник:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+#, fuzzy
+msgid "Quit message"
+msgstr "Хабарлама"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+#, fuzzy
+msgid "Real name"
+msgstr "Толық аты"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+#, fuzzy
+msgid "Username"
+msgstr "Пайдаланушы аты:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:5
-msgid "Override server settings"
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+msgid "What is your IRC nickname?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:7
-msgid "Pri_ority:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:8
-msgid "Reso_urce:"
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+msgid "What is your Facebook username?"
 msgstr ""
 
 #. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
@@ -940,2618 +467,1071 @@ msgid ""
 "Facebook username if you don't have one."
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:13
-msgid "Use old SS_L"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:15
-msgid "What is your Facebook username?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+msgid "<b>Example:</b> user@gmail.com"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "What is your Google password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+msgid "<b>Example:</b> user@jabber.org"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#, fuzzy
+msgid "I_gnore SSL certificate errors"
+msgstr "Сертификат қатесі"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Priori_ty"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#, fuzzy
+msgid "Reso_urce"
+msgstr "Бастапқы кодтары"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+msgid "Encr_yption required (TLS/SSL)"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+msgid "Override server settings"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+msgid "Use old SS_L"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:19
-msgid "What is your Jabber password?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
 msgid "What is your desired Jabber ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+msgid "What is your Jabber password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
 msgid "What is your desired Jabber password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:22
-msgid "_Encryption required (TLS/SSL)"
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+#, fuzzy
+msgid "Nic_kname"
+msgstr "Ник:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+#, fuzzy
+msgid "_Last Name"
+msgstr "Фамилиясы:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+#, fuzzy
+msgid "_First Name"
+msgstr "Аты:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+msgid "_Published Name"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-jabber.ui.h:23
-msgid "_Ignore SSL certificate errors"
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+#, fuzzy
+msgid "_Jabber ID"
+msgstr "_Jabber ID:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
 msgid "What is your Windows Live ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-msn.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:2
-msgid "_E-mail address:"
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+#, fuzzy
+msgid "Auto"
+msgstr "Автоматты басқару"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:3
-#, fuzzy
-msgid "_First Name:"
-msgstr "Аты:"
-
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:4
-#, fuzzy
-msgid "_Jabber ID:"
-msgstr "_Jabber ID:"
-
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:5
-#, fuzzy
-msgid "_Last Name:"
-msgstr "Фамилиясы:"
-
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:6
-msgid "_Nickname:"
-msgstr "_Ник аты:"
-
-#: ../libempathy-gtk/empathy-account-widget-local-xmpp.ui.h:7
-msgid "_Published Name:"
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+#, fuzzy
+msgid "TLS"
+msgstr "TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+#, fuzzy
+msgid "Register"
+msgstr "Тіркелу"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+#, fuzzy
+msgid "Options"
+msgstr "Баптаулары"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr "Ешнәрсе"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+#, fuzzy
+msgid "_Username"
+msgstr "_Пайдаланушы аты:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:3
-msgid "Authentication username:"
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:4
-msgid "Discover Binding"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:5
-msgid "Discover the STUN server automatically"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:6
-msgid "Interval (seconds)"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:7
-msgid "Keep-Alive Options"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:8
-msgid "Loose Routing"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:9
-msgid "Mechanism:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:10
-msgid "Miscellaneous Options"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
 msgid "NAT Traversal Options"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:13
-msgid "Port:"
-msgstr "Порты:"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
 msgid "Proxy Options"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:15
-msgid "STUN Server:"
-msgstr "STUN сервері:"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:16
-msgid "Server:"
-msgstr "Сервер:"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:17
-msgid "Transport:"
-msgstr "Транспорт:"
-
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:18
-msgid "What is your SIP account password?"
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+msgid "Miscellaneous Options"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+#, fuzzy
+msgid "STUN Server"
+msgstr "STUN сервері:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+msgid "Keep-Alive Options"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+msgid "Mechanism"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+#, fuzzy
+msgid "Authentication username"
+msgstr "Аутентификация сәтсіз"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+#, fuzzy
+msgid "Transport"
+msgstr "Транспорт:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-sip.ui.h:20
-msgid "_Username:"
-msgstr "_Пайдаланушы аты:"
-
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:4
-msgid "Use _Yahoo! Japan"
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:5
-msgid "What is your Yahoo! ID?"
-msgstr ""
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
+#, fuzzy
+msgid "Pass_word:"
+msgstr "Па_роль:"
 
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:6
-msgid "What is your Yahoo! password?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
 msgid "Yahoo! I_D:"
 msgstr "Yahoo! адресі:"
 
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:9
-msgid "_Ignore conference and chat room invitations"
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+msgid "I_gnore conference and chat room invitations"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-account-widget-yahoo.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
 msgid "_Room List locale:"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:443
-#: ../libempathy-gtk/empathy-avatar-chooser.c:519
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+msgid "Ch_aracter set:"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
+#, fuzzy
+msgid "_Port:"
+msgstr "_Порт:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
 msgid "Couldn't convert image"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:444
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
 msgid "None of the accepted image formats are supported on your system"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:935
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
+msgid "Couldn't save picture to file"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
 msgid "Select Your Avatar Image"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:938
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
+msgid "Take a picture..."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
 msgid "No Image"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:1000
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
 msgid "Images"
 msgstr "Суреттер"
 
-#: ../libempathy-gtk/empathy-avatar-chooser.c:1004
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
 msgid "All Files"
 msgstr "Барлық файлдар"
 
-#: ../libempathy-gtk/empathy-avatar-image.c:323
-msgid "Click to enlarge"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:639
-msgid "Failed to open private chat"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:679
-msgid "Topic not supported on this conversation"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:685
-msgid "You are not allowed to change the topic"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:819
-msgid "/clear: clear all messages from the current conversation"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:822
-msgid "/topic <topic>: set the topic of the current conversation"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:825
-msgid "/join <chat room ID>: join a new chat room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:828
-msgid "/j <chat room ID>: join a new chat room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:833
-msgid "/query <contact ID> [<message>]: open a private chat"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:836
-msgid "/msg <contact ID> <message>: open a private chat"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:840
-msgid "/nick <nickname>: change your nickname on the current server"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:843
-msgid "/me <message>: send an ACTION message to the current conversation"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:846
-msgid ""
-"/say <message>: send <message> to the current conversation. This is used to "
-"send a message starting with a '/'. For example: \"/say /join is used to "
-"join a new chat room\""
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:851
-msgid ""
-"/help [<command>]: show all supported commands. If <command> is defined, "
-"show its usage."
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:861
-#, fuzzy, c-format
-msgid "Usage: %s"
-msgstr "Қолданылуы:"
-
-#: ../libempathy-gtk/empathy-chat.c:890
-msgid "Unknown command"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1011
-msgid "Unknown command; see /help for the available commands"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1149
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
 #, fuzzy
-msgid "offline"
-msgstr "Желі_де емес"
+msgid "Select..."
+msgstr "Таңдау"
 
-#: ../libempathy-gtk/empathy-chat.c:1152
-msgid "invalid contact"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1155
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
 #, fuzzy
-msgid "permission denied"
-msgstr "Рұқсаты жоқ"
+msgid "_Select"
+msgstr "Таңдау"
 
-#: ../libempathy-gtk/empathy-chat.c:1158
-msgid "too long message"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1161
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
 #, fuzzy
-msgid "not implemented"
-msgstr "іске асырылмаған"
-
-#: ../libempathy-gtk/empathy-chat.c:1165
-#, fuzzy
-msgid "unknown"
-msgstr "белгісіз"
-
-#: ../libempathy-gtk/empathy-chat.c:1169
-#, fuzzy, c-format
-msgid "Error sending message '%s': %s"
-msgstr "Тікелей хабарламаны жіберу сәтсіз."
-
-#: ../libempathy-gtk/empathy-chat.c:1279 ../src/empathy-chat-window.c:691
-msgid "Topic:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1291
-#, c-format
-msgid "Topic set to: %s"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1293
-msgid "No topic defined"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1772
-msgid "(No Suggestions)"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1826
-msgid "Insert Smiley"
-msgstr ""
-
-#. send button
-#: ../libempathy-gtk/empathy-chat.c:1844
-#: ../libempathy-gtk/empathy-ui-utils.c:1800
-#, fuzzy
-msgid "_Send"
-msgstr "_Жіберу"
-
-#: ../libempathy-gtk/empathy-chat.c:1878
-msgid "_Spelling Suggestions"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:1955
-msgid "Failed to retrieve recent logs"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2061
-#, c-format
-msgid "%s has disconnected"
-msgstr ""
-
-#. translators: reverse the order of these arguments
-#. * if the kicked should come before the kicker in your locale.
-#.
-#: ../libempathy-gtk/empathy-chat.c:2068
-#, c-format
-msgid "%1$s was kicked by %2$s"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2071
-#, c-format
-msgid "%s was kicked"
-msgstr ""
-
-#. translators: reverse the order of these arguments
-#. * if the banned should come before the banner in your locale.
-#.
-#: ../libempathy-gtk/empathy-chat.c:2079
-#, c-format
-msgid "%1$s was banned by %2$s"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2082
-#, c-format
-msgid "%s was banned"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2086
-#, c-format
-msgid "%s has left the room"
-msgstr ""
-
-#. Note to translators: this string is appended to
-#. * notifications like "foo has left the room", with the message
-#. * given by the user living the room. If this poses a problem,
-#. * please let us know. :-)
-#.
-#: ../libempathy-gtk/empathy-chat.c:2095
-#, c-format
-msgid " (%s)"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2120
-#, c-format
-msgid "%s has joined the room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2145
-#, c-format
-msgid "%s is now known as %s"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2284 ../src/empathy-call-window.c:1922
-#, fuzzy
-msgid "Disconnected"
-msgstr "Байланыспаған"
-
-#: ../libempathy-gtk/empathy-chat.c:2922
-msgid "Wrong password; please try again:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2923
-#, fuzzy
-msgid "Retry"
-msgstr "Қа_йталау"
-
-#: ../libempathy-gtk/empathy-chat.c:2928
-msgid "This room is protected by a password:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-chat.c:2929
-#, fuzzy
-msgid "Join"
-msgstr "Кіру"
-
-#: ../libempathy-gtk/empathy-chat.c:3069
-#, fuzzy
-msgid "Connected"
-msgstr "Байланысқан"
-
-#: ../libempathy-gtk/empathy-chat.c:3122
-#: ../libempathy-gtk/empathy-log-window.c:653
-#, fuzzy
-msgid "Conversation"
-msgstr "Сөйлесу"
-
-#. Copy Link Address menu item
-#: ../libempathy-gtk/empathy-chat-text-view.c:324
-#: ../libempathy-gtk/empathy-theme-adium.c:791
-#, fuzzy
-msgid "_Copy Link Address"
-msgstr "Сілтеме адр_есін көшіру"
-
-#. Open Link menu item
-#: ../libempathy-gtk/empathy-chat-text-view.c:331
-#: ../libempathy-gtk/empathy-theme-adium.c:798
-#, fuzzy
-msgid "_Open Link"
-msgstr "Сі_лтемені ашу"
-
-#. Translators: timestamp displayed between conversations in
-#. * chat windows (strftime format string)
-#: ../libempathy-gtk/empathy-chat-text-view.c:424
-msgid "%A %B %d %Y"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-dialogs.c:243
-msgid "Edit Contact Information"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-dialogs.c:295
-#, fuzzy
-msgid "Personal Information"
-msgstr "Жеке ақпарат"
-
-#: ../libempathy-gtk/empathy-contact-dialogs.c:401
-#: ../libempathy-gtk/empathy-individual-dialogs.c:112
-#, fuzzy
-msgid "New Contact"
-msgstr "Жаңа контакт қосу"
-
-#: ../libempathy-gtk/empathy-contact-dialogs.ui.h:1
-msgid "Decide _Later"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-dialogs.ui.h:2
-#, fuzzy
-msgid "Subscription Request"
-msgstr "Жазылуға сұраным"
-
-#: ../libempathy-gtk/empathy-contact-list-view.c:2004
-#: ../libempathy-gtk/empathy-individual-view.c:2095
-#, c-format
-msgid "Do you really want to remove the group '%s'?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-list-view.c:2006
-#: ../libempathy-gtk/empathy-individual-view.c:2098
-msgid "Removing group"
-msgstr ""
-
-#. Remove
-#: ../libempathy-gtk/empathy-contact-list-view.c:2055
-#: ../libempathy-gtk/empathy-contact-list-view.c:2132
-#: ../libempathy-gtk/empathy-individual-view.c:2152
-#: ../libempathy-gtk/empathy-individual-view.c:2237
-#: ../src/empathy-accounts-dialog.ui.h:6
-#, fuzzy
-msgid "_Remove"
-msgstr "Ө_шіру"
-
-#: ../libempathy-gtk/empathy-contact-list-view.c:2085
-#: ../libempathy-gtk/empathy-individual-view.c:2183
-#, c-format
-msgid "Do you really want to remove the contact '%s'?"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-list-view.c:2087
-#: ../libempathy-gtk/empathy-individual-view.c:2185
-msgid "Removing contact"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:203
-#: ../libempathy-gtk/empathy-individual-menu.c:359
-#: ../src/empathy-main-window.ui.h:13
-msgid "_Add Contact…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:230
-#: ../libempathy-gtk/empathy-individual-menu.c:462
-#: ../src/empathy-main-window.ui.h:14
-#, fuzzy
-msgid "_Chat"
-msgstr "_Чатты бастау..."
-
-#: ../libempathy-gtk/empathy-contact-menu.c:260
-#: ../libempathy-gtk/empathy-individual-menu.c:503
-msgctxt "menu item"
-msgid "_Audio Call"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:290
-#: ../libempathy-gtk/empathy-individual-menu.c:545
-msgctxt "menu item"
-msgid "_Video Call"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:330
-#: ../libempathy-gtk/empathy-individual-menu.c:603
-#: ../src/empathy-main-window.ui.h:25
-msgid "_Previous Conversations"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:352
-#: ../libempathy-gtk/empathy-individual-menu.c:644
-#, fuzzy
-msgid "Send File"
-msgstr "_Файлды жіберу..."
-
-#: ../libempathy-gtk/empathy-contact-menu.c:375
-#: ../libempathy-gtk/empathy-individual-menu.c:686
-msgid "Share My Desktop"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:415
-#: ../libempathy-gtk/empathy-contact-widget.c:1801
-#: ../libempathy-gtk/empathy-individual-menu.c:720
-#, fuzzy
-msgid "Favorite"
-msgstr "Таңдамалыны ондай емес қылу"
-
-#: ../libempathy-gtk/empathy-contact-menu.c:444
-#: ../libempathy-gtk/empathy-individual-menu.c:747
-msgid "Infor_mation"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:490
-#, fuzzy
-msgctxt "Edit contact (contextual menu)"
-msgid "_Edit"
-msgstr "Тү_зету"
-
-#: ../libempathy-gtk/empathy-contact-menu.c:544
-#: ../libempathy-gtk/empathy-individual-menu.c:938
-#: ../src/empathy-chat-window.c:903
-msgid "Inviting you to this room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-menu.c:575
-#: ../libempathy-gtk/empathy-individual-menu.c:985
-msgid "_Invite to Chat Room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-selector.c:129
-msgid "Select a contact"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:219
-#, fuzzy
-msgid "Full name:"
+msgid "Full name"
 msgstr "Толық аты"
 
-#: ../libempathy-gtk/empathy-contact-widget.c:220
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
 #, fuzzy
-msgid "Phone number:"
+msgid "Phone number"
 msgstr "SMS телефонының нөмірі"
 
-#: ../libempathy-gtk/empathy-contact-widget.c:221
-msgid "E-mail address:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "E-mail address"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-contact-widget.c:222
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
 #, fuzzy
-msgid "Website:"
+msgid "Website"
 msgstr "Веб сайт:"
 
-#: ../libempathy-gtk/empathy-contact-widget.c:223
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 #, fuzzy
-msgid "Birthday:"
+msgid "Birthday"
 msgstr "<b>Туған күні:</b>"
 
-#: ../libempathy-gtk/empathy-contact-widget.c:603
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time since the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
 #, fuzzy
+msgid "Last seen:"
+msgstr "Фамилиясы:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Server:"
+msgstr "Сервер:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+#, fuzzy
+msgid "Connected from:"
+msgstr "Байланысқан"
+
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+#, fuzzy
+msgid "Away message:"
+msgstr "Хабарлама"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#, fuzzy
+msgid "work"
+msgstr "Желі"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "home"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "mobile"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "voice"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#, fuzzy
+msgid "preferred"
+msgstr "Баптаулар"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "postal"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "parcel"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+#, fuzzy
+msgctxt "verb displayed on a button to select an IRC network"
 msgid "Select"
 msgstr "Таңдау"
 
-#: ../libempathy-gtk/empathy-contact-widget.c:612
-#: ../src/empathy-main-window.c:1231
-#, fuzzy
-msgid "Group"
-msgstr "Топ"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:841
-msgid "Country ISO Code:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:843
-#, fuzzy
-msgid "Country:"
-msgstr "Ел:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:845
-#, fuzzy
-msgid "State:"
-msgstr "Күйі:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:847
-#, fuzzy
-msgid "City:"
-msgstr "<b>Қала:</b>"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:849
-#, fuzzy
-msgid "Area:"
-msgstr "Хабарламалар орны"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:851
-#, fuzzy
-msgid "Postal Code:"
-msgstr "<b>Пошта индексі:</b>"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:853
-#, fuzzy
-msgid "Street:"
-msgstr "<b>Көше:</b>"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:855
-msgid "Building:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:857
-msgid "Floor:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:859
-#, fuzzy
-msgid "Room:"
-msgstr "Бөлме:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:861
-#, fuzzy
-msgid "Text:"
-msgstr "Мәтін"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:863
-#, fuzzy
-msgid "Description:"
-msgstr "Анықтамасы:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:865
-#, fuzzy
-msgid "URI:"
-msgstr "uri"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:867
-msgid "Accuracy Level:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:869
-#, fuzzy
-msgid "Error:"
-msgstr "Қате:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:871
-msgid "Vertical Error (meters):"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:873
-msgid "Horizontal Error (meters):"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:875
-#, fuzzy
-msgid "Speed:"
-msgstr "Жылдамдығы"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:877
-msgid "Bearing:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:879
-msgid "Climb Speed:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:881
-msgid "Last Updated on:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:883
-msgid "Longitude:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:885
-msgid "Latitude:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:887
-msgid "Altitude:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:950
-#: ../src/empathy-preferences.ui.h:12
-#, fuzzy
-msgid "Location"
-msgstr "Орналасуы"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:966
-#, fuzzy
-msgid "<b>Location</b>, "
-msgstr "Ор_наласуы:"
-
-#: ../libempathy-gtk/empathy-contact-widget.c:1017
-msgid "%B %e, %Y at %R UTC"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:1100
-msgid "Save Avatar"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.c:1156
-msgid "Unable to save avatar"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:1
-msgid "<b>Location</b> at (date)\t"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:3
-#, fuzzy
-msgid "Alias:"
-msgstr "Қате алиас: \"%s\""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:4
-msgid "Client Information"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:5
-#, fuzzy
-msgid "Client:"
-msgstr "Клиент"
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:6
-msgid "Contact Details"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:7
-#, fuzzy
-msgid "Groups"
-msgstr "Топтар"
-
-#. Identifier to connect to Instant Messaging network
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:9
-msgid "Identifier:"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:10
-msgid "Information requested…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:11
-#, fuzzy
-msgid "OS:"
-msgstr "ОЖ"
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:12
-msgid ""
-"Select the groups you want this contact to appear in.  Note that you can "
-"select more than one group or no groups."
-msgstr ""
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:13
-#, fuzzy
-msgid "Version:"
-msgstr "Нұсқасы:"
-
-#: ../libempathy-gtk/empathy-contact-widget.ui.h:14
-#, fuzzy
-msgid "_Add Group"
-msgstr "'%s' тобын %s ішіне қосу керек пе?"
-
-#: ../libempathy-gtk/empathy-individual-linker.c:250
-msgid "Select contacts to link"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-individual-linker.c:298
-#, fuzzy
-msgid "New contact preview"
-msgstr "Жаңа контакт қосу"
-
-#: ../libempathy-gtk/empathy-individual-menu.c:107
-#, c-format
-msgid "%s (%s)"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-individual-menu.c:803
-#, fuzzy
-msgctxt "Edit individual (contextual menu)"
-msgid "_Edit"
-msgstr "Тү_зету"
-
-#: ../libempathy-gtk/empathy-individual-menu.c:833
-msgctxt "Link individual (contextual menu)"
-msgid "_Link…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-irc-network-dialog.c:280
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
 msgid "new server"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-irc-network-dialog.c:507
-#, fuzzy
-msgid "Server"
-msgstr "Сервері"
-
-#: ../libempathy-gtk/empathy-irc-network-dialog.c:522
-#, fuzzy
-msgid "Port"
-msgstr "Порты"
-
-#: ../libempathy-gtk/empathy-irc-network-dialog.c:535
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
 #, fuzzy
 msgid "SSL"
 msgstr "SSL"
 
-#: ../libempathy-gtk/empathy-linking-dialog.c:92
-#, fuzzy
-msgid "Link Contacts"
-msgstr "Желіде _емес контакттар"
-
-#. Add button
-#: ../libempathy-gtk/empathy-linking-dialog.c:102
-#, fuzzy
-msgid "_Link"
-msgstr "Сі_лтемені ашу"
-
-#: ../libempathy-gtk/empathy-log-window.c:646
-#: ../src/empathy-import-widget.c:312
-#, fuzzy
-msgid "Account"
-msgstr "Тіркелгі"
-
-#: ../libempathy-gtk/empathy-log-window.c:663
-#, fuzzy
-msgid "Date"
-msgstr "Уақыты"
-
-#. Tab Label
-#: ../libempathy-gtk/empathy-log-window.ui.h:2
-msgid "Conversations"
+#: ../tp-account-widgets/tpaw-keyring.c:77
+#: ../tp-account-widgets/tpaw-keyring.c:186
+msgid "Password not found"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-log-window.ui.h:3
-msgid "Find next"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-log-window.ui.h:4
-msgid "Find previous"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-log-window.ui.h:5
-msgid "Previous Conversations"
-msgstr ""
-
-#. Tab Label
-#: ../libempathy-gtk/empathy-log-window.ui.h:7
-msgid "Search"
-msgstr "Іздеу"
-
-#. Searching *for* something
-#: ../libempathy-gtk/empathy-log-window.ui.h:9
-#, fuzzy
-msgid "_For:"
-msgstr "үшін: "
-
-#: ../libempathy-gtk/empathy-contact-selector-dialog.ui.h:2
-msgid "Contact ID:"
-msgstr ""
-
-#. add chat button
-#: ../libempathy-gtk/empathy-new-message-dialog.c:145
-msgid "C_hat"
-msgstr ""
-
-#. Tweak the dialog
-#: ../libempathy-gtk/empathy-new-message-dialog.c:155
-msgid "New Conversation"
-msgstr ""
-
-#. add video toggle
-#: ../libempathy-gtk/empathy-new-call-dialog.c:205
-msgid "Send _Video"
-msgstr ""
-
-#. add chat button
-#: ../libempathy-gtk/empathy-new-call-dialog.c:213
-#: ../src/empathy-call-window.ui.h:24
-msgid "_Call"
-msgstr ""
-
-#. Tweak the dialog
-#: ../libempathy-gtk/empathy-new-call-dialog.c:223
-msgid "New Call"
-msgstr ""
-
-#. COL_STATUS_TEXT
-#. COL_STATE_ICON_NAME
-#. COL_STATE
-#. COL_DISPLAY_MARKUP
-#. COL_STATUS_CUSTOMISABLE
-#. COL_TYPE
-#: ../libempathy-gtk/empathy-presence-chooser.c:168
-#: ../libempathy-gtk/empathy-presence-chooser.c:204
-msgid "Custom Message…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-presence-chooser.c:221
-#: ../libempathy-gtk/empathy-presence-chooser.c:223
-msgid "Edit Custom Messages…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-presence-chooser.c:346
-msgid "Click to remove this status as a favorite"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-presence-chooser.c:355
-msgid "Click to make this status a favorite"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-presence-chooser.c:389
-msgid "Set status"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-presence-chooser.c:939
-msgid "Set your presence and current status"
-msgstr ""
-
-#. Custom messages
-#: ../libempathy-gtk/empathy-presence-chooser.c:1124
-msgid "Custom messages…"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-search-bar.ui.h:1
-msgid "Find:"
-msgstr "Іздеу:"
-
-#: ../libempathy-gtk/empathy-search-bar.ui.h:2
-#, fuzzy
-msgid "Match case"
-msgstr "_Регистрді ескеру"
-
-#: ../libempathy-gtk/empathy-search-bar.ui.h:3
-msgid "Phrase not found"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:50
-msgid "Received an instant message"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:52
-msgid "Sent an instant message"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:54
-msgid "Incoming chat request"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:56
-#, fuzzy
-msgid "Contact connected"
-msgstr "Контакт байланысқан"
-
-#: ../libempathy-gtk/empathy-sound.c:58
-#, fuzzy
-msgid "Contact disconnected"
-msgstr "Контакт байланыспаған"
-
-#: ../libempathy-gtk/empathy-sound.c:60
-msgid "Connected to server"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:62
-msgid "Disconnected from server"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:64
-msgid "Incoming voice call"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:66
-msgid "Outgoing voice call"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-sound.c:68
-msgid "Voice call ended"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-status-preset-dialog.c:364
-msgid "Enter Custom Message"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-status-preset-dialog.c:523
-msgid "Edit Custom Messages"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-status-preset-dialog.ui.h:1
-msgid "Add _New Preset"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-status-preset-dialog.ui.h:2
-msgid "Saved Presets"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-theme-manager.c:67
-#, fuzzy
-msgid "Classic"
-msgstr "<b>Классикалық түрі</b>"
-
-#: ../libempathy-gtk/empathy-theme-manager.c:68
-msgid "Simple"
-msgstr "Қарапайым"
-
-#: ../libempathy-gtk/empathy-theme-manager.c:69
-msgid "Clean"
-msgstr "Таза"
-
-#: ../libempathy-gtk/empathy-theme-manager.c:70
-msgid "Blue"
-msgstr "Көк"
-
-#: ../libempathy-gtk/empathy-ui-utils.c:1697
-msgid "Unable to open URI"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-ui-utils.c:1792
-msgid "Select a file"
-msgstr "Файлды таңдаңыз"
-
-#: ../libempathy-gtk/empathy-ui-utils.c:1861
+#: ../tp-account-widgets/tpaw-keyring.c:586
 #, c-format
-msgid "Incoming file from %s"
+msgid "IM account password for %s (%s)"
 msgstr ""
 
-#: ../libempathy-gtk/totem-subtitle-encoding.c:158
-msgid "Current Locale"
-msgstr "Ағымдағы локаль"
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:161
-#: ../libempathy-gtk/totem-subtitle-encoding.c:163
-#: ../libempathy-gtk/totem-subtitle-encoding.c:165
-#: ../libempathy-gtk/totem-subtitle-encoding.c:167
-msgid "Arabic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:170
-msgid "Armenian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:173
-#: ../libempathy-gtk/totem-subtitle-encoding.c:175
-#: ../libempathy-gtk/totem-subtitle-encoding.c:177
-msgid "Baltic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:180
-msgid "Celtic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:183
-#: ../libempathy-gtk/totem-subtitle-encoding.c:185
-#: ../libempathy-gtk/totem-subtitle-encoding.c:187
-#: ../libempathy-gtk/totem-subtitle-encoding.c:189
-msgid "Central European"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:192
-#: ../libempathy-gtk/totem-subtitle-encoding.c:194
-#: ../libempathy-gtk/totem-subtitle-encoding.c:196
-#: ../libempathy-gtk/totem-subtitle-encoding.c:198
-msgid "Chinese Simplified"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:201
-#: ../libempathy-gtk/totem-subtitle-encoding.c:203
-#: ../libempathy-gtk/totem-subtitle-encoding.c:205
-msgid "Chinese Traditional"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:208
-msgid "Croatian"
-msgstr "Хорватиялық"
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:211
-#: ../libempathy-gtk/totem-subtitle-encoding.c:213
-#: ../libempathy-gtk/totem-subtitle-encoding.c:215
-#: ../libempathy-gtk/totem-subtitle-encoding.c:217
-#: ../libempathy-gtk/totem-subtitle-encoding.c:219
-#: ../libempathy-gtk/totem-subtitle-encoding.c:221
-msgid "Cyrillic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:224
-msgid "Cyrillic/Russian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:227
-#: ../libempathy-gtk/totem-subtitle-encoding.c:229
-msgid "Cyrillic/Ukrainian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:232
-msgid "Georgian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:235
-#: ../libempathy-gtk/totem-subtitle-encoding.c:237
-#: ../libempathy-gtk/totem-subtitle-encoding.c:239
-msgid "Greek"
-msgstr "Грек"
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:242
-msgid "Gujarati"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:245
-msgid "Gurmukhi"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:248
-#: ../libempathy-gtk/totem-subtitle-encoding.c:250
-#: ../libempathy-gtk/totem-subtitle-encoding.c:252
-#: ../libempathy-gtk/totem-subtitle-encoding.c:254
-msgid "Hebrew"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:257
-msgid "Hebrew Visual"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:260
-msgid "Hindi"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:263
-msgid "Icelandic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:266
-#: ../libempathy-gtk/totem-subtitle-encoding.c:268
-#: ../libempathy-gtk/totem-subtitle-encoding.c:270
-msgid "Japanese"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:273
-#: ../libempathy-gtk/totem-subtitle-encoding.c:275
-#: ../libempathy-gtk/totem-subtitle-encoding.c:277
-#: ../libempathy-gtk/totem-subtitle-encoding.c:279
-msgid "Korean"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:282
-msgid "Nordic"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:285
-msgid "Persian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:288
-#: ../libempathy-gtk/totem-subtitle-encoding.c:290
-msgid "Romanian"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:293
-msgid "South European"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:296
-msgid "Thai"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:299
-#: ../libempathy-gtk/totem-subtitle-encoding.c:301
-#: ../libempathy-gtk/totem-subtitle-encoding.c:303
-#: ../libempathy-gtk/totem-subtitle-encoding.c:305
-msgid "Turkish"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:308
-#: ../libempathy-gtk/totem-subtitle-encoding.c:310
-#: ../libempathy-gtk/totem-subtitle-encoding.c:312
-#: ../libempathy-gtk/totem-subtitle-encoding.c:314
-#: ../libempathy-gtk/totem-subtitle-encoding.c:316
-msgid "Unicode"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:319
-#: ../libempathy-gtk/totem-subtitle-encoding.c:321
-#: ../libempathy-gtk/totem-subtitle-encoding.c:323
-#: ../libempathy-gtk/totem-subtitle-encoding.c:325
-#: ../libempathy-gtk/totem-subtitle-encoding.c:327
-msgid "Western"
-msgstr ""
-
-#: ../libempathy-gtk/totem-subtitle-encoding.c:330
-#: ../libempathy-gtk/totem-subtitle-encoding.c:332
-#: ../libempathy-gtk/totem-subtitle-encoding.c:334
-msgid "Vietnamese"
-msgstr "Вьетнам"
-
-#: ../nautilus-sendto-plugin/empathy-nautilus-sendto.c:108
-msgid "The selected contact cannot receive files."
-msgstr ""
-
-#: ../nautilus-sendto-plugin/empathy-nautilus-sendto.c:114
-msgid "The selected contact is offline."
-msgstr ""
-
-#: ../nautilus-sendto-plugin/empathy-nautilus-sendto.c:169
-msgid "No error message"
-msgstr ""
-
-#: ../nautilus-sendto-plugin/empathy-nautilus-sendto.c:244
-#: ../nautilus-sendto-plugin/empathy-nautilus-sendto.c:259
-msgid "Instant Message (Empathy)"
-msgstr ""
-
-#: ../src/empathy.c:414
-msgid "Don't connect on startup"
-msgstr ""
-
-#: ../src/empathy.c:418
-msgid "Don't display the contact list or any other dialogs on startup"
-msgstr ""
-
-#: ../src/empathy.c:435
-msgid "- Empathy IM Client"
-msgstr ""
-
-#: ../src/empathy-about-dialog.c:85
-msgid ""
-"Empathy is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version 2 of the License, or (at your option) any later "
-"version."
-msgstr ""
-
-#: ../src/empathy-about-dialog.c:89
-msgid ""
-"Empathy is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-
-#: ../src/empathy-about-dialog.c:93
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"Empathy; if not, write to the Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-130159 USA"
-msgstr ""
-
-#: ../src/empathy-about-dialog.c:121
-msgid "An Instant Messaging client for GNOME"
-msgstr ""
-
-#: ../src/empathy-about-dialog.c:127
-msgid "translator-credits"
-msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010"
-
-#: ../src/empathy-account-assistant.c:167
-msgid "There was an error while importing the accounts."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:170
-msgid "There was an error while parsing the account details."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:173
-msgid "There was an error while creating the account."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:175
-msgid "There was an error."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:179
+#: ../tp-account-widgets/tpaw-keyring.c:623
 #, c-format
-msgid "The error message was: %s"
+msgid "Password for chatroom '%s' on account %s (%s)"
 msgstr ""
 
-#: ../src/empathy-account-assistant.c:183
-msgid ""
-"You can either go back and try to enter your accounts' details again or quit "
-"this assistant and add accounts later from the Edit menu."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:220
-#: ../src/empathy-account-assistant.c:1311
-msgid "An error occurred"
-msgstr "Қате кетті"
-
-#. To translator: %s is the protocol name
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../src/empathy-account-assistant.c:412 ../src/empathy-accounts-dialog.c:604
+#: ../tp-account-widgets/tpaw-protocol.c:62
 #, c-format
 msgid "New %s account"
 msgstr ""
 
-#: ../src/empathy-account-assistant.c:510
-msgid "What kind of chat account do you have?"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:516
-msgid "Do you have any other chat accounts you want to set up?"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:522
-msgid "Enter your account details"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:527
-msgid "What kind of chat account do you want to create?"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:533
-msgid "Do you want to create other chat accounts?"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:540
-msgid "Enter the details for the new account"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:655
-msgid ""
-"With Empathy you can chat with people online nearby and with friends and "
-"colleagues who use Google Talk, AIM, Windows Live and many other chat "
-"programs. With a microphone or a webcam you can also have audio or video "
-"calls."
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:672
-msgid "Do you have an account you've been using with another chat program?"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:695
-msgid "Yes, import my account details from "
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:716
-msgid "Yes, I'll enter my account details now"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:738
-msgid "No, I want a new account"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:748
-msgid "No, I just want to see people online nearby for now"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:769
-msgid "Select the accounts you want to import:"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:853
-#: ../src/empathy-new-chatroom-dialog.c:607
-#: ../src/empathy-new-chatroom-dialog.c:608
-#, fuzzy
-msgid "Yes"
-msgstr "Ия"
-
-#: ../src/empathy-account-assistant.c:860
-msgid "No, that's all for now"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1125
-msgid ""
-"Empathy can automatically discover and chat with the people connected on the "
-"same network as you. If you want to use this feature, please check that the "
-"details below are correct. You can easily change these details later or "
-"disable this feature by using the 'Accounts' dialog"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1131
-#: ../src/empathy-account-assistant.c:1187
-msgid "Edit->Accounts"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1147
-msgid "I don't want to enable this feature for now"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1183
-msgid ""
-"You won't be able to chat with people connected to your local network, as "
-"telepathy-salut is not installed. If you want to enable this feature, please "
-"install the telepathy-salut package and create a People Nearby account from "
-"the Accounts dialog"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1189
-msgid "telepathy-salut not installed"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1235
-msgid "Messaging and VoIP Accounts Assistant"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1269
-msgid "Welcome to Empathy"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1278
-msgid "Import your existing accounts"
-msgstr ""
-
-#: ../src/empathy-account-assistant.c:1296
-msgid "Please enter personal details"
-msgstr ""
-
-#. The primary text of the dialog shown to the user when he is about to lose
-#. * unsaved changes
-#: ../src/empathy-accounts-dialog.c:65
+#: ../tp-account-widgets/tpaw-time.c:86
 #, c-format
-msgid "There are unsaved modifications to your %s account."
-msgstr ""
-
-#. The primary text of the dialog shown to the user when he is about to lose
-#. * an unsaved new account
-#: ../src/empathy-accounts-dialog.c:69
-msgid "Your new account has not been saved yet."
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:271 ../src/empathy-call-window.c:808
-msgid "Connecting…"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:312
-#, c-format
-msgid "Offline — %s"
-msgstr "Желіде емес — %s"
-
-#: ../src/empathy-accounts-dialog.c:324
-#, c-format
-msgid "Disconnected — %s"
-msgstr "Байланыспаған — %s"
-
-#: ../src/empathy-accounts-dialog.c:335
-msgid "Offline — No Network Connection"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:342
-msgid "Unknown Status"
-msgstr "Қалып-күйі белгісіз"
-
-#: ../src/empathy-accounts-dialog.c:354
-msgid "Offline — Account Disabled"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:795
-msgid ""
-"You are about to create a new account, which will discard\n"
-"your changes. Are you sure you want to proceed?"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:1142
-#, c-format
-msgid "Do you want to remove %s from your computer?"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:1146
-msgid "This will not remove your account on the server."
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:1383
-msgid ""
-"You are about to select another account, which will discard\n"
-"your changes. Are you sure you want to proceed?"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.c:1960
-msgid ""
-"You are about to close the window, which will discard\n"
-"your changes. Are you sure you want to proceed?"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.ui.h:1
-msgid "No protocol installed"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.ui.h:2
-msgid "Protocol:"
-msgstr "Хаттама:"
-
-#: ../src/empathy-accounts-dialog.ui.h:3
-msgid ""
-"To add a new account, you first have to install a backend for each protocol "
-"you want to use."
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.ui.h:4
-msgid "_Add…"
-msgstr ""
-
-#: ../src/empathy-accounts-dialog.ui.h:5
-msgid "_Import…"
-msgstr ""
-
-#: ../src/empathy-auto-salut-account-helper.c:78
-msgid "People nearby"
-msgstr ""
-
-#: ../src/empathy-av.c:133
-msgid "- Empathy Audio/Video Client"
-msgstr ""
-
-#: ../src/empathy-av.c:149
-msgid "Empathy Audio/Video Client"
-msgstr ""
-
-#: ../src/empathy-call-window.c:479
-msgid "Contrast"
-msgstr ""
-
-#: ../src/empathy-call-window.c:482
-msgid "Brightness"
-msgstr "Жарықтылығы"
-
-#: ../src/empathy-call-window.c:485
-msgid "Gamma"
-msgstr "Гамма"
-
-#: ../src/empathy-call-window.c:590
-msgid "Volume"
-msgstr "Дыбысы"
-
-#: ../src/empathy-call-window.c:1163
-msgid "_Sidebar"
-msgstr "_Бүйір панелі"
-
-#: ../src/empathy-call-window.c:1182
-msgid "Audio input"
-msgstr "Аудио кірісі"
-
-#: ../src/empathy-call-window.c:1186
-msgid "Video input"
-msgstr "Видео кірісі"
-
-#: ../src/empathy-call-window.c:1190
-msgid "Dialpad"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1195
-msgid "Details"
-msgstr "Көбірек білу"
-
-#. translators: Call is a noun and %s is the contact name. This string
-#. * is used in the window title
-#: ../src/empathy-call-window.c:1263
-#, c-format
-msgid "Call with %s"
-msgstr ""
-
-#. translators: Call is a noun. This string is used in the window
-#. * title
-#: ../src/empathy-call-window.c:1342
-msgid "Call"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1496
-msgid "The IP address as seen by the machine"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1498
-msgid "The IP address as seen by a server on the Internet"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1500
-msgid "The IP address of the peer as seen by the other side"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1502
-msgid "The IP address of a relay server"
-msgstr ""
-
-#: ../src/empathy-call-window.c:1504
-msgid "The IP address of the multicast group"
-msgstr ""
-
-#. Translators: number of minutes:seconds the caller has been connected
-#: ../src/empathy-call-window.c:2237
-#, c-format
-msgid "Connected — %d:%02dm"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2298
-msgid "Technical Details"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2336
-#, c-format
-msgid ""
-"%s's software does not understand any of the audio formats supported by your "
-"computer"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2341
-#, c-format
-msgid ""
-"%s's software does not understand any of the video formats supported by your "
-"computer"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2347
-#, c-format
-msgid ""
-"Can't establish a connection to %s. One of you might be on a network that "
-"does not allow direct connections."
-msgstr ""
-
-#: ../src/empathy-call-window.c:2353
-msgid "There was a failure on the network"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2357
-msgid ""
-"The audio formats necessary for this call are not installed on your computer"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2360
-msgid ""
-"The video formats necessary for this call are not installed on your computer"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2370
-#, c-format
-msgid ""
-"Something unexpected happened in a Telepathy component. Please <a href=\"%s"
-"\">report this bug</a> and attach logs gathered from the 'Debug' window in "
-"the Help menu."
-msgstr ""
-
-#: ../src/empathy-call-window.c:2378
-msgid "There was a failure in the call engine"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2381
-msgid "The end of the stream was reached"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2421
-msgid "Can't establish audio stream"
-msgstr ""
-
-#: ../src/empathy-call-window.c:2431
-msgid "Can't establish video stream"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:1
-msgid "Audio"
-msgstr "Аудио"
-
-#: ../src/empathy-call-window.ui.h:2
-msgid "Call the contact again"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:3
-msgid "Camera Off"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:4
-msgid "Camera On"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:5
-msgid "Decoding Codec:"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:6
-msgid "Disable camera and stop sending video"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:7
-msgid "Enable camera and send video"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:8
-msgid "Enable camera but don't send video"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:9
-msgid "Encoding Codec:"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:10
-msgid "Hang up"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:11
-msgid "Hang up current call"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:12
-msgid "Local Candidate:"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:13
-msgid "Preview"
-msgstr "Алдын-ала қарау"
-
-#: ../src/empathy-call-window.ui.h:14
-msgid "Redial"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:15
-msgid "Remote Candidate:"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:16
-msgid "Send Audio"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:17
-msgid "Toggle audio transmission"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:19
-msgid "V_ideo"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:20
-msgid "Video"
-msgstr "Видео"
-
-#: ../src/empathy-call-window.ui.h:21
-msgid "Video Off"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:22
-#, fuzzy
-msgid "Video On"
-msgstr "Видеофонда"
-
-#: ../src/empathy-call-window.ui.h:23
-msgid "Video Preview"
-msgstr ""
-
-#: ../src/empathy-call-window.ui.h:25 ../src/empathy-main-window.ui.h:27
-msgid "_View"
-msgstr "_Түрі"
-
-#: ../src/empathy-chat-window.c:452 ../src/empathy-chat-window.c:472
-#, fuzzy, c-format
-msgid "%s (%d unread)"
-msgid_plural "%s (%d unread)"
-msgstr[0] "Оқылмаған оқиғалар"
-msgstr[1] ""
-
-#: ../src/empathy-chat-window.c:464
-#, c-format
-msgid "%s (and %u other)"
-msgid_plural "%s (and %u others)"
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/empathy-chat-window.c:480
+#: ../tp-account-widgets/tpaw-time.c:92
+#, fuzzy, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "шамамен бір минут бұрын"
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, fuzzy, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "шамамен бір сағат бұрын"
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, fuzzy, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d күн бұрын"
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:110
 #, c-format
-msgid "%s (%d unread from others)"
-msgid_plural "%s (%d unread from others)"
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/empathy-chat-window.c:489
-#, c-format
-msgid "%s (%d unread from all)"
-msgid_plural "%s (%d unread from all)"
-msgstr[0] ""
+#: ../tp-account-widgets/tpaw-time.c:116
+#, fuzzy, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "шамамен бір ай бұрын"
 msgstr[1] ""
 
-#: ../src/empathy-chat-window.c:695
-msgid "Typing a message."
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
 msgstr ""
 
-#: ../src/empathy-chat-window.ui.h:1
-msgid "C_lear"
+#: ../tp-account-widgets/tpaw-user-info.c:394
+msgid "Go online to edit your personal information."
 msgstr ""
 
-#: ../src/empathy-chat-window.ui.h:2
-msgid "C_ontact"
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:454
+msgid "Identifier"
 msgstr ""
 
-#: ../src/empathy-chat-window.ui.h:3
-msgid "Chat"
-msgstr "Чат"
-
-#: ../src/empathy-chat-window.ui.h:4
-msgid "Insert _Smiley"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:5
-msgid "Invite _Participant…"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:6
-msgid "Move Tab _Left"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:7
-msgid "Move Tab _Right"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:8
-msgid "Notify for All Messages"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:9 ../src/empathy-main-window.ui.h:16
-msgid "_Contents"
-msgstr "Құра_масы"
-
-#: ../src/empathy-chat-window.ui.h:10
-msgid "_Conversation"
-msgstr "Сөйле_су"
-
-#: ../src/empathy-chat-window.ui.h:11
-msgid "_Detach Tab"
-msgstr "Бетті бө_ліп жіберу"
-
-#: ../src/empathy-chat-window.ui.h:12 ../src/empathy-main-window.ui.h:18
-msgid "_Edit"
-msgstr "Тү_зету"
-
-#: ../src/empathy-chat-window.ui.h:13
-msgid "_Favorite Chat Room"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:14 ../src/empathy-main-window.ui.h:20
-msgid "_Help"
-msgstr "_Көмек"
-
-#: ../src/empathy-chat-window.ui.h:15
-msgid "_Next Tab"
-msgstr "_Келесі бет"
-
-#: ../src/empathy-chat-window.ui.h:16
-msgid "_Previous Tab"
-msgstr "А_лдыңғы бет"
-
-#: ../src/empathy-chat-window.ui.h:17 ../src/empathy-status-icon.ui.h:5
-msgid "_Show Contact List"
-msgstr ""
-
-#: ../src/empathy-chat-window.ui.h:18
-msgid "_Tabs"
-msgstr "Б_еттер"
-
-#: ../src/empathy-chat-window.ui.h:19
-msgid "_Undo Close Tab"
-msgstr ""
-
-#: ../src/empathy-chatrooms-window.c:241
-msgid "Name"
-msgstr "Аты"
-
-#: ../src/empathy-chatrooms-window.c:259
-msgid "Room"
-msgstr "Бөлме:"
-
-#: ../src/empathy-chatrooms-window.c:267
-msgid "Auto-Connect"
-msgstr ""
-
-#: ../src/empathy-chatrooms-window.ui.h:2
-msgid "Manage Favorite Rooms"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:468
-msgid "Incoming video call"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:468
-msgid "Incoming call"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:472
-#, c-format
-msgid "%s is video calling you. Do you want to answer?"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:473
-#, c-format
-msgid "%s is calling you. Do you want to answer?"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:476 ../src/empathy-event-manager.c:618
-#, c-format
-msgid "Incoming call from %s"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:501
-msgid "_Reject"
-msgstr "Та_йдыру"
-
-#: ../src/empathy-event-manager.c:507
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:459
 #, fuzzy
-msgid "_Answer"
-msgstr "Қате жауап"
+msgid "Alias"
+msgstr "Қате алиас: \"%s\""
 
-#: ../src/empathy-event-manager.c:618
-#, c-format
-msgid "Incoming video call from %s"
+#: ../tp-account-widgets/tpaw-user-info.c:474
+msgid "<b>Personal Details</b>"
 msgstr ""
 
-#: ../src/empathy-event-manager.c:695
-msgid "Room invitation"
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
 msgstr ""
 
-#: ../src/empathy-event-manager.c:697
-#, c-format
-msgid "Invitation to join %s"
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
 msgstr ""
 
-#: ../src/empathy-event-manager.c:704
-#, c-format
-msgid "%s is inviting you to join %s"
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
 msgstr ""
 
-#: ../src/empathy-event-manager.c:712
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr ""
+
+#~ msgid "IM Client"
+#~ msgstr "Жедел хабарласу қолданбасы"
+
+#~ msgid ""
+#~ "Character to add after nickname when using nick completion (tab) in group "
+#~ "chat."
+#~ msgstr ""
+#~ "Топтық чатта ник аттарын автотолықтыру (tab пернесі) қолдану кезінде ник "
+#~ "атының артына қосылатын таңба."
+
+#~ msgid "Show offline contacts"
+#~ msgstr "Желіде еместерді көрсету"
+
+#~ msgid "Available"
+#~ msgstr "Бар"
+
+#~ msgid "Busy"
+#~ msgstr "Бос емес"
+
+#~ msgid "Away"
+#~ msgstr "Кетіп қалған"
+
+#~ msgid "Invisible"
+#~ msgstr "Жасырын"
+
+#~ msgid "Offline"
+#~ msgstr "Желіде емес"
+
+#~ msgid "Unknown"
+#~ msgstr "Белгісіз"
+
+#~ msgid "Certificate expired"
+#~ msgstr "Сертификат мерзімі біткен"
+
+#~ msgid "Certificate self-signed"
+#~ msgstr "Өздігінен қолтаңбасы бар сертификат"
+
 #, fuzzy
-msgid "_Decline"
-msgstr "Лицензияны қабылдамау"
+#~ msgid "Certificate is invalid"
+#~ msgstr "Өздігінен қолтаңбасы бар сертификат"
 
-#: ../src/empathy-event-manager.c:717
-#: ../src/empathy-new-chatroom-dialog.ui.h:7
 #, fuzzy
-msgid "_Join"
-msgstr "_Кіру"
+#~ msgid "Certificate has been revoked"
+#~ msgstr "Сертификат мерзімі біткен"
 
-#: ../src/empathy-event-manager.c:755
-#, c-format
-msgid "%s invited you to join %s"
-msgstr ""
+#~ msgid "All"
+#~ msgstr "Барлығы"
 
-#: ../src/empathy-event-manager.c:782
-#, c-format
-msgid "Incoming file transfer from %s"
-msgstr ""
+#~ msgid "Account:"
+#~ msgstr "Тіркелгі:"
 
-#: ../src/empathy-event-manager.c:983
-#, c-format
-msgid "Subscription requested by %s"
-msgstr ""
+#~ msgid "Enabled"
+#~ msgstr "Қосулы"
 
-#: ../src/empathy-event-manager.c:987
-#, c-format
-msgid ""
-"\n"
-"Message: %s"
-msgstr ""
-
-#: ../src/empathy-event-manager.c:1030
-#, c-format
-msgid "%s is now offline."
-msgstr ""
-
-#: ../src/empathy-event-manager.c:1050
-#, c-format
-msgid "%s is now online."
-msgstr ""
-
-#. Translators: time left, when it is more than one hour
-#: ../src/empathy-ft-manager.c:99
-#, c-format
-msgid "%u:%02u.%02u"
-msgstr ""
-
-#. Translators: time left, when is is less than one hour
-#: ../src/empathy-ft-manager.c:102
-#, c-format
-msgid "%02u.%02u"
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:178
-msgctxt "file transfer percent"
-msgid "Unknown"
-msgstr "Белгісіз"
-
-#: ../src/empathy-ft-manager.c:273
-#, fuzzy, c-format
-msgid "%s of %s at %s/s"
-msgstr "қайда:"
-
-#: ../src/empathy-ft-manager.c:274
-#, c-format
-msgid "%s of %s"
-msgstr ""
-
-#. translators: first %s is filename, second %s is the contact name
-#: ../src/empathy-ft-manager.c:305
-#, c-format
-msgid "Receiving \"%s\" from %s"
-msgstr ""
-
-#. translators: first %s is filename, second %s is the contact name
-#: ../src/empathy-ft-manager.c:308
-#, c-format
-msgid "Sending \"%s\" to %s"
-msgstr ""
-
-#. translators: first %s is filename, second %s
-#. * is the contact name
-#: ../src/empathy-ft-manager.c:338
-#, c-format
-msgid "Error receiving \"%s\" from %s"
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:341
-msgid "Error receiving a file"
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:346
-#, c-format
-msgid "Error sending \"%s\" to %s"
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:349
-msgid "Error sending a file"
-msgstr ""
-
-#. translators: first %s is filename, second %s
-#. * is the contact name
-#: ../src/empathy-ft-manager.c:488
-#, c-format
-msgid "\"%s\" received from %s"
-msgstr ""
-
-#. translators: first %s is filename, second %s
-#. * is the contact name
-#: ../src/empathy-ft-manager.c:493
-#, fuzzy, c-format
-msgid "\"%s\" sent to %s"
-msgstr "%s үшін түрту жіберілді"
-
-#: ../src/empathy-ft-manager.c:496
-msgid "File transfer completed"
-msgstr "Файлдармен алмасу аяқталды"
-
-#: ../src/empathy-ft-manager.c:615 ../src/empathy-ft-manager.c:782
-msgid "Waiting for the other participant's response"
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:641 ../src/empathy-ft-manager.c:679
-#, c-format
-msgid "Checking integrity of \"%s\""
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:644 ../src/empathy-ft-manager.c:682
-#, c-format
-msgid "Hashing \"%s\""
-msgstr ""
-
-#: ../src/empathy-ft-manager.c:996
-msgid "%"
-msgstr "%"
-
-#: ../src/empathy-ft-manager.c:1008
-msgid "File"
-msgstr "Файл"
-
-#: ../src/empathy-ft-manager.c:1030
 #, fuzzy
-msgid "Remaining"
-msgstr "%s қалды"
+#~ msgid "Network:"
+#~ msgstr "Желі"
 
-#: ../src/empathy-ft-manager.ui.h:1
-msgid "File Transfers"
-msgstr "Файлдармен алмасулар"
+#~ msgid "_Nickname:"
+#~ msgstr "_Ник аты:"
 
-#: ../src/empathy-ft-manager.ui.h:2
-msgid "Remove completed, canceled and failed file transfers from the list"
-msgstr ""
+#~ msgid "Port:"
+#~ msgstr "Порты:"
 
-#: ../src/empathy-import-dialog.c:84
-msgid ""
-"No accounts to import could be found. Empathy currently only supports "
-"importing accounts from Pidgin."
-msgstr ""
-
-#: ../src/empathy-import-dialog.c:199
-msgid "Import Accounts"
-msgstr ""
-
-#. Translators: this is the header of a treeview column
-#: ../src/empathy-import-widget.c:292
 #, fuzzy
-msgid "Import"
-msgstr "Қазір импорттау"
+#~ msgid "Usage: %s"
+#~ msgstr "Қолданылуы:"
 
-#: ../src/empathy-import-widget.c:301
-msgid "Protocol"
-msgstr "Хаттама"
-
-#: ../src/empathy-import-widget.c:325
 #, fuzzy
-msgid "Source"
-msgstr "Бастапқы кодтары"
+#~ msgid "offline"
+#~ msgstr "Желі_де емес"
 
-#. Labels for empty contact list
-#: ../src/empathy-main-window.c:95
-msgid "No match found"
-msgstr ""
-
-#: ../src/empathy-main-window.c:519
-msgid "Reconnect"
-msgstr "Қайта байланысу"
-
-#: ../src/empathy-main-window.c:525
-msgid "Edit Account"
-msgstr ""
-
-#: ../src/empathy-main-window.c:531
-msgid "Close"
-msgstr "Жабу"
-
-#: ../src/empathy-main-window.c:1213
-msgid "Contact"
-msgstr "Контакт"
-
-#: ../src/empathy-main-window.c:1538
-msgid "Contact List"
-msgstr ""
-
-#: ../src/empathy-main-window.c:1647
-msgid "Show and edit accounts"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:1
-msgid "Contacts on a _Map"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:2
 #, fuzzy
-msgid "Context"
-msgstr "жауап берген"
+#~ msgid "permission denied"
+#~ msgstr "Рұқсаты жоқ"
 
-#: ../src/empathy-main-window.ui.h:3
-msgid "Join _Favorites"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:4
-msgid "Manage Favorites"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:5
-msgid "N_ormal Size"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:6 ../src/empathy-status-icon.ui.h:1
-msgid "New _Call…"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:7
-msgid "Normal Size With _Avatars"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:8
 #, fuzzy
-msgid "P_references"
-msgstr "Байланыстар"
+#~ msgid "not implemented"
+#~ msgstr "іске асырылмаған"
 
-#: ../src/empathy-main-window.ui.h:9
-msgid "Show P_rotocols"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:10
-msgid "Sort by _Name"
-msgstr "Аты бойы_нша сұрыптау"
-
-#: ../src/empathy-main-window.ui.h:11
-msgid "Sort by _Status"
-msgstr "Күйі бо_йынша сұрыптау"
-
-#: ../src/empathy-main-window.ui.h:12
-msgid "_Accounts"
-msgstr "_Тіркелгілер"
-
-#: ../src/empathy-main-window.ui.h:15
-msgid "_Compact Size"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:17
-msgid "_Debug"
-msgstr "Жө_ндеу"
-
-#: ../src/empathy-main-window.ui.h:19
-msgid "_File Transfers"
-msgstr "Фа_йлдармен алмасу"
-
-#: ../src/empathy-main-window.ui.h:21
-msgid "_Join…"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:22 ../src/empathy-status-icon.ui.h:3
-msgid "_New Conversation…"
-msgstr ""
-
-#: ../src/empathy-main-window.ui.h:23
-msgid "_Offline Contacts"
-msgstr "Желіде _емес контакттар"
-
-#: ../src/empathy-main-window.ui.h:24
-msgid "_Personal Information"
-msgstr "Ж_еке ақпарат"
-
-#: ../src/empathy-main-window.ui.h:26
-msgid "_Room"
-msgstr "Бөл_ме"
-
-#: ../src/empathy-new-chatroom-dialog.c:379
-msgid "Chat Room"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.c:395
-msgid "Members"
-msgstr "Мүшелер"
-
-#. Translators: Room/Join's roomlist tooltip. Parameters are a channel name,
-#. yes/no, yes/no and a number.
-#: ../src/empathy-new-chatroom-dialog.c:605
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"Invite required: %s\n"
-"Password required: %s\n"
-"Members: %s"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.c:607
-#: ../src/empathy-new-chatroom-dialog.c:608
-msgid "No"
-msgstr "Жоқ"
-
-#: ../src/empathy-new-chatroom-dialog.c:635
-msgid "Could not start room listing"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.c:645
-msgid "Could not stop room listing"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:2
-msgid "Couldn't load room list"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:3
-msgid ""
-"Enter the room name to join here or click on one or more rooms in the list."
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:4
-msgid ""
-"Enter the server which hosts the room, or leave it empty if the room is on "
-"the current account's server"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:5
-msgid "Join Room"
-msgstr "Чат бөлмесіне кіру"
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:6
-msgid "Room List"
-msgstr ""
-
-#: ../src/empathy-new-chatroom-dialog.ui.h:8
-msgid "_Room:"
-msgstr "Бөл_ме:"
-
-#: ../src/empathy-preferences.c:138
-msgid "Message received"
-msgstr "Хабарлама алынды"
-
-#: ../src/empathy-preferences.c:139
-msgid "Message sent"
-msgstr "Хабарлама жіберілді"
-
-#: ../src/empathy-preferences.c:140
-msgid "New conversation"
-msgstr ""
-
-#: ../src/empathy-preferences.c:141
-msgid "Contact goes online"
-msgstr ""
-
-#: ../src/empathy-preferences.c:142
-msgid "Contact goes offline"
-msgstr ""
-
-#: ../src/empathy-preferences.c:143
-msgid "Account connected"
-msgstr ""
-
-#: ../src/empathy-preferences.c:144
-msgid "Account disconnected"
-msgstr ""
-
-#: ../src/empathy-preferences.c:445
-msgid "Language"
-msgstr "Тіл"
-
-#: ../src/empathy-preferences.c:882
-msgid "Preferences"
-msgstr "Баптаулар"
-
-#: ../src/empathy-preferences.ui.h:1
-msgid "Appearance"
-msgstr "Сыртқы түрі"
-
-#: ../src/empathy-preferences.ui.h:2
-msgid "Behavior"
-msgstr "Мінез-құлығы"
-
-#: ../src/empathy-preferences.ui.h:3
-msgid "Chat Th_eme:"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:4
-msgid "Disable notifications when _away or busy"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:5
-msgid "Disable sounds when _away or busy"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:6
-msgid "Display incoming events in the notification area"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:7
-msgid "Enable notifications when a contact comes online"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:8
-msgid "Enable notifications when a contact goes offline"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:9
-msgid "Enable notifications when the _chat is not focused"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:10
-msgid "Enable spell checking for languages:"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:11
-msgid "General"
-msgstr "Жалпы"
-
-#: ../src/empathy-preferences.ui.h:13
-msgid "Location sources:"
-msgstr ""
-
-#: ../src/empathy-preferences.ui.h:14
 #, fuzzy
-msgid "Log conversations"
-msgstr "Сөйлесу"
+#~ msgid "unknown"
+#~ msgstr "белгісіз"
 
-#: ../src/empathy-preferences.ui.h:15
-msgid "Notifications"
-msgstr "Хабарламалар"
+#, fuzzy
+#~ msgid "Error sending message '%s': %s"
+#~ msgstr "Тікелей хабарламаны жіберу сәтсіз."
 
-#: ../src/empathy-preferences.ui.h:16
-msgid "Play sound for events"
-msgstr ""
+#, fuzzy
+#~ msgid "_Send"
+#~ msgstr "_Жіберу"
 
-#: ../src/empathy-preferences.ui.h:17
-msgid "Privacy"
-msgstr "Жекелік"
+#, fuzzy
+#~ msgid "Disconnected"
+#~ msgstr "Байланыспаған"
 
-#: ../src/empathy-preferences.ui.h:18
-msgid ""
-"Reduced location accuracy means that nothing more precise than your city, "
-"state and country will be published.  GPS coordinates will be accurate to 1 "
-"decimal place."
-msgstr ""
+#, fuzzy
+#~ msgid "Retry"
+#~ msgstr "Қа_йталау"
 
-#: ../src/empathy-preferences.ui.h:19
-msgid "Show _smileys as images"
-msgstr ""
+#, fuzzy
+#~ msgid "Join"
+#~ msgstr "Кіру"
 
-#: ../src/empathy-preferences.ui.h:20
-msgid "Show contact _list in rooms"
-msgstr ""
+#, fuzzy
+#~ msgid "Conversation"
+#~ msgstr "Сөйлесу"
 
-#: ../src/empathy-preferences.ui.h:21
-msgid "Sounds"
-msgstr "Дыбыстар"
+#, fuzzy
+#~ msgid "_Copy Link Address"
+#~ msgstr "Сілтеме адр_есін көшіру"
 
-#: ../src/empathy-preferences.ui.h:22
-msgid "Spell Checking"
-msgstr ""
+#, fuzzy
+#~ msgid "_Open Link"
+#~ msgstr "Сі_лтемені ашу"
 
-#: ../src/empathy-preferences.ui.h:23
-msgid ""
-"The list of languages reflects only the languages for which you have a "
-"dictionary installed."
-msgstr ""
+#, fuzzy
+#~ msgid "Personal Information"
+#~ msgstr "Жеке ақпарат"
 
-#: ../src/empathy-preferences.ui.h:24
-msgid "Themes"
-msgstr "Темалар"
+#, fuzzy
+#~ msgid "New Contact"
+#~ msgstr "Жаңа контакт қосу"
 
-#: ../src/empathy-preferences.ui.h:25
-msgid "_Automatically connect on startup"
-msgstr ""
+#, fuzzy
+#~ msgid "Subscription Request"
+#~ msgstr "Жазылуға сұраным"
 
-#: ../src/empathy-preferences.ui.h:26
-msgid "_Cellphone"
-msgstr ""
+#, fuzzy
+#~ msgid "_Chat"
+#~ msgstr "_Чатты бастау..."
 
-#: ../src/empathy-preferences.ui.h:27
-msgid "_Enable bubble notifications"
-msgstr ""
+#, fuzzy
+#~ msgid "Send File"
+#~ msgstr "_Файлды жіберу..."
 
-#: ../src/empathy-preferences.ui.h:28
-msgid "_Enable sound notifications"
-msgstr ""
+#, fuzzy
+#~ msgid "Favorite"
+#~ msgstr "Таңдамалыны ондай емес қылу"
 
-#: ../src/empathy-preferences.ui.h:29
-msgid "_GPS"
-msgstr ""
+#, fuzzy
+#~ msgctxt "Edit contact (contextual menu)"
+#~ msgid "_Edit"
+#~ msgstr "Тү_зету"
 
-#: ../src/empathy-preferences.ui.h:30
-msgid "_Network (IP, Wi-Fi)"
-msgstr ""
+#, fuzzy
+#~ msgid "Group"
+#~ msgstr "Топ"
 
-#: ../src/empathy-preferences.ui.h:31
-msgid "_Open new chats in separate windows"
-msgstr ""
+#, fuzzy
+#~ msgid "Country:"
+#~ msgstr "Ел:"
 
-#: ../src/empathy-preferences.ui.h:32
-msgid "_Publish location to my contacts"
-msgstr ""
+#, fuzzy
+#~ msgid "State:"
+#~ msgstr "Күйі:"
 
-#. To translators: The longitude and latitude are rounded to closest 0,1 degrees, so for example 146,2345° is rounded to round(146,2345*10)/10 = 146,2 degrees.
-#: ../src/empathy-preferences.ui.h:34
-msgid "_Reduce location accuracy"
-msgstr ""
+#, fuzzy
+#~ msgid "City:"
+#~ msgstr "<b>Қала:</b>"
 
-#: ../src/empathy-status-icon.c:141
-msgid "Respond"
-msgstr ""
+#, fuzzy
+#~ msgid "Area:"
+#~ msgstr "Хабарламалар орны"
 
-#: ../src/empathy-status-icon.c:147
-msgid "Reject"
-msgstr "Тайдыру"
+#, fuzzy
+#~ msgid "Postal Code:"
+#~ msgstr "<b>Пошта индексі:</b>"
 
-#: ../src/empathy-status-icon.c:151
-msgid "Answer"
-msgstr "Жауап"
+#, fuzzy
+#~ msgid "Street:"
+#~ msgstr "<b>Көше:</b>"
 
-#: ../src/empathy-status-icon.c:158
-msgid "Decline"
-msgstr "Қабылдамау"
+#, fuzzy
+#~ msgid "Room:"
+#~ msgstr "Бөлме:"
 
-#: ../src/empathy-status-icon.c:162
-msgid "Accept"
-msgstr "Қабылдау"
+#, fuzzy
+#~ msgid "Text:"
+#~ msgstr "Мәтін"
 
-#: ../src/empathy-status-icon.ui.h:2
-msgid "Status"
-msgstr "Күйі"
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "Анықтамасы:"
 
-#: ../src/empathy-status-icon.ui.h:4
-msgid "_Quit"
-msgstr "_Шығу"
+#, fuzzy
+#~ msgid "URI:"
+#~ msgstr "uri"
 
-#: ../src/empathy-map-view.c:452
-msgid "Contact Map View"
-msgstr ""
+#, fuzzy
+#~ msgid "Error:"
+#~ msgstr "Қате:"
 
-#: ../src/empathy-debug-window.c:1219
-msgid "Save"
-msgstr "Сақтау"
+#, fuzzy
+#~ msgid "Speed:"
+#~ msgstr "Жылдамдығы"
 
-#: ../src/empathy-debug-window.c:1395
-msgid "Debug Window"
-msgstr ""
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "Орналасуы"
 
-#: ../src/empathy-debug-window.c:1475
-msgid "Pause"
-msgstr "Аялдату"
+#, fuzzy
+#~ msgid "<b>Location</b>, "
+#~ msgstr "Ор_наласуы:"
 
-#: ../src/empathy-debug-window.c:1487
-msgid "Level "
-msgstr "Деңгейі"
+#, fuzzy
+#~ msgid "Client:"
+#~ msgstr "Клиент"
 
-#: ../src/empathy-debug-window.c:1507
-msgid "Debug"
-msgstr "Жөндеу"
+#, fuzzy
+#~ msgid "Groups"
+#~ msgstr "Топтар"
 
-#: ../src/empathy-debug-window.c:1513
-msgid "Info"
-msgstr "Мәлімет"
+#, fuzzy
+#~ msgid "OS:"
+#~ msgstr "ОЖ"
 
-#: ../src/empathy-debug-window.c:1519 ../src/empathy-debug-window.c:1568
-msgid "Message"
-msgstr "Хабарлама"
+#, fuzzy
+#~ msgid "Version:"
+#~ msgstr "Нұсқасы:"
 
-#: ../src/empathy-debug-window.c:1525
-msgid "Warning"
-msgstr "Ескерту"
+#, fuzzy
+#~ msgid "_Add Group"
+#~ msgstr "'%s' тобын %s ішіне қосу керек пе?"
 
-#: ../src/empathy-debug-window.c:1531
-msgid "Critical"
-msgstr "Критикалық"
+#, fuzzy
+#~ msgid "New contact preview"
+#~ msgstr "Жаңа контакт қосу"
 
-#: ../src/empathy-debug-window.c:1537
-msgid "Error"
-msgstr "Қате"
+#, fuzzy
+#~ msgctxt "Edit individual (contextual menu)"
+#~ msgid "_Edit"
+#~ msgstr "Тү_зету"
 
-#: ../src/empathy-debug-window.c:1556
-msgid "Time"
-msgstr "Уақыты"
+#, fuzzy
+#~ msgid "Link Contacts"
+#~ msgstr "Желіде _емес контакттар"
 
-#: ../src/empathy-debug-window.c:1559
-msgid "Domain"
-msgstr "Домен"
+#, fuzzy
+#~ msgid "_Link"
+#~ msgstr "Сі_лтемені ашу"
 
-#: ../src/empathy-debug-window.c:1561
-msgid "Category"
-msgstr ""
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "Уақыты"
 
-#: ../src/empathy-debug-window.c:1563
-msgid "Level"
-msgstr "Деңгей"
+#~ msgid "Search"
+#~ msgstr "Іздеу"
 
-#: ../src/empathy-debug-window.c:1600
-msgid ""
-"The selected connection manager does not support the remote debugging "
-"extension."
-msgstr ""
+#, fuzzy
+#~ msgid "_For:"
+#~ msgstr "үшін: "
 
-#: ../src/empathy-invite-participant-dialog.c:34
-#: ../src/empathy-invite-participant-dialog.c:48
-msgid "Invite Participant"
-msgstr ""
+#~ msgid "Find:"
+#~ msgstr "Іздеу:"
 
-#: ../src/empathy-invite-participant-dialog.c:35
-msgid "Choose a contact to invite into the conversation:"
-msgstr ""
+#, fuzzy
+#~ msgid "Match case"
+#~ msgstr "_Регистрді ескеру"
 
-#: ../src/empathy-invite-participant-dialog.c:45
-msgid "Invite"
-msgstr "Шақыру"
+#, fuzzy
+#~ msgid "Contact connected"
+#~ msgstr "Контакт байланысқан"
 
-#: ../src/empathy-accounts.c:182
-msgid "Don't display any dialogs; do any work (eg, importing) and exit"
-msgstr ""
+#, fuzzy
+#~ msgid "Contact disconnected"
+#~ msgstr "Контакт байланыспаған"
 
-#: ../src/empathy-accounts.c:186
-msgid "Don't display any dialogs if there are any non-salut accounts"
-msgstr ""
+#, fuzzy
+#~ msgid "Classic"
+#~ msgstr "<b>Классикалық түрі</b>"
 
-#: ../src/empathy-accounts.c:190
-msgid "Initially select given account (eg, gabble/jabber/foo_40example_2eorg0)"
-msgstr ""
+#~ msgid "Simple"
+#~ msgstr "Қарапайым"
 
-#: ../src/empathy-accounts.c:192
-msgid "<account-id>"
-msgstr ""
+#~ msgid "Clean"
+#~ msgstr "Таза"
 
-#: ../src/empathy-accounts.c:200
-msgid "- Empathy Accounts"
-msgstr ""
+#~ msgid "Blue"
+#~ msgstr "Көк"
 
-#: ../src/empathy-accounts.c:216
-msgid "Empathy Accounts"
-msgstr ""
+#~ msgid "Select a file"
+#~ msgstr "Файлды таңдаңыз"
 
-#: ../src/empathy-debugger.c:40
-msgid "Empathy Debugger"
-msgstr ""
+#~ msgid "translator-credits"
+#~ msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010"
+
+#~ msgid "An error occurred"
+#~ msgstr "Қате кетті"
+
+#, fuzzy
+#~ msgid "Yes"
+#~ msgstr "Ия"
+
+#~ msgid "Offline — %s"
+#~ msgstr "Желіде емес — %s"
+
+#~ msgid "Disconnected — %s"
+#~ msgstr "Байланыспаған — %s"
+
+#~ msgid "Unknown Status"
+#~ msgstr "Қалып-күйі белгісіз"
+
+#~ msgid "Protocol:"
+#~ msgstr "Хаттама:"
+
+#~ msgid "Brightness"
+#~ msgstr "Жарықтылығы"
+
+#~ msgid "Gamma"
+#~ msgstr "Гамма"
+
+#~ msgid "Volume"
+#~ msgstr "Дыбысы"
+
+#~ msgid "_Sidebar"
+#~ msgstr "_Бүйір панелі"
+
+#~ msgid "Audio input"
+#~ msgstr "Аудио кірісі"
+
+#~ msgid "Video input"
+#~ msgstr "Видео кірісі"
+
+#~ msgid "Details"
+#~ msgstr "Көбірек білу"
+
+#~ msgid "Audio"
+#~ msgstr "Аудио"
+
+#~ msgid "Preview"
+#~ msgstr "Алдын-ала қарау"
+
+#~ msgid "Video"
+#~ msgstr "Видео"
+
+#, fuzzy
+#~ msgid "Video On"
+#~ msgstr "Видеофонда"
+
+#~ msgid "_View"
+#~ msgstr "_Түрі"
+
+#, fuzzy
+#~ msgid "%s (%d unread)"
+#~ msgid_plural "%s (%d unread)"
+#~ msgstr[0] "Оқылмаған оқиғалар"
+#~ msgstr[1] ""
+
+#~ msgid "Chat"
+#~ msgstr "Чат"
+
+#~ msgid "_Contents"
+#~ msgstr "Құра_масы"
+
+#~ msgid "_Conversation"
+#~ msgstr "Сөйле_су"
+
+#~ msgid "_Detach Tab"
+#~ msgstr "Бетті бө_ліп жіберу"
+
+#~ msgid "_Edit"
+#~ msgstr "Тү_зету"
+
+#~ msgid "_Help"
+#~ msgstr "_Көмек"
+
+#~ msgid "_Next Tab"
+#~ msgstr "_Келесі бет"
+
+#~ msgid "_Previous Tab"
+#~ msgstr "А_лдыңғы бет"
+
+#~ msgid "_Tabs"
+#~ msgstr "Б_еттер"
+
+#~ msgid "Name"
+#~ msgstr "Аты"
+
+#~ msgid "Room"
+#~ msgstr "Бөлме:"
+
+#~ msgid "_Reject"
+#~ msgstr "Та_йдыру"
+
+#, fuzzy
+#~ msgid "_Answer"
+#~ msgstr "Қате жауап"
+
+#, fuzzy
+#~ msgid "_Decline"
+#~ msgstr "Лицензияны қабылдамау"
+
+#, fuzzy
+#~ msgid "_Join"
+#~ msgstr "_Кіру"
+
+#~ msgctxt "file transfer percent"
+#~ msgid "Unknown"
+#~ msgstr "Белгісіз"
+
+#, fuzzy
+#~ msgid "%s of %s at %s/s"
+#~ msgstr "қайда:"
+
+#, fuzzy
+#~ msgid "\"%s\" sent to %s"
+#~ msgstr "%s үшін түрту жіберілді"
+
+#~ msgid "File transfer completed"
+#~ msgstr "Файлдармен алмасу аяқталды"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#, fuzzy
+#~ msgid "Remaining"
+#~ msgstr "%s қалды"
+
+#~ msgid "File Transfers"
+#~ msgstr "Файлдармен алмасулар"
+
+#, fuzzy
+#~ msgid "Import"
+#~ msgstr "Қазір импорттау"
+
+#~ msgid "Protocol"
+#~ msgstr "Хаттама"
+
+#~ msgid "Reconnect"
+#~ msgstr "Қайта байланысу"
+
+#~ msgid "Close"
+#~ msgstr "Жабу"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#, fuzzy
+#~ msgid "Context"
+#~ msgstr "жауап берген"
+
+#, fuzzy
+#~ msgid "P_references"
+#~ msgstr "Байланыстар"
+
+#~ msgid "Sort by _Status"
+#~ msgstr "Күйі бо_йынша сұрыптау"
+
+#~ msgid "_Accounts"
+#~ msgstr "_Тіркелгілер"
+
+#~ msgid "_Debug"
+#~ msgstr "Жө_ндеу"
+
+#~ msgid "_File Transfers"
+#~ msgstr "Фа_йлдармен алмасу"
+
+#~ msgid "_Offline Contacts"
+#~ msgstr "Желіде _емес контакттар"
+
+#~ msgid "_Personal Information"
+#~ msgstr "Ж_еке ақпарат"
+
+#~ msgid "_Room"
+#~ msgstr "Бөл_ме"
+
+#~ msgid "Members"
+#~ msgstr "Мүшелер"
+
+#~ msgid "No"
+#~ msgstr "Жоқ"
+
+#~ msgid "Join Room"
+#~ msgstr "Чат бөлмесіне кіру"
+
+#~ msgid "_Room:"
+#~ msgstr "Бөл_ме:"
+
+#~ msgid "Message received"
+#~ msgstr "Хабарлама алынды"
+
+#~ msgid "Message sent"
+#~ msgstr "Хабарлама жіберілді"
+
+#~ msgid "Language"
+#~ msgstr "Тіл"
+
+#~ msgid "Appearance"
+#~ msgstr "Сыртқы түрі"
+
+#~ msgid "Behavior"
+#~ msgstr "Мінез-құлығы"
+
+#~ msgid "General"
+#~ msgstr "Жалпы"
+
+#, fuzzy
+#~ msgid "Log conversations"
+#~ msgstr "Сөйлесу"
+
+#~ msgid "Notifications"
+#~ msgstr "Хабарламалар"
+
+#~ msgid "Privacy"
+#~ msgstr "Жекелік"
+
+#~ msgid "Sounds"
+#~ msgstr "Дыбыстар"
+
+#~ msgid "Themes"
+#~ msgstr "Темалар"
+
+#~ msgid "Reject"
+#~ msgstr "Тайдыру"
+
+#~ msgid "Answer"
+#~ msgstr "Жауап"
+
+#~ msgid "Decline"
+#~ msgstr "Қабылдамау"
+
+#~ msgid "Accept"
+#~ msgstr "Қабылдау"
+
+#~ msgid "Status"
+#~ msgstr "Күйі"
+
+#~ msgid "_Quit"
+#~ msgstr "_Шығу"
+
+#~ msgid "Save"
+#~ msgstr "Сақтау"
+
+#~ msgid "Pause"
+#~ msgstr "Аялдату"
+
+#~ msgid "Level "
+#~ msgstr "Деңгейі"
+
+#~ msgid "Debug"
+#~ msgstr "Жөндеу"
+
+#~ msgid "Info"
+#~ msgstr "Мәлімет"
+
+#~ msgid "Warning"
+#~ msgstr "Ескерту"
+
+#~ msgid "Critical"
+#~ msgstr "Критикалық"
+
+#~ msgid "Error"
+#~ msgstr "Қате"
+
+#~ msgid "Time"
+#~ msgstr "Уақыты"
+
+#~ msgid "Domain"
+#~ msgstr "Домен"
+
+#~ msgid "Level"
+#~ msgstr "Деңгей"
+
+#~ msgid "Invite"
+#~ msgstr "Шақыру"

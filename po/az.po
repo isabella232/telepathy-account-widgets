@@ -8,892 +8,1083 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gossip.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-05-15 23:46+0200\n"
+"POT-Creation-Date: 2013-07-31 14:30+0100\n"
 "PO-Revision-Date: 2003-10-19 20:34+0300\n"
 "Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
 "Language-Team: Azərbaycan Dili <gnome@azətt.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: ../data/empathy.desktop.in.h:1
-#, fuzzy
-msgid "Empathy Instant Messenger"
-msgstr "İsmarış:"
-
-#: ../data/empathy.desktop.in.h:2
-msgid "Instant Messenger"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:1
-msgid "Always open a separate chat window for new chats."
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:2
-msgid "Chat window theme"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:3
-msgid ""
-"Comma separated list of spell checker languages to use (e.g. en, fr, nl)."
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:4
-msgid "Compact contact list"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:5
-msgid "Contact list sort criterium"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:6
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:7
-msgid "Enable popup when contact is available"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:8
-msgid "Enable sound when away"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:9
-msgid "Enable sound when busy"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:10
-msgid "Enable spell checker"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:11
-msgid "Hide main window"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:12
-msgid "Hide the main window."
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:13
-msgid "Open new chats in separate windows"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:14
-msgid "Show avatars"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:15
-msgid "Show hint about closing the main window"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:16
-msgid "Show offline contacts"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:17
-msgid "Spell checking languages"
-msgstr ""
-
-#: ../data/empathy.schemas.in.h:18
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
 msgid "The last directory that an avatar image was chosen from."
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:19
-msgid "The theme that is used to display the conversation in chat windows."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:20
-msgid "Use graphical smileys"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:21
-msgid "Use notification sounds"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:22
-msgid "Use theme for chat rooms"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:23
-msgid ""
-"Whether or not to check words typed against the languages you want to check "
-"with."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:24
-msgid ""
-"Whether or not to convert smileys into graphical images in conversations."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:25
-msgid "Whether or not to play a sound when messages arrive."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:26
-msgid "Whether or not to play sounds when away."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:27
-msgid "Whether or not to play sounds when busy."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:28
-msgid "Whether or not to show a popup when a contact becomes available."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:29
-msgid ""
-"Whether or not to show avatars for contacts in the contact list and chat "
-"windows."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:30
-msgid "Whether or not to show contacts that are offline in the contact list."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:31
-msgid ""
-"Whether or not to show the message dialog about closing the main window with "
-"the 'x' button in the title bar."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:32
-msgid "Whether to show the contact list in compact mode or not."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:33
-msgid "Whether to use the theme for chat rooms or not."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
 msgstr ""
 
-#: ../data/empathy.schemas.in.h:34
-msgid ""
-"Which criterium to use when sorting the contact list. Default is to use sort "
-"by the contact's name with the value \"name\". A value of \"state\" will "
-"sort the contact list by state."
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
 msgstr ""
 
-#: ../libempathy/gossip-contact.c:654 ../libempathy/gossip-presence.c:184
-#: ../libempathy/gossip-presence.c:283
-msgid "Offline"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
 msgstr ""
 
-#: ../libempathy/gossip-presence.c:274
-msgid "Available"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
 msgstr ""
 
-#: ../libempathy/gossip-presence.c:276
-msgid "Busy"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
 msgstr ""
 
-#: ../libempathy/gossip-presence.c:279
-msgid "Away"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.c:254
-msgid "Show and edit accounts"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.c:456
-msgid "Group"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.c:477
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
 #, fuzzy
-msgid "Contact"
-msgstr "Bağlan"
+msgid "Persian"
+msgstr "Buraxılış:"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:1
-msgid "Contact List - Empathy"
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:2
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
+msgstr ""
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 #, fuzzy
-msgid "Context"
-msgstr "Bağlan"
+msgid "Pass_word"
+msgstr "_Şifrə:"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:3
-msgid "Join _Favorites"
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
+msgid "Screen _Name"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:4
-#: ../libempathy-gtk/gossip-chat.glade.h:10
-msgid "Join _New..."
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+msgid "<b>Example:</b> MyScreenName"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:5
-msgid "Manage Favorites..."
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
 msgstr ""
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:6
-msgid "Show _Offline Contacts"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:7
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 #, fuzzy
-msgid "_About"
+msgid "_Port"
+msgstr "Üstünlük:"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+#, fuzzy
+msgid "_Server"
+msgstr "_Verici:"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
+msgid "Remember Password"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#, fuzzy
+msgid "Account"
 msgstr "_Gedişatlar"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:8
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 #, fuzzy
-msgid "_Accounts"
-msgstr "_Gedişatlar"
+msgid "Password"
+msgstr "_Şifrə:"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:9
-#: ../libempathy-gtk/gossip-chat.glade.h:15
-msgid "_Add Contact..."
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:10
-#: ../libempathy-gtk/gossip-contact-list.c:298
-msgid "_Chat"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:11
+#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 #, fuzzy
-msgid "_Contents"
-msgstr "Bağlan"
+msgid "Server"
+msgstr "_Verici:"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:12
-#: ../libempathy-gtk/gossip-chat.glade.h:21
-#: ../libempathy-gtk/gossip-contact-list.c:310
+#: ../tp-account-widgets/tpaw-account-widget.c:676
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 #, fuzzy
-msgid "_Edit"
-msgstr "Çı_x"
+msgid "Port"
+msgstr "Üstünlük:"
 
-#: ../libempathy-gtk/empathy-main-window.glade.h:13
-msgid "_Help"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:14
-#: ../libempathy-gtk/empathy-status-icon.glade.h:2
-msgid "_New Message..."
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:15
-msgid "_Personal Information"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:16
-#, fuzzy
-msgid "_Preferences"
-msgstr "Qurğular"
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:17
-#: ../libempathy-gtk/empathy-status-icon.glade.h:3
-msgid "_Quit"
-msgstr "Çı_x"
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:18
-#: ../libempathy-gtk/gossip-chat.glade.h:25
-msgid "_Room"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-main-window.glade.h:19
-#: ../libempathy-gtk/gossip-chat.glade.h:28
-#: ../libempathy-gtk/gossip-contact-list.c:326
-msgid "_View Previous Conversations"
-msgstr ""
-
-#: ../libempathy-gtk/empathy-status-icon.glade.h:1
-#, fuzzy
-msgid "Status"
-msgstr "<b>Vəziyyət:</b>"
-
-#: ../libempathy-gtk/empathy-status-icon.glade.h:4
-msgid "_Show Contact List"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-about-dialog.c:63
-msgid ""
-"Empathy is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version 2 of the License, or (at your option) any later "
-"version."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-about-dialog.c:67
-msgid ""
-"Empathy is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-about-dialog.c:71
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"Empathy; if not, write to the Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-130159 USA"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-about-dialog.c:99
-msgid "An Instant Messaging client for GNOME"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-about-dialog.c:105
-#, fuzzy
-msgid "translator-credits"
-msgstr ""
-"Vasif İsmailoğlu\n"
-"Mətin Əmirov"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:224
-msgid "Disable"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:227
-msgid "Enable"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:261
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:3
-#, fuzzy
-msgid "<b>No Account Selected</b>"
-msgstr "_Gedişatlar"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:263
-msgid ""
-"To add a new account, you can click on the 'Add' button and a new entry will "
-"be created for you to start configuring.\n"
-"\n"
-"If you do not want to add an account, simply click on the account you want "
-"to configure in the list on the left."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:272
-#, fuzzy
-msgid "<b>No Accounts Configured</b>"
-msgstr "_Gedişatlar"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:274
-msgid ""
-"To add a new account, you can click on the 'Add' button and a new entry will "
-"be created for you to start configuring."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:362
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:6
-#, fuzzy
-msgid "Accounts"
-msgstr "_Gedişatlar"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.c:857
+#: ../tp-account-widgets/tpaw-account-widget.c:760
 #, c-format
-msgid ""
-"You are about to remove your %s account!\n"
-"Are you sure you want to proceed?"
+msgid "%s"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-accounts-dialog.c:863
-msgid ""
-"Any associated conversations and chat rooms will NOT be removed if you "
-"decide to proceed.\n"
-"\n"
-"Should you decide to add the account back at a later time, they will still "
-"be available."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:1
-#, fuzzy
-msgid "<b>Account</b>"
-msgstr "_Gedişatlar"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:2
-#, fuzzy
-msgid "<b>New Account</b>"
-msgstr "_Gedişatlar"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:4
-#, fuzzy
-msgid "<b>Settings</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:5
-msgid "A unique name for this account to identify it personally to you."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:7
-msgid "Cr_eate"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:8
-msgid "Imendio "
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:9
-msgid "Jabber"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:10
-msgid ""
-"To add a new account, you can click on the 'Add' button and a new entry will "
-"be created for you to started configuring.\n"
-"\n"
-"If you do not want to add an account, simply click on the account you want "
-"to configure in the list on the left."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:13
-#, fuzzy
-msgid "_Name:"
-msgstr "Ad:"
-
-#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:14
-msgid "_Type:"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-account-widget-generic.c:144
-#: ../libempathy-gtk/gossip-account-widget-generic.c:186
+#: ../tp-account-widgets/tpaw-account-widget.c:815
 #, c-format
 msgid "%s:"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:1
+#: ../tp-account-widgets/tpaw-account-widget.c:1427
+#, fuzzy
+msgid "Username:"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1752
+msgid "A_pply"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1781
+msgid "L_og in"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1851
+msgid "This account already exists on the server"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1855
+msgid "Create a new account on the server"
+msgstr ""
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2294
+#, c-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2320
+#, fuzzy, c-format
+msgid "%s Account"
+msgstr "_Gedişatlar"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2324
+#, fuzzy
+msgid "New account"
+msgstr "_Gedişatlar"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
+msgid "Login I_D"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
+msgid "<b>Example:</b> username"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
+msgid "What is your GroupWise User ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
+msgid "What is your GroupWise password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+msgid "ICQ _UIN"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
+msgid "<b>Example:</b> 123456789"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
+msgid "What is your ICQ UIN?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
+msgid "What is your ICQ password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
+msgid "Network"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+msgid "Character set"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
+msgid "Remove"
+msgstr ""
+
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
+msgstr ""
+
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
+#, fuzzy
+msgid "Servers"
+msgstr "_Verici:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"<small><b><span foreground=\"#555\">Example: user@jabber.org</span></b></"
-"small>"
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:2
-msgid "Forget password and clear the entry."
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+#, fuzzy
+msgid "Nickname"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+#, fuzzy
+msgid "Quit message"
+msgstr "İsmarış:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+#, fuzzy
+msgid "Real name"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+#, fuzzy
+msgid "Username"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:3
-msgid "Login I_D:"
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+msgid "What is your IRC nickname?"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+msgid "What is your Facebook username?"
+msgstr ""
+
+#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+msgid ""
+"This is your username, not your normal Facebook login.\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username if you don't have one."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
+msgid "What is your Facebook password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
+msgid "What is your Google ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+msgid "<b>Example:</b> user@gmail.com"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+msgid "What is your Google password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+msgid "<b>Example:</b> user@jabber.org"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+msgid "I_gnore SSL certificate errors"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Priori_ty"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+msgid "Reso_urce"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+msgid "Encr_yption required (TLS/SSL)"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+msgid "Override server settings"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+msgid "Use old SS_L"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+msgid "What is your Jabber ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+msgid "What is your desired Jabber ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+msgid "What is your Jabber password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
+msgid "What is your desired Jabber password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+#, fuzzy
+msgid "Nic_kname"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+#, fuzzy
+msgid "_Last Name"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+#, fuzzy
+msgid "_First Name"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+#, fuzzy
+msgid "_Published Name"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+msgid "_Jabber ID"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
+msgid "<b>Example:</b> user@hotmail.com"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
+msgid "What is your Windows Live ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
+msgid "What is your Windows Live password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+msgid "Auto"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+msgid "TLS"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+msgid "Register"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+#, fuzzy
+msgid "Options"
+msgstr "Bağlan"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+#, fuzzy
+msgid "_Username"
+msgstr "Ad:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
+msgid "<b>Example:</b> user@my.sip.server"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
+msgid "NAT Traversal Options"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
+msgid "Proxy Options"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+#, fuzzy
+msgid "STUN Server"
+msgstr "_Verici:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+msgid "Keep-Alive Options"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+msgid "Mechanism"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+msgid "Authentication username"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+msgid "Transport"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
+msgid "What is your SIP login ID?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
 #, fuzzy
 msgid "Pass_word:"
 msgstr "_Şifrə:"
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:5
-msgid "Reso_urce:"
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
+msgid "Yahoo! I_D:"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:6
-msgid "Use encryption (SS_L)"
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+msgid "I_gnore conference and chat room invitations"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:7
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
+msgid "_Room List locale:"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+msgid "Ch_aracter set:"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 #, fuzzy
 msgid "_Port:"
 msgstr "Üstünlük:"
 
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:8
-msgid "_Server:"
-msgstr "_Verici:"
-
-#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:9
-msgid "jabber account settings"
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-chat.c:314
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:538
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:623
+msgid "Couldn't convert image"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:899
+msgid "Couldn't save picture to file"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1023
+msgid "Select Your Avatar Image"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1031
+msgid "Take a picture..."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1044
+msgid "No Image"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1101
+msgid "Images"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1105
+msgid "All Files"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
+msgid "Select..."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
+msgid "_Select"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
 #, fuzzy
-msgid "Disconnected"
-msgstr "_Ayır"
-
-#: ../libempathy-gtk/gossip-chat.c:858
-msgid "Insert Smiley"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.c:906
-msgid "_Check Word Spelling..."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.c:1244
-#, fuzzy
-msgid "Connected"
-msgstr "Bağlan"
-
-#: ../libempathy-gtk/gossip-chat.glade.h:1
-msgid "C_lear"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:2
-msgid "Change _Topic..."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:3
-msgid "Chat"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:4
-msgid "Contact Infor_mation"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:5
-msgid "Cu_t"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:6
-msgid "In_vite..."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:7
-msgid "Insert _Smiley"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:8
-#, fuzzy
-msgid "Invitation _message:"
-msgstr "İsmarış:"
-
-#: ../libempathy-gtk/gossip-chat.glade.h:9
-msgid "Invite"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:11
-msgid "Move Tab _Left"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:12
-msgid "Move Tab _Right"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:13
-msgid "Select who would you like to invite:"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:14
-msgid "You have been invited to join a chat conference."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:16
-msgid "_Add To Favorites"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:17
-msgid "_Close"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:18
-msgid "_Conversation"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:19
-msgid "_Copy"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:20
-msgid "_Detach Tab"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:22
-msgid "_Next Tab"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:23
-msgid "_Paste"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:24
-msgid "_Previous Tab"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:26
-msgid "_Show Contacts"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat.glade.h:27
-msgid "_Tabs"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat-view.c:544
-msgid "_Copy Link Address"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat-view.c:552
-msgid "_Open Link"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat-view.c:889
-msgid "%A %d %B %Y"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat-window.c:685
-#: ../libempathy-gtk/gossip-chat-window.c:715
-#, fuzzy
-msgid "New Message"
-msgid_plural "New Messages"
-msgstr[0] "İsmarış:"
-msgstr[1] "İsmarış:"
-
-#: ../libempathy-gtk/gossip-chat-window.c:691
-msgid "Chat Room"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-chat-window.c:696
-#: ../libempathy-gtk/gossip-chat-window.c:719
-#, fuzzy, c-format
-msgid "Conversation"
-msgid_plural "Conversations (%d)"
-msgstr[0] "Bağlan"
-msgstr[1] "Bağlan"
-
-#: ../libempathy-gtk/gossip-chat-window.c:1295
-msgid "Typing a message."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:290
-#, fuzzy
-msgid "_Contact"
-msgstr "Bağlan"
-
-#: ../libempathy-gtk/gossip-contact-list.c:294
-msgid "_Group"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:298
-msgid "Chat with contact"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:302
-#, fuzzy
-msgid "Infor_mation"
-msgstr "Bağlan"
-
-#: ../libempathy-gtk/gossip-contact-list.c:302
-msgid "View contact information"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:306
-#, fuzzy
-msgid "Re_name"
+msgid "Full name"
 msgstr "Ad:"
 
-#: ../libempathy-gtk/gossip-contact-list.c:306
-msgid "Rename"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Phone number"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-contact-list.c:310
-msgid "Edit the groups and name for this contact"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "E-mail address"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-contact-list.c:314
-msgid "_Remove"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "Website"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-contact-list.c:314
-msgid "Remove contact"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:318
-msgid "_Invite to Chat Room"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:318
-msgid "Invite to a currently open chat room"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:322
-msgid "_Send File..."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-contact-list.c:322
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 #, fuzzy
-msgid "Send a file"
-msgstr "İsmarış:"
+msgid "Birthday"
+msgstr "_Vacibiyyət:"
 
-#: ../libempathy-gtk/gossip-contact-list.c:326
-msgid "View previous conversations with this contact"
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time since the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+msgid "Last seen:"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.c:250
-msgid "Language"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:1
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 #, fuzzy
-msgid "<b>Appearance</b>"
-msgstr "<b>Ad:</b>"
+msgid "Server:"
+msgstr "_Verici:"
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:2
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 #, fuzzy
-msgid "<b>Audio</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:3
-#, fuzzy
-msgid "<b>Behaviour</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:4
-#, fuzzy
-msgid "<b>Contact List</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:5
-#, fuzzy
-msgid "<b>Languages</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:6
-#, fuzzy
-msgid "<b>Options</b>"
+msgid "Connected from:"
 msgstr "Bağlan"
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:7
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
 #, fuzzy
-msgid "<b>Visual</b>"
-msgstr "<b>Ad:</b>"
+msgid "Away message:"
+msgstr "İsmarış:"
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:8
-msgid ""
-"<small>The list of languages reflects only the languages for which you have "
-"a dictionary installed.</small>"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+msgid "work"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:9
-msgid "Avatars are user chosen images shown in the contact list"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "home"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:10
-msgid "Chat Th_eme:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "mobile"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:11
-msgid "Display notifications when contacts come _online"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "voice"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:12
-msgid "Enable sounds when _away"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:13
-msgid "Enable sounds when _busy"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:14
-msgid "General"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:15
-msgid "Notifications"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:16
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 #, fuzzy
-msgid "Preferences"
+msgid "preferred"
 msgstr "Qurğular"
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:17
-msgid "Show _avatars"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "postal"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:18
-msgid "Show _smileys as images"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "parcel"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:19
-msgid "Show co_mpact contact list"
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:20
-msgid "Sort by _name"
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:21
-msgid "Sort by s_tate"
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:22
-msgid "Spell Checking"
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+msgctxt "verb displayed on a button to select an IRC network"
+msgid "Select"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:23
-msgid "Themes"
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
+msgid "new server"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:24
-msgid "_Enable spell checking"
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
+msgid "SSL"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:25
-msgid "_Open new chats in separate windows"
+#: ../tp-account-widgets/tpaw-keyring.c:77
+#: ../tp-account-widgets/tpaw-keyring.c:186
+msgid "Password not found"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-preferences.glade.h:26
-msgid "_Play sound when messages arrive"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-preferences.glade.h:27
-msgid "_Use for chat rooms"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-presence-chooser.c:702
-msgid "Custom message..."
-msgstr ""
-
-#. Clear list
-#: ../libempathy-gtk/gossip-presence-chooser.c:724
-msgid "Clear List..."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-presence-chooser.c:803
-msgid "Are you sure you want to clear the list?"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-presence-chooser.c:807
-msgid ""
-"This will remove any custom messages you have added to the list of preset "
-"status messages."
-msgstr ""
-
-#: ../libempathy-gtk/gossip-presence-chooser.c:812
-msgid "Clear List"
-msgstr ""
-
-#: ../libempathy-gtk/gossip-presence-chooser.glade.h:1
-#, fuzzy
-msgid "Enter status message:"
-msgstr "İsmarış:"
-
-#: ../libempathy-gtk/gossip-presence-chooser.glade.h:2
-#, fuzzy
-msgid "Status Message Presets"
-msgstr "İsmarış:"
-
-#: ../libempathy-gtk/gossip-presence-chooser.glade.h:3
-#, fuzzy
-msgid "_Add to status message list"
-msgstr "İsmarış:"
-
-#: ../libempathy-gtk/gossip-private-chat.c:198
+#: ../tp-account-widgets/tpaw-keyring.c:586
 #, c-format
-msgid "%s went offline"
+msgid "IM account password for %s (%s)"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-private-chat.c:212
+#: ../tp-account-widgets/tpaw-keyring.c:623
 #, c-format
-msgid "%s has come online"
+msgid "Password for chatroom '%s' on account %s (%s)"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-theme-manager.c:87
-msgid "Classic"
+#. Create account
+#. To translator: %s is the name of the protocol, such as "Google Talk" or
+#. * "Yahoo!"
+#.
+#: ../tp-account-widgets/tpaw-protocol.c:62
+#, fuzzy, c-format
+msgid "New %s account"
+msgstr "_Gedişatlar"
+
+#: ../tp-account-widgets/tpaw-time.c:86
+#, c-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:92
+#, fuzzy, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "dəqiqə"
+msgstr[1] "dəqiqə"
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:110
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:116
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-theme-manager.c:88
-msgid "Simple"
+#: ../tp-account-widgets/tpaw-user-info.c:394
+msgid "Go online to edit your personal information."
 msgstr ""
 
-#: ../libempathy-gtk/gossip-theme-manager.c:89
-msgid "Clean"
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:454
+msgid "Identifier"
 msgstr ""
 
-#: ../libempathy-gtk/gossip-theme-manager.c:90
-msgid "Blue"
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:459
+msgid "Alias"
 msgstr ""
 
-#: ../src/empathy-main.c:145
-msgid "Don't connect on startup"
-msgstr ""
-
-#: ../src/empathy-main.c:155
+#: ../tp-account-widgets/tpaw-user-info.c:474
 #, fuzzy
-msgid "- Empathy Instant Messenger"
-msgstr "İsmarış:"
+msgid "<b>Personal Details</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Empathy Instant Messenger"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Context"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "_About"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "_Accounts"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "_Contents"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "Çı_x"
+
+#, fuzzy
+#~ msgid "_Preferences"
+#~ msgstr "Qurğular"
+
+#~ msgid "_Quit"
+#~ msgstr "Çı_x"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "<b>Vəziyyət:</b>"
+
+#, fuzzy
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Vasif İsmailoğlu\n"
+#~ "Mətin Əmirov"
+
+#, fuzzy
+#~ msgid "<b>No Account Selected</b>"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "<b>No Accounts Configured</b>"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "<b>Account</b>"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "<b>New Account</b>"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "Disconnected"
+#~ msgstr "_Ayır"
+
+#, fuzzy
+#~ msgid "Invitation _message:"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "New Message"
+#~ msgid_plural "New Messages"
+#~ msgstr[0] "İsmarış:"
+#~ msgstr[1] "İsmarış:"
+
+#, fuzzy
+#~ msgid "Conversation"
+#~ msgid_plural "Conversations (%d)"
+#~ msgstr[0] "Bağlan"
+#~ msgstr[1] "Bağlan"
+
+#, fuzzy
+#~ msgid "_Contact"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Infor_mation"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Send a file"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Audio</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Behaviour</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Languages</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "Enter status message:"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Status Message Presets"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "_Add to status message list"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "- Empathy Instant Messenger"
+#~ msgstr "İsmarış:"
 
 #, fuzzy
 #~ msgid "Active"
@@ -919,10 +1110,6 @@ msgstr "İsmarış:"
 #~ msgid "Connection timed out."
 #~ msgstr "Bağlan"
 
-#, fuzzy
-#~ msgid "new account"
-#~ msgstr "_Gedişatlar"
-
 #~ msgid "Home"
 #~ msgstr "Ev"
 
@@ -932,12 +1119,6 @@ msgstr "İsmarış:"
 
 #~ msgid "Connect"
 #~ msgstr "Bağlan"
-
-#, fuzzy
-#~ msgid "%d new message"
-#~ msgid_plural "%d new messages"
-#~ msgstr[0] "İsmarış:"
-#~ msgstr[1] "İsmarış:"
 
 #, fuzzy
 #~ msgid "Name"
@@ -1024,10 +1205,6 @@ msgstr "İsmarış:"
 #~ msgstr "Buraxılış:"
 
 #, fuzzy
-#~ msgid "_Birthday:"
-#~ msgstr "_Vacibiyyət:"
-
-#, fuzzy
 #~ msgid "_Connect"
 #~ msgstr "Bağlan"
 
@@ -1045,22 +1222,6 @@ msgstr "İsmarış:"
 #, fuzzy
 #~ msgid "_For:"
 #~ msgstr "Üstünlük:"
-
-#, fuzzy
-#~ msgid "_Full Name:"
-#~ msgstr "Ad:"
-
-#, fuzzy
-#~ msgid "_Nick Name:"
-#~ msgstr "Ad:"
-
-#, fuzzy
-#~ msgid "_Password:"
-#~ msgstr "_Şifrə:"
-
-#, fuzzy
-#~ msgid "_Quit Message:"
-#~ msgstr "İsmarış:"
 
 #, fuzzy
 #~ msgid "Preset status messages"
@@ -1081,10 +1242,6 @@ msgstr "İsmarış:"
 #~ msgstr "Gossip"
 
 #, fuzzy
-#~ msgid "Port:"
-#~ msgstr "Üstünlük:"
-
-#, fuzzy
 #~ msgid "_No"
 #~ msgstr "Xeyir"
 
@@ -1095,10 +1252,6 @@ msgstr "İsmarış:"
 #, fuzzy
 #~ msgid "Por_t:"
 #~ msgstr "Üstünlük:"
-
-#, fuzzy
-#~ msgid "Persian"
-#~ msgstr "Buraxılış:"
 
 #, fuzzy
 #~ msgid "Gossip - Preferences"
@@ -1131,6 +1284,3 @@ msgstr "İsmarış:"
 
 #~ msgid "Others"
 #~ msgstr "Başqaları"
-
-#~ msgid "minutes"
-#~ msgstr "dəqiqə"
