@@ -802,7 +802,7 @@ tpaw_irc_network_manager_dup_default (void)
   user_file_with_path = g_build_filename (dir, IRC_NETWORKS_FILENAME, NULL);
   g_free (dir);
 
-  global_file_with_path = g_build_filename (g_getenv ("EMPATHY_SRCDIR"),
+  global_file_with_path = g_build_filename (g_getenv ("TPAW_SRCDIR"),
       "tp-account-widgets", IRC_NETWORKS_FILENAME, NULL);
   if (!g_file_test (global_file_with_path, G_FILE_TEST_EXISTS))
     {
