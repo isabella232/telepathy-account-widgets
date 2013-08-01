@@ -1,5 +1,5 @@
 # translation of eu.po to Basque
-# translation of empathy.HEAD.po to
+# translation of tp-account-widgets.HEAD.po to
 # Copyright (C) 2003 THE gossip'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gossip package.
 #

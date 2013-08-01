@@ -1,6 +1,6 @@
-# Thai translation of empathy
+# Thai translation of tp-account-widgets
 # Copyright (C) 2008-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2008-2012.
 # Sira Nokyoongtong <gumaraa@gmail.com>, 2011.
 #

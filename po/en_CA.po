@@ -1,6 +1,6 @@
-# Canadian English translations for Empathy package.
-# Copyright (C) 2012 EMPATHY'S COPYRIGHT HOLDER
-# This file is distributed under the same licence as the Empathy package.
+# Canadian English translations for tp-account-widgets package.
+# Copyright (C) 2012 tp-account-widgets'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the tp-account-widgets package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005.
 # Tiffany Antopolski <tiffany.antopolski@gmail.com>, 2012.
 #

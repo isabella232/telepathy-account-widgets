@@ -1,6 +1,6 @@
-# Slovenian translation of empathy.
-# Copyright (C) 2009 empathy COPYRIGHT HOLDER
-# This file is distributed under the same license as the empathy package.
+# Slovenian translation of tp-account-widgets.
+# Copyright (C) 2009 tp-account-widgets COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Bernard Banko <bernard.banko afna t-2.net>, 2009.
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2010.

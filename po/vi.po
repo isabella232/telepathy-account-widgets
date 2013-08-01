@@ -1,4 +1,4 @@
-# Vietnamese translation for Empathy.
+# Vietnamese translation for tp-account-widgets.
 # Copyright © 2009 GNOME i18n Project for Vietnamese.
 # Clytie Siddall <clytie@riverland.net.au>, 2008-2009.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2009,2011-2012.

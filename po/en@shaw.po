@@ -1,4 +1,4 @@
-# Shavian translation for empathy.
+# Shavian translation for tp-account-widgets.
 # Copyright (C) 2009 The Gnome Foundation.
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 msgid ""

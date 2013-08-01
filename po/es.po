@@ -1,4 +1,4 @@
-# translation of empathy.master.po to Español
+# translation of tp-account-widgets.master.po to Español
 # Copyright (C) 2003 Free Software Foundation
 # This file is distributed under the same license as the Gossip package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.

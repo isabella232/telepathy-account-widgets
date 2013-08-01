@@ -1,4 +1,4 @@
-# German translation of Empathy.
+# German translation of tp-account-widgets.
 # Copyright (C) 2003-2005, 2007 Free Software Foundation, Inc.
 #
 # Hendrik Richter <naggeldak@gnome-de.org>, 2003.

@@ -1,6 +1,6 @@
-# translation of empathy.master.te.po to Telugu
+# translation of tp-account-widgets.master.te.po to Telugu
 # Copyright (C) 2011, 2012 Swecha Telugu localisation Team <localization@swecha.net>
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Krishna Babu K <kkrothap@redhat.com>, 2009.2011, 2012, 2013.
 # Praveen Illa <mail2ipn@gmail.com>, 2011.

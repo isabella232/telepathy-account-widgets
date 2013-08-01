@@ -1,4 +1,4 @@
-# Catalan translation for Empathy
+# Catalan translation for tp-account-widgets
 # Copyright © 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # This file is distributed under the same licence as the gossip package.
 # Jordi Mallach <jordi@sindominio.net>, 2003, 2004, 2005, 2006, 2007.

@@ -1,6 +1,6 @@
-# Esperanto translation for Empathy.
+# Esperanto translation for tp-account-widgets.
 # Copyright (C) 2004-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Brient HESS <brient@brient.net>, 2004.
 # Aisano, Eliovir, ISHII Eiju, Javier Lancha, Kvantumo, Lucas LARSON, Michael MORONI, Petr Adam DOHNÁLEK, Robert BOGENSCHNEIDER, Serge LEBLANC, Shane D, Yamiharu.

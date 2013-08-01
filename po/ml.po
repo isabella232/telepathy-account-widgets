@@ -1,6 +1,6 @@
-# Malayalam translation of empathy
-# Copyright (C) 2008 empathy'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the empathy package.
+# Malayalam translation of tp-account-widgets
+# Copyright (C) 2008 tp-account-widgets'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 # FSF-India <locale@gnu.org.in>, 2003.
 # ashik salahudeen <aashiks@gmail.com>, 2008.
 # Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2008, 2009, 2012.

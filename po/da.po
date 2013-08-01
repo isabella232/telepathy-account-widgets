@@ -1,4 +1,4 @@
-# Danish translation of Empathy.
+# Danish translation of tp-account-widgets.
 # Copyright (C) 2003-2012 Free Software Foundation, Inc.
 # Ole Laursen <olau@hardworking.dk>, 2003, 04, 06.
 # David Nielsen <dnielsen@breakmygentoo.net>, 2002, 06.

@@ -1,6 +1,6 @@
-# translation of empathy to Bahasa Indonesia
-# Copyright (C) YEAR THE empathy'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the empathy package.
+# translation of tp-account-widgets to Bahasa Indonesia
+# Copyright (C) YEAR THE tp-account-widgets'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Taufiq Wirahman <taufiq.wirahman@gmail.com>, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2011.

@@ -1,6 +1,6 @@
-# British English translation of Empathy
-# Copyright (C) 2006 Empathy's COPYRIGHT HOLDER
-# This file is distributed under the same licence as the empathy package.
+# British English translation of tp-account-widgets
+# Copyright (C) 2006 tp-account-widgets's COPYRIGHT HOLDER
+# This file is distributed under the same licence as the tp-account-widgets package.
 # David Lodge <dave@cirt.net>, 2007, 2009.
 # Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012, 2013.
 # Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.

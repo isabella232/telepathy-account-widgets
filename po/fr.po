@@ -1,6 +1,6 @@
-# French translation of empathy.
+# French translation of tp-account-widgets.
 # Copyright (C) 2003-2012 The Free Software Foundation, Inc.
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Frédéric Brin <duckx@mezimail.com>, 2003.
 # Lionel Henry <yoplait@tuxfamily.org>, 2003.

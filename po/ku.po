@@ -1,6 +1,6 @@
-# Kurdish translation of EMPATHY.
-# Copyright (C) 2008 THE EMPATHY'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the EMPATHY package.
+# Kurdish translation of tp-account-widgets.
+# Copyright (C) 2008 THE tp-account-widgets'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 # Erdal Ronahi <erdal.ronahi.nospam@gmail.com>, 2008.
 # , fuzzy
 # Erdal <erdal.ronahi@gmail.com>, 2010.

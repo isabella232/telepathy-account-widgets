@@ -1,6 +1,6 @@
-# Translation of Empathy to Lithuanian
+# Translation of tp-account-widgets to Lithuanian
 # Copyright © 2004-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 # Justina Klingaitė <justina.klingaite@gmail.com>, 2006.
 # Gintautas Miliauskas <gintas@akl.lt>, 2006.
 # Saulius <saulius.shopaga@gmail.com>, 2008, 2009.

@@ -1,5 +1,5 @@
-# translation of empathy.master.ru.po to Russian
-# Russian translation of Empathy
+# translation of tp-account-widgets.master.ru.po to Russian
+# Russian translation of tp-account-widgets
 # Copyright (C) 2003, 2008, 2010 Free Software Foundation, Inc.
 #
 #

@@ -1,6 +1,6 @@
-# Assamese translation for empathy.
-# Copyright (C) 2009 empathy's COPYRIGHT HOLDER
-# This file is distributed under the same license as the empathy package.
+# Assamese translation for tp-account-widgets.
+# Copyright (C) 2009 tp-account-widgets's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012.
 msgid ""

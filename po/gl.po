@@ -1,5 +1,5 @@
-# translation of empathy to Galego
-# This file is distributed under the same license as the EMPATHY package.
+# translation of tp-account-widgets to Galego
+# This file is distributed under the same license as the tp-account-widgets package.
 # Copyright (C) 2010 Fran Diéguez.
 # Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
 # colaborar connosco, podes atopar máis información en http://www.trasno.net

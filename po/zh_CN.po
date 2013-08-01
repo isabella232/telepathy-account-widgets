@@ -1,7 +1,7 @@
-# Simplified Chinese translation of Empathy.
-# Convert to Simp. Chinese translation of Empathy.
+# Simplified Chinese translation of tp-account-widgets.
+# Convert to Simp. Chinese translation of tp-account-widgets.
 # Copyright (C) 2003, 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Abel Cheung <maddog@linux.org.hk>, 2003.
 # Mai Haohui <maihaohui@hotmail.com>, 2003.

@@ -1,4 +1,4 @@
-# Burmese Translations of empathy
+# Burmese Translations of tp-account-widgets
 # Copyright (C) 2011 Myanmar L10n Team
 # This file is distributed under the same license as the above package.
 # ယဉ်မေဦး (Yin May Oo) <yinmayoo@gmail.com>, 2011.

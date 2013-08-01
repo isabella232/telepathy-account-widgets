@@ -1,4 +1,4 @@
-# translation of empathy.master.po to Maithili
+# translation of tp-account-widgets.master.po to Maithili
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #

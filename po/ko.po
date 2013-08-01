@@ -1,5 +1,5 @@
-# empathy Korean translation
-# This file is distributed under the same license as the empathy package.
+# tp-account-widgets Korean translation
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2012.
 # Changwoo Ryu <cwryu@debian.org>, 2008-2013.
@@ -7,7 +7,7 @@
 # 새로 번역하시는 분은 아래 "translator-credits"에 추가하세요.
 #
 # 참고:
-# - 이 프로그램의 이름인 "Empathy"는 "엠퍼시"라고 음역
+# - 이 프로그램의 이름인 "tp-account-widgets"는 "엠퍼시"라고 음역
 # - 관련 용어 통일
 #   - IM, instance messenger -> 메신저
 #   - SMS -> 단문 문자

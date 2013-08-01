@@ -1,7 +1,7 @@
 # Translation of oc.po to Occitan
-# Occitan translation of empathy.
+# Occitan translation of tp-account-widgets.
 # Copyright (C) 2003-2007 The Free Software Foundation, Inc.
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 #
 # Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010.
 msgid ""

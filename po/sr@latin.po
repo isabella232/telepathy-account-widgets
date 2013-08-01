@@ -1,6 +1,6 @@
-# Serbian translation of Empathy
+# Serbian translation of tp-account-widgets
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2013.
-# This file is distributed under the same license as the Empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 # From Pidgin translation:
 # Danilo Segan <dsegan@gmx.net>, 2003, 2004, 2005.
 # Aleksandar Urosevic <urke@users.sourceforge.net>, 2003, 2004.

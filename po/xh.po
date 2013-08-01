@@ -1,6 +1,6 @@
-# Xhosa translation for empathy.
-# Copyright (C) 2011 empathy's COPYRIGHT HOLDER
-# This file is distributed under the same license as the empathy package.
+# Xhosa translation for tp-account-widgets.
+# Copyright (C) 2011 tp-account-widgets's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
 # Andiswa Mvanyashe <andiswamva@webmail.co.za>, 2011.
 msgid ""
 msgstr ""

@@ -1,7 +1,7 @@
-# Përkthimi i empathy në shqip.
+# Përkthimi i tp-account-widgets në shqip.
 # Laurent Dhima <laurenti@alblinux.net>, 2004, 2008.
 # Copyright (C) 2004, 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy HEAD\n"

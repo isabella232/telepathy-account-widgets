@@ -1,4 +1,4 @@
-# Chinese (Hong Kong) translation of empathy.
+# Chinese (Hong Kong) translation of tp-account-widgets.
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # Abel Cheung <abel@oaka.org>, 2003, 2004.
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.

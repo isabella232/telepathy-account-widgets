@@ -1,5 +1,5 @@
-# Zulu translation for empathy
-# This file is distributed under the same license as the empathy package.
+# Zulu translation for tp-account-widgets
+# This file is distributed under the same license as the tp-account-widgets package.
 # Abel Motha, Translate.org.za <sedric@translate.org.za>, 2010, 2011.
 # Priscilla Mahlangu <priny@translate.org.za>, 2011.
 # F Wolff <friedel@translate.org.za>, 2011.

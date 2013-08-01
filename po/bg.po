@@ -1,8 +1,8 @@
-# Bulgarian translation of empathy po-file.
+# Bulgarian translation of tp-account-widgets po-file.
 # Copyright (C) 2004, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 # Copyright (C) 2010 Damyan Ivanov
 # Copyright (C) 2011 Krasimir Chonov
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 # Yasen Pramatarov <yasen@lindeas.com>, 2004.
 # Alexander Shopov <ash@kambanaria.org>, 2007, 2008, 2009, 2010, 2011, 2012.
 # Yavor Doganov <yavor@gnu.org>, 2009.

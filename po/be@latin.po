@@ -1,5 +1,5 @@
-# Biełaruski pierakład Empathy.
-# This file is distributed under the same license as the empathy package.
+# Biełaruski pierakład tp-account-widgets.
+# This file is distributed under the same license as the tp-account-widgets package.
 # Ihar Hrachyshka (c) 2009.
 #
 msgid ""

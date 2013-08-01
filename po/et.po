@@ -1,5 +1,5 @@
-# Empathy'i eesti keele tõlge.
-# Estonian translation of Empathy.
+# tp-account-widgets'i eesti keele tõlge.
+# Estonian translation of tp-account-widgets.
 #
 # Copyright (C) 2005–2011 Free Software Foundation, Inc.
 #

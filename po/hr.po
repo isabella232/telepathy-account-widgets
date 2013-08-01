@@ -1,6 +1,6 @@
-# Translation of Empathy to Croatian
+# Translation of tp-account-widgets to Croatian
 # Copyright (C) Senko Rasic <senko.rasic@collabora.co.uk>
-# This file is distributed under the same license as the Empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy.HEAD.hr\n"

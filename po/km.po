@@ -1,7 +1,7 @@
-# translation of po_empathy-km.po to Khmer
-# Khmer translation for empathy
+# translation of po_tp-account-widgets-km.po to Khmer
+# Khmer translation for tp-account-widgets
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the empathy package.
+# This file is distributed under the same license as the tp-account-widgets package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
 msgid ""
