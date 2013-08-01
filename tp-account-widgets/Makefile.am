@@ -1,7 +1,7 @@
 AM_CPPFLAGS =                                           \
 	$(ERROR_CFLAGS)					\
 	-DDATADIR=\""$(datadir)"\"              	\
-	-DPKGDATADIR=\""$(pkgdatadir)"\"		\
+	-DPKGDATADIR=\""$(real_pkgdatadir)"\"		\
 	-DG_LOG_DOMAIN=\"tp-account-widgets\"		\
 	-DGCR_API_SUBJECT_TO_CHANGE			\
 	$(TPAW_CFLAGS)					\
@@ -118,7 +118,7 @@ account_widgets_dtd_files =		\
 	tpaw-irc-networks.dtd		\
 	$(NULL)
 
-ircnetworksdir = $(datadir)/telepathy-account-widgets
+ircnetworksdir = $(real_pkgdatadir)
 ircnetworks_DATA =		\
 	irc-networks.xml
 

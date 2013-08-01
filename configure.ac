@@ -125,6 +125,22 @@ fi
 AC_SUBST(LDFLAGS)
 
 # -----------------------------------------------------------
+# Allow to overwrite where to install icons and other data
+# files
+# -----------------------------------------------------------
+AC_ARG_WITH([pkgdatadir],
+            AS_HELP_STRING([--with-pkgdatadir],
+                           [set a different directory where to install the icon]),,
+            with_pkgdatadir=)
+
+if test x"$with_pkgdatadir" != x"" ; then
+    real_pkgdatadir="${with_pkgdatadir}"
+else
+    real_pkgdatadir="${datarootdir}/${PACKAGE_NAME}"
+fi
+AC_SUBST(real_pkgdatadir)
+
+# -----------------------------------------------------------
 # Pkg-Config dependency checks
 # -----------------------------------------------------------
 
@@ -327,6 +343,7 @@ Configure summary:
 	Compiler Flags..............:  ${CFLAGS} ${ERROR_CFLAGS}
 	Linker Flags................:  ${LDFLAGS}
 	Prefix......................:  ${prefix}
+	Data directory .............:  ${real_pkgdatadir}
 	Coding style checks.........:  ${ENABLE_CODING_STYLE_CHECKS}
 	Unreleased version checks...:  ${enable_unreleased_checks}
 
