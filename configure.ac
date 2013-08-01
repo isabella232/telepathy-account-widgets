@@ -141,9 +141,13 @@ PKG_CHECK_MODULES(TPAW,
    gtk+-3.0 >= $GTK_REQUIRED
 ])
 
-AC_DEFINE(EMPATHY_UOA_PROVIDER,
-    "im.telepathy.Account.Storage.UOA",
+# -----------------------------------------------------------
+# UOA configuration bits
+# -----------------------------------------------------------
+TPAW_UOA_PROVIDER="im.telepathy.Account.Storage.UOA"
+AC_DEFINE_UNQUOTED(TPAW_UOA_PROVIDER, "$TPAW_UOA_PROVIDER",
    [Name of provider for accounts imported from libaccounts])
+AC_SUBST(TPAW_UOA_PROVIDER)
 
 # -----------------------------------------------------------
 # Enable debug

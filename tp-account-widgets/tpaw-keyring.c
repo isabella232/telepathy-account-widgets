@@ -274,7 +274,7 @@ tpaw_keyring_get_account_password_async (TpAccount *account,
       const gchar *provider;
 
       provider = tp_account_get_storage_provider (account);
-      if (!tp_strdiff (provider, EMPATHY_UOA_PROVIDER))
+      if (!tp_strdiff (provider, TPAW_UOA_PROVIDER))
         {
           uoa_get_account_password (account, simple);
           g_object_unref (simple);
@@ -574,7 +574,7 @@ tpaw_keyring_set_account_password_async (TpAccount *account,
       const gchar *provider;
 
       provider = tp_account_get_storage_provider (account);
-      if (!tp_strdiff (provider, EMPATHY_UOA_PROVIDER))
+      if (!tp_strdiff (provider, TPAW_UOA_PROVIDER))
         {
           uoa_set_account_password (account, password, remember, simple);
           g_object_unref (simple);
@@ -693,7 +693,7 @@ tpaw_keyring_delete_account_password_async (TpAccount *account,
       const gchar *provider;
 
       provider = tp_account_get_storage_provider (account);
-      if (!tp_strdiff (provider, EMPATHY_UOA_PROVIDER))
+      if (!tp_strdiff (provider, TPAW_UOA_PROVIDER))
         {
           /* I see no other way to forget the stored password than overwriting
            * with an empty one. */

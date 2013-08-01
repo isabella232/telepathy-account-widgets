@@ -3,6 +3,8 @@ exec_prefix=
 abs_top_srcdir=@abs_top_srcdir@
 abs_top_builddir=@abs_top_builddir@
 
+uoa_provider=@TPAW_UOA_PROVIDER@
+
 Name: telepathy-account-widgets (uninstalled copy)
 Description: Widgets and utility functions for configuring Telepathy accounts
 Version: @VERSION@
