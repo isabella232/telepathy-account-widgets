@@ -57,6 +57,8 @@ enum
 #define DATA_FIELD "contact-info-field"
 #define DATA_IS_CONTACT_INFO "is-contact-info"
 
+static void reload_contact_info (TpawUserInfo *self);
+
 static void
 contact_info_changed_cb (GtkEntry *entry,
     TpawUserInfo *self)
@@ -360,6 +362,21 @@ request_contact_info_cb (GObject *object,
 }
 
 static void
+connection_contact_info_prepared_cb (GObject *object,
+    GAsyncResult *res,
+    gpointer user_data)
+{
+  TpawUserInfo *self = user_data;
+
+  if (!tp_proxy_prepare_finish (object, res, NULL))
+    return;
+
+  reload_contact_info (self);
+
+  g_object_unref (self);
+}
+
+static void
 reload_contact_info (TpawUserInfo *self)
 {
   TpConnection *connection;
@@ -381,7 +398,17 @@ reload_contact_info (TpawUserInfo *self)
 
   connection = tp_account_get_connection (self->priv->account);
   if (connection != NULL)
-    contact = tp_connection_get_self_contact (connection);
+    {
+      contact = tp_connection_get_self_contact (connection);
+
+      if (!tp_proxy_is_prepared (connection,
+            TP_CONNECTION_FEATURE_CONTACT_INFO))
+        {
+          GQuark features[] = { TP_CONNECTION_FEATURE_CONTACT_INFO, 0 };
+          tp_proxy_prepare_async (connection, features,
+              connection_contact_info_prepared_cb, g_object_ref (self));
+        }
+    }
 
   /* Display infobar if we don't have a self contact (probably offline) */
   if (contact == NULL)
