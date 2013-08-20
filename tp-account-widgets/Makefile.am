@@ -10,11 +10,6 @@ AM_CPPFLAGS =                                           \
 	$(WARN_CFLAGS)					\
 	$(DISABLE_DEPRECATED)
 
-libtp_account_widgets_LIBADD =				\
-	$(UDEV_LIBS)					\
-	$(CHEESE_LIBS)				\
-	$(NULL)
-
 BUILT_SOURCES = 					\
 	tpaw-account-widgets-resources.c		\
 	tpaw-account-widgets-resources.h		\
