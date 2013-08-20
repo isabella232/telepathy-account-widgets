@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2013-02-17 14:42+0100\n"
+"POT-Creation-Date: 2013-08-20 22:52+0200\n"
+"PO-Revision-Date: 2013-08-20 22:53+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -186,7 +186,7 @@ msgstr "tureckie"
 #: ../tp-account-widgets/totem-subtitle-encoding.c:313
 #: ../tp-account-widgets/totem-subtitle-encoding.c:315
 msgid "Unicode"
-msgstr "Unikod"
+msgstr "unikod"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:318
 #: ../tp-account-widgets/totem-subtitle-encoding.c:320
@@ -275,6 +275,78 @@ msgstr "Hasło AIM:"
 msgid "Remember Password"
 msgstr "Zapamiętaj hasło"
 
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+msgid "Account"
+msgstr "Konto"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Hasło"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Serwer"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:759
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:814
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1426
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1754
+msgid "A_pply"
+msgstr "Za_stosuj"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1783
+msgid "L_og in"
+msgstr "Zal_oguj"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1853
+msgid "This account already exists on the server"
+msgstr "To konto już istnieje na serwerze"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1857
+msgid "Create a new account on the server"
+msgstr "Utworzenie nowego konta na serwerze"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2296
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s na %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2322
+#, c-format
+msgid "%s Account"
+msgstr "Konto serwisu %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2326
+msgid "New account"
+msgstr "Nowe konto"
+
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -355,10 +427,6 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "Pseudonim"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Hasło"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -559,11 +627,6 @@ msgstr "Automatyczne wykrywanie serwera STUN"
 msgid "Discover Binding"
 msgstr "Wykrywanie dowiązywania"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Serwer"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Opcje \"Keep-Alive\""
@@ -591,11 +654,6 @@ msgstr "Swobodne trasowanie"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Ignorowanie błędów TLS"
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -641,6 +699,40 @@ msgstr "Identyfikator Yahoo!:"
 msgid "What is your Yahoo! password?"
 msgstr "Hasło Yahoo!:"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+msgid "Couldn't convert image"
+msgstr "Nie można przekonwertować obrazu"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+"Żaden z akceptowanych formatów obrazu nie jest obsługiwany przez ten system"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+msgid "Couldn't save picture to file"
+msgstr "Nie można zapisać obrazu do pliku"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+msgid "Select Your Avatar Image"
+msgstr "Wybór obrazu awatara"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+msgid "Take a picture..."
+msgstr "Zrób zdjęcie..."
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+msgid "No Image"
+msgstr "Brak obrazu"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+msgid "Images"
+msgstr "Obrazy"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+msgid "All Files"
+msgstr "Wszystkie pliki"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "Wybierz..."
@@ -649,72 +741,72 @@ msgstr "Wybierz..."
 msgid "_Select"
 msgstr "_Wybierz"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
 msgid "Full name"
 msgstr "Imię i nazwisko"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
 msgid "Phone number"
 msgstr "Numer telefonu"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
 msgid "E-mail address"
 msgstr "Adres e-mail"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Witryna WWW"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Urodziny"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 msgid "Last seen:"
 msgstr "Ostatnio widziany:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Serwer:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
 msgid "Connected from:"
 msgstr "Połączony z:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
 msgid "Away message:"
 msgstr "Wiadomość podczas nieobecności:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "praca"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "dom"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "komórka"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "głosowa"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "preferowane"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "pocztowy"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "paczka"
 
@@ -762,7 +854,7 @@ msgstr "Hasło dla pokoju rozmowy \"%s\" na koncie %s (%s)"
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Nowe konto serwisu %s"
@@ -819,20 +911,36 @@ msgstr[2] "%d miesięcy emu"
 msgid "in the future"
 msgstr "w przyszłości"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr "Proszę przejść do trybu online, aby modyfikować informacje osobiste."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:500
 msgid "Identifier"
 msgstr "Identyfikator"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:508
 msgid "Alias"
 msgstr "Alias"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:525
 msgid "<b>Personal Details</b>"
-msgstr "<b>Szczegóły osobiste</b>"
+msgstr "<b>Informacje osobiste</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "Osoby w pobliżu"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japonia"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
