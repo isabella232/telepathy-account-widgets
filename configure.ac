@@ -48,11 +48,19 @@ AC_DEFINE(TP_DISABLE_SINGLE_INCLUDE, 1, [Disable single include header])
 
 LIBSECRET_REQUIRED=0.5
 
+# Enable extra flags for warnings if this is an unreleased version.
+AC_ARG_ENABLE(unreleased_checks,
+            AS_HELP_STRING([--enable-unreleased-checks=@<:@no/yes@:>@],
+            [enable extra checks for unreleased versions]),,
+            [enable_unreleased_checks=no])
+
 # Use --enable-maintainer-mode to disable deprecated symbols,
-# disable single include and enable GSEAL. If this is not a released tp-account-widgets,
-# maintainer mode is forced
+# disable single include and enable GSEAL.
+# If this is not a released tp-account-widgets, maintainer mode is forced.
 # FIXME: don't disable deprecated symbols until bgo #636654 has been fixed
-#ifelse(tpaw_released, 1, [], [enable_maintainer_mode="yes"])
+#if test "x$enable_unreleased_checks" = "xyes" ; then
+#    enable_maintainer_mode="yes"
+#fi
 #GNOME_MAINTAINER_MODE_DEFINES
 
 AC_CONFIG_MACRO_DIR([m4])
@@ -107,17 +115,16 @@ AS_COMPILER_FLAG(-Wno-unused-parameter,
         wno_unused_parameter=yes,
         wno_unused_parameter=no)
 
-ifelse(tpaw_released, 1, [],
-    [
-        if test x$werror = xyes; then
-            ERROR_CFLAGS="$ERROR_CFLAGS -Werror"
-        fi
-        if test x$wextra = xyes -a \
-            x$wno_missing_field_initializers = xyes -a \
-            x$wno_unused_parameter = xyes; then
-            ERROR_CFLAGS="$ERROR_CFLAGS -Wextra -Wno-missing-field-initializers -Wno-unused-parameter"
-        fi
-    ])
+if test "x$enable_unreleased_checks" = "xyes"; then
+    if test x$werror = xyes; then
+        ERROR_CFLAGS="$ERROR_CFLAGS -Werror"
+    fi
+    if test x$wextra = xyes -a \
+        x$wno_missing_field_initializers = xyes -a \
+        x$wno_unused_parameter = xyes; then
+        ERROR_CFLAGS="$ERROR_CFLAGS -Wextra -Wno-missing-field-initializers -Wno-unused-parameter"
+    fi
+fi
 
 AS_COMPILER_FLAG(-Wdeclaration-after-statement, ERROR_CFLAGS="$ERROR_CFLAGS -Wdeclaration-after-statement")
 AS_COMPILER_FLAG(-Wshadow, ERROR_CFLAGS="$ERROR_CFLAGS -Wshadow")
@@ -337,6 +344,7 @@ Configure summary:
 	Linker Flags................:  ${LDFLAGS}
 	Prefix......................:  ${prefix}
 	Coding style checks.........:  ${ENABLE_CODING_STYLE_CHECKS}
+	Unreleased version checks...:  ${enable_unreleased_checks}
 
     Features:
 	Cheese webcam support ......:  ${have_cheese}
