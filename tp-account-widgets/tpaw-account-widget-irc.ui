@@ -100,6 +100,7 @@
                       <object class="GtkEntry" id="entry_network">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
+                        <property name="hexpand">True</property>
                       </object>
                       <packing>
                         <property name="left_attach">1</property>
@@ -293,6 +294,8 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="visibility">False</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -305,6 +308,8 @@
           <object class="GtkEntry" id="entry_nick">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -409,6 +414,7 @@
               <object class="GtkEntry" id="entry_quit_message">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -438,6 +444,7 @@
               <object class="GtkEntry" id="entry_fullname">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -487,6 +494,7 @@
               <object class="GtkEntry" id="entry_username">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -580,6 +588,8 @@
           <object class="GtkEntry" id="entry_nick_simple">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
         </child>
       </object>

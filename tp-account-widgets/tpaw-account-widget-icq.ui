@@ -50,6 +50,8 @@
           <object class="GtkEntry" id="entry_uin">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -60,6 +62,8 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="visibility">False</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -149,6 +153,7 @@
               <object class="GtkEntry" id="entry_server">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -191,6 +196,7 @@
               <object class="GtkEntry" id="entry_charset">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -247,6 +253,8 @@
               <object class="GtkEntry" id="entry_uin_simple">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="width_request">280</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="position">0</property>
@@ -296,6 +304,8 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="visibility">False</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
         </child>
       </object>

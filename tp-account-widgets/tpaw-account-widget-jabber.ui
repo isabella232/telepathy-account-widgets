@@ -37,6 +37,7 @@
           <object class="GtkEntry" id="entry_id_fb_simple">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -91,6 +92,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
         <property name="can_focus">True</property>
         <property name="margin_left">12</property>
         <property name="visibility">False</property>
+        <property name="hexpand">True</property>
       </object>
       <packing>
         <property name="expand">False</property>
@@ -142,6 +144,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
           <object class="GtkEntry" id="entry_id_g_simple">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="expand">True</property>
@@ -193,6 +196,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
         <property name="can_focus">True</property>
         <property name="margin_left">12</property>
         <property name="visibility">False</property>
+        <property name="hexpand">True</property>
       </object>
       <packing>
         <property name="expand">False</property>
@@ -235,6 +239,8 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
             <property name="valign">start</property>
             <property name="hexpand">True</property>
             <property name="visibility">False</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -247,6 +253,8 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
           <object class="GtkEntry" id="entry_id">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="hexpand">True</property>
+            <property name="width_request">280</property>
             <property name="hexpand">True</property>
           </object>
           <packing>
@@ -453,6 +461,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
                       <object class="GtkEntry" id="entry_resource">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
+                        <property name="hexpand">True</property>
                       </object>
                       <packing>
                         <property name="left_attach">1</property>
@@ -615,6 +624,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="invisible_char">●</property>
+                        <property name="hexpand">True</property>
                       </object>
                       <packing>
                         <property name="left_attach">1</property>
@@ -689,6 +699,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
           <object class="GtkEntry" id="entry_id_simple">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="expand">True</property>
@@ -740,6 +751,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
         <property name="can_focus">True</property>
         <property name="margin_left">12</property>
         <property name="visibility">False</property>
+        <property name="hexpand">True</property>
       </object>
       <packing>
         <property name="expand">False</property>

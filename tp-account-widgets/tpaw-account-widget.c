@@ -768,9 +768,11 @@ accounts_widget_generic_setup (TpawAccountWidget *self,
           gtk_widget_show (widget);
 
           widget = gtk_entry_new ();
+          g_object_set (widget, "hexpand", TRUE, NULL);
           if (g_strcmp0 (tp_connection_manager_param_get_name (param),
                 "account") == 0)
             {
+              g_object_set (widget, "width-request", 280, NULL);
               g_signal_connect (widget, "realize",
                   G_CALLBACK (gtk_widget_grab_focus),
                   NULL);

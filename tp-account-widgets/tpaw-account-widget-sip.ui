@@ -50,6 +50,8 @@
           <object class="GtkEntry" id="entry_userid">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -92,6 +94,8 @@
           <object class="GtkEntry" id="entry_password">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="width_request">280</property>
+            <property name="hexpand">True</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -176,6 +180,7 @@
                           <object class="GtkEntry" id="entry_stun-server">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
+                            <property name="hexpand">True</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -186,6 +191,7 @@
                           <object class="GtkEntry" id="entry_auth-user">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
+                            <property name="hexpand">True</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -197,6 +203,7 @@
                           <object class="GtkEntry" id="entry_proxy-host">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
+                            <property name="hexpand">True</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -219,6 +226,7 @@
                          <object class="GtkEntry" id="entry_local-ip-address">
                            <property name="visible">True</property>
                            <property name="can_focus">True</property>
+                           <property name="hexpand">True</property>
                          </object>
                          <packing>
                            <property name="left_attach">1</property>
@@ -642,6 +650,7 @@
               <object class="GtkEntry" id="entry_userid_simple">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="hexpand">True</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -702,6 +711,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="visibility">False</property>
+            <property name="hexpand">True</property>
           </object>
         </child>
       </object>
