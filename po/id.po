@@ -1,5 +1,5 @@
 # translation of tp-account-widgets to Bahasa Indonesia
-# Copyright (C) YEAR THE tp-account-widgets'S COPYRIGHT HOLDER
+# Copyright (C) 2013 THE tp-account-widgets'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the tp-account-widgets package.
 #
 # Taufiq Wirahman <taufiq.wirahman@gmail.com>, 2010.
@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: empathy master\n"
+"Project-Id-Version: telepathy-account-widgets master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2013-03-12 11:56+0700\n"
+"POT-Creation-Date: 2013-08-20 20:14+0000\n"
+"PO-Revision-Date: 2013-08-21 14:59+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "Language: id\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -269,6 +269,78 @@ msgstr "Apa sandi AIM Anda?"
 msgid "Remember Password"
 msgstr "Ingat Sandi"
 
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+msgid "Account"
+msgstr "Akun"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Sandi"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Porta"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:759
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:814
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1426
+msgid "Username:"
+msgstr "Nama pengguna:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1754
+msgid "A_pply"
+msgstr "Tera_pkan"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1783
+msgid "L_og in"
+msgstr "L_og masuk"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1853
+msgid "This account already exists on the server"
+msgstr "Akun ini telah ada di server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1857
+msgid "Create a new account on the server"
+msgstr "Buat akun baru pada server"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2296
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s pada %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2322
+#, c-format
+msgid "%s Account"
+msgstr "Akun %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2326
+msgid "New account"
+msgstr "Akun baru"
+
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -349,10 +421,6 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "Panggilan"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Sandi"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -553,11 +621,6 @@ msgstr "Temukan server STUN secara otomatis"
 msgid "Discover Binding"
 msgstr "Temukan Ikatan"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Server"
-
 # keep alive = jaga tetap hidup
 # barangkali ada yang lebih pendek?
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
@@ -587,11 +650,6 @@ msgstr "Routing Santai"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Abaikan Galat TLS"
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Porta"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -637,6 +695,39 @@ msgstr "Apakah ID Yahoo! Anda?"
 msgid "What is your Yahoo! password?"
 msgstr "Apa sandi Yahoo! Anda?"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+msgid "Couldn't convert image"
+msgstr "Tak bisa mengonversi citra"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+msgid "None of the accepted image formats are supported on your system"
+msgstr "Tak satupun dari format citra yang diterima didukung pada sistem Anda"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+msgid "Couldn't save picture to file"
+msgstr "Tak bisa menyimpan gambar ke berkas"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+msgid "Select Your Avatar Image"
+msgstr "Pilih Citra Avatar Anda"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+msgid "Take a picture..."
+msgstr "Ambil gambar..."
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+msgid "No Image"
+msgstr "Tak Ada Citra"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+msgid "Images"
+msgstr "Citra"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+msgid "All Files"
+msgstr "Semua Berkas"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "Pilih..."
@@ -645,72 +736,72 @@ msgstr "Pilih..."
 msgid "_Select"
 msgstr "_Pilih"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
 msgid "Full name"
 msgstr "Nama lengkap"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
 msgid "Phone number"
 msgstr "Nomor telepon"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
 msgid "E-mail address"
 msgstr "Alamat surel"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Situs web"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Tanggal lahir"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 msgid "Last seen:"
 msgstr "Terakhir terlihat:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Server:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
 msgid "Connected from:"
 msgstr "Tersambung dari:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
 msgid "Away message:"
 msgstr "Pesan pergi:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "kantor"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "rumah"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "seluler"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "suara"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "preferensi"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "pos"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "parsel"
 
@@ -758,7 +849,7 @@ msgstr "Sandi bagi ruang obrolan '%s' pada akun %s (%s)"
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Akun %s baru"
@@ -803,20 +894,36 @@ msgstr[0] "%d bulan yang lalu"
 msgid "in the future"
 msgstr "di masa mendatang"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr "Pergilah daring untuk menyunting informasi pribadi Anda."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:500
 msgid "Identifier"
 msgstr "Identifair"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:508
 msgid "Alias"
 msgstr "Alias"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:525
 msgid "<b>Personal Details</b>"
 msgstr "<b>Rincian Pribadi</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "Orang Di Sekitar"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Jepang"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
