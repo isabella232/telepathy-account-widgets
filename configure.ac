@@ -27,6 +27,11 @@ AC_DEFINE(TP_DISABLE_SINGLE_INCLUDE, 1, [Disable single include header])
 
 LIBSECRET_REQUIRED=0.5
 
+# Optional deps
+LIBACCOUNTS_REQUIRED=1.4
+LIBSIGNON_REQUIRED=1.1
+MC_PLUGINS_REQUIRED=5.13.1
+
 # Enable extra flags for warnings if this is an unreleased version.
 AC_ARG_ENABLE(unreleased_checks,
             AS_HELP_STRING([--enable-unreleased-checks=@<:@no/yes@:>@],
