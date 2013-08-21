@@ -25,6 +25,7 @@
             <property name="label" translatable="yes">Pass_word:</property>
             <property name="use_underline">True</property>
             <property name="mnemonic_widget">entry_password</property>
+            <property name="margin_top">6</property>
           </object>
           <packing>
             <property name="top_attach">2</property>
@@ -59,6 +60,7 @@
             <property name="visibility">False</property>
             <property name="width_request">280</property>
             <property name="hexpand">True</property>
+            <property name="margin_top">6</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
