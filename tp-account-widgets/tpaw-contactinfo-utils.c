@@ -94,22 +94,22 @@ static const char *info_field_names[] =
 
 static InfoFieldData info_field_data[G_N_ELEMENTS (info_field_names)] =
 {
-  { "fn",    N_("Full name"),      NULL },
-  { "tel",   N_("Phone number"),   NULL },
-  { "email", N_("E-mail address"), linkify_first_value },
+  { "fn",    N_("Full Name"),      NULL },
+  { "tel",   N_("Phone Number"),   NULL },
+  { "email", N_("E-mail Address"), linkify_first_value },
   { "url",   N_("Website"),        linkify_first_value },
   { "bday",  N_("Birthday"),       NULL },
 
   /* Note to translators: this is the caption for a string of the form "5
    * minutes ago", and refers to the time since the contact last interacted
    * with their IM client. */
-  { "x-idle-time",  N_("Last seen:"),      format_idle_time },
+  { "x-idle-time",  N_("Last Seen:"),      format_idle_time },
   { "x-irc-server", N_("Server:"),         format_server },
-  { "x-host",       N_("Connected from:"), format_server },
+  { "x-host",       N_("Connected From:"), format_server },
 
   /* FIXME: once Idle implements SimplePresence using this information, we can
    * and should bin this. */
-  { "x-presence-status-message", N_("Away message:"), presence_hack },
+  { "x-presence-status-message", N_("Away Message:"), presence_hack },
 
   { NULL, NULL }
 };
