@@ -1724,81 +1724,28 @@ do_get_property (GObject *object,
 static void
 set_apply_button (TpawAccountWidget *self)
 {
+  const gchar *stock_image;
   GtkWidget *image;
 
-  /* We can't use the stock button as its accelerator ('A') clashes with the
-   * Add button. */
-  gtk_button_set_use_stock (GTK_BUTTON (self->priv->apply_button), FALSE);
-
-  gtk_button_set_label (GTK_BUTTON (self->priv->apply_button), _("A_pply"));
-  gtk_button_set_use_underline (GTK_BUTTON (self->priv->apply_button), TRUE);
-
-  image = gtk_image_new_from_stock (GTK_STOCK_APPLY, GTK_ICON_SIZE_BUTTON);
-  gtk_button_set_image (GTK_BUTTON (self->priv->apply_button), image);
-}
-
-static void
-presence_changed_cb (TpAccountManager *manager,
-    TpConnectionPresenceType state,
-    const gchar *status,
-    const gchar *message,
-    TpawAccountWidget *self)
-{
-  if (self->priv->destroyed)
-    return;
-
-  if (self->priv->apply_button == NULL)
-    /* This button doesn't exist in 'simple' mode */
-    return;
-
-  if (state > TP_CONNECTION_PRESENCE_TYPE_OFFLINE &&
-      self->priv->creating_account)
+  if (self->priv->creating_account)
     {
-      /* We are online and creating a new account, display a Login button */
-      GtkWidget *image;
-
-      gtk_button_set_use_stock (GTK_BUTTON (self->priv->apply_button), FALSE);
-      gtk_button_set_label (GTK_BUTTON (self->priv->apply_button),
-          _("L_og in"));
-
-      image = gtk_image_new_from_stock (GTK_STOCK_CONNECT,
-          GTK_ICON_SIZE_BUTTON);
-      gtk_button_set_image (GTK_BUTTON (self->priv->apply_button), image);
+      gtk_button_set_label (GTK_BUTTON (self->priv->apply_button), _("A_dd"));
+      stock_image = GTK_STOCK_ADD;
     }
   else
     {
-      /* We are offline or modifying an existing account, display
-       * a Save button */
-      set_apply_button (self);
-    }
-}
+      /* We can't use the stock button as its accelerator ('A') clashes with the
+       * Add button. */
+      gtk_button_set_use_stock (GTK_BUTTON (self->priv->apply_button), FALSE);
+      gtk_button_set_label (GTK_BUTTON (self->priv->apply_button), _("A_pply"));
 
-static void
-account_manager_ready_cb (GObject *source_object,
-    GAsyncResult *result,
-    gpointer user_data)
-{
-  TpawAccountWidget *self = TPAW_ACCOUNT_WIDGET (user_data);
-  TpAccountManager *account_manager = TP_ACCOUNT_MANAGER (source_object);
-  GError *error = NULL;
-  TpConnectionPresenceType state;
-
-  if (!tp_proxy_prepare_finish (account_manager, result, &error))
-    {
-      DEBUG ("Failed to prepare account manager: %s", error->message);
-      g_error_free (error);
-      goto out;
+      stock_image = GTK_STOCK_APPLY;
     }
 
-  state = tp_account_manager_get_most_available_presence (account_manager, NULL,
-      NULL);
+  gtk_button_set_use_underline (GTK_BUTTON (self->priv->apply_button), TRUE);
 
-  /* simulate a presence change so the apply button will be changed
-   * if needed */
-  presence_changed_cb (account_manager, state, NULL, NULL, self);
-
-out:
-  g_object_unref (self);
+  image = gtk_image_new_from_stock (stock_image, GTK_ICON_SIZE_BUTTON);
+  gtk_button_set_image (GTK_BUTTON (self->priv->apply_button), image);
 }
 
 #define WIDGET(cm, proto) \
@@ -1957,10 +1904,7 @@ do_constructed (GObject *obj)
 
   /* dup and init the account-manager */
   self->priv->account_manager = tp_account_manager_dup ();
-
-  g_object_ref (self);
-  tp_proxy_prepare_async (self->priv->account_manager, NULL,
-      account_manager_ready_cb, self);
+  tp_proxy_prepare_async (self->priv->account_manager, NULL, NULL, NULL);
 
   if (!self->priv->external_action_area)
     {
@@ -1985,12 +1929,6 @@ do_constructed (GObject *obj)
 
   self->priv->apply_button = gtk_button_new ();
   set_apply_button (self);
-
-  /* We'll change this button to a "Log in" one if we are creating a new
-   * account and are connected. */
-  tp_g_signal_connect_object (self->priv->account_manager,
-      "most-available-presence-changed",
-      G_CALLBACK (presence_changed_cb), obj, 0);
 
   gtk_box_pack_end (GTK_BOX (self->priv->action_area),
       self->priv->cancel_button, TRUE, TRUE, 3);
