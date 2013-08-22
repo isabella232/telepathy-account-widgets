@@ -1,26 +1,15 @@
-# Czech translation of tp-account-widgets.
-# Copyright (C) 2003, 2004, 2008, 2009, 2010 the author(s) of tp-account-widgets.
-# Copyright (C) 2003, 2004 Miloslav Trmac <mitr@volny.cz>.
-# This file is distributed under the same license as the tp-account-widgets package.
+# Czech translation of empathy.
+# Copyright (C) 2003, 2004, 2008, 2009, 2010 the author(s) of telepathy-account-widgets.
+# This file is distributed under the same license as the telepathy-account-widgets package.
 #
-# Miloslav Trmac <mitr@volny.cz>, 2003, 2004.
-# Lucas Lommer <llommer@svn.gnome.org>, 2008, 2009, 2010.
-# Adrian Guniš <andygun@seznam.cz>, 2008.
-# Martin Picek <picek.martin@gnome-cesko.cz>, 2008.
-# Jan Drábek <repli2dev@gmail.com>, 2009.
-# Lukáš Ručka <lukassoftwares.backup@gmail.com>, 2010.
-# Jiri Eischmann <jiri@eischmann.cz>, 2010.
-# Pavel Šefránek <pavel@sefranek2.cz>, 2011.
-# Petr Kovar <pknbe@volny.cz>, 2008, 2009, 2010, 2011.
-# Adam Matoušek <adamatousek@gmail.com>, 2013.
-# Marek Černocký <marek@manet.cz>, 2010, 2011, 2012, 2013.
+# Marek Černocký <marek@manet.cz>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: empathy\n"
+"Project-Id-Version: telepathy-account-widgets\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2013-07-22 08:10+0200\n"
+"POT-Creation-Date: 2013-08-22 13:40+0000\n"
+"PO-Revision-Date: 2013-08-22 21:53+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -278,6 +267,70 @@ msgstr "Jaké je vaše heslo k AIM?"
 msgid "Remember Password"
 msgstr "Zapamatovat heslo"
 
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "Účet"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Heslo"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+msgid "Username:"
+msgstr "Uživatelské jméno:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "Při_dat"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "_Použít"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s na %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+msgid "%s Account"
+msgstr "Účet služby %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+msgid "New account"
+msgstr "Nový účet"
+
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -358,10 +411,6 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "Přezdívka"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Heslo"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -450,16 +499,8 @@ msgid "What is your Jabber ID?"
 msgstr "Jaké je vaše Jabber ID?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "Jaké Jabber ID chcete?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr "Jaké je vaše heslo ke službě Jabber?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "Jaké chcete heslo pro Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -562,11 +603,6 @@ msgstr "Automaticky najít server STUN"
 msgid "Discover Binding"
 msgstr "Vyhledat vázání"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Server"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Volby (udržovat spojení)"
@@ -594,11 +630,6 @@ msgstr "Volné směrování"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "Nedbat chyb TLS"
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -644,6 +675,39 @@ msgstr "Jaké je vaše Yahoo! ID?"
 msgid "What is your Yahoo! password?"
 msgstr "Jaké je vaše heslo k Yahoo?"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+msgid "Couldn't convert image"
+msgstr "Nelze konvertovat obrázek"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+msgid "None of the accepted image formats are supported on your system"
+msgstr "Váš systém neobsahuje žádný z podporovaných formátů obrázku"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+msgid "Couldn't save picture to file"
+msgstr "Nelze uložit obrázek do souboru"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+msgid "Select Your Avatar Image"
+msgstr "Vyberte si obrázek avataru"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+msgid "Take a picture..."
+msgstr "Vyfotografovat…"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+msgid "No Image"
+msgstr "Žádný obrázek"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+msgid "Images"
+msgstr "Obrázky"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+msgid "All Files"
+msgstr "Všechny soubory"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "Vybrat…"
@@ -652,72 +716,72 @@ msgstr "Vybrat…"
 msgid "_Select"
 msgstr "_Vybrat"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Full Name"
 msgstr "Celé jméno"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "Phone Number"
 msgstr "Telefonní číslo"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
 msgstr "E-mailová adresa"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Webové stránky"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Narozeniny"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
 msgstr "Naposledy spatřen:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Server:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
 msgstr "Připojen z:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
 msgstr "Zpráva v nepřítomnosti:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "pracovní"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "domů"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "mobilní"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "hlasový"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "upřednostňovaný"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "poštovní"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "doručovací"
 
@@ -765,7 +829,7 @@ msgstr "Heslo pro diskuzní místnost „%s“ u účtu %s (%s)"
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Nový účet %s"
@@ -822,20 +886,40 @@ msgstr[2] "před %d měsíci"
 msgid "in the future"
 msgstr "v budoucnosti"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr "Připojte se, abyste mohli upravovat své osobní údaje."
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr "Tyto údaje budou sdíleny s ostatními uživateli na této diskuzní síti."
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
 msgstr "Identifikátor"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
 msgstr "Přezdívka"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:541
 msgid "<b>Personal Details</b>"
 msgstr "<b>Osobní údaje</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "Lidé v okolí"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
