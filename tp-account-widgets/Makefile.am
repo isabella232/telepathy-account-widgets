@@ -2,6 +2,7 @@ AM_CPPFLAGS =                                           \
 	$(ERROR_CFLAGS)					\
 	-DDATADIR=\""$(datadir)"\"              	\
 	-DPKGDATADIR=\""$(real_pkgdatadir)"\"		\
+	-DICONDIR=\""$(icondir)"\"			\
 	-DG_LOG_DOMAIN=\"tp-account-widgets\"		\
 	-DGCR_API_SUBJECT_TO_CHANGE			\
 	$(TPAW_CFLAGS)					\
