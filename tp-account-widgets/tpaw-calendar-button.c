@@ -206,7 +206,7 @@ tpaw_calendar_button_init (TpawCalendarButton *self)
   /* Clear */
   self->priv->button_clear = gtk_button_new ();
 
-  image = gtk_image_new_from_stock (GTK_STOCK_CLEAR,
+  image = gtk_image_new_from_icon_name ("edit-clear-symbolic",
       GTK_ICON_SIZE_MENU);
   gtk_button_set_image (GTK_BUTTON (self->priv->button_clear), image);
   gtk_widget_show (image);
