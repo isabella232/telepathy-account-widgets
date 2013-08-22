@@ -7,7 +7,6 @@ DISTCHECK_CONFIGURE_FLAGS =		\
 
 EXTRA_DIST = 			\
         CONTRIBUTORS \
-        COPYING.LGPL \
         README \
         autogen.sh \
         $(NULL)
