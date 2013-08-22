@@ -489,12 +489,28 @@ tpaw_user_info_constructed (GObject *object)
 {
   TpawUserInfo *self = (TpawUserInfo *) object;
   GtkGrid *grid = (GtkGrid *) self;
+  GtkWidget *infobar;
+  GtkWidget *infobar_content;
+  GtkWidget *infobar_label;
   GtkWidget *title;
 
   G_OBJECT_CLASS (tpaw_user_info_parent_class)->constructed (object);
 
   gtk_grid_set_column_spacing (grid, 6);
   gtk_grid_set_row_spacing (grid, 6);
+
+  infobar = gtk_info_bar_new ();
+  g_object_set (infobar, "margin-bottom", 6, NULL);
+  gtk_info_bar_set_message_type (GTK_INFO_BAR (infobar), GTK_MESSAGE_INFO);
+  infobar_content = gtk_info_bar_get_content_area (GTK_INFO_BAR (infobar));
+  infobar_label = gtk_label_new (
+      _("These details will be shared with other users on this "
+        "chat network."));
+  gtk_container_add (GTK_CONTAINER (infobar_content), infobar_label);
+  gtk_widget_show (infobar_label);
+  gtk_grid_attach_next_to ((GtkGrid *) self, infobar, NULL,
+      GTK_POS_TOP, 3, 1);
+  gtk_widget_show (infobar);
 
   /* Setup id label */
   title = gtk_label_new (_("Identifier"));
