@@ -578,8 +578,8 @@ tpaw_account_widget_setup_widget (TpawAccountWidget *self,
           gtk_entry_set_visibility (GTK_ENTRY (widget), FALSE);
 
           /* Add 'clear' icon */
-          gtk_entry_set_icon_from_stock (GTK_ENTRY (widget),
-              GTK_ENTRY_ICON_SECONDARY, GTK_STOCK_CLEAR);
+          gtk_entry_set_icon_from_icon_name (GTK_ENTRY (widget),
+              GTK_ENTRY_ICON_SECONDARY, "edit-clear-symbolic");
 
           gtk_entry_set_icon_sensitive (GTK_ENTRY (widget),
               GTK_ENTRY_ICON_SECONDARY, !TPAW_STR_EMPTY (str));
