@@ -188,7 +188,16 @@ fi
 # -----------------------------------------------------------
 IT_PROG_INTLTOOL([0.50.0])
 
-GETTEXT_PACKAGE=tpaw
+AC_ARG_WITH([gettext-package],
+            AS_HELP_STRING([--with-gettext-package],
+                           [set a different GETTEXT_PACKAGE to avoid conflicts]),,
+            with_gettext_package=)
+
+if test -n "$with_gettext_package"; then
+    GETTEXT_PACKAGE="$with_gettext_package"
+else
+    GETTEXT_PACKAGE=tpaw
+fi
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[Gettext package name])
 
@@ -351,6 +360,7 @@ Configure summary:
 	Data directory .............:  ${real_pkgdatadir}
 	Coding style checks.........:  ${ENABLE_CODING_STYLE_CHECKS}
 	Unreleased version checks...:  ${enable_unreleased_checks}
+	GETTEXT_PACKAGE.............:  ${GETTEXT_PACKAGE}
 
     Features:
 	Cheese webcam support ......:  ${have_cheese}
