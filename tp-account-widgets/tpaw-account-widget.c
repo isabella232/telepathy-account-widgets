@@ -69,7 +69,6 @@ struct _TpawAccountWidgetPriv {
   GtkWidget *cancel_button;
   GtkWidget *entry_password;
   GtkWidget *spinbutton_port;
-  GtkWidget *radiobutton_reuse;
   GtkWidget *action_area;
 
   gboolean simple;
@@ -990,16 +989,6 @@ tpaw_account_widget_apply_and_log_in (TpawAccountWidget *self)
 {
   gboolean display_name_overridden;
 
-  if (self->priv->radiobutton_reuse != NULL)
-    {
-      gboolean reuse = gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (
-            self->priv->radiobutton_reuse));
-
-      DEBUG ("Set register param: %d", !reuse);
-      tpaw_account_settings_set (self->priv->settings, "register",
-          g_variant_new_boolean (!reuse));
-    }
-
   g_object_get (self->priv->settings,
       "display-name-overridden", &display_name_overridden, NULL);
 
@@ -1311,7 +1300,6 @@ account_widget_build_jabber (TpawAccountWidget *self,
   GtkWidget *spinbutton_port;
   GtkWidget *checkbutton_ssl;
   GtkWidget *label_id, *label_password;
-  GtkWidget *label_id_create, *label_password_create;
   GtkWidget *label_example_fb;
   GtkWidget *label_example;
   GtkWidget *expander_advanced;
@@ -1330,19 +1318,8 @@ account_widget_build_jabber (TpawAccountWidget *self,
       self->ui_details->gui = tpaw_builder_get_resource (filename,
           "vbox_jabber_simple", &box,
           "label_id_simple", &label_id,
-          "label_id_create", &label_id_create,
           "label_password_simple", &label_password,
-          "label_password_create", &label_password_create,
           NULL);
-
-      if (tpaw_account_settings_get_boolean (self->priv->settings,
-            "register"))
-        {
-          gtk_widget_hide (label_id);
-          gtk_widget_hide (label_password);
-          gtk_widget_show (label_id_create);
-          gtk_widget_show (label_password_create);
-        }
 
       tpaw_account_widget_handle_params (self,
           "entry_id_simple", "account",
@@ -1827,45 +1804,6 @@ out:
     account_widget_build_##proto }
 
 static void
-add_register_buttons (TpawAccountWidget *self,
-    TpAccount *account)
-{
-  TpProtocol *protocol;
-  GtkWidget *radiobutton_register;
-
-  if (!self->priv->creating_account)
-    return;
-
-  protocol = tpaw_account_settings_get_tp_protocol (self->priv->settings);
-  if (protocol == NULL)
-    return;
-
-  if (!tp_protocol_can_register (protocol))
-    return;
-
-  if (account_widget_get_service (self) != NO_SERVICE)
-    return;
-
-  if (self->priv->simple)
-    return;
-
-  self->priv->radiobutton_reuse = gtk_radio_button_new_with_label (NULL,
-      _("This account already exists on the server"));
-  radiobutton_register = gtk_radio_button_new_with_label (
-      gtk_radio_button_get_group (
-        GTK_RADIO_BUTTON (self->priv->radiobutton_reuse)),
-      _("Create a new account on the server"));
-
-  gtk_box_pack_start (GTK_BOX (self), self->priv->radiobutton_reuse, FALSE,
-      FALSE, 0);
-  gtk_box_pack_start (GTK_BOX (self), radiobutton_register, FALSE, FALSE, 0);
-  gtk_box_reorder_child (GTK_BOX (self), self->priv->radiobutton_reuse, 0);
-  gtk_box_reorder_child (GTK_BOX (self), radiobutton_register, 1);
-  gtk_widget_show (self->priv->radiobutton_reuse);
-  gtk_widget_show (radiobutton_register);
-}
-
-static void
 remember_password_toggled_cb (GtkToggleButton *button,
     TpawAccountWidget *self)
 {
@@ -1910,7 +1848,6 @@ static void
 do_constructed (GObject *obj)
 {
   TpawAccountWidget *self = TPAW_ACCOUNT_WIDGET (obj);
-  TpAccount *account;
   const gchar *display_name, *default_display_name;
   guint i = 0;
   struct {
@@ -1932,8 +1869,6 @@ do_constructed (GObject *obj)
   };
   const gchar *protocol, *cm_name;
   GtkWidget *box;
-
-  account = tpaw_account_settings_get_account (self->priv->settings);
 
   cm_name = tpaw_account_settings_get_cm (self->priv->settings);
   protocol = tpaw_account_settings_get_protocol (self->priv->settings);
@@ -2080,8 +2015,6 @@ do_constructed (GObject *obj)
     account_widget_handle_control_buttons_sensitivity (self);
   else
     account_widget_set_control_buttons_sensitivity (self, FALSE);
-
-  add_register_buttons (self, account);
 
   g_clear_object (&self->ui_details->gui);
 
