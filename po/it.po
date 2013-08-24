@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tp-account-widgets\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-20 19:16+0200\n"
-"PO-Revision-Date: 2013-08-20 19:16+0200\n"
+"POT-Creation-Date: 2013-08-24 19:04+0200\n"
+"PO-Revision-Date: 2013-08-24 19:03+0200\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -272,75 +272,67 @@ msgstr "Qual è la password di AIM?"
 msgid "Remember Password"
 msgstr "Ricordare la password"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 msgid "Account"
 msgstr "Account"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Password"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:673
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Server"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget.c:674
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Porta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:759
+#: ../tp-account-widgets/tpaw-account-widget.c:758
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:814
+#: ../tp-account-widgets/tpaw-account-widget.c:815
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1426
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
 msgid "Username:"
 msgstr "Nome utente:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1754
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "A_ggiungi"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
 msgid "A_pply"
 msgstr "A_pplica"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1783
-msgid "L_og in"
-msgstr "Acce_di"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1853
-msgid "This account already exists on the server"
-msgstr "Questo account esiste già sul server"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1857
-msgid "Create a new account on the server"
-msgstr "Creare un nuovo account sul server"
 
 #. To translators: The first parameter is the login id and the
 #. * second one is the network. The resulting string will be something
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2296
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s su %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2322
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
 msgid "%s Account"
 msgstr "Account %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2326
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
 msgid "New account"
 msgstr "Nuovo account"
 
@@ -516,16 +508,8 @@ msgid "What is your Jabber ID?"
 msgstr "Qual è l'identificativo di Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "Che identificativo Jabber utilizzare?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr "Qual è la password di Jabber?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "Che password utilizzare?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -749,15 +733,15 @@ msgid "_Select"
 msgstr "_Seleziona"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Full name"
+msgid "Full Name"
 msgstr "Nome completo"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "Phone number"
+msgid "Phone Number"
 msgstr "Numero di telefono"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-msgid "E-mail address"
+msgid "E-mail Address"
 msgstr "Indirizzo email"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
@@ -773,7 +757,7 @@ msgstr "Compleanno"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-msgid "Last seen:"
+msgid "Last Seen:"
 msgstr "Ultima attività:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
@@ -781,14 +765,14 @@ msgid "Server:"
 msgstr "Server:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-msgid "Connected from:"
+msgid "Connected From:"
 msgstr "Connessione da:"
 
 # (ndt) usato lo stesso di xchat-gnome
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-msgid "Away message:"
+msgid "Away Message:"
 msgstr "Messaggio di assenza:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
@@ -919,17 +903,22 @@ msgstr "nel futuro"
 msgid "Go online to edit your personal information."
 msgstr "Andare in rete per modificare le informazioni personali."
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr ""
+"Questi dettagli verranno condivisi con gli altri utenti su questa rete."
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:500
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
 msgstr "Identificatore"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:508
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
 msgstr "Pseudonimo"
 
-#: ../tp-account-widgets/tpaw-user-info.c:525
+#: ../tp-account-widgets/tpaw-user-info.c:541
 msgid "<b>Personal Details</b>"
 msgstr "<b>Dettagli personali</b>"
 
