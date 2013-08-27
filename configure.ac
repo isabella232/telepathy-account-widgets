@@ -157,6 +157,23 @@ fi
 AC_SUBST(icondir)
 
 # -----------------------------------------------------------
+# Disable the installation of tp-aw's GSettings schema.
+# This can be needed to avoid multiple components shipping
+# the same schema.
+# See https://bugzilla.gnome.org/show_bug.cgi?id=706801
+# -----------------------------------------------------------
+AC_ARG_ENABLE(settings,
+  AS_HELP_STRING([--disable-settings],
+                 [compile without installing GSettings schema]),
+  enable_settings=$enableval, enable_settings=yes )
+
+if test x$enable_settings = xyes; then
+  AC_DEFINE(ENABLE_SETTINGS, [], [Enable GSettings schema])
+fi
+
+AM_CONDITIONAL(ENABLE_SETTINGS, test "x$enable_settings" = "xyes")
+
+# -----------------------------------------------------------
 # Pkg-Config dependency checks
 # -----------------------------------------------------------
 
@@ -370,6 +387,7 @@ Configure summary:
 	Prefix......................:  ${prefix}
 	Data directory .............:  ${real_pkgdatadir}
 	Icon directory .............:  ${icondir}
+	GSettings schema support....:  ${enable_settings}
 	Coding style checks.........:  ${ENABLE_CODING_STYLE_CHECKS}
 	Unreleased version checks...:  ${enable_unreleased_checks}
 	GETTEXT_PACKAGE.............:  ${GETTEXT_PACKAGE}

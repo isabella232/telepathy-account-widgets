@@ -79,7 +79,9 @@ struct _TpawAvatarChooserPrivate
   gboolean changed;
 
   GtkFileChooser *chooser_dialog;
+#ifdef ENABLE_SETTINGS
   GSettings *gsettings_ui;
+#endif
 };
 
 enum
@@ -237,7 +239,9 @@ avatar_chooser_dispose (GObject *object)
   tp_clear_object (&self->priv->account);
   tp_clear_pointer (&self->priv->avatar, g_array_unref);
   tp_clear_pointer (&self->priv->mime_type, g_free);
+#ifdef ENABLE_SETTINGS
   tp_clear_object (&self->priv->gsettings_ui);
+#endif
 
   G_OBJECT_CLASS (tpaw_avatar_chooser_parent_class)->dispose (object);
 }
@@ -967,12 +971,15 @@ avatar_chooser_response_cb (GtkWidget *widget,
   if (response == TPAW_AVATAR_CHOOSER_RESPONSE_FILE)
     {
       gchar *filename;
+#ifdef ENABLE_SETTINGS
       gchar *path;
+#endif
 
       filename = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (widget));
       avatar_chooser_set_image_from_file (self, filename);
       g_free (filename);
 
+#ifdef ENABLE_SETTINGS
       path = gtk_file_chooser_get_current_folder (GTK_FILE_CHOOSER (widget));
       if (path != NULL)
         {
@@ -982,6 +989,7 @@ avatar_chooser_response_cb (GtkWidget *widget,
 
           g_free (path);
         }
+#endif
     }
   else if (response == TPAW_AVATAR_CHOOSER_RESPONSE_NO_IMAGE)
     {
@@ -1046,8 +1054,10 @@ avatar_chooser_clicked_cb (GtkWidget *button,
   gtk_window_set_destroy_with_parent (GTK_WINDOW (chooser_dialog), TRUE);
 
   /* Get special dirs */
+#ifdef ENABLE_SETTINGS
   saved_dir = g_settings_get_string (self->priv->gsettings_ui,
              TPAW_PREFS_UI_AVATAR_DIRECTORY);
+#endif
 
   if (saved_dir != NULL &&
       !g_file_test (saved_dir, G_FILE_TEST_IS_DIR))
@@ -1127,7 +1137,9 @@ tpaw_avatar_chooser_init (TpawAvatarChooser *self)
       G_N_ELEMENTS (drop_types),
       GDK_ACTION_COPY);
 
+#ifdef ENABLE_SETTINGS
   self->priv->gsettings_ui = g_settings_new (TPAW_PREFS_UI_SCHEMA);
+#endif
 
   g_signal_connect (self, "drag-motion",
       G_CALLBACK (avatar_chooser_drag_motion_cb),
