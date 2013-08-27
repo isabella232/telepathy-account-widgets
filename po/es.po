@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-20 20:14+0000\n"
-"PO-Revision-Date: 2013-08-21 10:41+0200\n"
+"POT-Creation-Date: 2013-08-22 13:40+0000\n"
+"PO-Revision-Date: 2013-08-27 18:17+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.5\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -267,78 +267,67 @@ msgstr "¿Cuál es su contraseña de AIM?"
 msgid "Remember Password"
 msgstr "Recordar contraseña"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 msgid "Account"
 msgstr "Cuenta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Contraseña"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:673
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Servidor"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:675
+#: ../tp-account-widgets/tpaw-account-widget.c:674
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Puerto"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:759
+#: ../tp-account-widgets/tpaw-account-widget.c:758
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:814
+#: ../tp-account-widgets/tpaw-account-widget.c:815
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1426
-#| msgid "Username"
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
 msgid "Username:"
 msgstr "Nombre de usuario:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1754
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "Aña_dir"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
 msgid "A_pply"
 msgstr "A_plicar"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1783
-msgid "L_og in"
-msgstr "Iniciar _sesión"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1853
-msgid "This account already exists on the server"
-msgstr "Esta cuenta ya existe en el servidor"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1857
-msgid "Create a new account on the server"
-msgstr "Crear una cuenta nueva en el servidor"
 
 #. To translators: The first parameter is the login id and the
 #. * second one is the network. The resulting string will be something
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2296
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s en %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2322
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
-#| msgid "New %s account"
 msgid "%s Account"
 msgstr "Cuenta de %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2326
-#| msgid "New %s account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
 msgid "New account"
 msgstr "Cuenta nueva"
 
@@ -509,16 +498,8 @@ msgid "What is your Jabber ID?"
 msgstr "¿Cuál es su ID de Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "¿Cuál es el ID de usuario que quiere para Jabber?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr "¿Cuál es su contraseña de Jabber?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "¿Cuál es la contraseña que quiere para Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -737,15 +718,18 @@ msgid "_Select"
 msgstr "_Seleccionar"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Full name"
+#| msgid "Full name"
+msgid "Full Name"
 msgstr "Nombre completo"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "Phone number"
-msgstr "Número de teléfono"
+#| msgid "Phone number"
+msgid "Phone Number"
+msgstr "Numero de teléfono"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-msgid "E-mail address"
+#| msgid "E-mail address"
+msgid "E-mail Address"
 msgstr "Dirección de correo-e"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
@@ -760,7 +744,8 @@ msgstr "Cumpleaños"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-msgid "Last seen:"
+#| msgid "Last seen:"
+msgid "Last Seen:"
 msgstr "Última actividad:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
@@ -768,13 +753,15 @@ msgid "Server:"
 msgstr "Servidor:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-msgid "Connected from:"
+#| msgid "Connected from:"
+msgid "Connected From:"
 msgstr "Conectado desde:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-msgid "Away message:"
+#| msgid "Away message:"
+msgid "Away Message:"
 msgstr "Mensaje de ausencia:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
@@ -904,17 +891,21 @@ msgstr "en el futuro"
 msgid "Go online to edit your personal information."
 msgstr "Conéctese para editar su información personal."
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr "Estos detalles se compartirán con otros usuarios de esta red de chat."
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:500
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
 msgstr "Identificador"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:508
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
 msgstr "Apodo"
 
-#: ../tp-account-widgets/tpaw-user-info.c:525
+#: ../tp-account-widgets/tpaw-user-info.c:541
 msgid "<b>Personal Details</b>"
 msgstr "<b>Detalles personales</b>"
 
@@ -923,7 +914,6 @@ msgid "People Nearby"
 msgstr "Gente cerca"
 
 #: ../tp-account-widgets/tpaw-utils.c:120
-#| msgid "Yahoo! I_D:"
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japón"
 
@@ -934,3 +924,18 @@ msgstr "Google Talk"
 #: ../tp-account-widgets/tpaw-utils.c:157
 msgid "Facebook Chat"
 msgstr "Chat de Facebook"
+
+#~ msgid "L_og in"
+#~ msgstr "Iniciar _sesión"
+
+#~ msgid "This account already exists on the server"
+#~ msgstr "Esta cuenta ya existe en el servidor"
+
+#~ msgid "Create a new account on the server"
+#~ msgstr "Crear una cuenta nueva en el servidor"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "¿Cuál es el ID de usuario que quiere para Jabber?"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "¿Cuál es la contraseña que quiere para Jabber?"
