@@ -1014,17 +1014,12 @@ avatar_chooser_clicked_cb (GtkWidget *button,
   TpawCameraMonitor *monitor;
 #endif
 
-  if (self->priv->chooser_dialog != NULL)
-    {
-      gtk_window_present (GTK_WINDOW (self->priv->chooser_dialog));
-      return;
-    }
-
   self->priv->chooser_dialog = GTK_FILE_CHOOSER (
       gtk_file_chooser_dialog_new (_("Select Your Avatar Image"),
         tpaw_get_toplevel_window (GTK_WIDGET (self)),
         GTK_FILE_CHOOSER_ACTION_OPEN,
         NULL, NULL));
+  gtk_window_set_modal (GTK_WINDOW (self->priv->chooser_dialog), TRUE);
 
 #ifdef HAVE_CHEESE
   picture_button = gtk_dialog_add_button (
