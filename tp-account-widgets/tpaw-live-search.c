@@ -26,7 +26,7 @@
 
 #include "tpaw-utils.h"
 
-G_DEFINE_TYPE (TpawLiveSearch, tpaw_live_search, GTK_TYPE_HBOX)
+G_DEFINE_TYPE (TpawLiveSearch, tpaw_live_search, GTK_TYPE_BOX)
 
 struct _TpawLiveSearchPriv
 {
@@ -597,6 +597,7 @@ tpaw_live_search_new (GtkWidget *hook)
   g_return_val_if_fail (hook == NULL || GTK_IS_WIDGET (hook), NULL);
 
   return g_object_new (TPAW_TYPE_LIVE_SEARCH,
+      "orientation", GTK_ORIENTATION_HORIZONTAL,
       "hook-widget", hook,
       NULL);
 }

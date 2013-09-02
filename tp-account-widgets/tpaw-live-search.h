@@ -40,14 +40,14 @@ typedef struct _TpawLiveSearchPriv  TpawLiveSearchPriv;
 typedef struct _TpawLiveSearchClass TpawLiveSearchClass;
 
 struct _TpawLiveSearch {
-  GtkHBox parent;
+  GtkBox parent;
 
   /*<private>*/
   TpawLiveSearchPriv *priv;
 };
 
 struct _TpawLiveSearchClass {
-  GtkHBoxClass parent_class;
+  GtkBoxClass parent_class;
 };
 
 GType tpaw_live_search_get_type (void) G_GNUC_CONST;
