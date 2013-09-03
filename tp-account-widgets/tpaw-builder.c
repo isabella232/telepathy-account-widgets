@@ -38,6 +38,7 @@ enum _BuilderSource
 static GtkBuilder *
 builder_get_valist (const gchar *sourcename,
     enum _BuilderSource source,
+    const gchar *translation_domain,
     const gchar *first_object,
     va_list args)
 {
@@ -50,7 +51,7 @@ builder_get_valist (const gchar *sourcename,
   DEBUG ("Loading %s '%s'", source == BUILDER_SOURCE_FILE ? "file" : "resource", sourcename);
 
   gui = gtk_builder_new ();
-  gtk_builder_set_translation_domain (gui, GETTEXT_PACKAGE);
+  gtk_builder_set_translation_domain (gui, translation_domain);
 
   switch (source)
     {
@@ -100,7 +101,8 @@ builder_get_valist (const gchar *sourcename,
 }
 
 GtkBuilder *
-tpaw_builder_get_file (const gchar *filename,
+tpaw_builder_get_file_with_domain (const gchar *filename,
+    const gchar *translation_domain,
     const gchar *first_object,
     ...)
 {
@@ -108,14 +110,16 @@ tpaw_builder_get_file (const gchar *filename,
   va_list args;
 
   va_start (args, first_object);
-  gui = builder_get_valist (filename, BUILDER_SOURCE_FILE, first_object, args);
+  gui = builder_get_valist (filename, BUILDER_SOURCE_FILE,
+      translation_domain, first_object, args);
   va_end (args);
 
   return gui;
 }
 
 GtkBuilder *
-tpaw_builder_get_resource (const gchar *resourcename,
+tpaw_builder_get_resource_with_domain (const gchar *resourcename,
+    const gchar *translation_domain,
     const gchar *first_object,
     ...)
 {
@@ -123,7 +127,8 @@ tpaw_builder_get_resource (const gchar *resourcename,
   va_list args;
 
   va_start (args, first_object);
-  gui = builder_get_valist (resourcename, BUILDER_SOURCE_RESOURCE, first_object, args);
+  gui = builder_get_valist (resourcename, BUILDER_SOURCE_RESOURCE,
+      translation_domain, first_object, args);
   va_end (args);
 
   return gui;

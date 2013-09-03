@@ -31,10 +31,20 @@
 
 G_BEGIN_DECLS
 
-GtkBuilder * tpaw_builder_get_file (const gchar *filename,
+#define tpaw_builder_get_file(filename, ...) \
+    tpaw_builder_get_file_with_domain (filename, GETTEXT_PACKAGE, \
+            __VA_ARGS__)
+
+#define tpaw_builder_get_resource(resourcename, ...) \
+    tpaw_builder_get_resource_with_domain (resourcename, GETTEXT_PACKAGE, \
+            __VA_ARGS__)
+
+GtkBuilder * tpaw_builder_get_file_with_domain (const gchar *filename,
+    const gchar *translation_domain,
     const gchar *first_object,
     ...);
-GtkBuilder * tpaw_builder_get_resource (const gchar *resourcename,
+GtkBuilder * tpaw_builder_get_resource_with_domain (const gchar *resourcename,
+    const gchar *translation_domain,
     const gchar *first_object,
     ...);
 void tpaw_builder_connect (GtkBuilder *gui,
