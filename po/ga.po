@@ -1,22 +1,23 @@
-# Irish translations for tp-account-widgets package.
-# Copyright (C) 2009-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the tp-account-widgets package.
-# Seán de Búrca <leftmostcat@gmail.com>, 2009-2012.
+# Irish translations for telepathy-account-widgets package.
+# Copyright (C) 2009-2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the telepathy-account-widgets package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009-2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: empathy.master\n"
+"Project-Id-Version: telepathy-account-widgets.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2012-10-28 14:24-0600\n"
+"POT-Creation-Date: 2013-09-06 12:32-0600\n"
+"PO-Revision-Date: 2013-09-06 12:44-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
-"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -199,18 +200,16 @@ msgstr "Vítneamach"
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
-#, fuzzy
 msgid "Pass_word"
-msgstr "_Focal faire:"
+msgstr "_Focal Faire"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
-#, fuzzy
 msgid "Screen _Name"
-msgstr "_Ainm Taispeána:"
+msgstr "Ai_nm Taispeána"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
 msgid "<b>Example:</b> MyScreenName"
-msgstr ""
+msgstr "<b>Sampla:</b> MAinmTaispeana"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
@@ -220,25 +219,23 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
 msgid "Remember password"
-msgstr ""
+msgstr "Meabhraigh an focal faire"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
-#, fuzzy
 msgid "_Port"
-msgstr "_Port:"
+msgstr "_Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
-#, fuzzy
 msgid "_Server"
-msgstr "Frea_stalaí:"
+msgstr "Frea_stalaí"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
@@ -255,11 +252,11 @@ msgstr "Casta"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
 msgid "What is your AIM screen name?"
-msgstr ""
+msgstr "Cád é d'ainm taispeána AIM?"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
-msgstr ""
+msgstr "Cád é d'fhocal faire AIM?"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
@@ -267,79 +264,137 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-#, fuzzy
 msgid "Remember Password"
-msgstr "Focal faire:"
+msgstr "Meabhraigh an Focal Faire"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "Cuntas"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Focal faire"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Freastalaí"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+msgid "Username:"
+msgstr "Ainm úsáideora:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "Cuir _Leis"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "Cuir i _bhFeidhm"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s ar %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+msgid "%s Account"
+msgstr "Cuntas %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+msgid "New account"
+msgstr "Cuntas nua"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
-#, fuzzy
 msgid "Login I_D"
-msgstr "C_A Logála Isteach:"
+msgstr "C_A Logála Isteach"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
 msgid "<b>Example:</b> username"
-msgstr ""
+msgstr "<b>Sampla:</b> ainmusaideora"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
-msgstr ""
+msgstr "Cad é do CA Úsáideora GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
-msgstr ""
+msgstr "Cad é d'fhocal faire GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
-#, fuzzy
 msgid "ICQ _UIN"
-msgstr "_UIN ICQ:"
+msgstr "_UIN ICQ"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
 msgid "<b>Example:</b> 123456789"
-msgstr ""
+msgstr "<b>Sampla:</b> 123456789"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
-#, fuzzy
 msgid "Ch_aracter set"
-msgstr "Tacar carachtar:"
+msgstr "T_acar carachtar"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
-msgstr ""
+msgstr "Cad é do UIN ICQ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
-msgstr ""
+msgstr "Cad é d'fhocal faire ICQ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
 msgid "Network"
 msgstr "Líonra"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
-#, fuzzy
 msgid "Character set"
-msgstr "Tacar carachtar:"
+msgstr "Tacar carachtar"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
-msgstr ""
+msgstr "Cuir Leis…"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
-#, fuzzy
 msgid "Remove"
-msgstr "gtk-remove"
+msgstr "Bain"
 
 #. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
-msgstr ""
+msgstr "Suas"
 
 #. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
-msgstr ""
+msgstr "Síos"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
 msgid "Servers"
@@ -350,34 +405,28 @@ msgid ""
 "Most IRC servers don't need a password, so if you're not sure, don't enter a "
 "password."
 msgstr ""
+"Ní gá focal faire don chuid is mó de fhreastalaithe IRC, mar sin mura bhfuil "
+"tú cinnte, ná iontráil focal faire."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
-#, fuzzy
 msgid "Nickname"
-msgstr "Leasainm:"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Focal faire"
+msgstr "Leasainm"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
-#, fuzzy
 msgid "Quit message"
-msgstr "Teachtaireacht scortha:"
+msgstr "Teachtaireacht scortha"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
-#, fuzzy
 msgid "Real name"
-msgstr "Fíorainm:"
+msgstr "Fíorainm"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
-#, fuzzy
 msgid "Username"
-msgstr "_Ainm úsáideora:"
+msgstr "Ainm úsáideora"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
 msgid "Which IRC network?"
-msgstr ""
+msgstr "Cén líonra IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
 msgid "What is your IRC nickname?"
@@ -402,38 +451,35 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
-msgstr ""
+msgstr "Cad é do CA Google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "<b>Example:</b> user@gmail.com"
-msgstr ""
+msgstr "<b>Sampla:</b> usaideoir@gmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "What is your Google password?"
-msgstr ""
+msgstr "Cad é d'fhocal faire Google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "<b>Example:</b> user@jabber.org"
 msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
-#, fuzzy
 msgid "I_gnore SSL certificate errors"
-msgstr "Déan _neamhaird ar earráidí teastas SSL"
+msgstr "Déan _neamhaird ar earráidí teastais SSL"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Priori_ty"
-msgstr ""
+msgstr "_Tosaíocht"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
-#, fuzzy
 msgid "Reso_urce"
-msgstr "Ac_mhainn:"
+msgstr "Ac_mhainn"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
-#, fuzzy
 msgid "Encr_yption required (TLS/SSL)"
-msgstr "_Criptiú riachtanach (TLS/SSL)"
+msgstr "Criptiú de dhíth (TLS/SSL)"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 msgid "Override server settings"
@@ -448,46 +494,32 @@ msgid "What is your Jabber ID?"
 msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr ""
-
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
-#, fuzzy
 msgid "Nic_kname"
-msgstr "Leasainm:"
+msgstr "_Leasainm"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
-#, fuzzy
 msgid "_Last Name"
-msgstr "_Sloinne:"
+msgstr "_Sloinne"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
-#, fuzzy
 msgid "_First Name"
-msgstr "_Ainm:"
+msgstr "_Ainm"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
-#, fuzzy
 msgid "_Published Name"
-msgstr "Ainm _Foilsithe:"
+msgstr "Ainm _Foilsithe"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
-#, fuzzy
 msgid "_Jabber ID"
-msgstr "CA _Jabber:"
+msgstr "CA _Jabber"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
-#, fuzzy
 msgid "E-_mail address"
-msgstr "Seoladh _ríomhphoist:"
+msgstr "Seoladh _ríomhphoist"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -504,7 +536,7 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
 msgid "Auto"
-msgstr ""
+msgstr "Uath"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:201
 msgid "UDP"
@@ -525,16 +557,15 @@ msgstr "Iartharach"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
-msgstr ""
+msgstr "Roghanna"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:244
 msgid "None"
-msgstr ""
+msgstr "Neamhní"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
-#, fuzzy
 msgid "_Username"
-msgstr "_Ainm úsáideora:"
+msgstr "_Ainm Úsáideora"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
@@ -550,16 +581,15 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
 msgid "Proxy Options"
-msgstr ""
+msgstr "Roghanna Seachfhreastalaí"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
 msgid "Miscellaneous Options"
-msgstr ""
+msgstr "Roghanna Éagsúla"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
-#, fuzzy
 msgid "STUN Server"
-msgstr "Freastalaí STUN:"
+msgstr "Freastalaí STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
@@ -568,11 +598,6 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
 msgid "Discover Binding"
 msgstr ""
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Freastalaí"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
@@ -603,11 +628,6 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr ""
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 #, fuzzy
@@ -656,87 +676,116 @@ msgstr ""
 msgid "What is your Yahoo! password?"
 msgstr ""
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:543
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:628
+msgid "Couldn't convert image"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:544
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:904
+msgid "Couldn't save picture to file"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1026
+msgid "Select Your Avatar Image"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1035
+msgid "Take a picture..."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1048
+msgid "No Image"
+msgstr "Gan Íomhá"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1107
+msgid "Images"
+msgstr "Íomhánna"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1111
+msgid "All Files"
+msgstr "Gach Comhad"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
-msgstr ""
+msgstr "Roghnaigh..."
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
-msgstr ""
-
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-#, fuzzy
-msgid "Full name"
-msgstr "Ainm Iomlán:"
+msgstr "_Roghnaigh"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
-msgstr ""
+msgid "Full Name"
+msgstr "Ainm Iomlán"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-#, fuzzy
-msgid "E-mail address"
-msgstr "Seoladh _ríomhphoist:"
+msgid "Phone Number"
+msgstr "Uimhir Theileafóin"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-#, fuzzy
-msgid "Website"
-msgstr "Suíomh gréasáin:"
+msgid "E-mail Address"
+msgstr "Seoladh Ríomhphoist"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+msgid "Website"
+msgstr "Suíomh Gréasáin"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
-msgstr ""
+msgstr "Lá Breithe"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 #, fuzzy
-msgid "Last seen:"
+msgid "Last Seen:"
 msgstr "_Sloinne:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Freastalaí:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
 msgstr ""
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
 #, fuzzy
-msgid "Away message:"
+msgid "Away Message:"
 msgstr "Teachtaireacht scortha:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
-#, fuzzy
-msgid "work"
-msgstr "Líonra"
-
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
-msgid "home"
-msgstr ""
+msgid "work"
+msgstr "obair"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
-msgid "mobile"
-msgstr ""
+msgid "home"
+msgstr "baile"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "mobile"
+msgstr "fón póca"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 #, fuzzy
 msgid "preferred"
 msgstr "Sainroghanna"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr ""
 
@@ -767,9 +816,8 @@ msgstr "SSL"
 
 #: ../tp-account-widgets/tpaw-keyring.c:77
 #: ../tp-account-widgets/tpaw-keyring.c:186
-#, fuzzy
 msgid "Password not found"
-msgstr "Focal faire:"
+msgstr "Focal faire gan aimsiú"
 
 #: ../tp-account-widgets/tpaw-keyring.c:586
 #, c-format
@@ -785,7 +833,7 @@ msgstr ""
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Cuntas %s nua"
@@ -836,23 +884,41 @@ msgstr[1] ""
 msgid "in the future"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr ""
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr ""
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
-msgstr "Aitheantóir:"
+msgstr "Aitheantóir"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
-msgstr "Ailias:"
+msgstr "Ailias"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:541
 msgid "<b>Personal Details</b>"
-msgstr "Eolas Pearsanta"
+msgstr "<b>Mionsonraí Pearsanta</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "Daoine in Aice Láithreach"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+#, fuzzy
+msgid "Yahoo! Japan"
+msgstr "C_A Yahoo!:"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr ""
