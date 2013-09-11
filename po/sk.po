@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-27 16:40+0000\n"
-"PO-Revision-Date: 2013-08-27 21:47+0200\n"
+"POT-Creation-Date: 2013-09-02 12:50+0000\n"
+"PO-Revision-Date: 2013-09-02 13:57+0100\n"
 "Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -304,16 +304,16 @@ msgstr "Server"
 msgid "Port"
 msgstr "Port"
 
-
 # PM: požiadaj o komentár prečo je tento reťazec na preklad
+# PK: na to sme sa raz uz pytali, len neviem kde je ten report
 #: ../tp-account-widgets/tpaw-account-widget.c:758
-#, fuzzy, c-format
+#, c-format
 msgid "%s"
 msgstr "%s"
 
 # PM: požiadaj o komentár prečo je tento reťazec na preklad
 #: ../tp-account-widgets/tpaw-account-widget.c:815
-#, fuzzy, c-format
+#, c-format
 msgid "%s:"
 msgstr "%s:"
 
@@ -324,11 +324,11 @@ msgstr "Používateľské meno:"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:1732
 msgid "A_dd"
-msgstr ""
+msgstr "_Pridať"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:1740
 msgid "A_pply"
-msgstr "_Potvrdiť"
+msgstr "P_otvrdiť"
 
 #. To translators: The first parameter is the login id and the
 #. * second one is the network. The resulting string will be something
@@ -340,13 +340,12 @@ msgstr "_Potvrdiť"
 msgid "%1$s on %2$s"
 msgstr "%1$s na sieti %2$s"
 
-# MČ: možno by som tam dal „Účet služby %s“
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
 #: ../tp-account-widgets/tpaw-account-widget.c:2195
-#, fuzzy, c-format
+#, c-format
 msgid "%s Account"
-msgstr "Účet %s"
+msgstr "Účet služby %s"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:2199
 msgid "New account"
@@ -830,22 +829,16 @@ msgstr "_Vybrať"
 
 # info_field_data
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-#, fuzzy
-#| msgid "Full name"
 msgid "Full Name"
 msgstr "Celé meno"
 
 # info_field_data
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-#, fuzzy
-#| msgid "Phone number"
 msgid "Phone Number"
 msgstr "Telefónne číslo"
 
 # info_field_data
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-#, fuzzy
-#| msgid "E-mail address"
 msgid "E-mail Address"
 msgstr "Emailová adresa"
 
@@ -864,8 +857,6 @@ msgstr "Narodeniny"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-#, fuzzy
-#| msgid "Last seen:"
 msgid "Last Seen:"
 msgstr "Naposledy videný:"
 
@@ -876,8 +867,6 @@ msgstr "Server:"
 
 # info_field_data
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#, fuzzy
-#| msgid "Connected from:"
 msgid "Connected From:"
 msgstr "Pripojený z:"
 
@@ -885,8 +874,6 @@ msgstr "Pripojený z:"
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#, fuzzy
-#| msgid "Away message:"
 msgid "Away Message:"
 msgstr "Správa pri odchode:"
 
@@ -1039,6 +1026,7 @@ msgstr "Aby ste mohli upraviť vaše osobné údaje musíte byť prihlásený."
 #: ../tp-account-widgets/tpaw-user-info.c:507
 msgid "These details will be shared with other users on this chat network."
 msgstr ""
+"Tieto podrobnosti budú sprístupnené ostatným používateľom na tejto sieti."
 
 # GtkLabel
 #. Setup id label
