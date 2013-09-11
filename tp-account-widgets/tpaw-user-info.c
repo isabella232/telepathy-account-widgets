@@ -530,7 +530,8 @@ tpaw_user_info_constructed (GObject *object)
       G_CALLBACK (nickname_notify_cb), self, 0);
 
   /* Set up avatar chooser */
-  self->priv->avatar_chooser = tpaw_avatar_chooser_new (self->priv->account);
+  self->priv->avatar_chooser = tpaw_avatar_chooser_new (self->priv->account,
+      -1);
   gtk_grid_attach (grid, self->priv->avatar_chooser,
       2, 0, 1, 3);
   gtk_widget_show (self->priv->avatar_chooser);

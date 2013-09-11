@@ -82,12 +82,15 @@ struct _TpawAvatarChooserPrivate
 #ifdef ENABLE_SETTINGS
   GSettings *gsettings_ui;
 #endif
+
+  gint pixel_size;
 };
 
 enum
 {
   PROP_0,
-  PROP_ACCOUNT
+  PROP_ACCOUNT,
+  PROP_PIXEL_SIZE
 };
 
 G_DEFINE_TYPE (TpawAvatarChooser, tpaw_avatar_chooser, GTK_TYPE_BUTTON);
@@ -205,10 +208,22 @@ avatar_chooser_get_property (GObject *object,
       case PROP_ACCOUNT:
         g_value_set_object (value, self->priv->account);
         break;
+      case PROP_PIXEL_SIZE:
+        g_value_set_int (value, self->priv->pixel_size);
+        break;
       default:
         G_OBJECT_WARN_INVALID_PROPERTY_ID (object, param_id, pspec);
         break;
     }
+}
+
+static void
+avatar_chooser_set_pixel_size (TpawAvatarChooser *self,
+    gint pixel_size)
+{
+  if (pixel_size == -1)
+    pixel_size = AVATAR_SIZE_VIEW;
+  self->priv->pixel_size = pixel_size;
 }
 
 static void
@@ -224,6 +239,9 @@ avatar_chooser_set_property (GObject *object,
       case PROP_ACCOUNT:
         g_assert (self->priv->account == NULL); /* construct-only */
         self->priv->account = g_value_dup_object (value);
+        break;
+      case PROP_PIXEL_SIZE:
+        avatar_chooser_set_pixel_size (self, g_value_get_int (value));
         break;
       default:
         G_OBJECT_WARN_INVALID_PROPERTY_ID (object, param_id, pspec);
@@ -273,6 +291,25 @@ tpaw_avatar_chooser_class_init (TpawAvatarChooserClass *klass)
             G_PARAM_STATIC_STRINGS);
   g_object_class_install_property (object_class,
            PROP_ACCOUNT,
+           param_spec);
+
+  /**
+   * TpawAvatarChooser:pixel-size:
+   *
+   * The size at which the avatar is shown in pixels. If set to -1
+   * then a default value of 64 is used.
+   */
+  param_spec = g_param_spec_int ("pixel-size",
+            "Pixel size",
+            "Pixel size at which the avatar is shown",
+            -1,
+            G_MAXINT,
+            AVATAR_SIZE_VIEW,
+            G_PARAM_READWRITE |
+            G_PARAM_CONSTRUCT_ONLY |
+            G_PARAM_STATIC_STRINGS);
+  g_object_class_install_property (object_class,
+           PROP_PIXEL_SIZE,
            param_spec);
 
   g_type_class_add_private (object_class, sizeof (TpawAvatarChooserPrivate));
@@ -729,7 +766,7 @@ avatar_chooser_set_image (TpawAvatarChooser *self,
   self->priv->changed = TRUE;
 
   pixbuf_view = tpaw_pixbuf_scale_down_if_necessary (pixbuf,
-      AVATAR_SIZE_VIEW);
+      self->priv->pixel_size);
   image = gtk_image_new_from_pixbuf (pixbuf_view);
 
   gtk_button_set_image (GTK_BUTTON (self), image);
@@ -1160,18 +1197,21 @@ tpaw_avatar_chooser_init (TpawAvatarChooser *self)
 /**
  * tpaw_avatar_chooser_new:
  * @account: a #TpAccount
+ * @pixel_size: the size at which the avatar is shown in pixels
  *
- * Creates a new #TpawAvatarChooser.
+ * Creates a new #TpawAvatarChooser. If @pixel_size is -1 then a
+ * default value of 64 is used.
  *
  * Return value: a new #TpawAvatarChooser
  */
 GtkWidget *
-tpaw_avatar_chooser_new (TpAccount *account)
+tpaw_avatar_chooser_new (TpAccount *account, gint pixel_size)
 {
   g_return_val_if_fail (TP_IS_ACCOUNT (account), NULL);
 
   return g_object_new (TPAW_TYPE_AVATAR_CHOOSER,
       "account", account,
+      "pixel-size", pixel_size,
       NULL);
 }
 

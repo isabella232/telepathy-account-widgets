@@ -55,7 +55,8 @@ struct _TpawAvatarChooserClass
 
 GType tpaw_avatar_chooser_get_type (void);
 
-GtkWidget *tpaw_avatar_chooser_new (TpAccount *account);
+GtkWidget *tpaw_avatar_chooser_new (TpAccount *account,
+    gint pixel_size);
 
 void tpaw_avatar_chooser_apply_async (TpawAvatarChooser *self,
     GAsyncReadyCallback callback,
