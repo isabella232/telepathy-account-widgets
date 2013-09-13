@@ -165,37 +165,35 @@ error:
 }
 
 static void
-uoa_session_process_cb (SignonAuthSession *session,
-    GHashTable *session_data,
-    const GError *error,
+uoa_session_process_cb (GObject *source,
+    GAsyncResult *res,
     gpointer user_data)
 {
+  SignonAuthSession *session = (SignonAuthSession *) source;
   GSimpleAsyncResult *result = user_data;
-  const gchar *password;
+  GVariant *session_data;
+  gchar *password;
+  GError *error = NULL;
 
+  session_data = signon_auth_session_process_finish (session, res, &error);
   if (error != NULL)
     {
-      g_simple_async_result_set_from_error (result, error);
+      g_simple_async_result_take_error (result, error);
       goto out;
     }
 
-  password = tp_asv_get_string (session_data, "Secret");
-  if (tp_str_empty (password))
+  if (!g_variant_lookup (session_data, "Secret", "s", &password))
     {
       g_simple_async_result_set_error (result, TP_ERROR,
           TP_ERROR_DOES_NOT_EXIST, _("Password not found"));
       goto out;
     }
 
-  g_simple_async_result_set_op_res_gpointer (result, g_strdup (password),
-      g_free);
+  g_simple_async_result_set_op_res_gpointer (result, password, g_free);
 
 out:
-  /* libaccounts-glib API does not guarantee the callback happens after
-   * reentering mainloop */
-  g_simple_async_result_complete_in_idle (result);
+  g_simple_async_result_complete (result);
   g_object_unref (result);
-  g_object_unref (session);
 }
 
 static void
@@ -238,11 +236,14 @@ uoa_get_account_password (TpAccount *tp_account,
       goto out;
     }
 
-  signon_auth_session_process (session,
-      ag_auth_data_get_parameters (auth_data),
+  signon_auth_session_process_async (session,
+      ag_auth_data_get_login_parameters (auth_data, NULL),
       ag_auth_data_get_mechanism (auth_data),
+      NULL,
       uoa_session_process_cb,
       g_object_ref (result));
+
+  g_object_unref (session);
 
 out:
   ag_auth_data_unref (auth_data);
@@ -437,18 +438,18 @@ uoa_identity_query_info_cb (SignonIdentity *identity,
 }
 
 static void
-uoa_initial_account_store_cb (AgAccount *account,
-    const GError *error,
+uoa_initial_account_store_cb (GObject *source,
+    GAsyncResult *result,
     gpointer user_data)
 {
+  AgAccount *account = (AgAccount *) source;
   UoaChangePasswordData *data = user_data;
+  GError *error = NULL;
 
-  if (error != NULL)
-    g_simple_async_result_set_from_error (data->result, error);
+  if (!ag_account_store_finish (account, result, &error))
+    g_simple_async_result_take_error (data->result, error);
 
-      /* libaccounts-glib API does not guarantee the callback happens after
-       * reentering mainloop */
-  g_simple_async_result_complete_in_idle (data->result);
+  g_simple_async_result_complete (data->result);
   uoa_change_password_data_free (data);
 }
 
@@ -460,7 +461,6 @@ uoa_initial_identity_store_cb (SignonIdentity *identity,
 {
   UoaChangePasswordData *data = user_data;
   AgAccount *account = ag_account_service_get_account (data->service);
-  GValue value = G_VALUE_INIT;
 
   if (error != NULL)
     {
@@ -473,13 +473,10 @@ uoa_initial_identity_store_cb (SignonIdentity *identity,
       return;
     }
 
-  g_value_init (&value, G_TYPE_UINT);
-  g_value_set_uint (&value, id);
   ag_account_select_service (account, NULL);
-  ag_account_set_value (account, "CredentialsId", &value);
-  g_value_unset (&value);
+  ag_account_set_variant (account, "CredentialsId", g_variant_new_uint32 (id));
 
-  ag_account_store (account, uoa_initial_account_store_cb, data);
+  ag_account_store_async (account, NULL, uoa_initial_account_store_cb, data);
 
   g_object_unref (identity);
 }

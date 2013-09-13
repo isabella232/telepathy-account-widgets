@@ -29,7 +29,7 @@ LIBSECRET_REQUIRED=0.5
 
 # Optional deps
 LIBACCOUNTS_REQUIRED=1.4
-LIBSIGNON_REQUIRED=1.1
+LIBSIGNON_REQUIRED=1.8
 MC_PLUGINS_REQUIRED=5.13.1
 
 # Enable extra flags for warnings if this is an unreleased version.
