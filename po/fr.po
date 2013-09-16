@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: empathy HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-16 14:38+0000\n"
-"PO-Revision-Date: 2013-09-16 14:39+0200\n"
+"PO-Revision-Date: 2013-09-16 23:02+0200\n"
 "Last-Translator: Alain Lojewski <allomervan@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: \n"
@@ -939,7 +939,7 @@ msgstr "Google Talk"
 
 #: ../tp-account-widgets/tpaw-utils.c:157
 msgid "Facebook Chat"
-msgstr "Facebook Chat"
+msgstr "Discussion instantanée Facebook"
 
 #~ msgid "What is your desired Jabber ID?"
 #~ msgstr "Que souhaitez-vous comme identifiant Jabber ?"
