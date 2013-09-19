@@ -33,7 +33,10 @@
 #include "tpaw-utils.h"
 
 #include <glib/gi18n-lib.h>
+#include <gtk/gtk.h>
+#ifdef GDK_WINDOWING_X11
 #include <gdk/gdkx.h>
+#endif
 
 #define DEBUG_FLAG TPAW_DEBUG_OTHER
 #include "tpaw-debug.h"
@@ -235,8 +238,11 @@ tpaw_window_present_with_time (GtkWindow *window,
       gint x, y;
       gint w, h;
 
+#ifdef GDK_WINDOWING_X11
       /* Has no effect if the WM has viewports, like compiz */
-      gdk_x11_window_move_to_current_desktop (gdk_window);
+      if (GDK_IS_X11_WINDOW (gdk_window))
+        gdk_x11_window_move_to_current_desktop (gdk_window);
+#endif
 
       /* If window is still off-screen, hide it to force it to
        * reposition on the current workspace. */
