@@ -40,8 +40,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2012-09-24 12:27+0000\n"
+"POT-Creation-Date: 2013-09-16 21:02+0000\n"
+"PO-Revision-Date: 2013-09-22 19:38+0000\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -298,6 +298,70 @@ msgstr "AIM のパスワードを入力してください"
 msgid "Remember Password"
 msgstr "パスワードを記憶する"
 
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "アカウント"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "パスワード"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "サーバー"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "ポート番号"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+msgid "Username:"
+msgstr "ユーザー名:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "追加(_D)"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "適用(_P)"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%2$s 上の %1$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+msgid "%s Account"
+msgstr "%s のアカウント"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+msgid "New account"
+msgstr "新しいアカウント"
+
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -369,20 +433,12 @@ msgid "Servers"
 msgstr "サーバー"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
-msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
-"password."
-msgstr ""
-"たいていの IRC サーバーでは、パスワードは不要です。わからなければ、パスワード"
-"を入力しないでください。"
+msgid "Most IRC servers don't need a password, so if you're not sure, don't enter a password."
+msgstr "たいていの IRC サーバーでは、パスワードは不要です。わからなければ、パスワードを入力しないでください。"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "ニックネーム"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "パスワード"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -413,15 +469,11 @@ msgstr "あなたの Facebook のユーザー名は何ですか?"
 msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a Facebook username if you don't have one."
 msgstr ""
-"これはあなたのユーザー名です。Facebook にログインする時に入力するものではあり"
-"ません。\n"
-"もしあなたが facebook.com/<b>badger</b> ならば、<b>badger</b> と入力してくだ"
-"さい。\n"
-"まだ持っていないのであれば、<a href=\"http://www.facebook.com/username/\">こ"
-"のページ</a>を使って Facebook のユーザー名を選択してください。"
+"これはあなたのユーザー名です。Facebook にログインする時に入力するものではありません。\n"
+"もしあなたが facebook.com/<b>badger</b> ならば、<b>badger</b> と入力してください。\n"
+"まだ持っていないのであれば、<a href=\"http://www.facebook.com/username/\">このページ</a>を使って Facebook のユーザー名を選択してください。"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
@@ -472,16 +524,8 @@ msgid "What is your Jabber ID?"
 msgstr "Jabber ID を入力してください"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "希望する Jabber ID を入力してください"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr "Jabber パスワードを入力してください"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "希望する Jabber パスワードを入力してください"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -505,7 +549,7 @@ msgstr "Jabber ID(_J)"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
 msgid "E-_mail address"
-msgstr "E-メールアドレス(_M)"
+msgstr "メールアドレス(_M)"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -584,11 +628,6 @@ msgstr "STUN サーバーを自動的に探索する"
 msgid "Discover Binding"
 msgstr "バインディングの探索"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "サーバー"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Keep-Alive オプション"
@@ -616,11 +655,6 @@ msgstr "緩いルーティング"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "TLS エラーを無視する"
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "ポート番号"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -666,6 +700,39 @@ msgstr "Yahoo! ID を入力してください"
 msgid "What is your Yahoo! password?"
 msgstr "Yahoo! のパスワードを入力してください"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:580
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:665
+msgid "Couldn't convert image"
+msgstr "画像を変換できませんでした"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+msgid "None of the accepted image formats are supported on your system"
+msgstr "受け入れた画像形式はこのシステムではどれもサポートしていません"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:941
+msgid "Couldn't save picture to file"
+msgstr "画像をファイルに保存できませんでした"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1063
+msgid "Select Your Avatar Image"
+msgstr "アバター画像を選択してください"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1072
+msgid "Take a picture..."
+msgstr "写真を撮る..."
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1085
+msgid "No Image"
+msgstr "画像はありません"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1144
+msgid "Images"
+msgstr "画像"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1148
+msgid "All Files"
+msgstr "すべてのファイル"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "選択..."
@@ -674,72 +741,72 @@ msgstr "選択..."
 msgid "_Select"
 msgstr "選択(_S)"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
-msgstr "氏名:"
-
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
-msgstr "電話番号"
+msgid "Full Name"
+msgstr "氏名"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
-msgstr "E-メールアドレス"
+msgid "Phone Number"
+msgstr "電話番号"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
+msgstr "E-メールアドレス"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "誕生日"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
 msgstr "最後のオンライン:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "サーバー:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
 msgstr "接続元:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
 msgstr "離席時のメッセージ:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "仕事"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "自宅"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "モバイル"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "音声"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "設定"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "郵便の宛先"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "区画"
 
@@ -769,16 +836,16 @@ msgid "SSL"
 msgstr "SSL"
 
 #: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:188
 msgid "Password not found"
 msgstr "パスワードが見つかりません"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:583
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "IM アカウント %s (%s) のパスワード"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:620
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
 msgstr "談話室 '%s' のパスワード (アカウント %s (%s))"
@@ -787,7 +854,7 @@ msgstr "談話室 '%s' のパスワード (アカウント %s (%s))"
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "新しい %s さんのアカウント"
@@ -832,20 +899,46 @@ msgstr[0] "%d ヶ月前"
 msgid "in the future"
 msgstr "未来に"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr "個人情報を編集するには、オンラインにしてください。"
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr "この情報はこのチャットネットワーク上の他のユーザーと共有されます。"
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
 msgstr "識別子"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
 msgstr "別名"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:542
 msgid "<b>Personal Details</b>"
 msgstr "<b>個人情報</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "People Nearby"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "希望する Jabber ID を入力してください"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "希望する Jabber パスワードを入力してください"
