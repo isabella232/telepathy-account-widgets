@@ -2,13 +2,13 @@
 # Copyright (C) 2009 tp-account-widgets's COPYRIGHT HOLDER
 # This file is distributed under the same license as the tp-account-widgets package.
 #
-# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012.
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy gnome-2-28\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2012-12-27 20:55+0530\n"
+"POT-Creation-Date: 2013-08-22 13:40+0000\n"
+"PO-Revision-Date: 2013-09-23 13:35+0530\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: Assamese <kde-i18n-doc@kde.org>\n"
 "Language: as_IN\n"
@@ -20,11 +20,12 @@ msgstr ""
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
-msgstr "ব্যৱহাৰকাৰীৰ অৱতাৰ আখৰকৰ্তা ছবি নিৰ্ধাৰণৰ বাবে ব্যৱহৃত অবিকল্পিত পঞ্জিকা"
+msgstr ""
+"ব্যৱহাৰকাৰীৰ অৱতাৰ আখৰকৰ্তা ছবি নিৰ্ধাৰণৰ বাবে ব্যৱহৃত অবিকল্পিত ডাইৰেকটৰি"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
 msgid "The last directory that an avatar image was chosen from."
-msgstr "সৰ্বশেষ অৱতাৰৰ বাবে ব্যৱহৃত ছবি যি পঞ্জিকাৰ পৰা নিৰ্বাচন কৰা হৈছে।"
+msgstr "সৰ্বশেষ অৱতাৰৰ বাবে ব্যৱহৃত ছবি যি ডাইৰেকটৰিৰ পৰা নিৰ্বাচন কৰা হৈছে।"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:157
 msgid "Current Locale"
@@ -266,6 +267,73 @@ msgstr "আপোনাৰ AIM পাছৱাৰ্ড কি ?"
 msgid "Remember Password"
 msgstr "পাছৱাৰ্ড মনত ৰাখক"
 
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "একাওন্ট"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "পাছৱাৰ্ড"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "চাৰ্ভাৰ"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "পোৰ্ট"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+#| msgid "Username"
+msgid "Username:"
+msgstr "ব্যৱহাৰকাৰীনাম:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "যোগ কৰক (_d)"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "প্ৰয়োগ কৰক (_p)"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%2$s ত %1$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+#| msgid "New %s account"
+msgid "%s Account"
+msgstr "%s একাওন্ট"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#| msgid "New %s account"
+msgid "New account"
+msgstr "নতুন একাওন্ট"
+
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
@@ -340,16 +408,13 @@ msgid ""
 "Most IRC servers don't need a password, so if you're not sure, don't enter a "
 "password."
 msgstr ""
-"সৰহভাগ IRC চাৰ্ভাৰসমূহৰ এটা পাছৱাৰ্ডৰ প্ৰয়োজন নহয়, সেয়েহে যদি আপুনি নিশ্চিত নহয়, "
+"সৰহভাগ IRC চাৰ্ভাৰসমূহৰ এটা পাছৱাৰ্ডৰ প্ৰয়োজন নহয়, সেয়েহে যদি আপুনি নিশ্চিত "
+"নহয়, "
 "এটা পাছৱাৰ্ড নসোমাব।"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
 msgstr "উপনাম"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "পাছৱাৰ্ড"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -437,16 +502,8 @@ msgid "What is your Jabber ID?"
 msgstr "আপোনাৰ Jabber ID কি ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "আপোনাৰ পছন্দৰ Jabber ID কি ?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
 msgid "What is your Jabber password?"
 msgstr "আপোনাৰ Jabber পাছৱাৰ্ড কি ?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "আপোনাৰ পছন্দৰ Jabber পাছৱাৰ্ড কি ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -549,11 +606,6 @@ msgstr "STUN চাৰ্ভাৰ স্বচালিতভাৱে খো�
 msgid "Discover Binding"
 msgstr "বান্ধনী খোজ কৰক"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "চাৰ্ভাৰ"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "জীৱন্ত-ৰাখক বিকল্পসমূহ"
@@ -581,11 +633,6 @@ msgstr "ঢিলা ৰুটিং"
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
 msgstr "TLS ত্ৰুটিসমূহ উপেক্ষা কৰক"
-
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "পোৰ্ট"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
@@ -631,6 +678,39 @@ msgstr "আপোনাৰ Yahoo! ID কি ?"
 msgid "What is your Yahoo! password?"
 msgstr "আপোনাৰ Yahoo! পাছৱাৰ্ড কি ?"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+msgid "Couldn't convert image"
+msgstr "ছবি পৰিবৰ্তন কৰিব পৰা নগল"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+msgid "None of the accepted image formats are supported on your system"
+msgstr "গ্ৰহণ কৰা ছবি বিন্যাসসমূহৰ কোনোটোৱে আপোনাৰ চিস্টেমত সমৰ্থিত নহয়"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+msgid "Couldn't save picture to file"
+msgstr "ছবিক ফাইললৈ সংৰক্ষণ কৰিব নোৱাৰি"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+msgid "Select Your Avatar Image"
+msgstr "আপোনাৰ অৱতাৰ ছবি বাছক"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+msgid "Take a picture..."
+msgstr "এটা ছবি লওক..."
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+msgid "No Image"
+msgstr "কোনো ছবি নাই"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+msgid "Images"
+msgstr "ছবিসমূহ"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+msgid "All Files"
+msgstr "সকলো ফাইল"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "বাছক..."
@@ -639,72 +719,78 @@ msgstr "বাছক..."
 msgid "_Select"
 msgstr "বাছক (_S)"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+#| msgid "Full name"
+msgid "Full Name"
 msgstr "সম্পূৰ্ণ নাম"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+#| msgid "Phone number"
+msgid "Phone Number"
 msgstr "ফোন নম্বৰ"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#| msgid "E-mail address"
+msgid "E-mail Address"
 msgstr "ই-মেইল ঠিকনা"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "ৱেবছাইট"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "জন্মদিন"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
-msgstr "শেষ দেখা হৈছিল:"
-
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#| msgid "Last seen:"
+msgid "Last Seen:"
+msgstr "সৰ্বশেষ ব্যৱহৃত:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "চাৰ্ভাৰ:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
-msgstr "পৰা সংযুক্ত:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+#| msgid "Connected from:"
+msgid "Connected From:"
+msgstr "চিহ্নিত ঠাইৰ পৰা সংযুক্ত:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
-msgstr "আতৰত বাৰ্তা:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+#| msgid "Away message:"
+msgid "Away Message:"
+msgstr "নিষ্ক্ৰিয় অৱস্থাৰ বাৰ্তা:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "কৰ্ম"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "ঘৰ"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "মবাইল"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "মাত"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "পছন্দৰ"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "ডাক সম্বন্ধীয়"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "পাৰ্চেল"
 
@@ -752,7 +838,7 @@ msgstr "একাওন্ট %s (%s) ত চেটৰুম '%s' ৰ বাব�
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "নতুন %s একাওন্ট"
@@ -803,20 +889,47 @@ msgstr[1] "%d মাহ আগতে"
 msgid "in the future"
 msgstr "ভবিষ্যতে"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:423
 msgid "Go online to edit your personal information."
 msgstr "আপোনাৰ ব্যক্তিগত তথ্য সম্পাদন কৰিবলে অনলাইন যাওক।"
 
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr "এই বিৱৰণসমূহ এই চেট নেটৱাৰ্কৰ অন্য ব্যৱহাৰকাৰীৰ সৈতে অংশীদাৰী কৰা হব।"
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:516
 msgid "Identifier"
 msgstr "চিনাক্তক"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:524
 msgid "Alias"
 msgstr "এলিয়াচ"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:541
 msgid "<b>Personal Details</b>"
 msgstr "<b>ব্যক্তিগত বিৱৰণসমূহ</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "ওচৰৰ ব্যক্তিসকল"
+
+#: ../tp-account-widgets/tpaw-utils.c:120
+#| msgid "Yahoo! I_D:"
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "আপোনাৰ পছন্দৰ Jabber ID কি ?"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "আপোনাৰ পছন্দৰ Jabber পাছৱাৰ্ড কি ?"
