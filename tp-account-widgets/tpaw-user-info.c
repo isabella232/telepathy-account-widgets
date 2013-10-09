@@ -46,6 +46,8 @@ struct _TpawUserInfoPrivate
   GList *details_to_set;
   gboolean details_changed;
   GCancellable *details_cancellable;
+
+  gboolean tried_preparing_contact_info;
 };
 
 enum
@@ -401,10 +403,17 @@ reload_contact_info (TpawUserInfo *self)
     {
       contact = tp_connection_get_self_contact (connection);
 
+      /* FIXME: we should rely on the factory to do this, see bgo#706892 */
       if (!tp_proxy_is_prepared (connection,
-            TP_CONNECTION_FEATURE_CONTACT_INFO))
+            TP_CONNECTION_FEATURE_CONTACT_INFO) &&
+          !self->priv->tried_preparing_contact_info)
         {
           GQuark features[] = { TP_CONNECTION_FEATURE_CONTACT_INFO, 0 };
+
+          /* Prevent an infinite loop if the connection doesn't implement
+           * ContactInfo, see bgo#709677 */
+          self->priv->tried_preparing_contact_info = TRUE;
+
           tp_proxy_prepare_async (connection, features,
               connection_contact_info_prepared_cb, g_object_ref (self));
         }
