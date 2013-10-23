@@ -464,7 +464,7 @@ tpaw_account_settings_check_readyness (TpawAccountSettings *self)
     return;
 
   if (self->priv->account != NULL
-      && !tp_account_is_prepared (self->priv->account,
+      && !tp_proxy_is_prepared (self->priv->account,
         TP_ACCOUNT_FEATURE_CORE))
       return;
 
