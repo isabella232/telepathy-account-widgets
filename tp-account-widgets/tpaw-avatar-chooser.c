@@ -24,6 +24,7 @@
 #include "tpaw-avatar-chooser.h"
 
 #include <glib/gi18n-lib.h>
+#include <telepathy-glib/telepathy-glib-dbus.h>
 
 #include "tpaw-camera-monitor.h"
 #include "tpaw-gsettings.h"

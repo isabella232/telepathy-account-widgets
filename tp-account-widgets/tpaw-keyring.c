@@ -21,6 +21,7 @@
 
 #include <glib/gi18n-lib.h>
 #include <libsecret/secret.h>
+#include <telepathy-glib/telepathy-glib-dbus.h>
 
 #ifdef HAVE_UOA
 #include <libaccounts-glib/ag-account.h>

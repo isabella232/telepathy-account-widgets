@@ -21,6 +21,8 @@
 #include "config.h"
 #include "tpaw-account-settings.h"
 
+#include <telepathy-glib/telepathy-glib-dbus.h>
+
 #include "tpaw-connection-managers.h"
 #include "tpaw-keyring.h"
 #include "tpaw-utils.h"

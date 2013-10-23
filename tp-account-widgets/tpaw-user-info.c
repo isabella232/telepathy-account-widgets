@@ -21,6 +21,7 @@
 #include "tpaw-user-info.h"
 
 #include <glib/gi18n-lib.h>
+#include <telepathy-glib/telepathy-glib-dbus.h>
 
 #include "tpaw-avatar-chooser.h"
 #include "tpaw-calendar-button.h"
