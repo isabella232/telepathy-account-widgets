@@ -499,7 +499,7 @@ tpaw_account_settings_check_readyness (TpawAccountSettings *self)
   if (self->priv->protocol_obj == NULL)
     {
       self->priv->protocol_obj = g_object_ref (
-          tp_connection_manager_get_protocol_object (self->priv->manager,
+          tp_connection_manager_get_protocol (self->priv->manager,
             self->priv->protocol));
     }
 

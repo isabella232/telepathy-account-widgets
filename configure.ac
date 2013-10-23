@@ -19,9 +19,9 @@ GTK_REQUIRED=3.5.1
 AC_DEFINE(GDK_VERSION_MIN_REQUIRED, GDK_VERSION_3_4, [Ignore post 3.4 deprecations])
 AC_DEFINE(GDK_VERSION_MAX_ALLOWED, GDK_VERSION_3_4, [Prevent post 3.4 APIs])
 
-TELEPATHY_GLIB_REQUIRED=0.22.0
-AC_DEFINE(TP_VERSION_MIN_REQUIRED, TP_VERSION_0_22, [Ignore post 0.22 deprecations])
-AC_DEFINE(TP_VERSION_MAX_ALLOWED, TP_VERSION_0_22, [Prevent post 0.22 APIs])
+TELEPATHY_GLIB_REQUIRED=0.99.1
+AC_DEFINE(TP_VERSION_MIN_REQUIRED, TP_VERSION_1_0, [Ignore post 1.0 deprecations])
+AC_DEFINE(TP_VERSION_MAX_ALLOWED, TP_VERSION_1_0, [Prevent post 1.0 APIs])
 AC_DEFINE(TP_SEAL_ENABLE, 1, [Prevent to use sealed variables])
 AC_DEFINE(TP_DISABLE_SINGLE_INCLUDE, 1, [Disable single include header])
 
@@ -185,7 +185,8 @@ PKG_CHECK_MODULES(TPAW,
    libsecret-1 >= $LIBSECRET_REQUIRED
    gobject-2.0
    libxml-2.0
-   telepathy-glib >= $TELEPATHY_GLIB_REQUIRED
+   telepathy-glib-1 >= $TELEPATHY_GLIB_REQUIRED
+   telepathy-glib-1-dbus >= $TELEPATHY_GLIB_REQUIRED
    x11
    gtk+-3.0 >= $GTK_REQUIRED
 ])
