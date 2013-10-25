@@ -1805,7 +1805,7 @@ do_constructed (GObject *obj)
     const char *file;
     GtkWidget * (*func)(TpawAccountWidget *self, const gchar *filename);
   } widgets [] = {
-    { "salut", "local-xmpp", TPAW_ACCOUNT_WIDGETS_RESOURCES_PREFIX "/tpaw-account-widget-local-xmpp.ui",
+    { "salut", "local_xmpp", TPAW_ACCOUNT_WIDGETS_RESOURCES_PREFIX "/tpaw-account-widget-local-xmpp.ui",
         account_widget_build_salut },
     WIDGET (gabble, jabber),
     WIDGET (haze, msn),

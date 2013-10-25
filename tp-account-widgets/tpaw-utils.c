@@ -100,6 +100,9 @@ tpaw_protocol_icon_name (const gchar *protocol)
     protocol = "sip";
   else if (!tp_strdiff (protocol, "sms"))
     return g_strdup ("phone");
+  else if (!tp_strdiff (protocol, "local_xmpp"))
+    /* Icon names can't have '_' in their name */
+    return g_strdup ("im-local-xmpp");
 
   return g_strdup_printf ("im-%s", protocol);
 }
@@ -115,7 +118,7 @@ tpaw_protocol_name_to_display_name (const gchar *proto_name)
   } names[] = {
     { "jabber", "Jabber", FALSE },
     { "msn", "Windows Live (MSN)", FALSE, },
-    { "local-xmpp", N_("People Nearby"), TRUE },
+    { "local_xmpp", N_("People Nearby"), TRUE },
     { "irc", "IRC", FALSE },
     { "icq", "ICQ", FALSE },
     { "aim", "AIM", FALSE },

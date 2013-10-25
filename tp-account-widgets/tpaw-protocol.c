@@ -422,7 +422,7 @@ sort_protocol_value (const gchar *protocol_name)
   guint i;
   const gchar *names[] = {
     "jabber",
-    "local-xmpp",
+    "local_xmpp",
     "gtalk",
     NULL
   };
