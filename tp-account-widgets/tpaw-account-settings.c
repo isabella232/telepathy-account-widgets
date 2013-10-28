@@ -516,7 +516,7 @@ tpaw_account_settings_check_readyness (TpawAccountSettings *self)
     {
       if (tp_strv_contains (tp_protocol_get_authentication_types (
                   self->priv->protocol_obj),
-              TP_IFACE_CHANNEL_INTERFACE_SASL_AUTHENTICATION))
+              TP_IFACE_CHANNEL_INTERFACE_SASL_AUTHENTICATION1))
         {
           self->priv->supports_sasl = TRUE;
         }

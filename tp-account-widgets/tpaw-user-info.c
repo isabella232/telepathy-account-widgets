@@ -444,7 +444,7 @@ reload_contact_info (TpawUserInfo *self)
     }
 
   if (!tp_proxy_has_interface_by_id (connection,
-          TP_IFACE_QUARK_CONNECTION_INTERFACE_CONTACT_INFO))
+          TP_IFACE_QUARK_CONNECTION_INTERFACE_CONTACT_INFO1))
     return;
 
   flags = tp_connection_get_contact_info_flags (connection);

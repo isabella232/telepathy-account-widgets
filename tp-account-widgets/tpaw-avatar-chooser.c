@@ -191,7 +191,7 @@ avatar_chooser_constructed (GObject *object)
 
   /* FIXME: no signal on TpAccount, yet.
    * See https://bugs.freedesktop.org/show_bug.cgi?id=52938 */
-  tp_cli_account_interface_avatar_connect_to_avatar_changed (
+  tp_cli_account_interface_avatar1_connect_to_avatar_changed (
       self->priv->account, avatar_changed_cb, NULL, NULL, (GObject *) self,
       NULL);
 }
