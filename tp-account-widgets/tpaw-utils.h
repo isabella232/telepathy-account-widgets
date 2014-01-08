@@ -54,8 +54,6 @@ const gchar *tpaw_service_name_to_display_name (const gchar *proto_name);
 gboolean tpaw_xml_validate_from_resource (xmlDoc *doc,
     const gchar *dtd_resourcename);
 
-void  tpaw_make_color_whiter (GdkRGBA *color);
-
 /* Windows */
 void tpaw_window_present (GtkWindow *window);
 void tpaw_window_present_with_time (GtkWindow *window,

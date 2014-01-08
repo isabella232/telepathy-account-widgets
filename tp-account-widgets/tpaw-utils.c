@@ -175,16 +175,6 @@ tpaw_service_name_to_display_name (const gchar *service_name)
   return service_name;
 }
 
-void
-tpaw_make_color_whiter (GdkRGBA *color)
-{
-  const GdkRGBA white = { 1.0, 1.0, 1.0, 1.0 };
-
-  color->red = (color->red + white.red) / 2;
-  color->green = (color->green + white.green) / 2;
-  color->blue = (color->blue + white.blue) / 2;
-}
-
 gboolean
 tpaw_xml_validate_from_resource (xmlDoc *doc,
     const gchar *dtd_resourcename)
