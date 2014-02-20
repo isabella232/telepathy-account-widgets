@@ -772,8 +772,7 @@ tpaw_account_settings_dup (TpawAccountSettings *settings,
     {
       GVariant *parameters;
 
-      parameters = tp_account_dup_parameters_vardict (
-          settings->priv->account);
+      parameters = tp_account_dup_parameters (settings->priv->account);
       result = g_variant_lookup_value (parameters, param, NULL);
       g_variant_unref (parameters);
 
@@ -1277,7 +1276,7 @@ tpaw_account_settings_account_updated (GObject *source,
   GError *error = NULL;
   GStrv reconnect_required = NULL;
 
-  if (!tp_account_update_parameters_vardict_finish (TP_ACCOUNT (source),
+  if (!tp_account_update_parameters_finish (TP_ACCOUNT (source),
           result, &reconnect_required, &error))
     {
       g_simple_async_result_set_from_error (settings->priv->apply_result,
@@ -1462,7 +1461,7 @@ tpaw_account_settings_apply_async (TpawAccountSettings *settings,
     }
   else
     {
-      tp_account_update_parameters_vardict_async (settings->priv->account,
+      tp_account_update_parameters_async (settings->priv->account,
           build_parameters_variant (settings),
           (const gchar **) settings->priv->unset_parameters->data,
           tpaw_account_settings_account_updated, settings);
@@ -1549,12 +1548,20 @@ tpaw_account_settings_parameter_is_valid (
       if (settings->priv->account != NULL &&
           !tpaw_account_settings_is_unset (settings, param))
         {
-          const GHashTable *account_params;
+          GVariant *account_params;
+          GVariant *v;
 
-          account_params = tp_account_get_parameters (
-              settings->priv->account);
-          if (tp_asv_lookup (account_params, param))
-            goto test_regex;
+          account_params = tp_account_dup_parameters (settings->priv->account);
+
+          v = g_variant_lookup_value (account_params, param,
+              G_VARIANT_TYPE_VARIANT);
+          g_variant_unref (account_params);
+
+          if (v != NULL)
+            {
+              g_variant_unref (v);
+              goto test_regex;
+            }
         }
 
       return FALSE;
