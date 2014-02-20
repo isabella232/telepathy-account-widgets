@@ -257,6 +257,13 @@ $UDEV_PKG_ERRORS])
 fi
 AM_CONDITIONAL(HAVE_UDEV, test "x$have_gudev" = "xyes")
 
+if test x${have_gudev} = x"yes" ; then
+  REQUIRE_UDEV=", gudev-1.0"
+else
+  REQUIRE_UDEV=""
+fi
+AC_SUBST(REQUIRE_UDEV)
+
 # -----------------------------------------------------------
 # Cheese (optional dependency for avatar selection)
 # -----------------------------------------------------------
@@ -279,6 +286,13 @@ else
    have_cheese=no
 fi
 AM_CONDITIONAL(BUILD_CHEESE, test x${have_cheese} = xyes)
+
+if test x${have_cheese} = x"yes" ; then
+  REQUIRE_CHEESE=", cheese-gtk"
+else
+  REQUIRE_CHEESE=""
+fi
+AC_SUBST(REQUIRE_CHEESE)
 
 # -----------------------------------------------------------
 # ubuntu-online-accounts support

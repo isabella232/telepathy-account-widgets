@@ -216,29 +216,19 @@ static void
 account_widget_set_entry_highlighting (GtkEntry *entry,
     gboolean highlight)
 {
+  GtkStyleContext *style;
+
   g_return_if_fail (GTK_IS_ENTRY (entry));
+
+  style = gtk_widget_get_style_context (GTK_WIDGET (entry));
 
   if (highlight)
     {
-      GtkStyleContext *style;
-      GdkRGBA color;
-
-      style = gtk_widget_get_style_context (GTK_WIDGET (entry));
-      gtk_style_context_get_background_color (style, GTK_STATE_FLAG_SELECTED,
-          &color);
-
-      /* Here we take the current theme colour and add it to
-       * the colour for white and average the two. This
-       * gives a colour which is inline with the theme but
-       * slightly whiter.
-       */
-      tpaw_make_color_whiter (&color);
-
-      gtk_widget_override_background_color (GTK_WIDGET (entry), 0, &color);
+      gtk_style_context_add_class (style, GTK_STYLE_CLASS_ERROR);
     }
   else
     {
-      gtk_widget_override_background_color (GTK_WIDGET (entry), 0, NULL);
+      gtk_style_context_remove_class (style, GTK_STYLE_CLASS_ERROR);
     }
 }
 

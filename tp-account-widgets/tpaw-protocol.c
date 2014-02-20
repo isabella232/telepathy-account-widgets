@@ -371,6 +371,11 @@ add_cm (GetProtocolsData *data,
         continue;
 
       if (!tp_strdiff (cm_name, "haze") &&
+          !tp_strdiff (proto_name, "irc"))
+        /* Use Idle for IRC (bgo #711226) */
+        continue;
+
+      if (!tp_strdiff (cm_name, "haze") &&
           !tp_strdiff (proto_name, "sip"))
         /* Haze's SIP implementation is pretty useless (bgo #629736) */
         continue;
