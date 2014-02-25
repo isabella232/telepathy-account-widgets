@@ -1553,8 +1553,7 @@ tpaw_account_settings_parameter_is_valid (
 
           account_params = tp_account_dup_parameters (settings->priv->account);
 
-          v = g_variant_lookup_value (account_params, param,
-              G_VARIANT_TYPE_VARIANT);
+          v = g_variant_lookup_value (account_params, param, NULL);
           g_variant_unref (account_params);
 
           if (v != NULL)
