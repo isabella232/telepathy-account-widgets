@@ -1549,18 +1549,15 @@ tpaw_account_settings_parameter_is_valid (
           !tpaw_account_settings_is_unset (settings, param))
         {
           GVariant *account_params;
-          GVariant *v;
 
           account_params = tp_account_dup_parameters (settings->priv->account);
 
-          v = g_variant_lookup_value (account_params, param, NULL);
-          g_variant_unref (account_params);
-
-          if (v != NULL)
+          if (tp_vardict_has_key (account_params, param))
             {
-              g_variant_unref (v);
+              g_variant_unref (account_params);
               goto test_regex;
             }
+          g_variant_unref (account_params);
         }
 
       return FALSE;
