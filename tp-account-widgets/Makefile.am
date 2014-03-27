@@ -90,6 +90,12 @@ libtp_account_widgets_la_SOURCES =			\
 	$(nocheck_sources)				\
 	$(NULL)
 
+libtp_account_widgets_la_LIBADD =			\
+	$(TPAW_LIBS)					\
+	$(UDEV_LIBS)					\
+	$(CHEESE_LIBS)					\
+	$(NULL)
+
 # these are sources that depend on Ubuntu Online Accounts
 uoa_sources = \
 	tpaw-uoa-utils.c \
