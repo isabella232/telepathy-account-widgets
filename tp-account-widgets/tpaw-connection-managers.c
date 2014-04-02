@@ -53,17 +53,20 @@ struct _TpawConnectionManagersPriv
 
   GList *cms;
 
-  TpDBusDaemon *dbus;
+  TpClientFactory *factory;
 };
 
 static void
 tpaw_connection_managers_init (TpawConnectionManagers *obj)
 {
+  GError *error = NULL;
+
   obj->priv = G_TYPE_INSTANCE_GET_PRIVATE ((obj),
       TPAW_TYPE_CONNECTION_MANAGERS, TpawConnectionManagersPriv);
 
-  obj->priv->dbus = tp_dbus_daemon_dup (NULL);
-  g_assert (obj->priv->dbus != NULL);
+  obj->priv->factory = tp_client_factory_dup (&error);
+  g_assert_no_error (error);
+  g_assert (obj->priv->factory != NULL);
 
   tpaw_connection_managers_update (obj);
 
@@ -163,9 +166,7 @@ tpaw_connection_managers_dispose (GObject *object)
 
   self->priv->dispose_has_run = TRUE;
 
-  if (self->priv->dbus != NULL)
-    g_object_unref (self->priv->dbus);
-  self->priv->dbus = NULL;
+  g_clear_object (&self->priv->factory);
 
   tpaw_connection_managers_free_cm_list (self);
 
@@ -239,7 +240,7 @@ out:
 void
 tpaw_connection_managers_update (TpawConnectionManagers *self)
 {
-  tp_list_connection_managers_async (self->priv->dbus,
+  tp_list_connection_managers_async (self->priv->factory,
     tpaw_connection_managers_listed_cb,
     tp_weak_ref_new (self, NULL, NULL));
 }
