@@ -32,14 +32,14 @@
 #include "tpaw-debug.h"
 
 GdkPixbuf *
-tpaw_pixbuf_from_data (gchar *data,
+tpaw_pixbuf_from_data (gconstpointer data,
     gsize data_size)
 {
   return tpaw_pixbuf_from_data_and_mime (data, data_size, NULL);
 }
 
 GdkPixbuf *
-tpaw_pixbuf_from_data_and_mime (gchar *data,
+tpaw_pixbuf_from_data_and_mime (gconstpointer data,
            gsize data_size,
            gchar **mime_type)
 {
@@ -53,7 +53,7 @@ tpaw_pixbuf_from_data_and_mime (gchar *data,
     return NULL;
 
   loader = gdk_pixbuf_loader_new ();
-  if (!gdk_pixbuf_loader_write (loader, (guchar *) data, data_size, &error))
+  if (!gdk_pixbuf_loader_write (loader, data, data_size, &error))
     {
       DEBUG ("Failed to write to pixbuf loader: %s",
         error ? error->message : "No error given");

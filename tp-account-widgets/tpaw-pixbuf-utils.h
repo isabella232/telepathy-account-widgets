@@ -29,9 +29,9 @@
 
 G_BEGIN_DECLS
 
-GdkPixbuf * tpaw_pixbuf_from_data (gchar *data,
+GdkPixbuf * tpaw_pixbuf_from_data (gconstpointer data,
     gsize data_size);
-GdkPixbuf * tpaw_pixbuf_from_data_and_mime (gchar *data,
+GdkPixbuf * tpaw_pixbuf_from_data_and_mime (gconstpointer data,
     gsize data_size,
     gchar **mime_type);
 GdkPixbuf * tpaw_pixbuf_scale_down_if_necessary (GdkPixbuf *pixbuf,

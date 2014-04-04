@@ -75,7 +75,7 @@ struct _TpawAvatarChooserPrivate
 {
   TpAccount *account;
 
-  GArray *avatar;
+  GBytes *avatar;
   gchar *mime_type;
   gboolean changed;
 
@@ -112,7 +112,7 @@ static const GtkTargetEntry drop_types[] =
 };
 
 static void avatar_chooser_set_image (TpawAvatarChooser *self,
-    GArray *avatar,
+    GBytes *avatar,
     gchar *mime_type,
     GdkPixbuf *pixbuf,
     gboolean maybe_convert);
@@ -125,7 +125,8 @@ get_avatar_cb (GObject *source,
 {
   TpWeakRef *wr = user_data;
   TpawAvatarChooser *self = tp_weak_ref_dup_object (wr);
-  const GArray *avatar;
+  GBytes *avatar;
+  gsize len;
   GdkPixbuf *pixbuf;
   gchar *mime_type;
   GError *error = NULL;
@@ -136,7 +137,8 @@ get_avatar_cb (GObject *source,
       return;
     }
 
-  avatar = tp_account_get_avatar_finish (self->priv->account, result, &error);
+  avatar = tp_account_dup_avatar_finish (self->priv->account, result, NULL,
+      &error);
   if (avatar == NULL)
     {
       DEBUG ("Error getting account's avatar: %s", error->message);
@@ -144,21 +146,23 @@ get_avatar_cb (GObject *source,
       goto out;
     }
 
-  if (avatar->len == 0)
+  len = g_bytes_get_size (avatar);
+
+  if (len == 0)
     {
       avatar_chooser_clear_image (self);
       goto out;
     }
 
-  pixbuf = tpaw_pixbuf_from_data_and_mime ((gchar *) avatar->data,
-      avatar->len, &mime_type);
+  pixbuf = tpaw_pixbuf_from_data_and_mime (g_bytes_get_data (avatar, NULL),
+      len, &mime_type);
   if (pixbuf == NULL)
     {
       DEBUG ("couldn't make a pixbuf from avatar; giving up");
       goto out;
     }
 
-  avatar_chooser_set_image (self, (GArray *) avatar, mime_type, pixbuf, FALSE);
+  avatar_chooser_set_image (self, avatar, mime_type, pixbuf, FALSE);
   g_free (mime_type);
 
   self->priv->changed = FALSE;
@@ -175,7 +179,7 @@ avatar_changed_cb (TpAccount *account,
 {
   TpawAvatarChooser *self = (TpawAvatarChooser *) weak_object;
 
-  tp_account_get_avatar_async (self->priv->account,
+  tp_account_dup_avatar_async (self->priv->account, NULL,
       get_avatar_cb, tp_weak_ref_new (self, NULL, NULL));
 }
 
@@ -186,7 +190,7 @@ avatar_chooser_constructed (GObject *object)
 
   G_OBJECT_CLASS (tpaw_avatar_chooser_parent_class)->constructed (object);
 
-  tp_account_get_avatar_async (self->priv->account,
+  tp_account_dup_avatar_async (self->priv->account, NULL,
       get_avatar_cb, tp_weak_ref_new (self, NULL, NULL));
 
   /* FIXME: no signal on TpAccount, yet.
@@ -256,7 +260,7 @@ avatar_chooser_dispose (GObject *object)
   TpawAvatarChooser *self = (TpawAvatarChooser *) object;
 
   tp_clear_object (&self->priv->account);
-  tp_clear_pointer (&self->priv->avatar, g_array_unref);
+  tp_clear_pointer (&self->priv->avatar, g_bytes_unref);
   tp_clear_pointer (&self->priv->mime_type, g_free);
 #ifdef ENABLE_SETTINGS
   tp_clear_object (&self->priv->gsettings_ui);
@@ -387,7 +391,7 @@ avatar_chooser_clear_image (TpawAvatarChooser *self)
 {
   GtkWidget *image;
 
-  tp_clear_pointer (&self->priv->avatar, g_array_unref);
+  tp_clear_pointer (&self->priv->avatar, g_bytes_unref);
   tp_clear_pointer (&self->priv->mime_type, g_free);
   self->priv->changed = TRUE;
 
@@ -533,9 +537,9 @@ get_requirements (TpawAvatarChooser *self)
 static gboolean
 avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
     GdkPixbuf *pixbuf,
-    GArray *avatar,
+    GBytes *avatar,
     gchar *mime_type,
-    GArray **ret_avatar,
+    GBytes **ret_avatar,
     gchar **ret_mime_type)
 {
   TpAvatarRequirements *req;
@@ -604,12 +608,13 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
 
   /* If the data len is too big and no other conversion is needed,
    * try with a lower factor. */
-  if (req->maximum_bytes > 0 && avatar->len > req->maximum_bytes &&
+  if (req->maximum_bytes > 0 &&
+      g_bytes_get_size (avatar) > req->maximum_bytes &&
       !needs_conversion)
     {
-      DEBUG ("Image data (%u bytes) is too big "
+      DEBUG ("Image data (%" G_GSIZE_FORMAT " bytes) is too big "
              "(max is %u bytes), conversion needed.",
-             avatar->len, req->maximum_bytes);
+             g_bytes_get_size (avatar), req->maximum_bytes);
 
       factor = 0.5;
       needs_conversion = TRUE;
@@ -618,7 +623,7 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
   /* If no conversion is needed, return the avatar */
   if (!needs_conversion)
     {
-      *ret_avatar = g_array_ref (avatar);
+      *ret_avatar = g_bytes_ref (avatar);
       *ret_mime_type = g_strdup (mime_type);
       return TRUE;
     }
@@ -714,12 +719,7 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
 
   g_free (new_format_name);
 
-  /* FIXME: there is no way to create a GArray with zero copy? */
-  *ret_avatar = g_array_sized_new (FALSE, FALSE, sizeof (gchar),
-      best_image_size);
-  g_array_append_vals (*ret_avatar, best_image_data, best_image_size);
-  g_free (best_image_data);
-
+  *ret_avatar = g_bytes_new_take (best_image_data, best_image_size);
   *ret_mime_type = new_mime_type;
 
   return TRUE;
@@ -728,7 +728,7 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
 /* Take ownership of @pixbuf */
 static void
 avatar_chooser_set_image (TpawAvatarChooser *self,
-    GArray *avatar,
+    GBytes *avatar,
     gchar *mime_type,
     GdkPixbuf *pixbuf,
     gboolean maybe_convert)
@@ -741,7 +741,7 @@ avatar_chooser_set_image (TpawAvatarChooser *self,
 
   if (maybe_convert)
     {
-      GArray *conv_avatar = NULL;
+      GBytes *conv_avatar = NULL;
       gchar *conv_mime_type = NULL;
 
       if (!avatar_chooser_maybe_convert_and_scale (self,
@@ -749,7 +749,7 @@ avatar_chooser_set_image (TpawAvatarChooser *self,
         return;
 
       /* Transfer ownership */
-      tp_clear_pointer (&self->priv->avatar, g_array_unref);
+      g_clear_pointer (&self->priv->avatar, g_bytes_unref);
       self->priv->avatar = conv_avatar;
 
       g_free (self->priv->mime_type);
@@ -757,8 +757,8 @@ avatar_chooser_set_image (TpawAvatarChooser *self,
     }
   else
     {
-      tp_clear_pointer (&self->priv->avatar, g_array_unref);
-      self->priv->avatar = g_array_ref (avatar);
+      tp_clear_pointer (&self->priv->avatar, g_bytes_unref);
+      self->priv->avatar = g_bytes_ref (avatar);
 
       g_free (self->priv->mime_type);
       self->priv->mime_type = g_strdup (mime_type);
@@ -783,7 +783,7 @@ avatar_chooser_set_image_from_data (TpawAvatarChooser *self,
     gsize size)
 {
   GdkPixbuf *pixbuf;
-  GArray *avatar;
+  GBytes *avatar;
   gchar *mime_type = NULL;
 
   if (data == NULL)
@@ -799,15 +799,11 @@ avatar_chooser_set_image_from_data (TpawAvatarChooser *self,
       return;
     }
 
-  /* FIXME: there is no way to create a GArray with zero copy? */
-  avatar = g_array_sized_new (FALSE, FALSE, sizeof (gchar), size);
-  g_array_append_vals (avatar, data, size);
+  avatar = g_bytes_new_take (data, size);
 
   avatar_chooser_set_image (self, avatar, mime_type, pixbuf, TRUE);
 
   g_free (mime_type);
-  g_array_unref (avatar);
-  g_free (data);
 }
 
 static void
@@ -933,7 +929,7 @@ avatar_chooser_set_avatar_from_pixbuf (TpawAvatarChooser *self,
 {
   gsize size;
   gchar *buf;
-  GArray *avatar;
+  GBytes *avatar;
   GError *error = NULL;
 
   if (!gdk_pixbuf_save_to_buffer (pb, &buf, &size, "png", &error, NULL))
@@ -945,14 +941,11 @@ avatar_chooser_set_avatar_from_pixbuf (TpawAvatarChooser *self,
       return;
     }
 
-  /* FIXME: there is no way to create a GArray with zero copy? */
-  avatar = g_array_sized_new (FALSE, FALSE, sizeof (gchar), size);
-  g_array_append_vals (avatar, buf, size);
+  avatar = g_bytes_new_take (buf, size);
 
   avatar_chooser_set_image (self, avatar, "image/png", pb, TRUE);
 
-  g_free (buf);
-  g_array_unref (avatar);
+  g_bytes_unref (avatar);
 }
 
 static gboolean
@@ -1237,6 +1230,8 @@ tpaw_avatar_chooser_apply_async (TpawAvatarChooser *self,
     gpointer user_data)
 {
   GSimpleAsyncResult *result;
+  gconstpointer blob;
+  gsize len;
 
   g_return_if_fail (TPAW_IS_AVATAR_CHOOSER (self));
 
@@ -1255,9 +1250,17 @@ tpaw_avatar_chooser_apply_async (TpawAvatarChooser *self,
   DEBUG ("%s Account.Avatar on %s", self->priv->avatar != NULL ? "Set": "Clear",
       tp_proxy_get_object_path (self->priv->account));
 
-  tp_account_set_avatar_async (self->priv->account,
-      self->priv->avatar != NULL ? (guchar *) self->priv->avatar->data : NULL,
-      self->priv->avatar != NULL ? self->priv->avatar->len : 0,
+  if (self->priv->avatar == NULL)
+    {
+      blob = NULL;
+      len = 0;
+    }
+  else
+    {
+      blob = g_bytes_get_data (self->priv->avatar, &len);
+    }
+
+  tp_account_set_avatar_async (self->priv->account, blob, len,
       self->priv->mime_type, set_avatar_cb, result);
 }
 
