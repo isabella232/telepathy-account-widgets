@@ -8,9 +8,9 @@
   <shortdesc xml:lang="en">Submodule for the configuration of Telepathy accounts</shortdesc>
   <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
 
-  <homepage rdf:resource="http://live.gnome.org/Empathy" />
+  <homepage rdf:resource="https://wiki.gnome.org/Apps/Empathy" />
   <mailing-list rdf:resource="http://lists.freedesktop.org/mailman/listinfo/telepathy" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=empathy" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=empathy&amp;component=tp-aw" />
 
   <maintainer>
     <foaf:Person>
