@@ -60,7 +60,7 @@ GType tpaw_account_widget_get_type (void);
 
 TpawAccountWidget * tpaw_account_widget_new_for_protocol (
     TpawAccountSettings *settings,
-    GtkBox *action_area,
+    GtkDialog *dialog,
     gboolean simple);
 
 gboolean tpaw_account_widget_contains_pending_changes

@@ -69,14 +69,14 @@ struct _TpawAccountWidgetPriv {
   GtkWidget *cancel_button;
   GtkWidget *entry_password;
   GtkWidget *spinbutton_port;
-  GtkWidget *action_area;
+  GtkWidget *dialog;
 
   gboolean simple;
 
   gboolean contains_pending_changes;
 
-  /* Whether the action area was provided or it's an internal one we
-   * created ourselves */
+  /* Whether the action area is part of an external dialog or it's an
+   * internal one we created ourselves */
   gboolean external_action_area;
 
   /* An TpawAccountWidget can be used to either create an account or
@@ -116,7 +116,7 @@ enum {
   PROP_SIMPLE,
   PROP_CREATING_ACCOUNT,
   PROP_OTHER_ACCOUNTS_EXIST,
-  PROP_ACTION_AREA,
+  PROP_DIALOG,
 };
 
 enum {
@@ -196,7 +196,7 @@ account_widget_set_control_buttons_sensitivity (TpawAccountWidget *self,
 
   gtk_widget_set_sensitive (self->priv->apply_button, sensitive);
 
-  if (sensitive)
+  if (sensitive && self->priv->dialog == NULL)
     {
       /* We can't grab default if the widget hasn't be packed in a
        * window */
@@ -1664,11 +1664,11 @@ do_set_property (GObject *object,
       tpaw_account_widget_set_other_accounts_exist (
           TPAW_ACCOUNT_WIDGET (object), g_value_get_boolean (value));
       break;
-    case PROP_ACTION_AREA:
-      self->priv->action_area = g_value_get_object (value);
-      if (self->priv->action_area != NULL)
+    case PROP_DIALOG:
+      self->priv->dialog = g_value_get_object (value);
+      if (self->priv->dialog != NULL)
         {
-          g_object_ref_sink (self->priv->action_area);
+          g_object_ref_sink (self->priv->dialog);
           self->priv->external_action_area = TRUE;
         }
       break;
@@ -1703,8 +1703,8 @@ do_get_property (GObject *object,
     case PROP_OTHER_ACCOUNTS_EXIST:
       g_value_set_boolean (value, self->priv->other_accounts_exist);
       break;
-    case PROP_ACTION_AREA:
-      g_value_set_object (value, self->priv->action_area);
+    case PROP_DIALOG:
+      g_value_set_object (value, self->priv->dialog);
       break;
     default:
       G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
@@ -1898,36 +1898,44 @@ do_constructed (GObject *obj)
 
   if (!self->priv->external_action_area)
     {
-      g_assert (self->priv->action_area == NULL);
-      self->priv->action_area = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
-      gtk_button_box_set_layout (GTK_BUTTON_BOX (self->priv->action_area),
+      GtkWidget *button_box;
+
+      g_assert (self->priv->dialog == NULL);
+      button_box = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
+      gtk_button_box_set_layout (GTK_BUTTON_BOX (button_box),
           GTK_BUTTONBOX_END);
       /* Hard code the default spacing as we cannot easily get this property
        * as the widget is not in a GtkDialog yet (and it could end up packed
        * in a non-GtkDialog window anyway */
-      gtk_box_set_spacing (GTK_BOX (self->priv->action_area), 6);
-      /* If the action area is set by the user of this class then we keep a
-       * reference, so we do the same here */
-      g_object_ref_sink (self->priv->action_area);
+      gtk_box_set_spacing (GTK_BOX (button_box), 6);
+
+      self->priv->cancel_button = gtk_button_new_from_stock (GTK_STOCK_CLOSE);
+      gtk_box_pack_end (GTK_BOX (button_box),
+          self->priv->cancel_button, TRUE, TRUE, 3);
+
+      self->priv->apply_button = gtk_button_new ();
+      gtk_box_pack_end (GTK_BOX (button_box),
+          self->priv->apply_button, TRUE, TRUE, 3);
+
+      gtk_box_pack_end (GTK_BOX (self), button_box, FALSE, FALSE, 3);
+      gtk_widget_show_all (button_box);
     }
   else
     {
-      g_assert (self->priv->action_area != NULL);
+      g_assert (self->priv->dialog != NULL);
+      self->priv->cancel_button = gtk_dialog_add_button (
+          GTK_DIALOG (self->priv->dialog),
+          GTK_STOCK_CLOSE,
+          GTK_RESPONSE_CANCEL);
+      self->priv->apply_button = gtk_dialog_add_button (
+          GTK_DIALOG (self->priv->dialog),
+          "",
+          GTK_RESPONSE_APPLY);
+      gtk_dialog_set_default_response (GTK_DIALOG (self->priv->dialog),
+          GTK_RESPONSE_APPLY);
     }
 
-  self->priv->cancel_button = gtk_button_new_from_stock (GTK_STOCK_CLOSE);
-
-  self->priv->apply_button = gtk_button_new ();
   set_apply_button (self);
-
-  gtk_box_pack_end (GTK_BOX (self->priv->action_area),
-      self->priv->cancel_button, TRUE, TRUE, 3);
-  gtk_box_pack_end (GTK_BOX (self->priv->action_area),
-      self->priv->apply_button, TRUE, TRUE, 3);
-
-  if (!self->priv->external_action_area)
-    gtk_box_pack_end (GTK_BOX (self), self->priv->action_area, FALSE,
-        FALSE, 3);
 
   g_signal_connect (self->priv->cancel_button, "clicked",
       G_CALLBACK (account_widget_cancel_clicked_cb),
@@ -1935,7 +1943,6 @@ do_constructed (GObject *obj)
   g_signal_connect (self->priv->apply_button, "clicked",
       G_CALLBACK (account_widget_apply_clicked_cb),
       self);
-  gtk_widget_show_all (self->priv->action_area);
 
   if (self->priv->creating_account)
     /* When creating an account, the user might have nothing to enter.
@@ -1969,7 +1976,7 @@ do_dispose (GObject *obj)
 
   g_clear_object (&self->priv->settings);
   g_clear_object (&self->priv->account_manager);
-  g_clear_object (&self->priv->action_area);
+  g_clear_object (&self->priv->dialog);
 
   if (G_OBJECT_CLASS (tpaw_account_widget_parent_class)->dispose != NULL)
     G_OBJECT_CLASS (tpaw_account_widget_parent_class)->dispose (obj);
@@ -2034,12 +2041,12 @@ tpaw_account_widget_class_init (TpawAccountWidgetClass *klass)
   g_object_class_install_property (oclass, PROP_OTHER_ACCOUNTS_EXIST,
                   param_spec);
 
-  param_spec = g_param_spec_object ("action-area",
-      "action-area",
-      "The widget where to pack the action buttons (or NULL)",
-      GTK_TYPE_BOX,
+  param_spec = g_param_spec_object ("dialog",
+      "dialog",
+      "The dialog where to pack the action buttons (or NULL)",
+      GTK_TYPE_DIALOG,
       G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS | G_PARAM_CONSTRUCT_ONLY);
-  g_object_class_install_property (oclass, PROP_ACTION_AREA,
+  g_object_class_install_property (oclass, PROP_DIALOG,
                   param_spec);
 
   signals[HANDLE_APPLY] =
@@ -2112,7 +2119,7 @@ tpaw_account_widget_handle_params (TpawAccountWidget *self,
 
 TpawAccountWidget *
 tpaw_account_widget_new_for_protocol (TpawAccountSettings *settings,
-    GtkBox *action_area,
+    GtkDialog *dialog,
     gboolean simple)
 {
   g_return_val_if_fail (TPAW_IS_ACCOUNT_SETTINGS (settings), NULL);
@@ -2123,7 +2130,7 @@ tpaw_account_widget_new_for_protocol (TpawAccountSettings *settings,
         "simple", simple,
         "creating-account",
           tpaw_account_settings_get_account (settings) == NULL,
-        "action-area", action_area,
+        "dialog", dialog,
         NULL);
 }
 
@@ -2231,5 +2238,6 @@ tpaw_account_widget_get_settings (TpawAccountWidget *self)
 void
 tpaw_account_widget_hide_buttons (TpawAccountWidget *self)
 {
-  gtk_widget_hide (self->priv->action_area);
+  gtk_widget_hide (self->priv->apply_button);
+  gtk_widget_hide (self->priv->cancel_button);
 }
