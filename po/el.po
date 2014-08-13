@@ -15,21 +15,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 20:25+0000\n"
-"PO-Revision-Date: 2013-10-22 11:28+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"POT-Creation-Date: 2014-08-04 10:35+0000\n"
+"PO-Revision-Date: 2014-08-13 15:50+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
-msgstr "Προεπιλεγμένος κατάλογος για την επιλογή προσωπικής εικόνας"
+msgstr "Προεπιλεγμένος κατάλογος για την επιλογή μιας προσωπικής εικόνας"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
 msgid "The last directory that an avatar image was chosen from."
@@ -114,11 +114,11 @@ msgstr "Ελληνικά"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:241
 msgid "Gujarati"
-msgstr "Gujarati"
+msgstr "Γκουτζαράτι"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:244
 msgid "Gurmukhi"
-msgstr "Gurmukhi"
+msgstr "Γκουρμούχι"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:247
 #: ../tp-account-widgets/totem-subtitle-encoding.c:249
@@ -205,15 +205,15 @@ msgstr "Βιετναμέζικα"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
-msgstr "Συνθη_ματικό"
+msgstr "Κ_ωδικός πρόσβασης"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
 msgid "Screen _Name"
-msgstr "Ψευδώ_νυμο"
+msgstr "Ό_νομα χρήστη"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
 msgid "<b>Example:</b> MyScreenName"
@@ -222,17 +222,17 @@ msgstr "<b>Παράδειγμα:</b> ΤοΨευδώνυμοΜου"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
 msgid "Remember password"
-msgstr "Απομνημόνευση συνθηματικού"
+msgstr "Απομνημόνευση κωδικού πρόσβασης"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Θύρα"
@@ -240,17 +240,17 @@ msgstr "_Θύρα"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
-msgstr "_Εξυπηρετητής"
+msgstr "Διακομι_στής"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -260,61 +260,52 @@ msgstr "Για προχωρημένους"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
 msgid "What is your AIM screen name?"
-msgstr "Ποιο είναι το ψευδώνυμό σας στο AIM;"
+msgstr "Ποιο είναι το όνομα χρήστη σας στο AIM;"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο AIM;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο AIM;"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Απομνημόνευση συνθηματικού"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:661
 msgid "Account"
 msgstr "Λογαριασμός"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:662
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
-msgstr "Συνθηματικό"
+msgstr "Κωδικός πρόσβασης"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
-msgstr "Εξυπηρετητής"
+msgstr "Διακομιστής"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Θύρα"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:748
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:805
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
+#: ../tp-account-widgets/tpaw-account-widget.c:1395
 msgid "Username:"
-msgstr "Όνομα Χρήστη:"
+msgstr "Όνομα χρήστη:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1722
 msgid "A_dd"
 msgstr "_Προσθήκη"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_pply"
 msgstr "Ε_φαρμογή"
 
@@ -323,40 +314,40 @@ msgstr "Ε_φαρμογή"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2166
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s στο %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2192
 #, c-format
 msgid "%s Account"
 msgstr "Λογαριασμός %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2196
 msgid "New account"
 msgstr "Νέος λογαριασμός"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
-msgstr "Όνομα ει_σόδου"
+msgstr "Ταυτότητα ει_σόδου"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
 msgid "<b>Example:</b> username"
-msgstr "<b>Παράδειγμα:</b> όνομαχρήστη"
+msgstr "<b>Παράδειγμα:</b> όνομα χρήστη"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
-msgstr "Ποιο είναι το όνομα χρήστη σας για το GroupWise;"
+msgstr "Ποια είναι η ταυτότητα χρήστη σας για το GroupWise;"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
-msgstr "Ποιο είναι το συνθηματικό σας για το GroupWise;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας για το GroupWise;"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
 msgid "ICQ _UIN"
@@ -368,7 +359,7 @@ msgstr "<b>Παράδειγμα:</b> 123456789"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
 msgid "Ch_aracter set"
-msgstr "_Κωδικοποίηση χαρακτήρα"
+msgstr "Σύνολο χ_αρακτήρων"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
@@ -376,7 +367,7 @@ msgstr "Ποιο είναι το UIN σας στο ICQ;"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο ICQ;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο ICQ;"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
 msgid "Network"
@@ -384,7 +375,7 @@ msgstr "Δίκτυο"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
 msgid "Character set"
-msgstr "Κωδικοποίηση χαρακτήρα"
+msgstr "Σύνολο χαρακτήρων"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
@@ -406,15 +397,15 @@ msgstr "Κάτω"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
 msgid "Servers"
-msgstr "Εξυπηρετητές"
+msgstr "Διακομιστές"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
 "Most IRC servers don't need a password, so if you're not sure, don't enter a "
 "password."
 msgstr ""
-"Οι περισσότεροι διακομιστές IRC δε χρειάζονται συνθηματικό, οπότε αν δεν "
-"είστε βέβαιοι, μην εισάγετε συνθηματικό."
+"Οι περισσότεροι διακομιστές IRC δε χρειάζονται κωδικό πρόσβασης, οπότε αν "
+"δεν είστε βέβαιοι, μην εισάγετε κωδικό πρόσβασης."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -452,18 +443,18 @@ msgid ""
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
 "Facebook username if you don't have one."
 msgstr ""
-"Αυτό είναι το όνομα χρήστη, όχι η κανονική σύνδεση Facebook.\n"
+"Αυτό είναι το όνομα χρήστη σας, όχι η κανονική σύνδεση σας στο Facebook.\n"
 "Εάν είστε στο facebook.com/<b>kanenas</b>, εισάγετε <b>kanenas</b>.\n"
 "Χρησιμοποιήστε <a href=\"http://www.facebook.com/username/\">αυτή τη σελίδα</"
 "a> για να επιλέξετε ένα όνομα χρήστη στο Facebook, εάν δεν έχετε ήδη."
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο Facebook;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο Facebook;"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
-msgstr "Ποιο είναι το όνομα χρήστη σας στο Google;"
+msgstr "Ποια είναι η ταυτότητά σας στο Google;"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "<b>Example:</b> user@gmail.com"
@@ -471,43 +462,43 @@ msgstr "<b>Παράδειγμα:</b> user@gmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "What is your Google password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο Google;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο Google;"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Παράδειγμα:</b> user@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
 msgstr "Α_γνόηση σφαλμάτων πιστοποιητικών SSL"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
 msgstr "_Προτεραιότητα"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
 msgstr "_Πόρος"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "Απαιτείται _κρυπτογράφηση (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
-msgstr "Παράκαμψη ρυθμίσεων του εξυπηρετητή"
+msgstr "Παράκαμψη ρυθμίσεων διακομιστή"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Χρήση παλιού SS_L"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
-msgstr "Ποιο είναι το όνομα χρήστη σας στο Jabber;"
+msgstr "Ποια είναι η ταυτότητά σας στο Jabber;"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο Jabber;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο Jabber;"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
@@ -527,11 +518,11 @@ msgstr "Δημοσιευμένο ό_νομα"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
 msgid "_Jabber ID"
-msgstr "_Jabber ID"
+msgstr "Ταυτότητα _Jabber"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
 msgid "E-_mail address"
-msgstr "Ηλ. _διεύθυνση e-mail"
+msgstr "Διεύθυνση ηλ. ταχυδρο_μείου"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -539,11 +530,11 @@ msgstr "<b>Παράδειγμα:</b> user@hotmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
 msgid "What is your Windows Live ID?"
-msgstr "Ποιο είναι το όνομα χρήστη σας στο Windows Live;"
+msgstr "Ποια είναι η ταυτότητά σας στο Windows Live;"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο Windows Live;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο Windows Live;"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
@@ -600,11 +591,11 @@ msgstr "Λοιπές επιλογές"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
 msgid "STUN Server"
-msgstr "Εξυπηρετητής STUN"
+msgstr "Διακομιστής STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
-msgstr "Αυτόματη ανακάλυψη εξυπηρετητή STUN"
+msgstr "Αυτόματη ανακάλυψη διακομιστή STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
 msgid "Discover Binding"
@@ -632,7 +623,7 @@ msgstr "Μεταφορά"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
 msgid "Loose Routing"
-msgstr "Loose Routing"
+msgstr "Χαλαρή δρομολόγηση"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
@@ -644,19 +635,19 @@ msgstr "Τοπική διεύθυνση IP"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
-msgstr "Ποιο είναι το όνομα εισόδου σας για το SIP;"
+msgstr "Ποια είναι η ταυτότητα εισόδου σας για το SIP;"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
 msgid "What is your SIP account password?"
-msgstr "Ποιο είναι το συνθηματικό σας για το SIP;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας για το λογαριασμό SIP;"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
 msgid "Pass_word:"
-msgstr "_Συνθηματικό:"
+msgstr "Κ_ωδικός πρόσβασης:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
 msgid "Yahoo! I_D:"
-msgstr "Yahoo! I_D:"
+msgstr "Yahoo! _Ταυτότητα:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
 msgid "I_gnore conference and chat room invitations"
@@ -668,7 +659,7 @@ msgstr "Τοπική λίστα _δωματίων:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
 msgid "Ch_aracter set:"
-msgstr "_Κωδικοποίηση χαρακτήρων:"
+msgstr "Σύνολο χ_αρακτήρων:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
@@ -676,45 +667,45 @@ msgstr "_Θύρα:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
 msgid "What is your Yahoo! ID?"
-msgstr "Ποιο είναι το όνομα χρήστη σας στο Yahoo! Αναγνωριστικό;"
+msgstr "Ποια είναι η ταυτότητά σας στο Yahoo!;"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
-msgstr "Ποιο είναι το συνθηματικό σας στο Yahoo!;"
+msgstr "Ποιος είναι ο κωδικός πρόσβασής σας στο Yahoo!;"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:580
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:665
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
 msgid "Couldn't convert image"
 msgstr "Δεν ήταν δυνατή η μετατροπή της εικόνας"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
 msgid "None of the accepted image formats are supported on your system"
 msgstr ""
 "Το σύστημά σας δεν υποστηρίζει κανέναν από τους επιτρεπτούς τύπους εικόνων."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:941
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
 msgid "Couldn't save picture to file"
 msgstr "Αδυναμία αποθήκευσης εικόνας σε αρχείο"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1063
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
 msgid "Select Your Avatar Image"
 msgstr "Επιλέξτε την προσωπική σας εικόνα"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1072
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
 msgid "Take a picture..."
 msgstr "Λήψη φωτογραφίας..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1085
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
 msgid "No Image"
 msgstr "Χωρίς εικόνα"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1144
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
 msgid "Images"
 msgstr "Εικόνες"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1148
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
 msgid "All Files"
-msgstr "Όλα τα Αρχεία"
+msgstr "Όλα τα αρχεία"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
@@ -726,15 +717,15 @@ msgstr "_Επιλογή"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
 msgid "Full Name"
-msgstr "Πλήρες Όνομα"
+msgstr "Πλήρες όνομα"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
 msgid "Phone Number"
-msgstr "Αριθμός Τηλεφώνου"
+msgstr "Αριθμός τηλεφώνου"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
 msgid "E-mail Address"
-msgstr "Διεύθυνση E-mail"
+msgstr "Διεύθυνση ηλ. ταχυδρομείου"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
@@ -749,21 +740,21 @@ msgstr "Γενέθλια"
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 msgid "Last Seen:"
-msgstr "Τελευταία Επίσκεψη:"
+msgstr "Τελευταία εμφάνιση:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
-msgstr "Εξυπηρετητής:"
+msgstr "Διακομιστής:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
 msgid "Connected From:"
-msgstr "Συνδέθηκε Από:"
+msgstr "Συνδέθηκε από:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
 msgid "Away Message:"
-msgstr "Μήνυμα Κατά Την Απουσία:"
+msgstr "Μήνυμα κατά την απουσία:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
@@ -779,7 +770,7 @@ msgstr "κινητό τηλέφωνο"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
-msgstr "ομιλία"
+msgstr "φωνητικό"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
@@ -812,26 +803,26 @@ msgstr "Επιλογή"
 
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
 msgid "new server"
-msgstr "νέος εξυπηρετητής"
+msgstr "νέος διακομιστής"
 
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:188
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
-msgstr "Δε βρέθηκε το συνθηματικό"
+msgstr "Δε βρέθηκε ο κωδικός πρόσβασης"
 
-#: ../tp-account-widgets/tpaw-keyring.c:583
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
-msgstr "Συνθηματικό λογαριασμού άμεσων μηνυμάτων για %s (%s)"
+msgstr "Κωδικός πρόσβασης λογαριασμού άμεσων μηνυμάτων για %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:620
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "Συνθηματικό για το δωμάτιο '%s' στο λογαριασμό %s (%s)"
+msgstr "Κωδικός πρόσβασης για το δωμάτιο συζήτησης '%s' στο λογαριασμό %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -888,26 +879,27 @@ msgstr[1] "%d μήνες πριν"
 msgid "in the future"
 msgstr "στο μέλλον"
 
-#: ../tp-account-widgets/tpaw-user-info.c:432
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Συνδεθείτε για να εισάγετε τις προσωπικές σας πληροφορίες."
 
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr ""
-"Αυτές οι λεπτομέρειες θα διαμοιραστούν με άλλους χρήστες σε αυτό το δίκτυο."
+"Αυτές οι λεπτομέρειες θα είναι κοινόχρηστες με άλλους χρήστες σε αυτό το "
+"δίκτυο."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:525
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Αναγνωριστικό"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:533
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Ψευδώνυμο"
 
-#: ../tp-account-widgets/tpaw-user-info.c:551
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Προσωπικές λεπτομέρειες</b>"
 
@@ -926,6 +918,9 @@ msgstr "Google Talk"
 #: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Συνομιλία Facebook"
+
+#~ msgid "Remember Password"
+#~ msgstr "Απομνημόνευση συνθηματικού"
 
 #~ msgid "What is your desired Jabber ID?"
 #~ msgstr "Ποιο είναι το επιθυμητό αναγνωριστικό Jabber;"
