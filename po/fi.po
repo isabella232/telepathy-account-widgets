@@ -11,14 +11,14 @@
 # Samuli Seppänen & Henna Nykänen <sjsepp@utu.fi>, 2006.
 # Tommi Vainikainen <thv@iki.fi>, 2009.
 # Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2010.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-22 13:40+0000\n"
-"PO-Revision-Date: 2013-09-08 22:21+0300\n"
+"POT-Creation-Date: 2014-01-06 14:17+0000\n"
+"PO-Revision-Date: 2014-09-07 11:54+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -207,7 +207,7 @@ msgstr "vietnam"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -224,7 +224,7 @@ msgstr "<b>Esimerkki:</b> Nimimerkkini"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -234,7 +234,7 @@ msgstr "Muista salasana"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Portti"
@@ -242,7 +242,7 @@ msgstr "_Portti"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "Pal_velin"
@@ -252,7 +252,7 @@ msgstr "Pal_velin"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -267,15 +267,6 @@ msgstr "Mikä on AIM-näyttönimesi?"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
 msgstr "Mikä on AIM-salasanasi?"
-
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Muista salasana"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:671
 msgid "Account"
@@ -309,7 +300,6 @@ msgid "%s:"
 msgstr "%s:"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:1405
-#| msgid "Username"
 msgid "Username:"
 msgstr "Käyttäjätunnus:"
 
@@ -335,17 +325,15 @@ msgstr "%1$s palvelussa %2$s"
 #. * string will be something like: "Jabber Account"
 #: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
-#| msgid "New %s account"
 msgid "%s Account"
 msgstr "Tili (%s)"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:2199
-#| msgid "New %s account"
 msgid "New account"
 msgstr "Uusi tili"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "_Käyttäjätunnus"
@@ -484,35 +472,35 @@ msgstr "Mikä on Google-salasanasi?"
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Esimerkki:</b> nimi@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
 msgstr "_Älä huomioi SSL-varmenteiden virheitä"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
 msgstr "_Prioriteetti"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
 msgstr "Res_urssi"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "Salaus vaa_ditaan (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
 msgstr "Ohita palvelimen asetukset"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Käytä vanhaa SS_L-porttia"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
 msgstr "Mikä on Jabber-tunnuksesi?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
 msgstr "Mikä on Jabber-salasanasi?"
 
@@ -689,36 +677,36 @@ msgstr "Mikä on Yahoo! -tunnuksesi?"
 msgid "What is your Yahoo! password?"
 msgstr "Mikä on Yahoo! -salasanasi?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
 msgid "Couldn't convert image"
 msgstr "Kuvaa ei voitu muuntaa"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Mikään hyväksytyistä kuvamuodoista ei ole tuettu järjestelmässäsi"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
 msgid "Couldn't save picture to file"
 msgstr "Kuvan tallennus tiedostoon ei onnistunut"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
 msgid "Select Your Avatar Image"
 msgstr "Valitse avatar-kuvasi"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
 msgid "Take a picture..."
 msgstr "Ota kuva..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
 msgid "No Image"
 msgstr "Ei kuvaa"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
 msgid "Images"
 msgstr "Kuvat"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
 msgid "All Files"
 msgstr "Kaikki tiedostot"
 
@@ -731,17 +719,14 @@ msgid "_Select"
 msgstr "_Valitse"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-#| msgid "Full name"
 msgid "Full Name"
 msgstr "Koko nimi"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-#| msgid "Phone number"
 msgid "Phone Number"
 msgstr "Puhelinnumero"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-#| msgid "E-mail address"
 msgid "E-mail Address"
 msgstr "Sähköpostiosoite"
 
@@ -757,7 +742,6 @@ msgstr "Syntymäpäivä"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-#| msgid "Last seen:"
 msgid "Last Seen:"
 msgstr "Viimeksi nähty:"
 
@@ -766,14 +750,12 @@ msgid "Server:"
 msgstr "Palvelin:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#| msgid "Connected from:"
 msgid "Connected From:"
 msgstr "Yhdisti kohteesta:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#| msgid "Away message:"
 msgid "Away Message:"
 msgstr "Poissaoloviesti:"
 
@@ -831,20 +813,20 @@ msgstr "uusi palvelin"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Salasanaa ei löydy"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Pikaviestintilin %s salasana (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr ""
+msgstr "Keskusteluhuoneen '%s' salasana tilille %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -901,44 +883,46 @@ msgstr[1] "%d kuukautta sitten"
 msgid "in the future"
 msgstr "tulevaisuudessa"
 
-#: ../tp-account-widgets/tpaw-user-info.c:423
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Yhdistä verkkoon muokataksesi henkilökohtaisia tietojasi."
 
-#: ../tp-account-widgets/tpaw-user-info.c:507
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr "Nämä tiedot jaetaan muiden käyttäjien kanssa tässä keskusteluverkossa."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Tunniste"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:524
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Nimimerkki"
 
-#: ../tp-account-widgets/tpaw-user-info.c:541
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Henkilökohtaiset tiedot</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:115
+#: ../tp-account-widgets/tpaw-utils.c:118
 msgid "People Nearby"
 msgstr "Ihmiset lähettyvillä"
 
-#: ../tp-account-widgets/tpaw-utils.c:120
-#| msgid "Yahoo! I_D:"
+#: ../tp-account-widgets/tpaw-utils.c:123
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japan"
 
-#: ../tp-account-widgets/tpaw-utils.c:156
+#: ../tp-account-widgets/tpaw-utils.c:159
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:157
+#: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Facebook-keskustelu"
+
+#~ msgid "Remember Password"
+#~ msgstr "Muista salasana"
 
 #~ msgid "What is your desired Jabber ID?"
 #~ msgstr "Mikä on haluamasi Jabber-tunnus?"
