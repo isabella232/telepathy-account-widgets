@@ -7,16 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2013-02-14 20:19+0100\n"
-"Last-Translator: Daniel Martinez <entaltoaragon@gmail.com>\n"
+"POT-Creation-Date: 2014-01-06 14:17+0000\n"
+"PO-Revision-Date: 2015-05-07 19:43+0200\n"
+"Last-Translator: Daniel <entaltoaragon@gmail.com>\n"
 "Language-Team: Aragonés <softaragones@googlegroups.com>\n"
 "Language: an\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
 "X-DamnedLies-Scope: partial\n"
+"X-POOTLE-MTIME: 1431024228.000000\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -196,11 +198,11 @@ msgstr "Vietnamita"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
-msgstr "Cla_u de paso:"
+msgstr "Cla_u de paso"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
 msgid "Screen _Name"
@@ -213,7 +215,7 @@ msgstr "<b>Exemplo:</b> NombreTaAmostrar"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -223,7 +225,7 @@ msgstr "Remerar clau de paso"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Puerto"
@@ -231,7 +233,7 @@ msgstr "_Puerto"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Servidor"
@@ -241,7 +243,7 @@ msgstr "_Servidor"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -255,19 +257,77 @@ msgstr "Quál ye o suyo nombre en pantalla ta AIM?"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
-msgstr "¿Cuala ye la tuya clau d'AIM?"
+msgstr "Cuala ye la tuya clau d'AIM?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Remerar clau de paso"
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "Cuenta"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Clau de paso"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Servidor"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Puerto"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+#| msgid "Username"
+msgid "Username:"
+msgstr "Nombre d'usuario:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "Anya_dir"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "A_plicar"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s en %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+#| msgid "New %s account"
+msgid "%s Account"
+msgstr "Cuenta de %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#| msgid "New %s account"
+msgid "New account"
+msgstr "Cuenta nueva"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "I_D de sesion"
@@ -279,11 +339,11 @@ msgstr "<b>Exemplo:</b> nomedusuario"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
-msgstr "¿Cualo ye lo tuyo ID d'usuario de GroupWise?"
+msgstr "Cualo ye lo tuyo ID d'usuario de GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
-msgstr "¿Cuala ye la tuya clau de GroupWise?"
+msgstr "Cuala ye la tuya clau de GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
 msgid "ICQ _UIN"
@@ -299,11 +359,11 @@ msgstr "Conchunto de c_aracteres"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
-msgstr "¿Cualo ye lo tuyo ICQ UIN?"
+msgstr "Cualo ye lo tuyo ICQ UIN?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
-msgstr "¿Cuala ye la tuya clau d'ICQ?"
+msgstr "Cuala ye la tuya clau d'ICQ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
 msgid "Network"
@@ -315,7 +375,7 @@ msgstr "Conchunto de caracteres"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
-msgstr "_Anyadir…"
+msgstr "Anyadir…"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
 msgid "Remove"
@@ -345,11 +405,7 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
-msgstr "Embotada:"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Clau de paso"
+msgstr "Embotada"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
@@ -365,7 +421,7 @@ msgstr "Nome d'usuario"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
 msgid "Which IRC network?"
-msgstr "¿Cualo rete de IRC?"
+msgstr "Cualo rete de IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
 msgid "What is your IRC nickname?"
@@ -373,7 +429,7 @@ msgstr "Quál ye a suya embotada de l'IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
 msgid "What is your Facebook username?"
-msgstr "¿Cualo ye lo tuyo nome d'usuario de Facebook?"
+msgstr "Cualo ye lo tuyo nome d'usuario de Facebook?"
 
 #. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
@@ -390,11 +446,11 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
-msgstr "¿Cuala ye la tuya clau de Facebook?"
+msgstr "Cuala ye la tuya clau de Facebook?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
-msgstr "¿Cualo ye lo tuyo ID de google?"
+msgstr "Cualo ye lo tuyo ID de google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "<b>Example:</b> user@gmail.com"
@@ -402,63 +458,55 @@ msgstr "<b>Exemplo:</b> usuario@gmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "What is your Google password?"
-msgstr "¿Cuala ye la tuya clau de Google?"
+msgstr "Cuala ye la tuya clau de Google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Exemplo:</b> usuario@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
-msgstr "No parar cuenta d'as errors de certificau SSL"
+msgstr "No parar cuenta d'as errors de certi_ficau SSL"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
 msgstr "Priorida_t"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
 msgstr "Re_curso"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
-msgstr "S'amenista cifrau (TLS/SSL)"
+msgstr "S'amenista c_ifrau (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
 msgstr "Sobreescribir os achustes d'o servidor"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Fer servir SS_L viello"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
-msgstr "¿Cualo ye lo tuyo Jabber ID?"
+msgstr "Cualo ye lo tuyo Jabber ID?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "¿Cualo ID de Jabber quiers?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
-msgstr "¿Cuala ye la tuya clau de Jabber?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "¿Cuala clau de Jabber quiers?"
+msgstr "Cuala ye la tuya clau de Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
-msgstr "Embota_da:"
+msgstr "Embota_da"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
 msgid "_Last Name"
-msgstr "_Apellius:"
+msgstr "_Apellius"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
 msgid "_First Name"
-msgstr "_Nome:"
+msgstr "_Nombre"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
 msgid "_Published Name"
@@ -466,11 +514,11 @@ msgstr "Nome _publicau"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
 msgid "_Jabber ID"
-msgstr "_Jabber ID:"
+msgstr "ID de _Jabber"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
 msgid "E-_mail address"
-msgstr "Adreza de e-_mail:"
+msgstr "Adreza d'e-_mail"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -478,11 +526,11 @@ msgstr "<b>Exemplo:</b> usuario@hotmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
 msgid "What is your Windows Live ID?"
-msgstr "¿Cualo ye lo tuyo ID de Windows Live?"
+msgstr "Cualo ye lo tuyo ID de Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
-msgstr "¿Cuala ye la tuya clau de Windows Live?"
+msgstr "Cuala ye la tuya clau de Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
@@ -515,7 +563,7 @@ msgstr "Denguna"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
 msgid "_Username"
-msgstr "Nome d'_usuario:"
+msgstr "Nombre de _usuario"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
@@ -539,7 +587,7 @@ msgstr "Opcions de miscelania"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
 msgid "STUN Server"
-msgstr "Servidor STUN:"
+msgstr "Servidor STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
@@ -549,18 +597,13 @@ msgstr "Descubrir o servidor STUN automaticament"
 msgid "Discover Binding"
 msgstr "Descubrir vinculación"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Servidor"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
-msgstr "Opcions de «keepalive»"
+msgstr "Opcions de keep-alive"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
 msgid "Mechanism"
-msgstr "Mecanismo:"
+msgstr "Mecanismo"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
 msgid "Interval (seconds)"
@@ -582,22 +625,17 @@ msgstr "Enrutau impreciso"
 msgid "Ignore TLS Errors"
 msgstr "Ignorar errors TLS"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Puerto"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
 msgstr "Adreza IP local"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
-msgstr "¿Cualo ye lo tuyo ID de login SIP?"
+msgstr "Cualo ye lo tuyo ID de login SIP?"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
 msgid "What is your SIP account password?"
-msgstr "¿Cuala ye la tuya clau d'a cuenta SIP?"
+msgstr "Cuala ye la tuya clau d'a cuenta SIP?"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
 msgid "Pass_word:"
@@ -605,7 +643,7 @@ msgstr "Cla_u de paso:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
 msgid "Yahoo! I_D:"
-msgstr "I_D de Yahoo!:"
+msgstr "I_D de Yahoo!"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
 msgid "I_gnore conference and chat room invitations"
@@ -617,7 +655,7 @@ msgstr "Configuración d'a lista de _salas:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
 msgid "Ch_aracter set:"
-msgstr "Conchunto de c_aracteres"
+msgstr "Conchunto de c_aracteres:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
@@ -625,86 +663,126 @@ msgstr "_Puerto:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
 msgid "What is your Yahoo! ID?"
-msgstr "¿Cualo ye o tuyo ID de Yahoo!?"
+msgstr "Cualo ye o tuyo ID de Yahoo!?"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
-msgstr "¿Cuala ye la tuya clau de Yahoo!?"
+msgstr "Cuala ye la tuya clau de Yahoo!?"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
+msgid "Couldn't convert image"
+msgstr "No se podió convertir a imachen"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+"No s'ha trobau en o suyo sistema garra d'os formatos d'imachen suportaus"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
+msgid "Couldn't save picture to file"
+msgstr "No se podió alzar a imachen en un fichero"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+msgid "Select Your Avatar Image"
+msgstr "Seleccione a imachen d'a suya avatar"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
+msgid "Take a picture..."
+msgstr "Fer una foto…"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+msgid "No Image"
+msgstr "Sin imachen"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+msgid "Images"
+msgstr "Imachens"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+msgid "All Files"
+msgstr "Totz os fichers"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
-msgstr "Trigar…"
+msgstr "Seleccionar…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
 msgstr "_Trigar"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
-msgstr "Nome completo"
-
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
-msgstr "Numero de telefono"
+#| msgid "Full name"
+msgid "Full Name"
+msgstr "Nombre completo"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
-msgstr "Adreza de e-mail"
+#| msgid "Phone number"
+msgid "Phone Number"
+msgstr "Numero de telefono"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#| msgid "E-mail address"
+msgid "E-mail Address"
+msgstr "Adreza de e-mail"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Pachina web"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Cabo d'año"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#| msgid "Last seen:"
+msgid "Last Seen:"
 msgstr "Zaguera actividat:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Servidor:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
-msgstr "Enchegau dende:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+#| msgid "Connected from:"
+msgid "Connected From:"
+msgstr "Connectau dende:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+#| msgid "Away message:"
+msgid "Away Message:"
 msgstr "Mensache d'ausencia:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "treballo"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "personal"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "móvil"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "voz"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "preferiu"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "postal"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "grupo"
 
@@ -733,26 +811,26 @@ msgstr "nuevo servidor"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "No se trobó a clau"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Clau d'a cuenta IM ta %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "Clau ta la sala de chat «%s» en la conta %s (%s)"
+msgstr "Clau ta la sala de chat '%s' en la conta %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Nueva cuenta de %s"
@@ -803,20 +881,50 @@ msgstr[1] "fa %d meses"
 msgid "in the future"
 msgstr "en l'esvenidero"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Connectar ta editar a suya información personal."
 
+#: ../tp-account-widgets/tpaw-user-info.c:517
+msgid "These details will be shared with other users on this chat network."
+msgstr "Istos detalles se compartirán con atros usuarios d'iste ret de chat."
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Identificador"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Embotada"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Detalles personals</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:118
+msgid "People Nearby"
+msgstr "Chent amán"
+
+#: ../tp-account-widgets/tpaw-utils.c:123
+#| msgid "Yahoo! I_D:"
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Chapón"
+
+#: ../tp-account-widgets/tpaw-utils.c:159
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:160
+msgid "Facebook Chat"
+msgstr "Chat de Facebook"
+
+#~ msgid "Remember Password"
+#~ msgstr "Remerar clau de paso"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "¿Cualo ID de Jabber quiers?"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "¿Cuala clau de Jabber quiers?"
