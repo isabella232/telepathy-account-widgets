@@ -247,6 +247,7 @@ tpaw_protocol_finalize (GObject *object)
 
   g_clear_object (&self->priv->cm);
   g_free (self->priv->protocol_name);
+  g_free (self->priv->service_name);
   g_free (self->priv->display_name);
   g_free (self->priv->icon_name);
 
