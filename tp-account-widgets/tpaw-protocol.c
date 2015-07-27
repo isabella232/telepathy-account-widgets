@@ -484,8 +484,7 @@ cms_prepare_cb (GObject *source,
   if (!tpaw_connection_managers_prepare_finish (cms, result, &error))
     {
       g_simple_async_result_take_error (data->result, error);
-      g_simple_async_result_complete_in_idle (data->result);
-      return;
+      goto out;
     }
 
   for (l = tpaw_connection_managers_get_cms (cms); l != NULL; l = l->next)
@@ -494,13 +493,14 @@ cms_prepare_cb (GObject *source,
   data->protocols = g_list_sort (data->protocols,
       (GCompareFunc) protocol_sort_func);
 
+out:
   g_simple_async_result_complete_in_idle (data->result);
+  g_object_unref (data->result);
 }
 
 static void
 destroy_get_protocols_data (GetProtocolsData *data)
 {
-  g_object_unref (data->result);
   g_hash_table_unref (data->seen_protocols);
   g_list_free_full (data->protocols, g_object_unref);
   g_slice_free (GetProtocolsData, data);
