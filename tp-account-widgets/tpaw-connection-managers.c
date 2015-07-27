@@ -223,6 +223,7 @@ tpaw_connection_managers_listed_cb (GObject *source,
         self->priv->cms = g_list_prepend (self->priv->cms,
             g_object_ref (cm));
     }
+  g_list_free (cms);
 
 out:
   if (!self->priv->ready)
