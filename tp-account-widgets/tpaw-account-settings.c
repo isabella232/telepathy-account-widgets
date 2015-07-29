@@ -1083,6 +1083,7 @@ tpaw_account_settings_set_display_name_async (
     {
       /* Nothing to do */
       g_simple_async_result_complete_in_idle (result);
+      g_object_unref (result);
       return;
     }
 
@@ -1092,6 +1093,7 @@ tpaw_account_settings_set_display_name_async (
   if (settings->priv->account == NULL)
     {
       g_simple_async_result_complete_in_idle (result);
+      g_object_unref (result);
       return;
     }
 
@@ -1159,6 +1161,7 @@ tpaw_account_settings_set_icon_name_async (
       settings->priv->icon_name = g_strdup (name);
 
       g_simple_async_result_complete_in_idle (result);
+      g_object_unref (result);
 
       return;
     }
