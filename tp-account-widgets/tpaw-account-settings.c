@@ -1406,6 +1406,7 @@ tpaw_account_settings_do_create_account (TpawAccountSettings *self)
 
   tp_account_request_create_account_async (account_req,
       tpaw_account_settings_created_cb, self);
+  g_object_unref (account_req);
 }
 
 static GVariant *
