@@ -1027,16 +1027,18 @@ tpaw_account_settings_set (TpawAccountSettings *settings,
   g_return_if_fail (param != NULL);
   g_return_if_fail (v != NULL);
 
+  g_variant_ref_sink (v);
+
   if (!tp_strdiff (param, "password") && settings->priv->supports_sasl &&
       g_variant_is_of_type (v, G_VARIANT_TYPE_STRING))
     {
       g_free (settings->priv->password);
       settings->priv->password = g_variant_dup_string (v, NULL);
+      g_variant_unref (v);
     }
   else
     {
-      g_hash_table_insert (settings->priv->parameters, g_strdup (param),
-          g_variant_ref_sink (v));
+      g_hash_table_insert (settings->priv->parameters, g_strdup (param), v);
     }
 
   account_settings_remove_from_unset (settings, param);
