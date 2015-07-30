@@ -186,6 +186,12 @@ avatar_chooser_constructed (GObject *object)
 
   G_OBJECT_CLASS (tpaw_avatar_chooser_parent_class)->constructed (object);
 
+  /* This cannot be called from _init() as this would cause a memory leak with
+   * gtk+ <= 3.17 (and maybe with newer), see this gtk+ bug:
+   * https://bugzilla.gnome.org/show_bug.cgi?id=753048
+   */
+  avatar_chooser_clear_image (self);
+
   tp_account_get_avatar_async (self->priv->account,
       get_avatar_cb, tp_weak_ref_new (self, NULL, NULL));
 
@@ -1191,8 +1197,6 @@ tpaw_avatar_chooser_init (TpawAvatarChooser *self)
   g_signal_connect (self, "clicked",
       G_CALLBACK (avatar_chooser_clicked_cb),
       self);
-
-  avatar_chooser_clear_image (self);
 }
 
 /**
