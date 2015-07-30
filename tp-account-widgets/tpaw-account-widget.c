@@ -2180,6 +2180,7 @@ tpaw_account_widget_get_default_display_name (TpawAccountWidget *self)
         {
           default_display_name = g_strdup (login_id);
         }
+      g_free (login_id);
 
       return default_display_name;
     }
@@ -2197,8 +2198,6 @@ tpaw_account_widget_get_default_display_name (TpawAccountWidget *self)
     {
       default_display_name = g_strdup (_("New account"));
     }
-
-  g_free (login_id);
 
   return default_display_name;
 }
