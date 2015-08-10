@@ -1,9 +1,10 @@
 # Swedish messages for tp-account-widgets.
-# Copyright © 2002-2014 Free Software Foundation, Inc.
+# Copyright © 2002-2015 Free Software Foundation, Inc.
 # Richard Hult <richard@imendio.com>, 2002, 2003.
 # Christian Rose <menthos@menthos.com>, 2003, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 # Sebastian Rasmussen <sebras@gmail.com>, 2014.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
 #
 # Snälla, ta *INTE* bort de extra #~-meddelandena på slutet.
 #
@@ -11,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-19 10:36+0000\n"
-"PO-Revision-Date: 2014-09-19 23:34+0100\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"POT-Creation-Date: 2014-09-24 14:44+0000\n"
+"PO-Revision-Date: 2015-08-10 19:01+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.3\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -400,8 +401,8 @@ msgid ""
 "Most IRC servers don't need a password, so if you're not sure, don't enter a "
 "password."
 msgstr ""
-"De flesta IRC-servrar behöver inte något lösenord. Ange endast ett lösenord "
-"om du är säker på att det behövs."
+"De flesta IRC-servrar behöver inte något lösenord. Ange endast ett lösenord om "
+"du är säker på att det behövs."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -818,7 +819,7 @@ msgstr "Lösenord för chattkonto för %s (%s)"
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "Lösenord för chattrummet “%s“ för kontot %s (%s)"
+msgstr "Lösenord för chattrummet ”%s” för kontot %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -881,8 +882,7 @@ msgstr "Anslut dig för att redigera din personliga information."
 
 #: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
-msgstr ""
-"Dessa detaljer kommer att delas med andra användare på detta chattnätverk."
+msgstr "Dessa detaljer kommer att delas med andra användare på detta chattnätverk."
 
 #. Setup id label
 #: ../tp-account-widgets/tpaw-user-info.c:526
