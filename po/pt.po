@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-06 14:17+0000\n"
+"POT-Creation-Date: 2015-06-29 22:46+0000\n"
 "PO-Revision-Date: 2015-06-20 09:21+0100\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
@@ -259,46 +259,46 @@ msgstr "Qual é o seu nome visível AIM?"
 msgid "What is your AIM password?"
 msgstr "Qual é a sua senha AIM?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:661
 msgid "Account"
 msgstr "Conta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:662
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Senha"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Servidor"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Porta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:748
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:805
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
+#: ../tp-account-widgets/tpaw-account-widget.c:1395
 msgid "Username:"
 msgstr "Utilizador:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1722
 msgid "A_dd"
 msgstr "A_Dicionar"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_pply"
 msgstr "A_Plicar"
 
@@ -307,19 +307,19 @@ msgstr "A_Plicar"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2166
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s no %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2192
 #, c-format
 msgid "%s Account"
 msgstr "Conta %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2196
 msgid "New account"
 msgstr "Nova conta"
 
