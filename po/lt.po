@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-22 13:40+0000\n"
-"PO-Revision-Date: 2013-08-28 22:32+0300\n"
+"POT-Creation-Date: 2016-01-05 02:46+0000\n"
+"PO-Revision-Date: 2016-01-05 16:25+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -204,7 +204,7 @@ msgstr "Vietnamiečių"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -221,7 +221,7 @@ msgstr "<b>Pavyzdys:</b> ManoRodomasVardas"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -231,7 +231,7 @@ msgstr "Įsiminti slaptažodį"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Prievadas"
@@ -239,7 +239,7 @@ msgstr "_Prievadas"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Serveris"
@@ -249,7 +249,7 @@ msgstr "_Serveris"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -265,56 +265,46 @@ msgstr "Koks jūsų AIM rodomas vardas?"
 msgid "What is your AIM password?"
 msgstr "Koks jūsų AIM slaptažodis?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Įsiminti slaptažodį"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:661
 msgid "Account"
 msgstr "Paskyra"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:662
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Serveris"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Prievadas"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:748
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:805
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
-#| msgid "Username"
+#: ../tp-account-widgets/tpaw-account-widget.c:1395
 msgid "Username:"
 msgstr "Naudotojo vardas:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1722
 msgid "A_dd"
 msgstr "Pri_dėti"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_pply"
 msgstr "_Pritaikyti"
 
@@ -323,7 +313,7 @@ msgstr "_Pritaikyti"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2168
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s tinkle %2$s"
@@ -332,17 +322,15 @@ msgstr "%1$s tinkle %2$s"
 #. * string will be something like: "Jabber Account"
 #: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
-#| msgid "New %s account"
 msgid "%s Account"
 msgstr "%s paskyra"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:2199
-#| msgid "New %s account"
 msgid "New account"
 msgstr "Nauja paskyra"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "Prisijungimo I_D"
@@ -396,12 +384,12 @@ msgstr "Pridėti…"
 msgid "Remove"
 msgstr "Pašalinti"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Aukštyn"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Žemyn"
@@ -446,7 +434,7 @@ msgstr "Koks jūsų IRC slapyvardis?"
 msgid "What is your Facebook username?"
 msgstr "Koks jūsų „Facebook“ naudotojo vardas?"
 
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
@@ -479,35 +467,35 @@ msgstr "Koks jūsų „Google“ slaptažodis?"
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Pavyzdys:</b> naudotojas@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
 msgstr "_Nepaisyti SSL liudijimo klaidų"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
 msgstr "Pir_menybė"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
 msgstr "Ištekli_us"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_Reikalingas šifravimas (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
-msgstr "Nepaisyti serverio parametrų"
+msgstr "Nepaisyti serverio nustatymų"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Naudoti senąjį SS_L"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
 msgstr "Koks jūsų Jabber ID?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
 msgstr "Koks jūsų Jabber slaptažodis?"
 
@@ -570,7 +558,7 @@ msgstr "Registruoti"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
-msgstr "Parinktys"
+msgstr "Parametrai"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:244
 msgid "None"
@@ -590,15 +578,15 @@ msgstr "Naudoti šią paskyrą skambinti į _laidinius ir mobiliuosius telefonus
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
 msgid "NAT Traversal Options"
-msgstr "NAT perėjimo parinktys"
+msgstr "NAT perėjimo parametrai"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
 msgid "Proxy Options"
-msgstr "Įgaliotojo serverio parinktys"
+msgstr "Įgaliotojo serverio parametrai"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
 msgid "Miscellaneous Options"
-msgstr "Įvairios parinktys"
+msgstr "Įvairūs parametrai"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
 msgid "STUN Server"
@@ -614,7 +602,7 @@ msgstr "Aptikti susiejimą"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
-msgstr "„Keep-Alive“ parinktys"
+msgstr "„Keep-Alive“ parametrai"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
 msgid "Mechanism"
@@ -684,36 +672,36 @@ msgstr "Koks jūsų „Yahoo!“ ID?"
 msgid "What is your Yahoo! password?"
 msgstr "Koks jūsų „Yahoo!“ slaptažodis?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
 msgid "Couldn't convert image"
 msgstr "Nepavyko konvertuoti paveikslėlio"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Nė vienas iš priimamų paveikslėlių formatų nepalaikomas jūsų sistemoje"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
 msgid "Couldn't save picture to file"
 msgstr "Nepavyko įrašyti paveikslėlio į failą"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Pasirinkite savo atvaizdžio paveikslėlį"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
 msgid "Take a picture..."
 msgstr "Padaryti nuotrauką..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Nėra paveikslėlio"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Paveikslėliai"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Visi failai"
 
@@ -726,17 +714,14 @@ msgid "_Select"
 msgstr "Pa_sirinkti"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-#| msgid "Full name"
 msgid "Full Name"
 msgstr "Pilnas vardas"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-#| msgid "Phone number"
 msgid "Phone Number"
 msgstr "Telefono numeris"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-#| msgid "E-mail address"
 msgid "E-mail Address"
 msgstr "El. pašto adresas"
 
@@ -752,7 +737,6 @@ msgstr "Gimtadienis"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-#| msgid "Last seen:"
 msgid "Last Seen:"
 msgstr "Paskutinį kartą matytas:"
 
@@ -761,14 +745,12 @@ msgid "Server:"
 msgstr "Serveris:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#| msgid "Connected from:"
 msgid "Connected From:"
 msgstr "Prisijungta iš:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#| msgid "Away message:"
 msgid "Away Message:"
 msgstr "Pasitraukimo žinutė:"
 
@@ -825,17 +807,17 @@ msgstr "naujas serveris"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Slaptažodis nerastas"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Pranešimų paskyros %s slaptažodis (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
 msgstr "Pokalbių kambario „%s“ slaptažodis paskyrai %s (%s)"
@@ -901,43 +883,44 @@ msgstr[2] "prieš %d mėnesių"
 msgid "in the future"
 msgstr "ateityje"
 
-#: ../tp-account-widgets/tpaw-user-info.c:423
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Prisijunkite prie interneto asmeniniams duomenims taisyti."
 
-#: ../tp-account-widgets/tpaw-user-info.c:507
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr ""
 "Šiais duomenimis bus dalinamasi su kitais naudotojais šiame pokalbių tinkle."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Identifikatorius"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:524
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Alternatyvusis vardas"
 
-#: ../tp-account-widgets/tpaw-user-info.c:541
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Asmeniniai duomenys</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:115
+#: ../tp-account-widgets/tpaw-utils.c:118
 msgid "People Nearby"
 msgstr "Žmonės netoliese"
 
-#: ../tp-account-widgets/tpaw-utils.c:120
-#| msgid "Yahoo! I_D:"
+#: ../tp-account-widgets/tpaw-utils.c:123
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japonija"
 
-#: ../tp-account-widgets/tpaw-utils.c:156
+#: ../tp-account-widgets/tpaw-utils.c:159
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:157
+#: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
 
+#~ msgid "Remember Password"
+#~ msgstr "Įsiminti slaptažodį"
