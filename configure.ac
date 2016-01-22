@@ -70,6 +70,8 @@ AC_PATH_XTRA
 LT_PREREQ([2.2])
 LT_INIT
 
+PKG_PROG_PKG_CONFIG([0.25])
+
 GLIB_GSETTINGS
 
 GLIB_COMPILE_RESOURCES=`$PKG_CONFIG gio-2.0 --variable=glib_compile_resources`
@@ -312,35 +314,35 @@ if test "x$enable_ubuntu_online_accounts" != "xno"; then
 
    # provider plugin dir
    AC_MSG_CHECKING([Accounts provider plugin dir])
-   ACCOUNTS_PROVIDER_PLUGIN_DIR=`pkg-config --variable=provider_plugindir account-plugin`
+   ACCOUNTS_PROVIDER_PLUGIN_DIR=`$PKG_CONFIG --variable=provider_plugindir account-plugin`
 
    AC_MSG_RESULT([$ACCOUNTS_PROVIDER_PLUGIN_DIR])
    AC_SUBST(ACCOUNTS_PROVIDER_PLUGIN_DIR)
 
    # app plugin dir
    AC_MSG_CHECKING([Accounts provider app plugin dir])
-   ACCOUNTS_APP_PLUGIN_DIR=`pkg-config --variable=application_plugindir account-plugin`
+   ACCOUNTS_APP_PLUGIN_DIR=`$PKG_CONFIG --variable=application_plugindir account-plugin`
 
    AC_MSG_RESULT([$ACCOUNTS_APP_PLUGIN_DIR])
    AC_SUBST(ACCOUNTS_APP_PLUGIN_DIR)
 
    # provider files dir
    AC_MSG_CHECKING([Accounts provider files dir])
-   ACCOUNTS_PROVIDER_FILES_DIR=`pkg-config --variable=providerfilesdir libaccounts-glib`
+   ACCOUNTS_PROVIDER_FILES_DIR=`$PKG_CONFIG --variable=providerfilesdir libaccounts-glib`
 
    AC_MSG_RESULT([$ACCOUNTS_PROVIDER_FILES_DIR])
    AC_SUBST(ACCOUNTS_PROVIDER_FILES_DIR)
 
    # service files dir
    AC_MSG_CHECKING([Accounts service files dir])
-   ACCOUNTS_SERVICE_FILES_DIR=`pkg-config --variable=servicefilesdir libaccounts-glib`
+   ACCOUNTS_SERVICE_FILES_DIR=`$PKG_CONFIG --variable=servicefilesdir libaccounts-glib`
 
    AC_MSG_RESULT([$ACCOUNTS_SERVICE_FILES_DIR])
    AC_SUBST(ACCOUNTS_SERVICE_FILES_DIR)
 
    # application files dir
    AC_MSG_CHECKING([Accounts applications files dir])
-   ACCOUNTS_APPLICATION_FILES_DIR=`pkg-config --variable=applicationfilesdir libaccounts-glib`
+   ACCOUNTS_APPLICATION_FILES_DIR=`$PKG_CONFIG --variable=applicationfilesdir libaccounts-glib`
 
    AC_MSG_RESULT([$ACCOUNTS_APPLICATION_FILES_DIR])
    AC_SUBST(ACCOUNTS_APPLICATION_FILES_DIR)
@@ -363,7 +365,7 @@ AM_CONDITIONAL(HAVE_UOA, test "x$have_uoa" = "xyes")
 
 if test "x$have_uoa" = "xyes" -o "x$have_goa" = "xyes"; then
    AC_MSG_CHECKING([Mission Control plugins dir])
-   MISSION_CONTROL_PLUGINS_DIR=${libdir}/mission-control-plugins.`pkg-config --variable=MCP_ABI_VERSION mission-control-plugins`
+   MISSION_CONTROL_PLUGINS_DIR=${libdir}/mission-control-plugins.`$PKG_CONFIG --variable=MCP_ABI_VERSION mission-control-plugins`
 
    AC_MSG_RESULT([$MISSION_CONTROL_PLUGINS_DIR])
    AC_SUBST(MISSION_CONTROL_PLUGINS_DIR)
