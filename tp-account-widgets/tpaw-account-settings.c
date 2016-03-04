@@ -880,12 +880,11 @@ tpaw_account_settings_get_int32 (TpawAccountSettings *settings,
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_INT32))
     ret = g_variant_get_int32 (v);
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_UINT32))
-    ret = CLAMP (g_variant_get_uint32 (v), (guint) G_MININT32,
-        G_MAXINT32);
+    ret = CLAMP (g_variant_get_uint32 (v), 0, G_MAXINT32);
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_INT64))
     ret = CLAMP (g_variant_get_int64 (v), G_MININT32, G_MAXINT32);
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_UINT64))
-    ret = CLAMP (g_variant_get_uint64 (v), (guint64) G_MININT32, G_MAXINT32);
+    ret = CLAMP (g_variant_get_uint64 (v), 0, G_MAXINT32);
   else
     {
       gchar *tmp;
@@ -919,7 +918,7 @@ tpaw_account_settings_get_int64 (TpawAccountSettings *settings,
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_INT64))
     ret = g_variant_get_int64 (v);
   else if (g_variant_is_of_type (v, G_VARIANT_TYPE_UINT64))
-    ret = CLAMP (g_variant_get_uint64 (v), (guint64) G_MININT64, G_MAXINT64);
+    ret = CLAMP (g_variant_get_uint64 (v), 0, G_MAXINT64);
   else
     {
       gchar *tmp;
