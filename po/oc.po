@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-06 14:17+0000\n"
-"PO-Revision-Date: 2016-02-26 22:10+0200\n"
+"PO-Revision-Date: 2016-03-05 18:40+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -395,12 +395,12 @@ msgstr "Suprimir"
 #. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
-msgstr ""
+msgstr "Naut"
 
 #. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
-msgstr ""
+msgstr "Bas"
 
 #
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
@@ -668,9 +668,8 @@ msgstr "Locala de la lista de las _salas :"
 
 #
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
-#, fuzzy
 msgid "Ch_aracter set:"
-msgstr "Jòc de caractèrs :"
+msgstr "Jòc de c_aractèrs :"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
@@ -750,52 +749,47 @@ msgstr "Anniversari"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-#, fuzzy
 msgid "Last Seen:"
-msgstr "_Nom d'ostal :"
+msgstr ""
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
-msgstr "_Servidor :"
+msgstr "Servidor :"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#, fuzzy
 msgid "Connected From:"
-msgstr "Connectat"
+msgstr ""
 
 #
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#, fuzzy
 msgid "Away Message:"
 msgstr "Messatge de sortida :"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
-#, fuzzy
 msgid "work"
-msgstr "Ret"
+msgstr "trabalh"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
-msgstr ""
+msgstr "ostal"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
-msgstr ""
+msgstr "mobil"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
-msgstr ""
+msgstr "votz"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
-#, fuzzy
 msgid "preferred"
-msgstr "Preferéncias"
+msgstr "preferit"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
-msgstr ""
+msgstr "postal"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
@@ -907,9 +901,8 @@ msgstr ""
 
 #. Setup id label
 #: ../tp-account-widgets/tpaw-user-info.c:526
-#, fuzzy
 msgid "Identifier"
-msgstr "Identificant :"
+msgstr "Identificant"
 
 #. Setup nickname entry
 #: ../tp-account-widgets/tpaw-user-info.c:534
