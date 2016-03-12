@@ -83,16 +83,16 @@ msgstr "chorvatské"
 #: ../tp-account-widgets/totem-subtitle-encoding.c:218
 #: ../tp-account-widgets/totem-subtitle-encoding.c:220
 msgid "Cyrillic"
-msgstr "cyrilice"
+msgstr "azbuka"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:223
 msgid "Cyrillic/Russian"
-msgstr "cyrilice – ruská"
+msgstr "azbuka – ruská"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:226
 #: ../tp-account-widgets/totem-subtitle-encoding.c:228
 msgid "Cyrillic/Ukrainian"
-msgstr "cyrilice – ukrajinská"
+msgstr "azbuka – ukrajinská"
 
 #: ../tp-account-widgets/totem-subtitle-encoding.c:231
 msgid "Georgian"
