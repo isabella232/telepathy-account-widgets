@@ -435,9 +435,9 @@
       <server ssl="FALSE" port="6667" address="scott.rizenet.org"/>
     </servers>
   </network>
-  <network>
+  <network name="Rizon" id="rizon">
     <servers>
-      <server ssl="FALSE" port=6667 address="irc.rizon.net"/>
+      <server ssl="FALSE" port="6667" address="irc.rizon.net"/>
     </servers>
   </network>
   <network name="RusNet" id="rusnet">
