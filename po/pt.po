@@ -4,21 +4,22 @@
 # This file is distributed under the same license as the tp-account-widgets package.
 # 
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2008, 2009, 2010, 2011, 2012, 2013., 2015.
+# Sérgio Cardeira <cardeira.sergio@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 22:46+0000\n"
-"PO-Revision-Date: 2015-06-20 09:21+0100\n"
-"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"POT-Creation-Date: 2015-10-06 08:03+0000\n"
+"PO-Revision-Date: 2016-02-22 01:11-0100\n"
+"Last-Translator: Sérgio Cardeira <cardeira.sergio@gmail.com>\n"
+"Language-Team: Português <gnome_pt@yahoogroups.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -296,30 +297,30 @@ msgstr "Utilizador:"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:1722
 msgid "A_dd"
-msgstr "A_Dicionar"
+msgstr "A_dicionar"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_pply"
-msgstr "A_Plicar"
+msgstr "A_plicar"
 
 #. To translators: The first parameter is the login id and the
 #. * second one is the network. The resulting string will be something
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2166
+#: ../tp-account-widgets/tpaw-account-widget.c:2168
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s no %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2192
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
 msgid "%s Account"
 msgstr "Conta %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2196
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
 msgid "New account"
 msgstr "Nova conta"
 
@@ -352,7 +353,7 @@ msgstr "<b>Exemplo:</b> 123456789"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
 msgid "Ch_aracter set"
-msgstr "Conjunto de c_Aracteres"
+msgstr "Conjunto de c_aracteres"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
@@ -378,12 +379,12 @@ msgstr "Adicionar…"
 msgid "Remove"
 msgstr "Remover"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Acima"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Abaixo"
@@ -428,7 +429,7 @@ msgstr "Qual é a sua alcunha no IRC?"
 msgid "What is your Facebook username?"
 msgstr "Qual é o seu utilizador no Facebook?"
 
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
@@ -463,15 +464,15 @@ msgstr "<b>Exemplo:</b> utilizador@jabber.org"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
-msgstr "I_Gnorar erros de certificado SSL"
+msgstr "I_gnorar erros de certificado SSL"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
-msgstr "Pri_Oridade"
+msgstr "Pri_oridade"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
-msgstr "Rec_Urso"
+msgstr "Rec_urso"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
@@ -495,11 +496,11 @@ msgstr "Qual é a sua senha do Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
-msgstr "Alcun_Ha"
+msgstr "Alcun_ha"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
 msgid "_Last Name"
-msgstr "Ú_Ltimo nome"
+msgstr "Ú_ltimo nome"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
 msgid "_First Name"
@@ -568,7 +569,7 @@ msgstr "<b>Exemplo:</b> utilizador@meu.servidor.sip"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
 msgid "Use this account to call _landlines and mobile phones"
-msgstr "Utilizar esta conta para telefonar para _Linhas fixas e telemóveis"
+msgstr "Utilizar esta conta para telefonar para _linhas fixas e telemóveis"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
 msgid "NAT Traversal Options"
@@ -636,7 +637,7 @@ msgstr "Qual é a senha da sua conta SIP?"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
 msgid "Pass_word:"
-msgstr "Sen_Ha:"
+msgstr "Sen_ha:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
 msgid "Yahoo! I_D:"
@@ -644,15 +645,15 @@ msgstr "I_D Yahoo!:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
 msgid "I_gnore conference and chat room invitations"
-msgstr "I_Gnorar convites para conferências e salas de diálogo"
+msgstr "I_gnorar convites para conferências e salas de diálogo"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
 msgid "_Room List locale:"
-msgstr "Configuração regional da lista de _Salas:"
+msgstr "Configuração regional da lista de _salas:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
 msgid "Ch_aracter set:"
-msgstr "Conjunto de c_Aracteres:"
+msgstr "Conjunto de c_aracteres:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
@@ -666,36 +667,36 @@ msgstr "Qual é o seu ID do Yahoo!?"
 msgid "What is your Yahoo! password?"
 msgstr "Qual é a sua senha do Yahoo!?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
 msgid "Couldn't convert image"
 msgstr "Impossível converter imagem"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Nenhum dos formatos de imagem aceites é suportado pelo seu sistema"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
 msgid "Couldn't save picture to file"
 msgstr "Impossível gravar imagem num ficheiro"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Seleccione a imagem do seu avatar"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
 msgid "Take a picture..."
 msgstr "Tirar uma fotografia..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Sem imagem"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Imagens"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Todos os ficheiros"
 
@@ -786,7 +787,7 @@ msgstr "Selecione uma rede de IRC"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
 msgid "Reset _Networks List"
-msgstr "Reiniciar a lista de _Redes"
+msgstr "Reiniciar a lista de _redes"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
 msgctxt "verb displayed on a button to select an IRC network"
