@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-06 14:17+0000\n"
-"PO-Revision-Date: 2016-03-05 18:40+0200\n"
+"POT-Creation-Date: 2016-03-05 17:48+0000\n"
+"PO-Revision-Date: 2016-05-08 18:53+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -263,50 +263,50 @@ msgstr "Quin es vòstre escais AIM ?"
 msgid "What is your AIM password?"
 msgstr "Quin es vòstre senhal AIM ?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:661
 msgid "Account"
 msgstr "Compte"
 
 #
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:662
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Senhal"
 
 #
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Servidor"
 
 #
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Pòrt"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:748
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:805
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
 #
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
+#: ../tp-account-widgets/tpaw-account-widget.c:1395
 msgid "Username:"
 msgstr "Nom d'utilizaire :"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1722
 msgid "A_dd"
 msgstr "Apon_dre"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_pply"
 msgstr "A_plicar"
 
@@ -315,7 +315,7 @@ msgstr "A_plicar"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2168
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s sus %2$s"
@@ -325,13 +325,11 @@ msgstr "%1$s sus %2$s"
 #. * string will be something like: "Jabber Account"
 #: ../tp-account-widgets/tpaw-account-widget.c:2195
 #, c-format
-#| msgid "New %s account"
 msgid "%s Account"
 msgstr "Compte %s"
 
 #
 #: ../tp-account-widgets/tpaw-account-widget.c:2199
-#| msgid "New %s account"
 msgid "New account"
 msgstr "Compte novèl"
 
@@ -392,12 +390,12 @@ msgstr "Apondre..."
 msgid "Remove"
 msgstr "Suprimir"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Naut"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Bas"
@@ -426,7 +424,7 @@ msgstr "Messatge de sortida"
 #
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
 msgid "Real name"
-msgstr "Vertadièr nom"
+msgstr "Nom vertadièr"
 
 #
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
@@ -445,7 +443,7 @@ msgstr "Quin es vòstre escais IRC ?"
 msgid "What is your Facebook username?"
 msgstr "Quin es vòstre nom d'utilizaire Facebook ?"
 
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
@@ -683,36 +681,36 @@ msgstr "Quin es vòstre identificant Yahoo! ?"
 msgid "What is your Yahoo! password?"
 msgstr "Quin es vòstre senhal Yahoo! ?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
 msgid "Couldn't convert image"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
 msgid "Couldn't save picture to file"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
 msgid "Take a picture..."
 msgstr ""
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Pas cap d'imatge"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Imatges"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Totes los fichièrs"
 
@@ -918,7 +916,6 @@ msgid "People Nearby"
 msgstr "Personas a proximitat"
 
 #: ../tp-account-widgets/tpaw-utils.c:123
-#| msgid "Yahoo! I_D:"
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japon"
 
