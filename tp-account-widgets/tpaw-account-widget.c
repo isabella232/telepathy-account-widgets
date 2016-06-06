@@ -565,6 +565,9 @@ tpaw_account_widget_setup_widget (TpawAccountWidget *self,
 
       if (strstr (param_name, "password"))
         {
+          if (self->priv->dialog != NULL)
+            gtk_entry_set_activates_default (GTK_ENTRY (widget), TRUE);
+
           gtk_entry_set_visibility (GTK_ENTRY (widget), FALSE);
 
           /* Add 'clear' icon */
@@ -582,8 +585,13 @@ tpaw_account_widget_setup_widget (TpawAccountWidget *self,
               G_CALLBACK (password_entry_activated_cb), self);
         }
       else if (strstr (param_name, "account"))
-        g_signal_connect (widget, "activate",
-            G_CALLBACK (account_entry_activated_cb), self);
+        {
+          if (self->priv->dialog != NULL)
+            gtk_entry_set_activates_default (GTK_ENTRY (widget), TRUE);
+
+          g_signal_connect (widget, "activate",
+              G_CALLBACK (account_entry_activated_cb), self);
+        }
 
       g_signal_connect (widget, "changed",
           G_CALLBACK (account_widget_entry_changed_cb), self);
