@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: telepathy-account-widgets master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:03+0000\n"
-"PO-Revision-Date: 2016-08-22 18:34+0200\n"
+"PO-Revision-Date: 2016-08-22 18:57+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -252,11 +252,11 @@ msgstr "Avanzadis"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
 msgid "What is your AIM screen name?"
-msgstr "Cuâl isal il tô nominatîf public AIM?"
+msgstr "Cuâl isal il tô nominatîf public di AIM?"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
-msgstr "Cuale ise la tô password AIM?"
+msgstr "Cuale ise la tô password di AIM?"
 
 #: ../tp-account-widgets/tpaw-account-widget.c:669
 msgid "Account"
@@ -335,11 +335,11 @@ msgstr "<b>Esempli:</b> nonutent"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
-msgstr "Cuâl isal il to ID utent GroupWise?"
+msgstr "Cuâl isal il to ID utent di GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
-msgstr "Cuale ise la tô password GroupWise?"
+msgstr "Cuale ise la tô password di GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
 msgid "ICQ _UIN"
@@ -355,11 +355,11 @@ msgstr "Codifiche c_aratars"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
-msgstr "Cuâl isal il to UIN ICQ?"
+msgstr "Cuâl isal il to UIN di ICQ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
-msgstr "Cuale ise la tô password ICQ?"
+msgstr "Cuale ise la tô password di ICQ?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
 msgid "Network"
@@ -442,7 +442,7 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
-msgstr "Cuale ise la tô password Facebook?"
+msgstr "Cuale ise la tô password di Facebook?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
@@ -474,120 +474,120 @@ msgstr "_Risorse"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
-msgstr ""
+msgstr "_Domande di cifradure (TLS/SSL)"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
-msgstr ""
+msgstr "Passâ parsore a lis impostazions dal servidôr"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
-msgstr ""
+msgstr "Dopre il vecjo SS_L"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
-msgstr ""
+msgstr "Cuâl isal il to ID di Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
-msgstr ""
+msgstr "Cuale ise la tô password di Jabber?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
-msgstr ""
+msgstr "So_renon"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
 msgid "_Last Name"
-msgstr ""
+msgstr "_Cognon"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
 msgid "_First Name"
-msgstr ""
+msgstr "_Non"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
 msgid "_Published Name"
-msgstr ""
+msgstr "Non _visibil"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
 msgid "_Jabber ID"
-msgstr ""
+msgstr "I_D Jabber"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
 msgid "E-_mail address"
-msgstr ""
+msgstr "direzion e-_mail"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
-msgstr ""
+msgstr "<b>Esempli:</b> utent@hotmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
 msgid "What is your Windows Live ID?"
-msgstr ""
+msgstr "Cuâl isal il to ID di Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
-msgstr ""
+msgstr "Cuale ise la tô password di Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
 msgid "Auto"
-msgstr ""
+msgstr "Automatic"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:201
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:204
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:207
 msgid "TLS"
-msgstr ""
+msgstr "TLS"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
-msgstr ""
+msgstr "Regjistradôr"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
-msgstr ""
+msgstr "Opzions"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:244
 msgid "None"
-msgstr ""
+msgstr "Nissun"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
 msgid "_Username"
-msgstr ""
+msgstr "_Non utent"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
-msgstr ""
+msgstr "<b>Esempli:</b> utent@gno.servidôr.sip"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
 msgid "Use this account to call _landlines and mobile phones"
-msgstr ""
+msgstr "_Dopre chest account pes clamadis a telefons fis e celulârs"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
 msgid "NAT Traversal Options"
-msgstr ""
+msgstr "Opzions di traviersament NAT"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
 msgid "Proxy Options"
-msgstr ""
+msgstr "Opzions proxy"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
 msgid "Miscellaneous Options"
-msgstr ""
+msgstr "Varis opzions"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
 msgid "STUN Server"
-msgstr ""
+msgstr "Servidôr STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
-msgstr ""
+msgstr "Scuvierç i servidôrs STUN in automatic"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
 msgid "Discover Binding"
