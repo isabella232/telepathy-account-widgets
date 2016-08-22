@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: telepathy-account-widgets master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:03+0000\n"
-"PO-Revision-Date: 2016-08-22 18:57+0200\n"
+"PO-Revision-Date: 2016-08-22 19:30+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -591,59 +591,59 @@ msgstr "Scuvierç i servidôrs STUN in automatic"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
 msgid "Discover Binding"
-msgstr ""
+msgstr "Scuvierç i vincui"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
-msgstr ""
+msgstr "Opzions Keep-Alive"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
 msgid "Mechanism"
-msgstr ""
+msgstr "Mecanisim"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
 msgid "Interval (seconds)"
-msgstr ""
+msgstr "Interval (seconts)"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
 msgid "Authentication username"
-msgstr ""
+msgstr "Non utent di autenticazion"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
 msgid "Transport"
-msgstr ""
+msgstr "Traspuart"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
 msgid "Loose Routing"
-msgstr ""
+msgstr "Instradament libar"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
 msgid "Ignore TLS Errors"
-msgstr ""
+msgstr "Ignorâ erôrs TLS"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
-msgstr ""
+msgstr "Direzion IP locâl"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
-msgstr ""
+msgstr "Cuâl isal il to ID di acès SIP?"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
 msgid "What is your SIP account password?"
-msgstr ""
+msgstr "Cuale ise la tô password dal account SIP?"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
 msgid "Pass_word:"
-msgstr ""
+msgstr "Pass_word:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
 msgid "Yahoo! I_D:"
-msgstr ""
+msgstr "I_D Yahoo!:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
 msgid "I_gnore conference and chat room invitations"
-msgstr ""
+msgstr "_Ignorâ invîts par conferencis e stanziis di conversazion"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
 msgid "_Room List locale:"
@@ -651,159 +651,159 @@ msgstr ""
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
 msgid "Ch_aracter set:"
-msgstr ""
+msgstr "Codific_he caratars:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
-msgstr ""
+msgstr "_Puarte:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
 msgid "What is your Yahoo! ID?"
-msgstr ""
+msgstr "Cuâl isal il to ID di Yahoo!?"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
 msgid "What is your Yahoo! password?"
-msgstr ""
+msgstr "Cuale ise la tô password di Yahoo!?"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
 msgid "Couldn't convert image"
-msgstr ""
+msgstr "Impussibil convertî la imagjin"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
-msgstr ""
+msgstr "Nissun dai formâts imagjin acetâts al è supuartât dal sisteme"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
 msgid "Couldn't save picture to file"
-msgstr ""
+msgstr "Impussibil salvâ la imagjin su file"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
-msgstr ""
+msgstr "Selezione imagjin avatar"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
 msgid "Take a picture..."
-msgstr ""
+msgstr "Scate foto..."
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
-msgstr ""
+msgstr "Nissune imagjin"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
-msgstr ""
+msgstr "Imagjins"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
-msgstr ""
+msgstr "Ducj i file"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
-msgstr ""
+msgstr "Selezione..."
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
-msgstr ""
+msgstr "_Selezione"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
 msgid "Full Name"
-msgstr ""
+msgstr "Non complet"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
 msgid "Phone Number"
-msgstr ""
+msgstr "Numar di telefon"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
 msgid "E-mail Address"
-msgstr ""
+msgstr "direzion e-mail"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
-msgstr ""
+msgstr "Sît web"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
-msgstr ""
+msgstr "Complean"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
 msgid "Last Seen:"
-msgstr ""
+msgstr "Ultime ativitât:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
-msgstr ""
+msgstr "Servidôr:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
 msgid "Connected From:"
-msgstr ""
+msgstr "Conetût di:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
 msgid "Away Message:"
-msgstr ""
+msgstr "Messaç di assence:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
-msgstr ""
+msgstr "vore"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
-msgstr ""
+msgstr "cjase"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
-msgstr ""
+msgstr "celulâr"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
-msgstr ""
+msgstr "vôs"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
-msgstr ""
+msgstr "preferît"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
-msgstr ""
+msgstr "postâl"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
-msgstr ""
+msgstr "pac"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
 msgid "New Network"
-msgstr ""
+msgstr "Gnove rêt"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
 msgid "Choose an IRC network"
-msgstr ""
+msgstr "Sielç une rêt IRC"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
 msgid "Reset _Networks List"
-msgstr ""
+msgstr "Ripristi_ne liste rêts"
 
 #: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
 msgctxt "verb displayed on a button to select an IRC network"
 msgid "Select"
-msgstr ""
+msgstr "Selezione"
 
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
 msgid "new server"
-msgstr ""
+msgstr "gnûf servidôr"
 
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: ../tp-account-widgets/tpaw-keyring.c:78
 #: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
-msgstr ""
+msgstr "Password no cjatade"
 
 #: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
