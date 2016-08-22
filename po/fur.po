@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: telepathy-account-widgets master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:03+0000\n"
-"PO-Revision-Date: 2016-08-22 17:37+0200\n"
+"PO-Revision-Date: 2016-08-22 18:34+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -396,34 +396,36 @@ msgid ""
 "Most IRC servers don't need a password, so if you're not sure, don't enter a "
 "password."
 msgstr ""
+"La plui part dai servidôrs IRC no àn bisugne di une password, se no tu sês "
+"sigûr, no sta inserî nissune."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
-msgstr ""
+msgstr "Sorenon"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
-msgstr ""
+msgstr "Messaç di jessude"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
 msgid "Real name"
-msgstr ""
+msgstr "Non reâl"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
 msgid "Username"
-msgstr ""
+msgstr "Non utent"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
 msgid "Which IRC network?"
-msgstr ""
+msgstr "Cuale rêt IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
 msgid "What is your IRC nickname?"
-msgstr ""
+msgstr "Cuâl isal il sorenon IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
 msgid "What is your Facebook username?"
-msgstr ""
+msgstr "Cuâl isal il to non utent di Facebook?"
 
 #. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
@@ -433,38 +435,42 @@ msgid ""
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
 "Facebook username if you don't have one."
 msgstr ""
+"Chest al è il to non utent, no il to normâl acès di Facebook.\n"
+"Se tu sês facebook.com/<b>badger</b>, scrîf <b>badger</b>.\n"
+"Dopre <a href=\"http://www.facebook.com/username/\">cheste pagjine</a> par "
+"sielzi un non utent Facebook se no tu 'nd âs un."
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
-msgstr ""
+msgstr "Cuale ise la tô password Facebook?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
-msgstr ""
+msgstr "Cuâl isal il to ID di Google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "<b>Example:</b> user@gmail.com"
-msgstr ""
+msgstr "<b>Esempli:</b> utent@gmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "What is your Google password?"
-msgstr ""
+msgstr "Cuale ise la tô password di Google?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "<b>Example:</b> user@jabber.org"
-msgstr ""
+msgstr "<b>Esempli:</b> utent@jabber.org"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
-msgstr ""
+msgstr "I_gnore erôrs di certificâts SSL"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
-msgstr ""
+msgstr "Priori_tât"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
-msgstr ""
+msgstr "_Risorse"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
