@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: telepathy-account-widgets master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-25 20:03+0000\n"
-"PO-Revision-Date: 2016-08-22 19:30+0200\n"
+"PO-Revision-Date: 2016-08-22 21:02+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -645,9 +645,10 @@ msgstr "I_D Yahoo!:"
 msgid "I_gnore conference and chat room invitations"
 msgstr "_Ignorâ invîts par conferencis e stanziis di conversazion"
 
+# dallo spagnolo
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
 msgid "_Room List locale:"
-msgstr ""
+msgstr "Configurazion de liste des _stanziis:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
 msgid "Ch_aracter set:"
@@ -808,12 +809,12 @@ msgstr "Password no cjatade"
 #: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
-msgstr ""
+msgstr "Password dal account pai messaçs istantanis par %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr ""
+msgstr "Password pe stanzie '%s' sul account %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -822,88 +823,91 @@ msgstr ""
 #: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
-msgstr ""
+msgstr "Gnûf account %s"
 
 #: ../tp-account-widgets/tpaw-time.c:86
 #, c-format
 msgid "%d second ago"
 msgid_plural "%d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d secont indaûr"
+msgstr[1] "%d seconts indaûr"
 
 #: ../tp-account-widgets/tpaw-time.c:92
 #, c-format
 msgid "%d minute ago"
 msgid_plural "%d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minût indaûr"
+msgstr[1] "%d minûts indaûr"
 
 #: ../tp-account-widgets/tpaw-time.c:98
 #, c-format
 msgid "%d hour ago"
 msgid_plural "%d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ore indaûr"
+msgstr[1] "%d oris indaûr"
 
 #: ../tp-account-widgets/tpaw-time.c:104
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d zornade indaûr"
+msgstr[1] "%d dîs indaûr"
 
 #: ../tp-account-widgets/tpaw-time.c:110
 #, c-format
 msgid "%d week ago"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d setemane indaûr"
+msgstr[1] "%d setemanis indaûr"
 
 #: ../tp-account-widgets/tpaw-time.c:116
 #, c-format
 msgid "%d month ago"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mês indaûr"
+msgstr[1] "%d mês indaûr"
 
+# tal doman
 #: ../tp-account-widgets/tpaw-time.c:138
 msgid "in the future"
-msgstr ""
+msgstr "tal avignî"
 
 #: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
-msgstr ""
+msgstr "Va in linie par modificâ lis tôs informazions personâi."
 
 #: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr ""
+"Chescj detais a vegnaran condividûts cun altris utents su cheste rêt di "
+"conversazion."
 
 #. Setup id label
 #: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
-msgstr ""
+msgstr "Identificadôr"
 
 #. Setup nickname entry
 #: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
-msgstr ""
+msgstr "<b>Detais personâi</b>"
 
 #: ../tp-account-widgets/tpaw-utils.c:118
 msgid "People Nearby"
-msgstr ""
+msgstr "Personis tai contors"
 
 #: ../tp-account-widgets/tpaw-utils.c:123
 msgid "Yahoo! Japan"
-msgstr ""
+msgstr "Yahoo! Gjapon"
 
 #: ../tp-account-widgets/tpaw-utils.c:159
 msgid "Google Talk"
-msgstr ""
+msgstr "Google Talk"
 
 #: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
-msgstr ""
+msgstr "Chat di Facebook"
