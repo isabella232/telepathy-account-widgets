@@ -18,16 +18,16 @@
 # Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003.
 # Taco Witte <tcwitte@cs.uu.nl>, 2003–2004.
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2006–2008.
-# Reinout van Schouwen <reinouts@gnome.org>, 2007.
+# Reinout van Schouwen <reinouts@gnome.org>, 2007, 2016.
 # Wouter Bolsterlee <wbolster@gnome.org>, 2006—2011.
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010—2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2012-03-16 22:57+0100\n"
-"Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
+"POT-Creation-Date: 2016-09-11 22:49+0200\n"
+"PO-Revision-Date: 2016-06-25 21:56+0100\n"
+"Last-Translator: Justin van Steijn <justin50@live.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2010-09-28 11:24+0000\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # avatar? :s  (Wouter Bolsterlee)
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -216,17 +216,15 @@ msgstr "Vietnamees"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
-#, fuzzy
 msgid "Pass_word"
-msgstr "_Wachtwoord:"
+msgstr "_Wachtwoord"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
-#, fuzzy
 msgid "Screen _Name"
-msgstr "Scherm_naam:"
+msgstr "Scherm_naam"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
 msgid "<b>Example:</b> MyScreenName"
@@ -235,7 +233,7 @@ msgstr "<b>Voorbeeld:</b> Mijn_schermnaam"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -245,27 +243,25 @@ msgstr "Wachtwoord onthouden"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
-#, fuzzy
 msgid "_Port"
-msgstr "_Poort:"
+msgstr "_Poort"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
-#, fuzzy
 msgid "_Server"
-msgstr "_Server:"
+msgstr "_Server"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -281,21 +277,75 @@ msgstr "Wat is uw AIM-schermnaam?"
 msgid "What is your AIM password?"
 msgstr "Wat is uw AIM-wachtwoord?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Wachtwoord onthouden"
+#: ../tp-account-widgets/tpaw-account-widget.c:669
+msgid "Account"
+msgstr "Account"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:670
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Poort"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:756
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:813
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1403
+msgid "Username:"
+msgstr "Gebruikersnaam"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
+msgid "A_dd"
+msgstr "Toe_voegen"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1738
+msgid "A_pply"
+msgstr "Toe_passen"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2176
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s op %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2203
+#, c-format
+msgid "%s Account"
+msgstr "%s-account"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2207
+msgid "New account"
+msgstr "Nieuw account"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
-#, fuzzy
 msgid "Login I_D"
-msgstr "_Gebruikersnaam:"
+msgstr "Login I_D"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
@@ -311,18 +361,16 @@ msgid "What is your GroupWise password?"
 msgstr "Wat is uw GroupWise-wachtwoord?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
-#, fuzzy
 msgid "ICQ _UIN"
-msgstr "ICQ _UIN:"
+msgstr "ICQ _UIN"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
 msgid "<b>Example:</b> 123456789"
 msgstr "<b>Voorbeeld:</b> 123456789"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
-#, fuzzy
 msgid "Ch_aracter set"
-msgstr "_Tekenset:"
+msgstr "_Tekenset"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
@@ -337,9 +385,8 @@ msgid "Network"
 msgstr "Netwerk"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
-#, fuzzy
 msgid "Character set"
-msgstr "Tekenset:"
+msgstr "Tekenset"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
@@ -372,28 +419,20 @@ msgstr ""
 "in als u niet zeker bent."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
-#, fuzzy
 msgid "Nickname"
-msgstr "Bijnaam:"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Wachtwoord"
+msgstr "Bijnaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
-#, fuzzy
 msgid "Quit message"
-msgstr "Bericht bij afsluiten:"
+msgstr "Bericht bij afsluiten"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
-#, fuzzy
 msgid "Real name"
-msgstr "Echte naam:"
+msgstr "Echte naam"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
-#, fuzzy
 msgid "Username"
-msgstr "Gebruikersnaam:"
+msgstr "Gebruikersnaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
 msgid "Which IRC network?"
@@ -440,77 +479,61 @@ msgstr "Wat is uw Google-wachtwoord?"
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Voorbeeld:</b> gebruiker@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
 msgstr "Ne_geer SSL-certificaat-foutmeldingen"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
-#, fuzzy
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
-msgstr "Priori_teit:"
+msgstr "Priori_teit"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Reso_urce"
+msgstr "B_ron"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
-#, fuzzy
-msgid "Reso_urce"
-msgstr "_Bron:"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "Encr_yptie vereist (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
 msgstr "Serverinstellingen overschrijven"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Oude SS_L gebruiken"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
 msgstr "Wat is uw Jabber-ID?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "Wat is uw gewenste Jabber-ID?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
 msgstr "Wat is uw Jabber-wachtwoord?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "Wat is uw gewenste Jabber-wachtwoord?"
-
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
-#, fuzzy
 msgid "Nic_kname"
-msgstr "_Bijnaam:"
+msgstr "_Bijnaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
-#, fuzzy
 msgid "_Last Name"
-msgstr "_Achternaam:"
+msgstr "_Achternaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
-#, fuzzy
 msgid "_First Name"
-msgstr "_Voornaam:"
+msgstr "_Voornaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
-#, fuzzy
 msgid "_Published Name"
-msgstr "_Weergegeven naam:"
+msgstr "_Weergegeven naam"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
-#, fuzzy
 msgid "_Jabber ID"
-msgstr "_Jabber-ID:"
+msgstr "_Jabber-ID"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
-#, fuzzy
 msgid "E-_mail address"
-msgstr "E-_mailadres:"
+msgstr "E-_mailadres"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -554,9 +577,8 @@ msgid "None"
 msgstr "Geen"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
-#, fuzzy
 msgid "_Username"
-msgstr "Gebr_uikersnaam:"
+msgstr "Gebr_uikersnaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
@@ -580,9 +602,8 @@ msgid "Miscellaneous Options"
 msgstr "Overige opties"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
-#, fuzzy
 msgid "STUN Server"
-msgstr "STUN-server:"
+msgstr "STUN-server"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
@@ -592,33 +613,25 @@ msgstr "STUN-server automatisch opzoeken"
 msgid "Discover Binding"
 msgstr "Binding opzoeken"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Server"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Opties voor het in stand houden van de verbinding"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
-#, fuzzy
 msgid "Mechanism"
-msgstr "Mechanisme:"
+msgstr "Mechanisme"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
 msgid "Interval (seconds)"
 msgstr "Interval (seconden)"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
-#, fuzzy
 msgid "Authentication username"
-msgstr "Authenticatie gebruikersnaam:"
+msgstr "Authenticatie gebruikersnaam"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
-#, fuzzy
 msgid "Transport"
-msgstr "Transport:"
+msgstr "Transport"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
 msgid "Loose Routing"
@@ -628,15 +641,9 @@ msgstr "Vrije routing"
 msgid "Ignore TLS Errors"
 msgstr "TLS-fouten negeren"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Poort"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
-#, fuzzy
 msgid "Local IP Address"
-msgstr "E-mailadres"
+msgstr "Lokaal IP-adres"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
@@ -678,6 +685,40 @@ msgstr "Wat is uw Yahoo!-ID?"
 msgid "What is your Yahoo! password?"
 msgstr "Wat is uw Yahoo!-wachtwoord?"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn't convert image"
+msgstr "Kon afbeelding niet converteren"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+"Geen van de aanvaarde afbeeldingsformaten worden door uw systeem ondersteund"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn't save picture to file"
+msgstr "Kon afbeelding niet naar bestand opslaan"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
+msgid "Select Your Avatar Image"
+msgstr "Selecteer uw gebruikersafbeelding"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture..."
+msgstr "Foto nemen…"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
+msgid "No Image"
+msgstr "Geen afbeelding"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
+msgid "All Files"
+msgstr "Alle bestanden"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
 msgid "Select..."
 msgstr "Selecteren…"
@@ -686,73 +727,73 @@ msgstr "Selecteren…"
 msgid "_Select"
 msgstr "_Selecteren"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Full Name"
 msgstr "Volledige naam"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "Phone Number"
 msgstr "Telefoonnummer"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
 msgstr "E-mailadres"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Website"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Geboortedatum"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
 msgstr "Voor het laatst gezien:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Server:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
 msgstr "Verbonden via:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
 msgstr "Afwezigheidsbericht:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "Werk"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "thuis"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "Mobiel"
 
 # hmmmm (Wouter Bolsterlee)
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "spraak"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "voorkeur"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "post"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "pakje"
 
@@ -781,17 +822,17 @@ msgstr "nieuwe server"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Wachtwoord niet gevonden"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Wachtwoord voor IM-account %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom '%s' on account %s (%s)"
 msgstr "Wachtwoord voor chatruimte ‘%s’ op account %s (%s)"
@@ -800,7 +841,7 @@ msgstr "Wachtwoord voor chatruimte ‘%s’ op account %s (%s)"
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Nieuw %s-account"
@@ -851,23 +892,49 @@ msgstr[1] "%d maanden geleden"
 msgid "in the future"
 msgstr "in de toekomst"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Ga online om uw persoonlijke gegevens te bewerken."
 
+#: ../tp-account-widgets/tpaw-user-info.c:517
+msgid "These details will be shared with other users on this chat network."
+msgstr "Deze details worden gedeeld met andere gebruikers op dit chatnetwerk."
+
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
-msgstr "Identificatie:"
+msgstr "Identificatie"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
-msgstr "Alias:"
+msgstr "Alias"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
-msgstr "Persoonlijke gegevens"
+msgstr "<b>Persoonlijke gegevens</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:118
+msgid "People Nearby"
+msgstr "Mensen in de buurt"
+
+#: ../tp-account-widgets/tpaw-utils.c:123
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:159
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:160
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
+
+#~ msgid "Remember Password"
+#~ msgstr "Wachtwoord onthouden"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "Wat is uw gewenste Jabber-ID?"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "Wat is uw gewenste Jabber-wachtwoord?"
