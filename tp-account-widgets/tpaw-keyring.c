@@ -618,7 +618,7 @@ tpaw_keyring_set_room_password_async (TpAccount *account,
 
   DEBUG ("Remembering password for room '%s' on account '%s'", id, account_id);
 
-  name = g_strdup_printf (_("Password for chatroom '%s' on account %s (%s)"),
+  name = g_strdup_printf (_("Password for chatroom “%s” on account %s (%s)"),
       id, tp_account_get_display_name (account), account_id);
 
   secret_password_store (&room_keyring_schema, NULL, name, password,

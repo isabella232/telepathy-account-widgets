@@ -60,7 +60,7 @@ update_label (TpawCalendarButton *self)
   if (self->priv->date == NULL)
     {
       gtk_button_set_label (GTK_BUTTON (self->priv->button_date),
-          _("Select..."));
+          _("Select…"));
     }
   else
     {

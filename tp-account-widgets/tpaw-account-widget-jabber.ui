@@ -53,7 +53,7 @@
             <property name="xalign">0.10000000149011612</property>
             <property name="label" translatable="yes">This is your username, not your normal Facebook login.
 If you are facebook.com/&lt;b&gt;badger&lt;/b&gt;, enter &lt;b&gt;badger&lt;/b&gt;.
-Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to choose a Facebook username if you don't have one.</property>
+Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to choose a Facebook username if you don’t have one.</property>
             <property name="use_markup">True</property>
             <attributes>
               <attribute name="scale" value="0.80000000000000004"/>
@@ -319,7 +319,7 @@ Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to cho
                 <property name="xpad">3</property>
                 <property name="label" translatable="yes" comments="This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.">This is your username, not your normal Facebook login.
 If you are facebook.com/&lt;b&gt;badger&lt;/b&gt;, enter &lt;b&gt;badger&lt;/b&gt;.
-Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to choose a Facebook username if you don't have one.</property>
+Use &lt;a href="http://www.facebook.com/username/"&gt;this page&lt;/a&gt; to choose a Facebook username if you don’t have one.</property>
                 <property name="use_markup">True</property>
                 <property name="wrap">True</property>
                 <attributes>

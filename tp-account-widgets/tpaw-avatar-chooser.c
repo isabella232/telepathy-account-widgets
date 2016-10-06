@@ -584,7 +584,7 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
   /* If there is no format we can use, report error to the user. */
   if (new_mime_type == NULL || new_format_name == NULL)
     {
-      avatar_chooser_error_show (self, _("Couldn't convert image"),
+      avatar_chooser_error_show (self, _("Couldn’t convert image"),
           _("None of the accepted image formats are "
             "supported on your system"));
       return FALSE;
@@ -669,7 +669,7 @@ avatar_chooser_maybe_convert_and_scale (TpawAvatarChooser *self,
           g_free (new_format_name);
           g_free (new_mime_type);
           avatar_chooser_error_show (self,
-            _("Couldn't convert image"),
+            _("Couldn’t convert image"),
             error ? error->message : NULL);
           g_clear_error (&error);
           return FALSE;
@@ -945,7 +945,7 @@ avatar_chooser_set_avatar_from_pixbuf (TpawAvatarChooser *self,
   if (!gdk_pixbuf_save_to_buffer (pb, &buf, &size, "png", &error, NULL))
     {
       avatar_chooser_error_show (self,
-        _("Couldn't save picture to file"),
+        _("Couldn’t save picture to file"),
         error ? error->message : NULL);
       g_clear_error (&error);
       return;
@@ -1076,7 +1076,7 @@ avatar_chooser_clicked_cb (GtkWidget *button,
 #ifdef HAVE_CHEESE
   picture_button = gtk_dialog_add_button (
       GTK_DIALOG (self->priv->chooser_dialog),
-      _("Take a picture..."), TPAW_AVATAR_CHOOSER_RESPONSE_WEBCAM);
+      _("Take a picture…"), TPAW_AVATAR_CHOOSER_RESPONSE_WEBCAM);
 
   /* Button is sensitive only if there is one camera connected */
   monitor = tpaw_camera_monitor_dup_singleton ();
