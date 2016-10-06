@@ -1,19 +1,20 @@
 # Swedish messages for tp-account-widgets.
-# Copyright © 2002-2015 Free Software Foundation, Inc.
+# Copyright © 2002-2016 Free Software Foundation, Inc.
 # Richard Hult <richard@imendio.com>, 2002, 2003.
 # Christian Rose <menthos@menthos.com>, 2003, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
 # Sebastian Rasmussen <sebras@gmail.com>, 2014.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016.
 #
 # Snälla, ta *INTE* bort de extra #~-meddelandena på slutet.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-24 14:44+0000\n"
-"PO-Revision-Date: 2015-08-10 19:01+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2016-10-06 16:07+0000\n"
+"PO-Revision-Date: 2016-10-06 22:00+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -263,46 +264,46 @@ msgstr "Vad är ditt AIM-skärmnamn?"
 msgid "What is your AIM password?"
 msgstr "Vad är ditt AIM-lösenord?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:661
+#: ../tp-account-widgets/tpaw-account-widget.c:669
 msgid "Account"
 msgstr "Konto"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget.c:670
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Lösenord"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Server"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Port"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:748
+#: ../tp-account-widgets/tpaw-account-widget.c:756
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:805
+#: ../tp-account-widgets/tpaw-account-widget.c:813
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1395
+#: ../tp-account-widgets/tpaw-account-widget.c:1403
 msgid "Username:"
 msgstr "Användarnamn"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1722
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_dd"
 msgstr "_Lägg till"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1730
+#: ../tp-account-widgets/tpaw-account-widget.c:1738
 msgid "A_pply"
 msgstr "_Verkställ"
 
@@ -311,19 +312,19 @@ msgstr "_Verkställ"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2166
+#: ../tp-account-widgets/tpaw-account-widget.c:2176
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s på %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2192
+#: ../tp-account-widgets/tpaw-account-widget.c:2203
 #, c-format
 msgid "%s Account"
 msgstr "%s-konto"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2196
+#: ../tp-account-widgets/tpaw-account-widget.c:2207
 msgid "New account"
 msgstr "Nytt konto"
 
@@ -382,12 +383,12 @@ msgstr "Lägg till…"
 msgid "Remove"
 msgstr "Ta bort"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Uppåt"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Nedåt"
@@ -398,11 +399,11 @@ msgstr "Servrar"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
-"De flesta IRC-servrar behöver inte något lösenord. Ange endast ett lösenord om "
-"du är säker på att det behövs."
+"De flesta IRC-servrar behöver inte något lösenord. Ange endast ett lösenord "
+"om du är säker på att det behövs."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -432,13 +433,13 @@ msgstr "Vad är ditt IRC-smeknamn?"
 msgid "What is your Facebook username?"
 msgstr "Vad är ditt användarnamn för Facebook?"
 
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Facebook username if you don’t have one."
 msgstr ""
 "Detta är ditt användarnamn, inte ditt vanliga inloggningsnamn på Facebook.\n"
 "Om du har facebook.com/<b>hamster</b> så ange <b>hamster</b>.\n"
@@ -670,41 +671,41 @@ msgstr "Vad är ditt Yahoo!-ID?"
 msgid "What is your Yahoo! password?"
 msgstr "Vad är ditt Yahoo!-lösenord?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn’t convert image"
 msgstr "Kunde inte konvertera bild"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Inget av de accepterade bildformaten stöds på ditt system"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn’t save picture to file"
 msgstr "Kunde inte spara bild till fil"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Välj din profilbild"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
-msgid "Take a picture..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture…"
 msgstr "Ta en bild…"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Ingen bild"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Bilder"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Alla filer"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
+msgid "Select…"
 msgstr "Välj…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
@@ -818,7 +819,7 @@ msgstr "Lösenord för chattkonto för %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Lösenord för chattrummet ”%s” för kontot %s (%s)"
 
 #. Create account
@@ -882,7 +883,8 @@ msgstr "Anslut dig för att redigera din personliga information."
 
 #: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
-msgstr "Dessa detaljer kommer att delas med andra användare på detta chattnätverk."
+msgstr ""
+"Dessa detaljer kommer att delas med andra användare på detta chattnätverk."
 
 #. Setup id label
 #: ../tp-account-widgets/tpaw-user-info.c:526
@@ -913,6 +915,9 @@ msgstr "Google Talk"
 #: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
+
+#~ msgid "Select..."
+#~ msgstr "Välj…"
 
 #~ msgid "Remember Password"
 #~ msgstr "Kom ihåg lösenordet"
