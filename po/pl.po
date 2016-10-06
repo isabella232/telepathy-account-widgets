@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-account-widgets\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-22 20:11+0200\n"
-"PO-Revision-Date: 2016-08-22 20:12+0200\n"
+"POT-Creation-Date: 2016-10-06 18:07+0200\n"
+"PO-Revision-Date: 2016-10-06 18:08+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -397,7 +397,7 @@ msgstr "Serwery"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "Większość serwerów IRC nie wymaga hasła, więc w razie niepewności nie należy "
@@ -437,7 +437,7 @@ msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Facebook username if you don’t have one."
 msgstr ""
 "To jest nazwa użytkownika, a nie login serwisu Facebook.\n"
 "Jeśli używane jest facebook.com/<b>badger</b>, należy wpisać <b>badger</b>.\n"
@@ -672,7 +672,7 @@ msgstr "Hasło Yahoo!:"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Nie można skonwertować obrazu"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
@@ -681,7 +681,7 @@ msgstr ""
 "Żaden z akceptowanych formatów obrazu nie jest obsługiwany przez ten system"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-msgid "Couldn't save picture to file"
+msgid "Couldn’t save picture to file"
 msgstr "Nie można zapisać obrazu do pliku"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
@@ -689,7 +689,7 @@ msgid "Select Your Avatar Image"
 msgstr "Wybór obrazu awatara"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-msgid "Take a picture..."
+msgid "Take a picture…"
 msgstr "Zrób zdjęcie…"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
@@ -705,7 +705,7 @@ msgid "All Files"
 msgstr "Wszystkie pliki"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
+msgid "Select…"
 msgstr "Wybierz…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
@@ -818,7 +818,7 @@ msgstr "Hasło konta komunikatora dla %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Hasło dla pokoju rozmów „%s” na koncie %s (%s)"
 
 #. Create account
