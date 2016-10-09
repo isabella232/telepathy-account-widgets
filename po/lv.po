@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=empathy"
 "&keywords=I18N+L10N&component=tp-aw\n"
 "POT-Creation-Date: 2016-10-06 16:07+0000\n"
-"PO-Revision-Date: 2016-10-09 19:06+0200\n"
+"PO-Revision-Date: 2016-10-09 19:21+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -691,7 +691,6 @@ msgid "None of the accepted image formats are supported on your system"
 msgstr "Jūsu sistēma neatbalsta nevienu no atbalstītajiem attēla formātiem"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-#, fuzzy
 #| msgid "Couldn't save picture to file"
 msgid "Couldn’t save picture to file"
 msgstr "Neizdevās saglabāt bildi datnē"
@@ -701,10 +700,9 @@ msgid "Select Your Avatar Image"
 msgstr "Izvēlieties savu attēlu"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-#, fuzzy
 #| msgid "Take a picture..."
 msgid "Take a picture…"
-msgstr "Uzņemt bildi..."
+msgstr "Uzņemt bildi…"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
@@ -719,11 +717,10 @@ msgid "All Files"
 msgstr "Visas datnes"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-#, fuzzy
 #| msgctxt "verb displayed on a button to select an IRC network"
 #| msgid "Select"
 msgid "Select…"
-msgstr "Izvēlēties"
+msgstr "Izvēlēties…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -834,7 +831,7 @@ msgid "IM account password for %s (%s)"
 msgstr "%s TZ parole (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
-#, fuzzy, c-format
+#, c-format
 #| msgid "Password for chatroom '%s' on account %s (%s)"
 msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Parole tērzēšanas istabai “%s” kontam %s (%s)"
