@@ -2,24 +2,26 @@
 # Copyright © 2003, 2004 gossip
 # Copyright © 2008, 2009, 2010, 2011, 2012, 2013 tp-account-widgets
 # This file is distributed under the same license as the tp-account-widgets package.
-# 
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2008, 2009, 2010, 2011, 2012, 2013., 2015.
+#
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2008, 2009, 2010, 2011, 2012, 2013.
+# Tiago Santos <tiagofsantos81@sapo.pt>, 2014 - 2016.
 # Sérgio Cardeira <cardeira.sergio@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.10\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-06 08:03+0000\n"
-"PO-Revision-Date: 2016-02-22 01:11-0100\n"
-"Last-Translator: Sérgio Cardeira <cardeira.sergio@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2016-10-06 16:07+0000\n"
+"PO-Revision-Date: 2016-10-10 18:37+0100\n"
+"Last-Translator: Tiago Santos <tiagofsantos81@sapo.pt>\n"
 "Language-Team: Português <gnome_pt@yahoogroups.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -260,46 +262,46 @@ msgstr "Qual é o seu nome visível AIM?"
 msgid "What is your AIM password?"
 msgstr "Qual é a sua senha AIM?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:661
+#: ../tp-account-widgets/tpaw-account-widget.c:669
 msgid "Account"
 msgstr "Conta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget.c:670
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Senha"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Servidor"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Porta"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:748
+#: ../tp-account-widgets/tpaw-account-widget.c:756
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:805
+#: ../tp-account-widgets/tpaw-account-widget.c:813
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1395
+#: ../tp-account-widgets/tpaw-account-widget.c:1403
 msgid "Username:"
 msgstr "Utilizador:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1722
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_dd"
 msgstr "A_dicionar"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1730
+#: ../tp-account-widgets/tpaw-account-widget.c:1738
 msgid "A_pply"
 msgstr "A_plicar"
 
@@ -308,19 +310,19 @@ msgstr "A_plicar"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2168
+#: ../tp-account-widgets/tpaw-account-widget.c:2176
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s no %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2203
 #, c-format
 msgid "%s Account"
 msgstr "Conta %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2207
 msgid "New account"
 msgstr "Nova conta"
 
@@ -395,7 +397,7 @@ msgstr "Servidores"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "A maioria dos servidores IRC não requer uma senha, pelo que se não tem a "
@@ -435,9 +437,10 @@ msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Facebook username if you don’t have one."
 msgstr ""
-"Este é o seu nome de utilizador, não o seu utilizador de sessão Facebook.\n"
+"Este é o seu nome de utilizador, não o sua nome de autenticação na sessão "
+"Facebook.\n"
 "Se for um facebook.com/<b>badger</b>, insira o <b>badger</b>.\n"
 "Utilize <a href=\"http://www.facebook.com/username/\">esta página</a> para "
 "selecionar um nome de utilizador Facebook, caso não tenha um."
@@ -669,7 +672,7 @@ msgstr "Qual é a sua senha do Yahoo!?"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Impossível converter imagem"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
@@ -677,15 +680,15 @@ msgid "None of the accepted image formats are supported on your system"
 msgstr "Nenhum dos formatos de imagem aceites é suportado pelo seu sistema"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-msgid "Couldn't save picture to file"
-msgstr "Impossível gravar imagem num ficheiro"
+msgid "Couldn’t save picture to file"
+msgstr "Impossível gravar imagem para o ficheiro"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Seleccione a imagem do seu avatar"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-msgid "Take a picture..."
+msgid "Take a picture…"
 msgstr "Tirar uma fotografia..."
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
@@ -701,7 +704,7 @@ msgid "All Files"
 msgstr "Todos os ficheiros"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
+msgid "Select…"
 msgstr "Selecionar..."
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
@@ -814,8 +817,8 @@ msgstr "Senha da conta de MI para %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "Senha para a sala de diálogo \"%s\" na conta %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "Senha para a sala de conversação \"%s\" na conta %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -911,6 +914,9 @@ msgstr "Google Talk"
 #: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Diálogo do Facebook"
+
+#~ msgid "Select..."
+#~ msgstr "Selecionar..."
 
 #~ msgid "Remember Password"
 #~ msgstr "Recordar Senha"
