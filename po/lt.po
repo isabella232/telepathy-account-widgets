@@ -6,14 +6,15 @@
 # Saulius <saulius.shopaga@gmail.com>, 2008, 2009.
 # Žygimantas Beručka <zygis@gnome.org>, 2004-2010, 2010, 2011, 2012.
 # Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2011.
-# Aurimas Černius <aurisc4@gmail.com>, 2013.
+# Aurimas Černius <aurisc4@gmail.com>, 2013, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 02:46+0000\n"
-"PO-Revision-Date: 2016-01-05 16:25+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2016-10-06 16:07+0000\n"
+"PO-Revision-Date: 2016-10-15 21:48+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -265,46 +266,46 @@ msgstr "Koks jūsų AIM rodomas vardas?"
 msgid "What is your AIM password?"
 msgstr "Koks jūsų AIM slaptažodis?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:661
+#: ../tp-account-widgets/tpaw-account-widget.c:669
 msgid "Account"
 msgstr "Paskyra"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget.c:670
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Serveris"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Prievadas"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:748
+#: ../tp-account-widgets/tpaw-account-widget.c:756
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:805
+#: ../tp-account-widgets/tpaw-account-widget.c:813
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1395
+#: ../tp-account-widgets/tpaw-account-widget.c:1403
 msgid "Username:"
 msgstr "Naudotojo vardas:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1722
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_dd"
 msgstr "Pri_dėti"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1730
+#: ../tp-account-widgets/tpaw-account-widget.c:1738
 msgid "A_pply"
 msgstr "_Pritaikyti"
 
@@ -313,19 +314,19 @@ msgstr "_Pritaikyti"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2168
+#: ../tp-account-widgets/tpaw-account-widget.c:2176
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s tinkle %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2203
 #, c-format
 msgid "%s Account"
 msgstr "%s paskyra"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2207
 msgid "New account"
 msgstr "Nauja paskyra"
 
@@ -399,8 +400,11 @@ msgid "Servers"
 msgstr "Serveriai"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+#| msgid ""
+#| "Most IRC servers don't need a password, so if you're not sure, don't "
+#| "enter a password."
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "Daugumai IRC serverių nereikia slaptažodžio, todėl jei nesate tikras, "
@@ -436,16 +440,21 @@ msgstr "Koks jūsų „Facebook“ naudotojo vardas?"
 
 #. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+#| msgid ""
+#| "This is your username, not your normal Facebook login.\n"
+#| "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#| "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#| "a Facebook username if you don't have one."
 msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Facebook username if you don’t have one."
 msgstr ""
 "Tai jūsų naudotojo vardas, o ne jūsų „Facebook“ prisijungimo vardas.\n"
-"Jeigu jis yra facebook.com/<b>barsukas</b>, įveskite <b>barsukas</b>.\n"
-"Jeigu neturite „Facebook“ naudotojo vardo, pasirinkite pasinaudodami šiuo <a "
-"href=\"http://www.facebook.com/username/\">šiuo</a> puslapiu."
+"Jeigu esate facebook.com/<b>barsukas</b>, įveskite <b>barsukas</b>.\n"
+"Jeigu neturite „Facebook“ naudotojo vardo, pasirinkite pasinaudodami <a href="
+"\"http://www.facebook.com/username/\">šiuo puslapiu</a> ."
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
@@ -674,7 +683,8 @@ msgstr "Koks jūsų „Yahoo!“ slaptažodis?"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-msgid "Couldn't convert image"
+#| msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Nepavyko konvertuoti paveikslėlio"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
@@ -682,7 +692,8 @@ msgid "None of the accepted image formats are supported on your system"
 msgstr "Nė vienas iš priimamų paveikslėlių formatų nepalaikomas jūsų sistemoje"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-msgid "Couldn't save picture to file"
+#| msgid "Couldn't save picture to file"
+msgid "Couldn’t save picture to file"
 msgstr "Nepavyko įrašyti paveikslėlio į failą"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
@@ -690,8 +701,9 @@ msgid "Select Your Avatar Image"
 msgstr "Pasirinkite savo atvaizdžio paveikslėlį"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-msgid "Take a picture..."
-msgstr "Padaryti nuotrauką..."
+#| msgid "Take a picture..."
+msgid "Take a picture…"
+msgstr "Padaryti nuotrauką…"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
@@ -706,8 +718,10 @@ msgid "All Files"
 msgstr "Visi failai"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "Pasirinkti..."
+#| msgctxt "verb displayed on a button to select an IRC network"
+#| msgid "Select"
+msgid "Select…"
+msgstr "Pasirinkti…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -819,7 +833,8 @@ msgstr "Pranešimų paskyros %s slaptažodis (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
+#| msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Pokalbių kambario „%s“ slaptažodis paskyrai %s (%s)"
 
 #. Create account
@@ -921,6 +936,9 @@ msgstr "Google Talk"
 #: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Facebook Chat"
+
+#~ msgid "Select..."
+#~ msgstr "Pasirinkti..."
 
 #~ msgid "Remember Password"
 #~ msgstr "Įsiminti slaptažodį"
