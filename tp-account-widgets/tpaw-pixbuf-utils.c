@@ -26,8 +26,6 @@
 #include "config.h"
 #include "tpaw-pixbuf-utils.h"
 
-#include <gdk/gdkx.h>
-
 #define DEBUG_FLAG TPAW_DEBUG_OTHER
 #include "tpaw-debug.h"
 

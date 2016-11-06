@@ -188,7 +188,6 @@ PKG_CHECK_MODULES(TPAW,
    gobject-2.0
    libxml-2.0
    telepathy-glib >= $TELEPATHY_GLIB_REQUIRED
-   x11
    gtk+-3.0 >= $GTK_REQUIRED
 ])
 
