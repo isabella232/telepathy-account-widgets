@@ -4,24 +4,25 @@
 #
 # Bernard Banko <bernard.banko afna t-2.net>, 2009.
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2010.
-# Matej Urbančič <mateju@svn.gnome.org>, 2006-2013.
+# Matej Urbančič <mateju@svn.gnome.org>, 2006–2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-account-widget master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-22 13:40+0000\n"
-"PO-Revision-Date: 2013-08-30 22:53+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2016-11-15 19:45+0100\n"
+"PO-Revision-Date: 2016-11-15 19:52+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenščina <gnome-si@googlegroups.com>\n"
-"Language: sl\n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -201,7 +202,7 @@ msgstr "vietnamska"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -218,7 +219,7 @@ msgstr "<b>Primer:</b> Ime Zaslona"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -228,7 +229,7 @@ msgstr "Zapomni si geslo"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Vrata"
@@ -236,7 +237,7 @@ msgstr "_Vrata"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Strežnik"
@@ -246,7 +247,7 @@ msgstr "_Strežnik"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -262,56 +263,46 @@ msgstr "Kakšno je vaše zaslonsko ime AIM?"
 msgid "What is your AIM password?"
 msgstr "Kakšno je vaše geslo AIM?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Zapomni si geslo"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:669
 msgid "Account"
 msgstr "Račun"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:670
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Geslo"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:671
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Strežnik"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:672
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Vrata"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:756
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:813
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
-#| msgid "Username"
+#: ../tp-account-widgets/tpaw-account-widget.c:1403
 msgid "Username:"
 msgstr "Uporabniško ime:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
 msgid "A_dd"
 msgstr "_Dodaj"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1738
 msgid "A_pply"
 msgstr "_Uveljavi"
 
@@ -320,26 +311,24 @@ msgstr "_Uveljavi"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2176
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s na %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2203
 #, c-format
-#| msgid "New %s account"
 msgid "%s Account"
 msgstr "Račun %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
-#| msgid "New %s account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2207
 msgid "New account"
 msgstr "Nov račun"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "ID prijave"
@@ -393,12 +382,12 @@ msgstr "Dodaj ..."
 msgid "Remove"
 msgstr "Odstrani"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Navzgor"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Navzdol"
@@ -409,11 +398,11 @@ msgstr "Strežniki"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
-"Večina strežnikov IRC ne zahteva gesla, zato ga, če niste prepričani, ne "
-"uporabite."
+"Večina strežnikov IRC ne zahteva gesla. Če torej niste prepričani, geslo "
+"izpustite."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -443,18 +432,18 @@ msgstr "Kakšen je vaš IRC vzdevek?"
 msgid "What is your Facebook username?"
 msgstr "kakšno je vaše uporabniško ime Facebook?"
 
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#. This string is not wrapped in the dialog so you may have to add some
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid ""
 "This is your username, not your normal Facebook login.\n"
 "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
 "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
+"Facebook username if you don’t have one."
 msgstr ""
-"To je vaše uporabniško ime in ne običajna Facebook prijava.\n"
-"V primeru da ste facebook.com/<b>badger</b>, vnesite <b>badger</b>.\n"
-"Uporabite <a href=\"http://www.facebook.com/username/\">to stran</a> za "
-"izbor uporabniškega imena, v kolikor ga še nimate."
+"To je vaše uporabniško ime in ne običajno prijavno ime za Facebook.\n"
+"Če je vaš Facebook naslov facebook.com/<b>mucek</b>, pišite <b>mucek</b>.\n"
+"Na <a href=\"http://www.facebook.com/username/\">začetni strani</a> "
+"spletišča Facebook pa lahko izberete uporabniško ime, če ga še nimate."
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 msgid "What is your Facebook password?"
@@ -476,35 +465,35 @@ msgstr "Kakšno je vaše geslo Google?"
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Primer:</b> uporabnik@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 msgid "I_gnore SSL certificate errors"
 msgstr "_Prezri napake potrdila SSL"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Priori_ty"
 msgstr "Prednos_t"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 msgid "Reso_urce"
 msgstr "_Vir"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_Zahtevano je šifriranje (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "Override server settings"
 msgstr "Prepiši nastavitve strežnika"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
 msgid "Use old SS_L"
 msgstr "Uporabi stari SS_L"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
 msgid "What is your Jabber ID?"
 msgstr "Kakšen je vaš uporabniški ID Jabber?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
 msgid "What is your Jabber password?"
 msgstr "Kakšno je vaše geslo Jabber?"
 
@@ -542,7 +531,7 @@ msgstr "Kakšen je vaš ID Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
-msgstr "Kakšno je vaše geslo Windows Live?"
+msgstr "Kakšno je vaše geslo za Windows Live?"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
@@ -681,59 +670,56 @@ msgstr "Kakšen je vaš uporabniški ID Yahoo!?"
 msgid "What is your Yahoo! password?"
 msgstr "Kakšno je vaše geslo Yahoo!?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn’t convert image"
 msgstr "Ni mogoče pretvoriti slike"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Ni podpore za izbrane slikovne zapise"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn’t save picture to file"
 msgstr "Ni mogoče shraniti slike v datoteko"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Izberite sliko za svojo podobo"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
-msgid "Take a picture..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture…"
 msgstr "Zajemi sliko ..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Brez slike"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Slike"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Vse datoteke"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "Izberi ..."
+msgid "Select…"
+msgstr "Izbor ..."
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
 msgstr "_Izberi"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-#| msgid "Full name"
 msgid "Full Name"
 msgstr "Polno ime"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-#| msgid "Phone number"
 msgid "Phone Number"
 msgstr "Telefonska številka"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
-#| msgid "E-mail address"
 msgid "E-mail Address"
 msgstr "Naslov elektronske pošte"
 
@@ -749,7 +735,6 @@ msgstr "Rojstni dan"
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
-#| msgid "Last seen:"
 msgid "Last Seen:"
 msgstr "Zadnjič viden:"
 
@@ -758,14 +743,12 @@ msgid "Server:"
 msgstr "Strežnik:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#| msgid "Connected from:"
 msgid "Connected From:"
 msgstr "Povezan od:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#| msgid "Away message:"
 msgid "Away Message:"
 msgstr "Sporočilo odsotnosti:"
 
@@ -822,20 +805,20 @@ msgstr "nov strežnik"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Gesla ni mogoče najti"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Geslo računa hipnega sporočanja za %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "Geslo za klepetalnico '%s' na računu %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "Geslo za klepetalnico »%s« na računu %s (%s)."
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -904,44 +887,79 @@ msgstr[3] "Pred %d meseci"
 msgid "in the future"
 msgstr "v prihodnosti"
 
-#: ../tp-account-widgets/tpaw-user-info.c:423
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Prijava v omrežje za urejanje osebnih podrobnosti."
 
-#: ../tp-account-widgets/tpaw-user-info.c:507
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr "Podrobnosti bodo vidne vsem uporabnikom tega klepetalnega omrežja"
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Določilo"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:524
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Vzdevek"
 
-#: ../tp-account-widgets/tpaw-user-info.c:541
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Osebni podatki</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:115
+#: ../tp-account-widgets/tpaw-utils.c:118
 msgid "People Nearby"
 msgstr "Uporabniki v bližini"
 
-#: ../tp-account-widgets/tpaw-utils.c:120
-#| msgid "Yahoo! I_D:"
+#: ../tp-account-widgets/tpaw-utils.c:123
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japan"
 
-#: ../tp-account-widgets/tpaw-utils.c:156
+#: ../tp-account-widgets/tpaw-utils.c:159
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:157
+#: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Facebook Chat"
 msgstr "Klepetanje Facebook"
+
+#~ msgid "Remember Password"
+#~ msgstr "Zapomni si geslo"
+
+#~ msgid ""
+#~ "Most IRC servers don't need a password, so if you're not sure, don't "
+#~ "enter a password."
+#~ msgstr ""
+#~ "Večina strežnikov IRC ne zahteva gesla, zato ga, če niste prepričani, ne "
+#~ "uporabite."
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "To je vaše uporabniško ime in ne običajna Facebook prijava.\n"
+#~ "V primeru da ste facebook.com/<b>badger</b>, vnesite <b>badger</b>.\n"
+#~ "Uporabite <a href=\"http://www.facebook.com/username/\">to stran</a> za "
+#~ "izbor uporabniškega imena, v kolikor ga še nimate."
+
+#~ msgid "Couldn't convert image"
+#~ msgstr "Ni mogoče pretvoriti slike"
+
+#~ msgid "Couldn't save picture to file"
+#~ msgstr "Ni mogoče shraniti slike v datoteko"
+
+#~ msgid "Take a picture..."
+#~ msgstr "Zajemi sliko ..."
+
+#~ msgid "Select..."
+#~ msgstr "Izberi ..."
+
+#~ msgid "Password for chatroom '%s' on account %s (%s)"
+#~ msgstr "Geslo za klepetalnico '%s' na računu %s (%s)"
 
 #~ msgid "What is your desired Jabber ID?"
 #~ msgstr "Kakšen je vaš želeni uporabniški ID Jabber?"
