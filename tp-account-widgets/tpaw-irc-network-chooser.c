@@ -333,6 +333,8 @@ tpaw_irc_network_chooser_constructed (GObject *object)
 {
   TpawIrcNetworkChooser *self = (TpawIrcNetworkChooser *) object;
 
+  G_OBJECT_CLASS (tpaw_irc_network_chooser_parent_class)->constructed (object);
+
   g_assert (self->priv->settings != NULL);
 
   set_label_from_settings (self);
