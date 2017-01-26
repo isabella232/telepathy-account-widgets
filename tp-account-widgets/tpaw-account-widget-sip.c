@@ -230,14 +230,14 @@ tpaw_account_widget_sip_build (TpawAccountWidget *self,
       gtk_list_store_insert_with_values (store, NULL, -1,
           0, "auto", 1, _("Auto"), -1);
 
-      /* translators: this string is very specific to SIP's internal; maybe
-       * best to keep the English version. */
       gtk_list_store_insert_with_values (store, NULL, -1,
+          /* translators: this string is very specific to SIP's internal; maybe
+           * best to keep the English version. */
           0, "register", 1, _("Register"), -1);
 
-      /* translators: this string is very specific to SIP's internal; maybe
-       * best to keep the English version. */
       gtk_list_store_insert_with_values (store, NULL, -1,
+          /* translators: this string is very specific to SIP's internal; maybe
+           * best to keep the English version. */
           0, "options", 1, _("Options"), -1);
 
       gtk_list_store_insert_with_values (store, NULL, -1,
