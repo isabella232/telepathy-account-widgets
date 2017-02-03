@@ -130,6 +130,7 @@ tpaw_protocol_name_to_display_name (const gchar *proto_name)
     { "skype-dbus", "Skype (D-BUS)", FALSE },
     { "skype-x11", "Skype (X11)", FALSE },
     { "zephyr", "Zephyr", FALSE },
+    { "facebook", "Facebook Messenger", FALSE },
     { NULL, NULL }
   };
 
@@ -157,7 +158,6 @@ tpaw_service_name_to_display_name (const gchar *service_name)
     gboolean translated;
   } names[] = {
     { "google-talk", N_("Google Talk"), FALSE },
-    { "facebook", N_("Facebook Chat"), TRUE },
     { NULL, NULL }
   };
 

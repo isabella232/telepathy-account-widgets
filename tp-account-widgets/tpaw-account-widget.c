@@ -45,7 +45,6 @@ typedef enum
 {
   NO_SERVICE = 0,
   GTALK_SERVICE,
-  FACEBOOK_SERVICE,
   N_SERVICES
 } Service;
 
@@ -58,7 +57,6 @@ typedef struct
 static ServiceInfo services_infos[N_SERVICES] = {
     { "label_username_example", TRUE },
     { "label_username_g_example", FALSE },
-    { "label_username_f_example", FALSE },
 };
 
 struct _TpawAccountWidgetPriv {
@@ -104,10 +102,6 @@ struct _TpawAccountWidgetPriv {
 
   /* Used only for IRC accounts */
   TpawIrcNetworkChooser *irc_network_chooser;
-
-  /* Used for 'special' XMPP account having a service associated ensuring that
-   * JIDs have a specific suffix; such as Facebook for example */
-  gchar *jid_suffix;
 };
 
 enum {
@@ -1198,80 +1192,6 @@ account_widget_build_msn (TpawAccountWidget *self,
   return box;
 }
 
-static void
-suffix_id_widget_changed_cb (GtkWidget *entry,
-    TpawAccountWidget *self)
-{
-  gchar *account;
-
-  g_assert (self->priv->jid_suffix != NULL);
-
-  account_widget_entry_changed_common (self, GTK_ENTRY (entry), FALSE);
-
-  account = tpaw_account_settings_dup_string (self->priv->settings,
-      "account");
-
-  if (!TPAW_STR_EMPTY (account) &&
-      !g_str_has_suffix (account, self->priv->jid_suffix))
-    {
-      gchar *tmp;
-
-      tmp = g_strdup_printf ("%s%s", account, self->priv->jid_suffix);
-
-      DEBUG ("Change account from '%s' to '%s'", account, tmp);
-
-      tpaw_account_settings_set (self->priv->settings, "account",
-          g_variant_new_string (tmp));
-      g_free (tmp);
-    }
-
-  tpaw_account_widget_changed (self);
-
-  g_free (account);
-}
-
-static gchar *
-remove_jid_suffix (TpawAccountWidget *self,
-    const gchar *str)
-{
-  g_assert (self->priv->jid_suffix != NULL);
-
-  if (!g_str_has_suffix (str, self->priv->jid_suffix))
-    return g_strdup (str);
-
-  return g_strndup (str, strlen (str) - strlen (self->priv->jid_suffix));
-}
-
-static void
-setup_id_widget_with_suffix (TpawAccountWidget *self,
-    GtkWidget *widget,
-    const gchar *suffix)
-{
-  gchar *str = NULL;
-
-  g_object_set_data_full (G_OBJECT (widget), "param_name",
-      g_strdup ("account"), g_free);
-
-  g_assert (self->priv->jid_suffix == NULL);
-  self->priv->jid_suffix = g_strdup (suffix);
-
-  str = tpaw_account_settings_dup_string (self->priv->settings, "account");
-  if (str != NULL)
-    {
-      gchar *tmp;
-
-      tmp = remove_jid_suffix (self, str);
-      gtk_entry_set_text (GTK_ENTRY (widget), tmp);
-      g_free (tmp);
-      g_free (str);
-    }
-
-  self->priv->param_account_widget = widget;
-
-  g_signal_connect (widget, "changed",
-      G_CALLBACK (suffix_id_widget_changed_cb), self);
-}
-
 static Service
 account_widget_get_service (TpawAccountWidget *self)
 {
@@ -1280,15 +1200,11 @@ account_widget_get_service (TpawAccountWidget *self)
   icon_name = tpaw_account_settings_get_icon_name (self->priv->settings);
   service = tpaw_account_settings_get_service (self->priv->settings);
 
-  /* Previous versions of Tpaw didn't set the Service property on Facebook
-   * and gtalk accounts, so we check using the icon name as well. */
+  /* Previous versions of Tpaw didn't set the Service property on gtalk
+   * account, so we check using the icon name as well. */
   if (!tp_strdiff (icon_name, "im-google-talk") ||
       !tp_strdiff (service, "google-talk"))
     return GTALK_SERVICE;
-
-  if (!tp_strdiff (icon_name, "im-facebook") ||
-      !tp_strdiff (service, "facebook"))
-    return FACEBOOK_SERVICE;
 
   return NO_SERVICE;
 }
@@ -1300,7 +1216,6 @@ account_widget_build_jabber (TpawAccountWidget *self,
   GtkWidget *spinbutton_port;
   GtkWidget *checkbutton_ssl;
   GtkWidget *label_id, *label_password;
-  GtkWidget *label_example_fb;
   GtkWidget *label_example;
   GtkWidget *expander_advanced;
   GtkWidget *entry_id;
@@ -1350,37 +1265,16 @@ account_widget_build_jabber (TpawAccountWidget *self,
           gtk_builder_get_object (self->ui_details->gui,
             "remember_password_g_simple"));
     }
-  else if (self->priv->simple && service == FACEBOOK_SERVICE)
-    {
-      /* Simple widget for Facebook */
-      self->ui_details->gui = tpaw_builder_get_resource (filename,
-          "vbox_fb_simple", &box,
-          "entry_id_fb_simple", &entry_id,
-          NULL);
-
-      tpaw_account_widget_handle_params (self,
-          "entry_password_fb_simple", "password",
-          NULL);
-
-      setup_id_widget_with_suffix (self, entry_id, "@chat.facebook.com");
-
-      self->ui_details->default_focus = g_strdup ("entry_id_fb_simple");
-
-      self->priv->remember_password_widget = GTK_WIDGET (
-          gtk_builder_get_object (self->ui_details->gui,
-            "remember_password_fb_simple"));
-    }
   else
     {
       ServiceInfo info = services_infos[service];
 
-      /* Full widget for XMPP, Google Talk and Facebook*/
+      /* Full widget for XMPP and Google Talk */
       self->ui_details->gui = tpaw_builder_get_resource (filename,
           "grid_common_settings", &self->priv->grid_common_settings,
           "vbox_jabber_settings", &box,
           "spinbutton_port", &spinbutton_port,
           "checkbutton_ssl", &checkbutton_ssl,
-          "label_username_f_example", &label_example_fb,
           info.label_username_example, &label_example,
           "expander_advanced", &expander_advanced,
           "entry_id", &entry_id,
@@ -1398,18 +1292,7 @@ account_widget_build_jabber (TpawAccountWidget *self,
           "checkbutton_encryption", "require-encryption",
           NULL);
 
-      if (service == FACEBOOK_SERVICE)
-        {
-          gtk_label_set_label (GTK_LABEL (label_id), _("Username:"));
-
-          /* Facebook special case the entry ID widget to hide the
-           * "@chat.facebook.com" part */
-          setup_id_widget_with_suffix (self, entry_id, "@chat.facebook.com");
-        }
-      else
-        {
-          tpaw_account_widget_setup_widget (self, entry_id, "account");
-        }
+      tpaw_account_widget_setup_widget (self, entry_id, "account");
 
       self->ui_details->default_focus = g_strdup ("entry_id");
       self->priv->spinbutton_port = spinbutton_port;
@@ -1420,19 +1303,6 @@ account_widget_build_jabber (TpawAccountWidget *self,
       g_signal_connect (checkbutton_ssl, "toggled",
           G_CALLBACK (account_widget_jabber_ssl_toggled_cb),
           self);
-
-      if (service == FACEBOOK_SERVICE)
-        {
-          GtkContainer *parent;
-          GList *children;
-
-          /* Removing the label from list of focusable widgets */
-          parent = GTK_CONTAINER (gtk_widget_get_parent (label_example_fb));
-          children = gtk_container_get_children (parent);
-          children = g_list_remove (children, label_example_fb);
-          gtk_container_set_focus_chain (parent, children);
-          g_list_free (children);
-        }
 
       gtk_widget_show (label_example);
 
@@ -2000,8 +1870,6 @@ do_finalize (GObject *obj)
   g_free (self->ui_details->default_focus);
   g_slice_free (TpawAccountWidgetUIDetails, self->ui_details);
 
-  g_free (self->priv->jid_suffix);
-
   if (G_OBJECT_CLASS (tpaw_account_widget_parent_class)->finalize != NULL)
     G_OBJECT_CLASS (tpaw_account_widget_parent_class)->finalize (obj);
 }
@@ -2150,12 +2018,10 @@ tpaw_account_widget_get_default_display_name (TpawAccountWidget *self)
   gchar *login_id;
   const gchar *protocol, *p;
   gchar *default_display_name;
-  Service service;
 
   login_id = tpaw_account_settings_dup_string (self->priv->settings,
       "account");
   protocol = tpaw_account_settings_get_protocol (self->priv->settings);
-  service = account_widget_get_service (self);
 
   if (login_id != NULL)
     {
@@ -2175,14 +2041,6 @@ tpaw_account_widget_get_default_display_name (TpawAccountWidget *self)
            * server should come before the login id in your locale.*/
           default_display_name = g_strdup_printf (_("%1$s on %2$s"),
               login_id, tpaw_irc_network_get_name (network));
-        }
-      else if (service == FACEBOOK_SERVICE && self->priv->jid_suffix != NULL)
-        {
-          gchar *tmp;
-
-          tmp = remove_jid_suffix (self, login_id);
-          default_display_name = g_strdup_printf ("Facebook (%s)", tmp);
-          g_free (tmp);
         }
       else
         {

@@ -98,21 +98,6 @@ tpaw_protocol_create_account_settings (TpawProtocol *self)
               g_variant_new_strv (extra_certificate_identities, -1));
         }
     }
-  else if (!tp_strdiff (self->priv->service_name, "facebook"))
-    {
-      const gchar *fallback_servers[] = {
-          "chat.facebook.com:443",
-          NULL };
-
-      tpaw_account_settings_set_icon_name_async (settings, "im-facebook",
-          NULL, NULL);
-      tpaw_account_settings_set (settings, "require-encryption",
-          g_variant_new_boolean (TRUE));
-      tpaw_account_settings_set (settings, "server",
-          g_variant_new_string ("chat.facebook.com"));
-      tpaw_account_settings_set (settings, "fallback-servers",
-          g_variant_new_strv (fallback_servers, -1));
-    }
 
   return settings;
 }
@@ -366,12 +351,6 @@ add_cm (GetProtocolsData *data,
         continue;
 
       if (!tp_strdiff (cm_name, "haze") &&
-          !tp_strdiff (proto_name, "facebook"))
-        /* Facebook now supports XMPP so drop the purple facebook plugin; user
-         * should use Gabble */
-        continue;
-
-      if (!tp_strdiff (cm_name, "haze") &&
           !tp_strdiff (proto_name, "irc"))
         /* Use Idle for IRC (bgo #711226) */
         continue;
@@ -410,10 +389,6 @@ add_cm (GetProtocolsData *data,
           add_protocol (data, cm, proto_name, "google-talk",
               tpaw_service_name_to_display_name ("google-talk"),
               "im-google-talk");
-
-          add_protocol (data, cm, proto_name, "facebook",
-              tpaw_service_name_to_display_name ("facebook"),
-              "im-facebook");
         }
 
       g_free (icon_name);
