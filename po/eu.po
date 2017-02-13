@@ -1,25 +1,25 @@
-# translation of eu.po to Basque
-# translation of tp-account-widgets.HEAD.po to
+# Basque translation for telepathy-account-widgets
 # Copyright (C) 2003 THE gossip'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gossip package.
 #
 # Mikel Olasagasti <hey_neken@mundurat.net>, 2003.
 # Mikel Olasagasti <mikel@olasagasti.info>, 2013.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2003, 2004, 2006, 2007, 2008, 2009, 2010.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2011, 2012, 2013.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2011, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-28 21:21+0200\n"
-"PO-Revision-Date: 2013-08-28 21:28+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-02-03 21:05+0000\n"
+"PO-Revision-Date: 2017-02-13 20:24+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
-"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -200,7 +200,7 @@ msgstr "Vietnamera"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -217,7 +217,7 @@ msgstr "<b>Adibidea:</b> NirePantailaIzena"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -227,7 +227,7 @@ msgstr "Gogoratu pasahitza"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Ataka"
@@ -235,7 +235,7 @@ msgstr "_Ataka"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Zerbitzaria"
@@ -245,7 +245,7 @@ msgstr "_Zerbitzaria"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -261,55 +261,42 @@ msgstr "Zein da zure AIM pantaila-izena?"
 msgid "What is your AIM password?"
 msgstr "Zein da zure AIM pasahitza?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Gogoratu pasahitza"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 msgid "Account"
 msgstr "Kontua"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Pasahitza"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:665
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Zerbitzaria"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:666
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Ataka"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:750
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:807
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
-msgid "Username:"
-msgstr "Erabiltzaile-izena:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
 msgid "A_dd"
 msgstr "_Gehitu"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
 msgid "A_pply"
 msgstr "_Aplikatu"
 
@@ -318,24 +305,24 @@ msgstr "_Aplikatu"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s  %2$s(e)n"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
 #, c-format
 msgid "%s Account"
 msgstr "%s kontua"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
 msgid "New account"
 msgstr "Kontu berria"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "Saioaren _IDa"
@@ -389,12 +376,12 @@ msgstr "Gehitu..."
 msgid "Remove"
 msgstr "Kendu"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Gora"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Behera"
@@ -404,8 +391,11 @@ msgid "Servers"
 msgstr "Zerbitzariak"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+#| msgid ""
+#| "Most IRC servers don't need a password, so if you're not sure, don't "
+#| "enter a password."
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "IRC zerbitzari gehienek ez dute pasahitzik eskatzen. Ziur ez bazaude, ez "
@@ -436,72 +426,50 @@ msgid "What is your IRC nickname?"
 msgstr "Zein da zure IRCko goitizena?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "Zein da zure Facebook erabiltzaile-izena?"
-
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
-msgstr ""
-"Hau zure erabiltzaile-izena da, ez da Facebook-eko zure saio-hasiera.\n"
-"Zu bazara facebook.com/<b>sugegorribeltza</b>, sartu <b>sugegorribeltza</"
-"b>.\n"
-"Erabili <a href=\"http://www.facebook.com/username/\">orrialde hau</a> "
-"Facebook-eko erabiltzaile bat aukeratzeko aurrez ez badaukazu bat."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "Zein da zure Facebook pasahitza?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "Zein da zure Google-ko IDa?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>Adibidea:</b> erabiltzailea@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "Zein da zure Google-ko pasahitza?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Adibidea:</b> erabiltzailea@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "_Ez ikusi egin SSL ziurtagirien erroreei"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
 msgstr "_Lehentasuna"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
 msgstr "_Baliabidea"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_Enkriptatzea behar da (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "Gainidatzi zerbitzariaren ezarpenak"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "Erabili SS_L zaharra"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "Zein da zure Jabber IDa?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "Zein da zure Jabber pasahitza?"
 
@@ -558,10 +526,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Erregistratu"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Aukerak"
@@ -678,43 +650,48 @@ msgstr "Zein da zure Yahoo! IDa?"
 msgid "What is your Yahoo! password?"
 msgstr "Zein da zure Yahoo! pasahitza?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:543
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:628
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+#| msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Ezin izan da irudia bihurtu"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:544
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr ""
 "Onartutako irudi-formatuetatik bat berak ere ez du euskarririk sisteman"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:904
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+#| msgid "Couldn't save picture to file"
+msgid "Couldn’t save picture to file"
 msgstr "Ezin izan da irudia fitxategian gorde"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1026
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Hautatu zure avatar irudia"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1035
-msgid "Take a picture..."
-msgstr "Hartu irudia..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+#| msgid "Take a picture..."
+msgid "Take a picture…"
+msgstr "Hartu argazkia…"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1048
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Irudirik ez"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1107
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Irudiak"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1111
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Fitxategi guztiak"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "Hautatu..."
+#| msgctxt "verb displayed on a button to select an IRC network"
+#| msgid "Select"
+msgid "Select…"
+msgstr "Hautatu…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -814,20 +791,21 @@ msgstr "zerbitzari berria"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Ez da pasahitza aurkitu"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "BM-ko '%s' kontuaren pasahitza (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "'%s' berriketa-gelako '%s' kontuaren pasahitza (%s)"
+#| msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "“%s“ berriketa-gelako “%s“ kontuaren pasahitza (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -884,45 +862,71 @@ msgstr[1] "Duela %d hilabete"
 msgid "in the future"
 msgstr "etorkizunean"
 
-#: ../tp-account-widgets/tpaw-user-info.c:423
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Jar zaitez linean zure informazio pertsonala editatzeko."
 
-#: ../tp-account-widgets/tpaw-user-info.c:507
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr ""
 "Xehetasun hauek berriketa honen sareko beste erabiltzaileekin partekatuko "
 "dira."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Identifikatzailea"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:524
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Aliasa"
 
-#: ../tp-account-widgets/tpaw-user-info.c:541
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Xehetasun pertsonalak</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:115
+#: ../tp-account-widgets/tpaw-utils.c:118
 msgid "People Nearby"
 msgstr "Inguruko pertsonak"
 
-#: ../tp-account-widgets/tpaw-utils.c:120
+#: ../tp-account-widgets/tpaw-utils.c:123
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japonia"
 
-#: ../tp-account-widgets/tpaw-utils.c:156
+#: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook Chat"
+#~ msgid "Remember Password"
+#~ msgstr "Gogoratu pasahitza"
+
+#~ msgid "Username:"
+#~ msgstr "Erabiltzaile-izena:"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "Zein da zure Facebook erabiltzaile-izena?"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "Hau zure erabiltzaile-izena da, ez da Facebook-eko zure saio-hasiera.\n"
+#~ "Zu bazara facebook.com/<b>sugegorribeltza</b>, sartu <b>sugegorribeltza</"
+#~ "b>.\n"
+#~ "Erabili <a href=\"http://www.facebook.com/username/\">orrialde hau</a> "
+#~ "Facebook-eko erabiltzaile bat aukeratzeko aurrez ez badaukazu bat."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "Zein da zure Facebook pasahitza?"
+
+#~ msgid "Select..."
+#~ msgstr "Hautatu..."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Facebook Chat"
 
 #~ msgid "What is your desired Jabber ID?"
 #~ msgstr "Zein da zure Jabber ID gogokoa?"
