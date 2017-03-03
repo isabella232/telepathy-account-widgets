@@ -1,13 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2015.
+# Sveinn í Felli <sv1@fellsnet.is>, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-05 02:39+0000\n"
-"PO-Revision-Date: 2015-12-05 10:47+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-02-03 21:05+0000\n"
+"PO-Revision-Date: 2017-03-03 15:36+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.org>\n"
 "Language: is\n"
@@ -195,7 +196,7 @@ msgstr "Víetnömsk"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -212,7 +213,7 @@ msgstr "<b>Dæmi:</b> MittNafn"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -222,7 +223,7 @@ msgstr "Muna lykilorð"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Gátt"
@@ -230,7 +231,7 @@ msgstr "_Gátt"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "Þ_jónn"
@@ -240,7 +241,7 @@ msgstr "Þ_jónn"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -256,46 +257,42 @@ msgstr "Hvað er AIM-birtingarnafnið þitt?"
 msgid "What is your AIM password?"
 msgstr "Hvað er AIM-lykilorðið þitt?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:661
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 msgid "Account"
 msgstr "Aðgangur"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Lykilorð"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget.c:665
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Þjónn"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget.c:666
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Gátt"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:748
+#: ../tp-account-widgets/tpaw-account-widget.c:750
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:805
+#: ../tp-account-widgets/tpaw-account-widget.c:807
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1395
-msgid "Username:"
-msgstr "Notandanafn:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1722
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
 msgid "A_dd"
 msgstr "_Bæta við"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1730
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
 msgid "A_pply"
 msgstr "Vir_kja"
 
@@ -304,24 +301,24 @@ msgstr "Vir_kja"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2168
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s á %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
 #, c-format
 msgid "%s Account"
 msgstr "%s aðgangur"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
 msgid "New account"
 msgstr "Nýr aðgangur"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "I_nnskráningarauðkenni"
@@ -390,8 +387,11 @@ msgid "Servers"
 msgstr "Þjónar"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+#| msgid ""
+#| "Most IRC servers don't need a password, so if you're not sure, don't "
+#| "enter a password."
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "Flestir IRC-þjónar krefjast ekki lykilorðs, þannig að ef þú ert ekki viss "
@@ -422,72 +422,50 @@ msgid "What is your IRC nickname?"
 msgstr "Hvað er IRC-gælunafnið þitt?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "Hvað er Facebook-notandanafnið þitt?"
-
-#. This string is not wrapped in the dialog so you may have to add some
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
-msgstr ""
-"Þetta er notandanafnið þitt, nekki venjulega innskráningarnafnið á Facebook.\n"
-"Ef þú ert með facebook.com/<b>kremhaus</b>, settu þá inn <b>kremhaus</b>.\n"
-"Notaðu <a href=\"http://www.facebook.com/username/\">þessa síðu</a> til að "
-"velja "
-"Facebook-notandanafn ef þú ert ekki með slíkt."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "Hvað er Facebook-lykilorðið þitt?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "Hvað er Google-notandaauðkennið þitt?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>Dæmi:</b> notandi@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "Hvað er Google-lykilorðið þitt?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Dæmi:</b> notandi@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "_Hunsa villur vegna SSL-skilríkja"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
 msgstr "_Forgangur"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
 msgstr "Tilfan_g"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_Dulritunar krafist (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "Taka fram yfir stillingar þjóns"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "Nota gamla SS_L"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "Hvað er Jabber-notandaauðkennið þitt?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "Hvað er Jabber-lykilorðið þitt?"
 
@@ -544,10 +522,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Skrá þig"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Valkostir"
@@ -666,7 +648,8 @@ msgstr "Hvað er Yahoo! lykilorðið þitt?"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-msgid "Couldn't convert image"
+#| msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Gat ekki umbreytt mynd"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
@@ -674,7 +657,8 @@ msgid "None of the accepted image formats are supported on your system"
 msgstr "Ekkert af samþykktu myndasniðunum er stutt á kerfinu þínu"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-msgid "Couldn't save picture to file"
+#| msgid "Couldn't save picture to file"
+msgid "Couldn’t save picture to file"
 msgstr "Gat ekki vistað mynd í skrá"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
@@ -682,7 +666,8 @@ msgid "Select Your Avatar Image"
 msgstr "Veldu auðkennismyndina þína (avatar)"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-msgid "Take a picture..."
+#| msgid "Take a picture..."
+msgid "Take a picture…"
 msgstr "Taka mynd..."
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
@@ -698,8 +683,10 @@ msgid "All Files"
 msgstr "Allar skrár"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "Velja..."
+#| msgctxt "verb displayed on a button to select an IRC network"
+#| msgid "Select"
+msgid "Select…"
+msgstr "Velja…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -811,7 +798,8 @@ msgstr "Lykilorð IM-aðgangsins fyrir %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
+#| msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Lykilorð fyrir spjallrýmið '%s' á aðgangnum %s (%s)"
 
 #. Create account
@@ -899,11 +887,34 @@ msgstr "Fólk sem er nálægt"
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japan"
 
-#: ../tp-account-widgets/tpaw-utils.c:159
+#: ../tp-account-widgets/tpaw-utils.c:160
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:160
-msgid "Facebook Chat"
-msgstr "Facebook spjall"
+#~ msgid "Username:"
+#~ msgstr "Notandanafn:"
 
+#~ msgid "What is your Facebook username?"
+#~ msgstr "Hvað er Facebook-notandanafnið þitt?"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "Þetta er notandanafnið þitt, nekki venjulega innskráningarnafnið á "
+#~ "Facebook.\n"
+#~ "Ef þú ert með facebook.com/<b>kremhaus</b>, settu þá inn <b>kremhaus</"
+#~ "b>.\n"
+#~ "Notaðu <a href=\"http://www.facebook.com/username/\">þessa síðu</a> til "
+#~ "að velja Facebook-notandanafn ef þú ert ekki með slíkt."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "Hvað er Facebook-lykilorðið þitt?"
+
+#~ msgid "Select..."
+#~ msgstr "Velja..."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Facebook spjall"
