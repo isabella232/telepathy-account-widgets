@@ -1,14 +1,16 @@
 # insomnia <defragbrain@gmail.com>, 2009.
 # Kasia Bondarava <kasia.bondarava@gmail.com>, 2011.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013.
+# Yuras Shumovich <shumovichy@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-22 13:40+0000\n"
-"PO-Revision-Date: 2012-09-29 18:15+0300\n"
-"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-03-03 15:37+0000\n"
+"PO-Revision-Date: 2017-03-26 16:53+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <be-i18n-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -195,7 +198,7 @@ msgstr "В'етнамскі"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -212,7 +215,7 @@ msgstr "<b>Прыклад:</b> МаёКантактнаеІмя"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -222,7 +225,7 @@ msgstr "Запомніць пароль"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_Порт"
@@ -230,7 +233,7 @@ msgstr "_Порт"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Сервер"
@@ -240,7 +243,7 @@ msgstr "_Сервер"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -256,55 +259,42 @@ msgstr "Ваша кантактнае імя для конта AIM"
 msgid "What is your AIM password?"
 msgstr "Ваш пароль да конта AIM"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Запомніць пароль"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 msgid "Account"
 msgstr "Конт"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Пароль"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:665
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Сервер"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:666
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "Порт"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:750
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:807
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
-msgid "Username:"
-msgstr "Імя карыстальніка:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
 msgid "A_dd"
 msgstr "_Дадаць"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
 msgid "A_pply"
 msgstr "_Ужыць"
 
@@ -313,24 +303,24 @@ msgstr "_Ужыць"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s на %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
 #, c-format
 msgid "%s Account"
 msgstr "%s-конт"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
 msgid "New account"
 msgstr "Новы конт"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "Ід_энтыфікатар конта"
@@ -384,12 +374,12 @@ msgstr "Дадаць..."
 msgid "Remove"
 msgstr "Выдаліць"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Уверх"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Уніз"
@@ -400,7 +390,7 @@ msgstr "Серверы"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
 "Большасць IRC-сервераў не патрабуе пароляў, таму калі вы не ўпэўнены, проста "
@@ -431,72 +421,50 @@ msgid "What is your IRC nickname?"
 msgstr "Ваша мянушка ў IRC-сетцы"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "Ваша імя карыстальніка ў сетцы Facebook"
-
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
-msgstr ""
-"Гэта ваша імя карыстальніка, а не звычайны конт Facebook.\n"
-"Напрыклад, калі вы маеце конт facebook.com/<b>badger</b>, упішыце <b>badger</"
-"b>.\n"
-"Каб выбраць сабе імя, наведайце <a href=\"http://www.facebook.com/username/"
-"\">гэту старонку</a>."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "Ваш пароль да конта Facebook"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "Ваш ідэнтыфікатар Google"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>Прыклад:</b> user@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "Ваш пароль да конта Google"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Прыклад:</b> user@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "І_гнараваць памылкі SSL-сертыфіката"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
 msgstr "_Прыярытэт"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
 msgstr "_Рэсурс"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_Абавязковае шыфраванне (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "Засланіць настройкі сервера ўласнымі"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "_Выкарыстоўваць стары SSL-пратакол"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "Ваш ідэнтыфікатар Jabber"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "Ваш пароль да конта Jabber"
 
@@ -553,10 +521,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Register"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Options"
@@ -673,41 +645,41 @@ msgstr "Ваш ідэнтыфікатар да конта Yahoo!"
 msgid "What is your Yahoo! password?"
 msgstr "Ваш пароль да конта Yahoo!"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:539
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:624
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn’t convert image"
 msgstr "Не ўдалося пераўтварыць выяву"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:540
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Ваша сістэма не падтрымлівае ні адзін з магчымых фарматаў выяў"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:900
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn’t save picture to file"
 msgstr "Не ўдалося захаваць выяву ў файле"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1024
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Выбар аватары"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1032
-msgid "Take a picture..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture…"
 msgstr "Зрабіць здымак..."
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1045
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Без выявы"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1102
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Выявы"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1106
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Усе файлы"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
+msgid "Select…"
 msgstr "Выбраць..."
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
@@ -808,19 +780,19 @@ msgstr "новы сервер"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "Пароль не знойдзены"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
 msgstr "Пароль да конта камунікатара %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "Пароль да пакоя \"%s\" для конта %s (%s)"
 
 #. Create account
@@ -884,41 +856,66 @@ msgstr[2] "%d месяцаў таму"
 msgid "in the future"
 msgstr "у будучыні"
 
-#: ../tp-account-widgets/tpaw-user-info.c:423
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
 msgstr "Злучыцеся з сеткай, каб змагчы рэдагаваць асабістыя звесткі."
 
-#: ../tp-account-widgets/tpaw-user-info.c:507
+#: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
 msgstr "Гэтыя звесткі будуць даступныя для іншых карыстальнікаў чат-сеткі."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:516
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
 msgstr "Ідэнтыфікатар"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:524
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
 msgstr "Псеўданім"
 
-#: ../tp-account-widgets/tpaw-user-info.c:541
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
 msgstr "<b>Асабістыя падрабязнасці</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:115
+#: ../tp-account-widgets/tpaw-utils.c:122
 msgid "People Nearby"
 msgstr "Людзі навокал"
 
-#: ../tp-account-widgets/tpaw-utils.c:120
+#: ../tp-account-widgets/tpaw-utils.c:127
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Японія"
 
-#: ../tp-account-widgets/tpaw-utils.c:156
+#: ../tp-account-widgets/tpaw-utils.c:165
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:157
-msgid "Facebook Chat"
-msgstr "Facebook Chat"
+#~ msgid "Remember Password"
+#~ msgstr "Запомніць пароль"
 
+#~ msgid "Username:"
+#~ msgstr "Імя карыстальніка:"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "Ваша імя карыстальніка ў сетцы Facebook"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "Гэта ваша імя карыстальніка, а не звычайны конт Facebook.\n"
+#~ "Напрыклад, калі вы маеце конт facebook.com/<b>badger</b>, упішыце "
+#~ "<b>badger</b>.\n"
+#~ "Каб выбраць сабе імя, наведайце <a href=\"http://www.facebook.com/"
+#~ "username/\">гэту старонку</a>."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "Ваш пароль да конта Facebook"
+
+#~ msgid "Select..."
+#~ msgstr "Выбраць..."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Facebook Chat"
