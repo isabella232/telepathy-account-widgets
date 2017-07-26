@@ -521,6 +521,8 @@ tpaw_irc_network_chooser_dialog_constructed (GObject *object)
   GtkToolItem *item;
   GtkStyleContext *context;
 
+  G_OBJECT_CLASS (tpaw_irc_network_chooser_dialog_parent_class)->constructed (object);
+
   g_assert (self->priv->settings != NULL);
 
   gtk_window_set_title (GTK_WINDOW (self), _("Choose an IRC network"));
