@@ -35,7 +35,9 @@ EXTRA_DIST = \
     telepathy-glib-env.in \
     test-wrapper.sh \
     with-session-bus.sh \
-    xincludator.py
+    xincludator.py \
+    meson.build
+
 
 CLEANFILES = libtpcodegen.pyc libtpcodegen.pyo libglibcodegen.pyc libglibcodegen.pyo $(noinst_SCRIPTS)
 

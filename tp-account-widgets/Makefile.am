@@ -146,6 +146,7 @@ tpaw-account-widgets-resources.h: tpaw-account-widgets.gresource.xml $(account_w
 
 EXTRA_DIST +=					\
 	tpaw-account-widgets.gresource.xml	\
+	meson.build				\
 	$(account_widgets_dtd_files)		\
 	$(account_widgets_ui_files)		\
 	$(ircnetworks_DATA)			\

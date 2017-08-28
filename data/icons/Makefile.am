@@ -136,6 +136,7 @@ private_icons = \
 EXTRA_DIST = \
 	$(private_icons)	\
 	local-xmpp.svg		\
+	meson.build		\
 	$(NULL)
 
 include $(srcdir)/utils.mk

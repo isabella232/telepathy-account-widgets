@@ -9,4 +9,8 @@ EXTRA_DIST = 			\
         CONTRIBUTORS \
         README \
         autogen.sh \
+        meson.build \
+        meson_options.txt \
+        meson_post_install.py \
+        po\meson.build \
         $(NULL)

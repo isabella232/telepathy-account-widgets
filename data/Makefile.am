@@ -22,6 +22,7 @@ endif
 EXTRA_DIST = 				\
 	$(schemas_DATA)			\
 	$(gsettings_SCHEMAS_real)	\
+	meson.build			\
 	$(NULL)
 
 DISTCLEANFILES = 		\
