@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Empathy\n"
 "Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=empathy&keywords=I18N+L10N&component=tp-aw\n"
-"POT-Creation-Date: 2017-02-03 21:05+0000\n"
+"https://bugzilla.gnome.org/enter_bug.cgi?product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-03-03 15:37+0000\n"
 "PO-Revision-Date: 2016-10-09 21:59+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -815,7 +815,7 @@ msgstr "IM-konto-adgangskode for %s (%s)"
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
 msgid "Password for chatroom “%s” on account %s (%s)"
-msgstr "Adgangskode til chatrummet \"%s\" på konto %s (%s)"
+msgstr "Adgangskode til chatrummet “%s” på konto %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -894,15 +894,15 @@ msgstr "Alias"
 msgid "<b>Personal Details</b>"
 msgstr "<b>Personlige detaljer</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:118
+#: ../tp-account-widgets/tpaw-utils.c:122
 msgid "People Nearby"
 msgstr "Folk i nærheden"
 
-#: ../tp-account-widgets/tpaw-utils.c:123
+#: ../tp-account-widgets/tpaw-utils.c:127
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japan"
 
-#: ../tp-account-widgets/tpaw-utils.c:160
+#: ../tp-account-widgets/tpaw-utils.c:165
 msgid "Google Talk"
 msgstr "Google Talk"
 
@@ -941,4 +941,5 @@ msgstr "Google Talk"
 
 #~ msgid "What is your desired Jabber password?"
 #~ msgstr "Hvilken adgangskode vil du bruge til Jabber?"
+
 
