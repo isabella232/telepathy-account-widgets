@@ -6,21 +6,23 @@
 # Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2014.
 # Necdet Yücel <necdetyucel@gmail.com>, 2014.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-08 19:55+0000\n"
-"PO-Revision-Date: 2014-12-21 23:35+0000\n"
-"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-03-03 15:37+0000\n"
+"PO-Revision-Date: 2017-08-28 11:46+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.1.1\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "X-POOTLE-MTIME: 1419204933.000000\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -201,7 +203,7 @@ msgstr "Vietnamca"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -209,16 +211,16 @@ msgstr "Par_ola"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
 msgid "Screen _Name"
-msgstr "Ekra_n İsmi"
+msgstr "Ekra_n Adı"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
 msgid "<b>Example:</b> MyScreenName"
-msgstr "<b>Örnek:</b> Ekranİsmim"
+msgstr "<b>Örnek:</b> EkranAdım"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -228,15 +230,15 @@ msgstr "Parolayı anımsa"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
-msgstr "Bağlantı Noktası (_Port)"
+msgstr "_Bağlantı Noktası"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_Sunucu"
@@ -246,7 +248,7 @@ msgstr "_Sunucu"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -256,52 +258,48 @@ msgstr "Gelişmiş"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
 msgid "What is your AIM screen name?"
-msgstr "AIM ekran isminiz nedir?"
+msgstr "AIM ekran adınız nedir?"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
 msgid "What is your AIM password?"
 msgstr "AIM parolanız nedir?"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:661
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 msgid "Account"
 msgstr "Hesap"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "Parola"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget.c:665
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "Sunucu"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget.c:666
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
-msgstr "Port"
+msgstr "Bağlantı Noktası"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:748
+#: ../tp-account-widgets/tpaw-account-widget.c:750
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:805
+#: ../tp-account-widgets/tpaw-account-widget.c:807
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1395
-msgid "Username:"
-msgstr "Kullanıcı Adı:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1722
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
 msgid "A_dd"
 msgstr "_Ekle"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1730
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
 msgid "A_pply"
 msgstr "U_ygula"
 
@@ -310,24 +308,24 @@ msgstr "U_ygula"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2166
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%2$s üzerinde %1$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2192
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
 #, c-format
 msgid "%s Account"
 msgstr "%s Hesabı"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2196
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
 msgid "New account"
 msgstr "Yeni hesap"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "Giriş Kimli_ği"
@@ -339,7 +337,7 @@ msgstr "<b>Örnek:</b> kullanıcıadı"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
 msgid "What is your GroupWise User ID?"
-msgstr "GroupWise Kullanıcı kimliğiniz nedir?"
+msgstr "GroupWise Kullanıcı Kimliğiniz nedir?"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
 msgid "What is your GroupWise password?"
@@ -359,7 +357,7 @@ msgstr "K_arakter kümesi"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
-msgstr "ICQ UIN'iniz nedir?"
+msgstr "ICQ UIN’iniz nedir?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
 msgid "What is your ICQ password?"
@@ -375,18 +373,18 @@ msgstr "Karakter kümesi"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
-msgstr "Ekle..."
+msgstr "Ekle…"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
 msgid "Remove"
 msgstr "Sil"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Yukarı"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Aşağı"
@@ -396,24 +394,27 @@ msgid "Servers"
 msgstr "Sunucular"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+#| msgid ""
+#| "Most IRC servers don't need a password, so if you're not sure, don't "
+#| "enter a password."
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
-"Çoğu IRC sunucusu bir parolaya ihtiyaç duymaz; eğer emin değilseniz parola "
+"Çoğu IRC sunucusu bir parolaya gereksinmez; eğer emin değilseniz parola "
 "girmeyin."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
-msgstr "Takma isim"
+msgstr "Takma ad"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
 msgid "Quit message"
-msgstr "Çıkış mesajı"
+msgstr "Çıkış iletisi"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
 msgid "Real name"
-msgstr "Gerçek isim"
+msgstr "Gerçek ad"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
 msgid "Username"
@@ -428,77 +429,56 @@ msgid "What is your IRC nickname?"
 msgstr "IRC takma adınız nedir?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "Facebook kullanıcı adınız nedir?"
-
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
-msgstr ""
-"Bu sizin normal Facebook girişiniz değil, kullanıcı adınızdır.\n"
-"Eğer facebook.com/<b>porsuk</b> iseniz, <b>badger</b> yazın.\n"
-"Eğer facebook kullanıcı adınız yoksa almak için <a href=\"http://www."
-"facebook.com/username/\">bu sayfayı</a> kullanın."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "Facebook parolanız nedir?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "Google kimliğiniz nedir?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>Örnek:</b> kullanıcı@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "Google parolanız nedir?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Örnek:</b> kullanıcı@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "SSL sertifika hatalarını _yoksay"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
 msgstr "Ö_ncelik"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
 msgstr "Ka_ynak"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "Şifr_eleme gerekli (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "Sunucu ayarlarının yerine geç"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "Eski SS_L kullan"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "Jabber kimliğiniz nedir?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "Jabber parolanız?"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
 msgid "Nic_kname"
-msgstr "Ta_kma İsim"
+msgstr "Ta_kma Ad"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
 msgid "_Last Name"
@@ -506,11 +486,11 @@ msgstr "_Soyad"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
 msgid "_First Name"
-msgstr "_İsim"
+msgstr "_Ad"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
 msgid "_Published Name"
-msgstr "_Görünen İsim"
+msgstr "_Görünen Ad"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
 msgid "_Jabber ID"
@@ -526,7 +506,7 @@ msgstr "<b>Örnek:</b> kullanıcı@hotmail.com"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
 msgid "What is your Windows Live ID?"
-msgstr "Windows Live ID'niz nedir?"
+msgstr "Windows Live ID’niz nedir?"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
 msgid "What is your Windows Live password?"
@@ -535,7 +515,7 @@ msgstr "Windows Live parolanız nedir?"
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:198
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:231
 msgid "Auto"
-msgstr "Otomatik"
+msgstr "Kendiliğinden"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:201
 msgid "UDP"
@@ -549,10 +529,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Kayıt"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Seçenekler"
@@ -591,7 +575,7 @@ msgstr "STUN Sunucusu"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
-msgstr "STUN sunucusunu otomatik olarak keşfedin"
+msgstr "STUN sunucusunu kendiliğinden keşfet"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
 msgid "Discover Binding"
@@ -659,7 +643,7 @@ msgstr "K_arakter kümesi:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
 msgid "_Port:"
-msgstr "_Port:"
+msgstr "_Bağlantı Noktası:"
 
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
 msgid "What is your Yahoo! ID?"
@@ -669,42 +653,47 @@ msgstr "Yahoo! kimliğiniz nedir?"
 msgid "What is your Yahoo! password?"
 msgstr "Yahoo! parolanız nedir?"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+#| msgid "Couldn't convert image"
+msgid "Couldn’t convert image"
 msgstr "Resim çevirilemedi"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "Sisteminizde, kabul edilen resim biçimlerinden hiçbiri desteklenmiyor"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+#| msgid "Couldn't save picture to file"
+msgid "Couldn’t save picture to file"
 msgstr "Resim dosyaya kaydedilemedi"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "Avatar Resminizi Seçin"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
-msgid "Take a picture..."
-msgstr "Resim çek..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+#| msgid "Take a picture..."
+msgid "Take a picture…"
+msgstr "Resim çek…"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "Resim Yok"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "Resimler"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "Tüm Dosyalar"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "Seç..."
+#| msgctxt "verb displayed on a button to select an IRC network"
+#| msgid "Select"
+msgid "Select…"
+msgstr "Seç…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -742,16 +731,14 @@ msgid "Server:"
 msgstr "Sunucu:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
-#| msgid "Connected from:"
 msgid "Connected From:"
 msgstr "Bağlantı Kaynağı:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
-#| msgid "Away message:"
 msgid "Away Message:"
-msgstr "Uzaktayım Mesajı:"
+msgstr "Uzaktayım İletisi:"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
@@ -771,7 +758,7 @@ msgstr "sesli çağrı"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
-msgstr "tercih edilen"
+msgstr "yeğlenen"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
@@ -818,8 +805,9 @@ msgstr "%s (%s) için anlık mesajlaşma hesabı parolası"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "'%s' sohbet odasının %s (%s) hesabınızdaki parolası"
+#| msgid "Password for chatroom '%s' on account %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "%2$s (%3$s) hesabındaki “%1$s” sohbet odasının parolası"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -892,22 +880,43 @@ msgstr "Takma ad"
 msgid "<b>Personal Details</b>"
 msgstr "<b>Kişisel Ayrıntılar</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:118
+#: ../tp-account-widgets/tpaw-utils.c:122
 msgid "People Nearby"
 msgstr "Yakındaki İnsanlar"
 
-#: ../tp-account-widgets/tpaw-utils.c:123
-#| msgid "Yahoo! I_D:"
+#: ../tp-account-widgets/tpaw-utils.c:127
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japonya"
 
-#: ../tp-account-widgets/tpaw-utils.c:159
+#: ../tp-account-widgets/tpaw-utils.c:165
 msgid "Google Talk"
 msgstr "Google Talk"
 
-#: ../tp-account-widgets/tpaw-utils.c:160
-msgid "Facebook Chat"
-msgstr "Facebook Sohbet"
+#~ msgid "Username:"
+#~ msgstr "Kullanıcı Adı:"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "Facebook kullanıcı adınız nedir?"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "Bu sizin normal Facebook girişiniz değil, kullanıcı adınızdır.\n"
+#~ "Eğer facebook.com/<b>porsuk</b> iseniz, <b>badger</b> yazın.\n"
+#~ "Eğer facebook kullanıcı adınız yoksa almak için <a href=\"http://www."
+#~ "facebook.com/username/\">bu sayfayı</a> kullanın."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "Facebook parolanız nedir?"
+
+#~ msgid "Select..."
+#~ msgstr "Seç..."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Facebook Sohbet"
 
 #~ msgid "Remember Password"
 #~ msgstr "Parolayı Anımsa"
