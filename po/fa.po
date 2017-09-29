@@ -2,14 +2,15 @@
 # Copyright (C) 2010-2011 Iranian Free Software Users Group (IFSUG.org)translation team.
 # This file is distributed under the same license as the tp-account-widgets package.
 # Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2015.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2015, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: empathy 2.28.1.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-06 14:17+0000\n"
-"PO-Revision-Date: 2015-09-13 23:41+0430\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
+"POT-Creation-Date: 2017-03-03 15:37+0000\n"
+"PO-Revision-Date: 2017-09-29 19:32+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
 msgid "Default directory to select an avatar image from"
@@ -198,7 +199,7 @@ msgstr "ویتنامی"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
 msgid "Pass_word"
@@ -215,7 +216,7 @@ msgstr "<b>مثال:</b> MyScreenName"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -225,7 +226,7 @@ msgstr "به خاطر سپردن گذرواژه"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
 msgid "_Port"
 msgstr "_درگاه"
@@ -233,7 +234,7 @@ msgstr "_درگاه"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
 msgid "_Server"
 msgstr "_کارگزار"
@@ -243,7 +244,7 @@ msgstr "_کارگزار"
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -259,46 +260,42 @@ msgstr "نام روی صفحه‌ی شما در AIM چیست؟"
 msgid "What is your AIM password?"
 msgstr "گذرواژه‌ی AIM شما چیست؟"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:671
+#: ../tp-account-widgets/tpaw-account-widget.c:663
 msgid "Account"
 msgstr "حساب"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget.c:664
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
 msgid "Password"
 msgstr "گذرواژه"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget.c:665
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
 msgid "Server"
 msgstr "کارگزار"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget.c:666
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
 #: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
 msgid "Port"
 msgstr "درگاه"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:758
+#: ../tp-account-widgets/tpaw-account-widget.c:750
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:815
+#: ../tp-account-widgets/tpaw-account-widget.c:807
 #, c-format
 msgid "%s:"
 msgstr "%s:"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1405
-msgid "Username:"
-msgstr "نام‌کاربری:"
-
-#: ../tp-account-widgets/tpaw-account-widget.c:1732
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
 msgid "A_dd"
-msgstr "ا_ضافه کردن:"
+msgstr "ا_ضافه کردن"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:1740
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
 msgid "A_pply"
 msgstr "_اعمال"
 
@@ -307,24 +304,24 @@ msgstr "_اعمال"
 #. * like: "MyUserName on freenode".
 #. * You should reverse the order of these arguments if the
 #. * server should come before the login id in your locale.
-#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
 #, c-format
 msgid "%1$s on %2$s"
 msgstr "%1$s بر روی %2$s"
 
 #. To translators: The parameter is the protocol name. The resulting
 #. * string will be something like: "Jabber Account"
-#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
 #, c-format
 msgid "%s Account"
 msgstr "حساب %s"
 
-#: ../tp-account-widgets/tpaw-account-widget.c:2199
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
 msgid "New account"
 msgstr "حساب جدید"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
 msgid "Login I_D"
 msgstr "شناسه‌ی _ورود"
@@ -372,18 +369,18 @@ msgstr "‫نویسه‌گان‬"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
-msgstr "افزودن..."
+msgstr "افزودن…"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
 msgid "Remove"
 msgstr "حذف"
 
-#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "بالا"
 
-#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#. Translators: tooltip on a
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "پایین"
@@ -394,10 +391,11 @@ msgstr "کارگزارها"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a password."
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
+"password."
 msgstr ""
-"بیشتر کارگزارهای IRC احتیاجی به گذرواژه ندارند، بنابراین چناچه مطمئن نیستید، هیچ "
-"گذرواژه‌ای وارد نکنید."
+"بیشتر کارگزارهای IRC احتیاجی به گذرواژه ندارند، بنابراین چنانچه مطمئن "
+"نیستید، هیچ گذرواژه‌ای وارد نکنید."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -424,71 +422,50 @@ msgid "What is your IRC nickname?"
 msgstr "نام مستعار شما در IRC چیست؟"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "نام کاربری فیس‌بوک شما چیست؟"
-
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a Facebook "
-"username if you don't have one."
-msgstr ""
-"این نام کاربری شماست، و نه ورود به سیستم فیس‌بوک معمول شما.\n"
-"اگر شما facebook.com/<b>badger</b> هستید، <b>badger</b> را وارد کنید.\n"
-"اگر نام کاربری فیس‌بوک ندارید به <a href=\"http://www.facebook.com/username/\">این "
-"آدرس</a> بروید تا یکی بسازید."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "گذرواژه‌ی فیس‌بوک شما چیست؟"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "شناسه‌ی کاربری گوگل شما چیست؟"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>مثال:</b> user@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "گذرواژه‌ی گوگل شما چیست؟"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>مثال:</b> user@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "از خطاهای گواهینامه SSL _چشم‌پوشی شود"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
 msgstr "ا_لویت"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
 msgstr "_منبع"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "_رمزنگاری مورد نیاز بود (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "لغو کردن تنظیمات کارگزار"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "استفاده ا_ز SSL قدیمی"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "شناسه‌ی کاربری گوگل شما چیست؟"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "گذرواژه‌ی Jabber شما چیست؟"
 
@@ -545,10 +522,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Register"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Options"
@@ -665,42 +646,42 @@ msgstr "شناسه‌ی کاربری یاهو! شما چیست؟"
 msgid "What is your Yahoo! password?"
 msgstr "گذرواژه‌ی یاهو! شما چیست؟"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
-msgid "Couldn't convert image"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn’t convert image"
 msgstr "امکان تبدیل تصویر نبود"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
 msgstr "هیچکدام از قالب‌های تصویر پذیرفته شده در سیستم شما پشتیبانی نمی‌شوند"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
-msgid "Couldn't save picture to file"
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn’t save picture to file"
 msgstr "امکان ذخیره تصویر در پرونده نبود"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
 msgid "Select Your Avatar Image"
 msgstr "تصویر آواتار خود را انتخاب کنید"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
-msgid "Take a picture..."
-msgstr "یک عکس بگیرید..."
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture…"
+msgstr "یک عکس بگیرید…"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
 msgstr "بدون عکس"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
 msgid "Images"
 msgstr "تصاویر"
 
-#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
 msgid "All Files"
 msgstr "تمام پرونده‌ها"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-msgid "Select..."
-msgstr "انتخاب..."
+msgid "Select…"
+msgstr "انتخاب…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -800,7 +781,8 @@ msgstr "کارگزار جدید"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:78 ../tp-account-widgets/tpaw-keyring.c:189
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
 msgstr "گذرواژه یافت نشد"
 
@@ -811,8 +793,8 @@ msgstr "گذوراژه برای حساب %s (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr "گذرواژه بری اتاق گپ «%s» بر روی حساب %s (%s)"
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "گذرواژه برای اتاق گپ «%s» بر روی حساب %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
@@ -891,21 +873,43 @@ msgstr "نام مستعار"
 msgid "<b>Personal Details</b>"
 msgstr "<b>جزئیات شخصی</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:118
+#: ../tp-account-widgets/tpaw-utils.c:122
 msgid "People Nearby"
 msgstr "مردم اطراف"
 
-#: ../tp-account-widgets/tpaw-utils.c:123
+#: ../tp-account-widgets/tpaw-utils.c:127
 msgid "Yahoo! Japan"
 msgstr "یاهو! ژاپن"
 
-#: ../tp-account-widgets/tpaw-utils.c:159
+#: ../tp-account-widgets/tpaw-utils.c:165
 msgid "Google Talk"
 msgstr "گوگل تاک"
 
-#: ../tp-account-widgets/tpaw-utils.c:160
-msgid "Facebook Chat"
-msgstr "گپ فیس‌بوک"
+#~ msgid "Username:"
+#~ msgstr "نام‌کاربری:"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "نام کاربری فیس‌بوک شما چیست؟"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "این نام کاربری شماست، و نه ورود به سیستم فیس‌بوک معمول شما.\n"
+#~ "اگر شما facebook.com/<b>badger</b> هستید، <b>badger</b> را وارد کنید.\n"
+#~ "اگر نام کاربری فیس‌بوک ندارید به <a href=\"http://www.facebook.com/"
+#~ "username/\">این آدرس</a> بروید تا یکی بسازید."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "گذرواژه‌ی فیس‌بوک شما چیست؟"
+
+#~ msgid "Select..."
+#~ msgstr "انتخاب..."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "گپ فیس‌بوک"
 
 #~ msgid "Remember Password"
 #~ msgstr "به خاطر سپردن گذرواژه"
