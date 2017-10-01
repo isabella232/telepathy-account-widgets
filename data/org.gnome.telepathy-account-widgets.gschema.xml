@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.telepathy-account-widgets.ui" path="/org/gnome/telepathy-account-widgets/ui/">
+  <schema id="org.gnome.telepathy-account-widgets.ui" path="/org/gnome/telepathy-account-widgets/ui/" gettext-domain="tpaw">
     <key name="avatar-directory" type="s">
       <default>''</default>
       <summary>Default directory to select an avatar image from</summary>
