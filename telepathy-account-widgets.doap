@@ -6,7 +6,7 @@
          xmlns="http://usefulinc.com/ns/doap#">
   <name xml:lang="en">telepathy-account-widgets</name>
   <shortdesc xml:lang="en">Submodule for the configuration of Telepathy accounts</shortdesc>
-  <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
+  <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" /> -->
 
   <homepage rdf:resource="https://wiki.gnome.org/Apps/Empathy" />
   <mailing-list rdf:resource="http://lists.freedesktop.org/mailman/listinfo/telepathy" />
