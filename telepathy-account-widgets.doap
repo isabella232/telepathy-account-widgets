@@ -10,7 +10,7 @@
 
   <homepage rdf:resource="https://wiki.gnome.org/Apps/Empathy" />
   <mailing-list rdf:resource="http://lists.freedesktop.org/mailman/listinfo/telepathy" />
-  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=empathy&amp;component=tp-aw" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/telepathy-account-widgets/issues/" />
 
   <maintainer>
     <foaf:Person>
