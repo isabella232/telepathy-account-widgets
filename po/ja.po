@@ -1,5 +1,5 @@
 # tp-account-widgets ja.po.
-# Copyright (C) 2007-2012 tp-account-widgets's COPYRIGHT HOLDER
+# Copyright (C) 2007-2013, 2020 tp-account-widgets's COPYRIGHT HOLDER
 # This file is distributed under the same license as the tp-account-widgets package.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2007-2009.
 # Kentaro Kazuhama <kazken3@gmail.com>, 2009.
@@ -8,8 +8,9 @@
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
 # Kiyotaka NISHIBORI <ml.nishibori.kiyotaka@gmail.com>, 2010.
 # Mako N <mako@pasero.net>, 2012.
-# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2012.
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2012-2013.
 # Noriko Mizumoto <noriko@fedoraproject.org>, 2012.
+# sicklylife <translation@sicklylife.jp>, 2020.
 #
 # GLOSSARIES:
 # call	通話、呼び出し、呼び出す
@@ -42,8 +43,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/telepathy-account-"
 "widgets/issues\n"
 "POT-Creation-Date: 2020-04-02 15:21+0000\n"
-"PO-Revision-Date: 2013-09-22 19:38+0000\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
+"PO-Revision-Date: 2020-05-10 20:30+0000\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -421,10 +422,6 @@ msgid "Servers"
 msgstr "サーバー"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
-#, fuzzy
-#| msgid ""
-#| "Most IRC servers don't need a password, so if you're not sure, don't "
-#| "enter a password."
 msgid ""
 "Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
@@ -683,8 +680,6 @@ msgstr "Yahoo! のパスワードを入力してください"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-#, fuzzy
-#| msgid "Couldn't convert image"
 msgid "Couldn’t convert image"
 msgstr "画像を変換できませんでした"
 
@@ -693,8 +688,6 @@ msgid "None of the accepted image formats are supported on your system"
 msgstr "受け入れた画像形式はこのシステムではどれもサポートしていません"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-#, fuzzy
-#| msgid "Couldn't save picture to file"
 msgid "Couldn’t save picture to file"
 msgstr "画像をファイルに保存できませんでした"
 
@@ -703,10 +696,8 @@ msgid "Select Your Avatar Image"
 msgstr "アバター画像を選択してください"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-#, fuzzy
-#| msgid "Take a picture..."
 msgid "Take a picture…"
-msgstr "写真を撮る..."
+msgstr "写真を撮る…"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
 msgid "No Image"
@@ -721,11 +712,8 @@ msgid "All Files"
 msgstr "すべてのファイル"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-#, fuzzy
-#| msgctxt "verb displayed on a button to select an IRC network"
-#| msgid "Select"
 msgid "Select…"
-msgstr "選択"
+msgstr "選択…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
 msgid "_Select"
@@ -836,10 +824,9 @@ msgid "IM account password for %s (%s)"
 msgstr "IM アカウント %s (%s) のパスワード"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
-#, fuzzy, c-format
-#| msgid "Password for chatroom '%s' on account %s (%s)"
+#, c-format
 msgid "Password for chatroom “%s” on account %s (%s)"
-msgstr "談話室 '%s' のパスワード (アカウント %s (%s))"
+msgstr "談話室“%s”のパスワード (アカウント %s (%s))"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
