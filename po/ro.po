@@ -7,18 +7,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Empathy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-31 15:46+0100\n"
-"PO-Revision-Date: 2011-11-26 03:37+0300\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/telepathy-account-"
+"widgets/issues\n"
+"POT-Creation-Date: 2020-04-02 15:21+0000\n"
+"PO-Revision-Date: 2020-07-19 16:00+0300\n"
+"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.7.0\n"
+"20)) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -199,17 +200,15 @@ msgstr "Vietnameză"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
-#, fuzzy
 msgid "Pass_word"
-msgstr "Paro_lă:"
+msgstr "Par_olă"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
-#, fuzzy
 msgid "Screen _Name"
-msgstr "_Nume afișat:"
+msgstr "_Nume de ecran"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
 msgid "<b>Example:</b> MyScreenName"
@@ -218,7 +217,7 @@ msgstr "<b>Exemplu:</b> NumeleMeu"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
@@ -228,27 +227,25 @@ msgstr "Memorează parola"
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
-#, fuzzy
 msgid "_Port"
-msgstr "_Port:"
+msgstr "_Port"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
-#, fuzzy
 msgid "_Server"
-msgstr "_Server:"
+msgstr "_Server"
 
 #: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
@@ -264,21 +261,71 @@ msgstr "Care este numele de utilizator AIM?"
 msgid "What is your AIM password?"
 msgstr "Care este parola AIM?"
 
-#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
-#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
-msgid "Remember Password"
-msgstr "Memorează parola"
+#: ../tp-account-widgets/tpaw-account-widget.c:663
+msgid "Account"
+msgstr "Cont"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Parolă"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:665
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:666
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:750
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:807
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1600
+msgid "A_dd"
+msgstr "A_daugă"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1608
+msgid "A_pply"
+msgstr "A_plică"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2042
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s pe %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2061
+#, c-format
+msgid "%s Account"
+msgstr "Cont %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2065
+msgid "New account"
+msgstr "Cont nou"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
-#, fuzzy
 msgid "Login I_D"
-msgstr "I_D autentificare:"
+msgstr "I_D autentificare"
 
 #: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
 #: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
@@ -294,18 +341,16 @@ msgid "What is your GroupWise password?"
 msgstr "Care este parola GroupWise?"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
-#, fuzzy
 msgid "ICQ _UIN"
-msgstr "ICQ _UIN:"
+msgstr "ICQ _UIN"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
 msgid "<b>Example:</b> 123456789"
 msgstr "<b>Exemplu:</b> 123456789"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
-#, fuzzy
 msgid "Ch_aracter set"
-msgstr "Set de c_aractere:"
+msgstr "Set de c_aractere"
 
 #: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
 msgid "What is your ICQ UIN?"
@@ -320,9 +365,8 @@ msgid "Network"
 msgstr "Rețea"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
-#, fuzzy
 msgid "Character set"
-msgstr "Set de caractere:"
+msgstr "Set de caractere"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
 msgid "Add…"
@@ -335,12 +379,12 @@ msgstr "Elimină"
 #. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
-msgstr ""
+msgstr "Sus"
 
 #. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
-msgstr ""
+msgstr "Jos"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
 msgid "Servers"
@@ -348,35 +392,27 @@ msgstr "Servere"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
 msgid ""
-"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
 msgstr ""
-"Multe servere IRC nu necesită o parolă, dacă nu sunteți siguri, nu scrieți "
-"nimic."
+"Cele mai multe servere IRC nu au nevoie de o parolă, deci dacă nu sunteți "
+"sigur, nu introduceți o parolă."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
-#, fuzzy
 msgid "Nickname"
-msgstr "Pseudonim:"
-
-#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
-msgid "Password"
-msgstr "Parolă"
+msgstr "Pseudonim"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
-#, fuzzy
 msgid "Quit message"
-msgstr "Mesaj de ieșire:"
+msgstr "Mesaj de ieșire"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
-#, fuzzy
 msgid "Real name"
-msgstr "Nume real:"
+msgstr "Nume real"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
-#, fuzzy
 msgid "Username"
-msgstr "Utilizator:"
+msgstr "Nume de utilizator"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
 msgid "Which IRC network?"
@@ -387,113 +423,76 @@ msgid "What is your IRC nickname?"
 msgstr "Care este pseudonimul IRC?"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
-msgid "What is your Facebook username?"
-msgstr "Care este numele de utilizator Facebook?"
-
-#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
-msgid ""
-"This is your username, not your normal Facebook login.\n"
-"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
-"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
-"Facebook username if you don't have one."
-msgstr ""
-"Acesta este numele de utilizator, nu contul de autentificare Facebook.\n"
-"Dacă dețineți pagina facebook.com/<b>badger</b>, introduceți <b>badger</b>.\n"
-"Dacă nu aveți un nume de utilizator Facebook, utilizați <a href=\"http://www."
-"facebook.com/username/\">această pagină</a> pentru a alege unul."
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
-msgid "What is your Facebook password?"
-msgstr "Care este parola Facebook?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "What is your Google ID?"
 msgstr "Care este ID-ul Google?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:2
 msgid "<b>Example:</b> user@gmail.com"
 msgstr "<b>Exemplu:</b> utilizator@gmail.com"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
 msgid "What is your Google password?"
 msgstr "Care este parola Google?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:5
 msgid "<b>Example:</b> user@jabber.org"
 msgstr "<b>Exemplu:</b> utilizator@jabber.org"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
 msgid "I_gnore SSL certificate errors"
 msgstr "I_gnoră erorile certificatelor SSL"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
-#, fuzzy
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
 msgid "Priori_ty"
-msgstr "Priori_tate:"
+msgstr "Priori_tate"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
-#, fuzzy
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
 msgid "Reso_urce"
-msgstr "Res_ursă:"
+msgstr "Res_ursă"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
 msgstr "Cr_iptare necesară (TLS/SSL)"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
 msgstr "Folosește configurările locale în locul celor ale serverului"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
 msgid "Use old SS_L"
 msgstr "Folosește SS_L vechi"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
 msgid "What is your Jabber ID?"
 msgstr "Care este ID-ul Jabber?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
-msgid "What is your desired Jabber ID?"
-msgstr "Care este ID-ul Jabber dorit?"
-
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
 msgid "What is your Jabber password?"
 msgstr "Care este parola Jabber?"
 
-#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
-msgid "What is your desired Jabber password?"
-msgstr "Care este parola Jabber dorită?"
-
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
-#, fuzzy
 msgid "Nic_kname"
-msgstr "Pseu_donim:"
+msgstr "Pse_udonim"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
-#, fuzzy
 msgid "_Last Name"
-msgstr "Nume de fami_lie:"
+msgstr "Nume de fami_lie"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
-#, fuzzy
 msgid "_First Name"
-msgstr "_Prenume:"
+msgstr "_Prenume"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
-#, fuzzy
 msgid "_Published Name"
-msgstr "Nume _publicat:"
+msgstr "Nume _publicat"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
-#, fuzzy
 msgid "_Jabber ID"
-msgstr "ID _Jabber:"
+msgstr "ID _Jabber"
 
 #: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
-#, fuzzy
 msgid "E-_mail address"
-msgstr "Adresă e_mail:"
+msgstr "Adresă de e_mail"
 
 #: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
 msgid "<b>Example:</b> user@hotmail.com"
@@ -524,10 +523,14 @@ msgstr "TCP"
 msgid "TLS"
 msgstr "TLS"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:236
 msgid "Register"
 msgstr "Register"
 
+#. translators: this string is very specific to SIP's internal; maybe
+#. * best to keep the English version.
 #: ../tp-account-widgets/tpaw-account-widget-sip.c:241
 msgid "Options"
 msgstr "Options"
@@ -537,9 +540,8 @@ msgid "None"
 msgstr "Niciunul"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
-#, fuzzy
 msgid "_Username"
-msgstr "_Utilizator:"
+msgstr "Nume de _utilizator"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
 msgid "<b>Example:</b> user@my.sip.server"
@@ -562,9 +564,8 @@ msgid "Miscellaneous Options"
 msgstr "Opțiuni diverse"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
-#, fuzzy
 msgid "STUN Server"
-msgstr "Server STUN:"
+msgstr "Server STUN"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
 msgid "Discover the STUN server automatically"
@@ -574,33 +575,25 @@ msgstr "Descoperă serverul STUN automat"
 msgid "Discover Binding"
 msgstr "Descoperă asocieri"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
-msgid "Server"
-msgstr "Server"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
 msgid "Keep-Alive Options"
 msgstr "Opțiuni Keep-Alive (menținere în viață a conexiunii)"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
-#, fuzzy
 msgid "Mechanism"
-msgstr "Mecanism:"
+msgstr "Mecanism"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
 msgid "Interval (seconds)"
 msgstr "Interval (secunde)"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
-#, fuzzy
 msgid "Authentication username"
-msgstr "Nume utilizator pentru autentificare:"
+msgstr "Nume de utilizator de autentificare"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
-#, fuzzy
 msgid "Transport"
-msgstr "Transport:"
+msgstr "Transport"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
 msgid "Loose Routing"
@@ -610,15 +603,9 @@ msgstr "Rutare relaxată"
 msgid "Ignore TLS Errors"
 msgstr "Ignoră erorile TLS"
 
-#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
-#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
-msgid "Port"
-msgstr "Port"
-
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
-#, fuzzy
 msgid "Local IP Address"
-msgstr "Adresă de email"
+msgstr "Adresă IP locală"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
@@ -660,82 +647,114 @@ msgstr "Care este ID-ul Yahoo!?"
 msgid "What is your Yahoo! password?"
 msgstr "Care este parola Yahoo!?"
 
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:587
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:672
+msgid "Couldn’t convert image"
+msgstr "Nu s-a putu converti imaginea"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:588
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+"Niciunul dintre formatele de imagine acceptate nu sunt suportate pe sistem"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:948
+msgid "Couldn’t save picture to file"
+msgstr "Nu s-a putut salva poza la fișier"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1070
+msgid "Select Your Avatar Image"
+msgstr "Selectează imaginea de avatar"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
+msgid "Take a picture…"
+msgstr "Face o poză…"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1092
+msgid "No Image"
+msgstr "Nicio imagine"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1151
+msgid "Images"
+msgstr "Imagini"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1155
+msgid "All Files"
+msgstr "Toate fișierele"
+
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-#, fuzzy
-msgid "Select..."
-msgstr "Selectează"
+msgid "Select…"
+msgstr "Selectează…"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:151
-#, fuzzy
 msgid "_Select"
-msgstr "Selectează"
-
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
-msgid "Full name"
-msgstr "Nume întreg"
+msgstr "_Selectează"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
-msgid "Phone number"
-msgstr "Număr de telefon:"
+msgid "Full Name"
+msgstr "Nume complet"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
-msgid "E-mail address"
-msgstr "Adresă de email"
+msgid "Phone Number"
+msgstr "Număr de telefon"
 
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
+msgstr "Adresă de email"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
 msgid "Website"
 msgstr "Pagină web"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
 msgid "Birthday"
 msgstr "Zi de naștere"
 
 #. Note to translators: this is the caption for a string of the form "5
 #. * minutes ago", and refers to the time since the contact last interacted
 #. * with their IM client.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
-msgid "Last seen:"
-msgstr "Văzut ultima dată pe:"
-
 #: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
+msgstr "Văzut ultima dată:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
 msgid "Server:"
 msgstr "Server:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
-msgid "Connected from:"
-msgstr "Conectat din:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
+msgstr "Conectat de la:"
 
 #. FIXME: once Idle implements SimplePresence using this information, we can
 #. * and should bin this.
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
-msgid "Away message:"
-msgstr "Mesaj de ieșire:"
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
+msgstr "Mesaj de departe:"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
 msgid "work"
 msgstr "muncă"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
 msgid "home"
 msgstr "acasă"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
 msgid "mobile"
 msgstr "telefon mobil"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
 msgid "voice"
 msgstr "voce"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
 msgid "preferred"
 msgstr "preferințe"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
 msgid "postal"
 msgstr "poștal"
 
-#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
 msgid "parcel"
 msgstr "pachet"
 
@@ -743,15 +762,15 @@ msgstr "pachet"
 msgid "New Network"
 msgstr "Rețea nouă"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:528
 msgid "Choose an IRC network"
 msgstr "Alegeți o rețea IRC"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:614
 msgid "Reset _Networks List"
 msgstr "Resetează _lista rețelelor"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:618
 msgctxt "verb displayed on a button to select an IRC network"
 msgid "Select"
 msgstr "Alege"
@@ -764,27 +783,26 @@ msgstr "server nou"
 msgid "SSL"
 msgstr "SSL"
 
-#: ../tp-account-widgets/tpaw-keyring.c:77
-#: ../tp-account-widgets/tpaw-keyring.c:186
-#, fuzzy
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
 msgid "Password not found"
-msgstr "Fraza n-a fost găsită"
+msgstr "Parola nu a fost găsită"
 
-#: ../tp-account-widgets/tpaw-keyring.c:586
+#: ../tp-account-widgets/tpaw-keyring.c:584
 #, c-format
 msgid "IM account password for %s (%s)"
-msgstr ""
+msgstr "Parolă de cont IM pentru %s (%s)"
 
-#: ../tp-account-widgets/tpaw-keyring.c:623
+#: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-msgid "Password for chatroom '%s' on account %s (%s)"
-msgstr ""
+msgid "Password for chatroom “%s” on account %s (%s)"
+msgstr "Parolă pentru canalul de chat „%s” pe contul %s (%s)"
 
 #. Create account
 #. To translator: %s is the name of the protocol, such as "Google Talk" or
 #. * "Yahoo!"
 #.
-#: ../tp-account-widgets/tpaw-protocol.c:62
+#: ../tp-account-widgets/tpaw-protocol.c:63
 #, c-format
 msgid "New %s account"
 msgstr "Cont %s nou"
@@ -841,23 +859,68 @@ msgstr[2] "%d de luni"
 msgid "in the future"
 msgstr "în viitor"
 
-#: ../tp-account-widgets/tpaw-user-info.c:394
+#: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
+msgstr "Conectați-vă pentru a edita informațiile personale."
+
+#: ../tp-account-widgets/tpaw-user-info.c:517
+msgid "These details will be shared with other users on this chat network."
 msgstr ""
+"Aceste detalii vor fi partajate cu alți utilizatori pe această rețea de chat."
 
 #. Setup id label
-#: ../tp-account-widgets/tpaw-user-info.c:454
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:526
 msgid "Identifier"
-msgstr "Identificator:"
+msgstr "Identificator"
 
 #. Setup nickname entry
-#: ../tp-account-widgets/tpaw-user-info.c:459
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:534
 msgid "Alias"
-msgstr "Alias:"
+msgstr "Alias"
 
-#: ../tp-account-widgets/tpaw-user-info.c:474
-#, fuzzy
+#: ../tp-account-widgets/tpaw-user-info.c:552
 msgid "<b>Personal Details</b>"
-msgstr "Detalii tehnice"
+msgstr "<b>Detalii personale</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:122
+msgid "People Nearby"
+msgstr "Oameni din apropiere"
+
+#: ../tp-account-widgets/tpaw-utils.c:127
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:165
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#~ msgid "Remember Password"
+#~ msgstr "Memorează parola"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "Care este numele de utilizator Facebook?"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "Acesta este numele de utilizator, nu contul de autentificare Facebook.\n"
+#~ "Dacă dețineți pagina facebook.com/<b>badger</b>, introduceți <b>badger</"
+#~ "b>.\n"
+#~ "Dacă nu aveți un nume de utilizator Facebook, utilizați <a href=\"http://"
+#~ "www.facebook.com/username/\">această pagină</a> pentru a alege unul."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "Care este parola Facebook?"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "Care este ID-ul Jabber dorit?"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "Care este parola Jabber dorită?"
+
+#, fuzzy
+#~ msgid "Select..."
+#~ msgstr "Selectează"
