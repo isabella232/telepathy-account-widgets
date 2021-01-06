@@ -548,7 +548,7 @@ msgstr "<b>Exemple:</b> usuari@el.meu.servidor.sip"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
 msgid "Use this account to call _landlines and mobile phones"
-msgstr "Utilitza aquest compte per fer trucades a _fixes i a mòbils"
+msgstr "Utilitza aquest compte per a fer trucades a _fixes i a mòbils"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
 msgid "NAT Traversal Options"
@@ -604,7 +604,7 @@ msgstr "Ignora els errors de la TLS"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
 msgid "Local IP Address"
-msgstr "Adreça IP local"
+msgstr "Adreça IP local"
 
 #: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
 msgid "What is your SIP login ID?"
@@ -853,7 +853,7 @@ msgstr "en el futur"
 
 #: ../tp-account-widgets/tpaw-user-info.c:433
 msgid "Go online to edit your personal information."
-msgstr "Us heu de connectar per editar la informació personal."
+msgstr "Us heu de connectar per a editar la informació personal."
 
 #: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
